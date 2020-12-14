@@ -1,0 +1,130 @@
+---
+title: "4.4 — Factor Markets — Practice Problems"
+author: "Solutions"
+date: "ECON 306 - Fall 2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=F,
+                      warning=F,
+                      message=F)
+library(tidyverse)
+library(ggrepel)
+library(mosaic)
+```
+
+Carl’s Coal Mining operates in a remote area. Because of its location, it has monopsony power in the local labor market for miners. Its marginal revenue product of labor is
+$$MRP_L = 400-5L$$
+where $L$ is the total number of miners. The labor supply curve of local miners is
+$$w = 5L-50$$
+where $w$ is the wage (in $1000's per miner).
+
+### a. Write a function for the marginal cost of labor.
+
+---
+
+If we know the (inverse) labor supply function (which we are given), we can simply double the slope to find the marginal cost of labor:
+
+$$MC(L)=10L-50$$
+
+---
+
+### b. What quantity of workers will the mine hire, and what wage will it pay its workers?
+
+---
+
+The optimal quantity of labor to hire for a firm is where its marginal revenue product is equal to the marginal cost of labor:
+
+$$\begin{aligned}
+MRP_L&=MC(L)\\
+400-5L&=10L-50\\
+400&=15L-50\\
+450&=15L\\
+30&=L^*\\
+\end{aligned}$$
+
+The firm has monopsony power, so it faces the entire market supply of labor. For $L^*$ number of workers, it can pay the lowest wages workers are willing to accept for that quantity, i.e. the labor supply function.
+
+$$\begin{aligned}
+w&=5L-50\\
+w&=5(30)-50\\
+w^*&=100\\
+\end{aligned}$$
+
+---
+
+### c. What would the quantity of workers be, and what would the wage be, if there was competition among other local mines for labor?
+
+---
+
+If this was a competitive labor market, with no monopsony power, the firm would be a price-taker of labor, i.e. the supply of labor it faces would be perfectly elastic at the market-determined wage. It would set its marginal revenue product equal to the market wage and hire the quantity of workers for which those values are equal.
+
+$$\begin{aligned}
+MRP_L &= w\\
+400-5L &= 5L-50\\
+400&=10L-50\\
+450&=10L\\
+45&=L_c\\
+\end{aligned}$$
+
+Plug this quantity into the (inverse) labor supply function to the find the market wage:
+
+$$\begin{aligned}
+w&=5L-50\\
+w&=5(45)-50\\
+w&=225-50\\
+w_C&=175\\
+\end{aligned}$$
+
+---
+
+### d. Sketch a graph of this market, and be sure to label all of your findings (and show the Deadweight Loss) from Parts A-C.
+
+---
+
+```{r}
+mrp_l=function(q){400-5*q}
+supply_l=function(q){5*q-50}
+MC_l=function(q){10*q-50}
+dwl_l<-tribble(
+  ~x, ~y,
+  30, 250,
+  30, 100,
+  45, 175
+)
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  geom_polygon(data=dwl_l, aes(x=x,y=y), fill="black", alpha=0.5)+
+    stat_function(fun=MC_l, geom="line", size=2, color = "darkred")+
+  geom_label(aes(x=35,y=MC_l(35)), color = "darkred", label="MC(L)", size = 4)+
+    stat_function(fun=supply_l, geom="line", size=2, color = "red")+
+  geom_label(aes(x=35,y=supply_l(35)), color = "red", label="Supply(L)", size = 4)+
+  stat_function(fun=mrp_l, geom="line", size=2, color = "blue")+
+  geom_label(aes(x=15,y=mrp_l(15)), color = "blue", label=expression(MRP[L]), size = 4)+
+  
+  geom_segment(aes(x = 0, xend = 30, y = 100, yend=100), linetype="dotted", size=1)+
+  geom_segment(aes(x = 30, xend = 30, y = 250, yend=0), linetype="dotted", size=1)+
+
+  geom_segment(aes(x = 0, xend = 45, y = 175, yend=175), linetype="dotted", size=1)+
+  geom_segment(aes(x = 45, xend = 45, y = 175, yend=0), linetype="dotted", size=1)+
+
+    geom_label(aes(x=5,y=100), label=expression(w[m]), size = 4)+
+    geom_label(aes(x=5,y=175), label=expression(w[C]), size = 4)+
+
+      geom_label(aes(x=30,y=50), label=expression(L[m]), size = 4)+
+    geom_label(aes(x=45,y=50), label=expression(L[C]), size = 4)+
+
+    scale_x_continuous(breaks=seq(0,50,5),
+                     limits=c(0,50),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,400,50),
+                     limits=c(0,400),
+                     labels=scales::dollar,
+                     expand=expand_scale(mult=c(0,0.1)))+
+  #scale_colour_manual("Curves", values = line_colors, guide=F)+
+  labs(y = "Wage (w)",
+       x = "Quantity of Labor (L)")+
+  ggthemes::theme_pander(base_size=12)
+```

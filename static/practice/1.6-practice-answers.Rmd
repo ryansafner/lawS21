@@ -1,0 +1,59 @@
+---
+title: "1.6 — Deriving a Demand Function — Practice Problems (Solutions)"
+author: "ECON 306 - Spring 2020"
+date: "Wednesday, September 2, 2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### You can spend your income on apples and oranges. Apples currently cost $0.25 and oranges cost $0.50. When your income is $40, you buy 10 apples and 8 oranges. When your income increases to $80, you buy 12 apples and 6 oranges
+
+#### 1. What type of good are apples (inferior, necessity, luxury)?
+
+We need to calculate the income elasticity of apples. Let:
+
+- $a_1 = 10$
+- $a_2 = 12$
+- $m_1 = \$40$
+- $m_2 = \$80$
+
+$$\frac{\%\Delta a}{\%\Delta m} = \displaystyle \cfrac{\left(\frac{a_2-a_1}{a_1}\right)}{\left(\frac{m_2-m_1}{m_1}\right)} = \cfrac{\left(\frac{12-10}{10}\right)}{\left(\frac{80-40}{40}\right)}=\cfrac{\left(\frac{2}{10}\right)}{\left(\frac{40}{40}\right)} = \frac{0.20}{1} = 0.20$$
+
+Apples are a (normal) necessity. For every 1% increase (decrease) in income $(m)$, you will buy 0.20% more (fewer) apples $(a)$.
+
+#### 2. What type of good are oranges (inferior, necessity, or luxury)?
+
+We need to calculate the income elasticity of oranges. Let:
+
+- $o_1 = 6$
+- $o_2 = 8$
+- $m_1 = \$40$
+- $m_2 = \$80$
+
+$$\frac{\%\Delta o}{\%\Delta m} = \displaystyle \cfrac{\left(\frac{o_2-o_1}{o_1}\right)}{\left(\frac{m_2-m_1}{m_1}\right)} = \cfrac{\left(\frac{6-8}{8}\right)}{\left(\frac{80-40}{40}\right)}=\cfrac{\left(\frac{-2}{8}\right)}{\left(\frac{40}{40}\right)} = \frac{-0.25}{1} = -0.25$$
+
+Oranges are inferior goods. For every 1% increase 9decrease) in income $(m)$, you will buy 0.25% *fewer* (more) oranges $(o)$.
+
+#### You can can have cereal and milk for breakfast. When milk is $2/gallon, you consume 5 bowls of cereal per week. When milk increases to $4/gallon, you consume 4 bowls of cereal per week.
+
+#### 3. What is the relationship between these two goods?
+
+These goods are complements, because there is an inverse relationship between the consumption of one good and the price of the other. 
+
+#### 4. What is the cross-price elasticity? 
+
+We need to calculate the cross-price elasticity of these two goods. Let:
+
+- $c_1 = 5$
+- $c_2 = 4$
+- $p_{m1} = \$2$
+- $p_{m2} = \$4$
+
+$$\frac{\%\Delta c}{\%\Delta p_m} = \displaystyle \cfrac{\left(\frac{c_2-c_1}{c_1}\right)}{\left(\frac{p_{m2}-p_{m1}}{p_{m1}}\right)} = \cfrac{\left(\frac{4-5}{5}\right)}{\left(\frac{4-2}{2}\right)}=\cfrac{\left(\frac{-1}{5}\right)}{\left(\frac{2}{2}\right)} = \frac{-0.20}{1} = -0.20$$
+
+For every 1% increase (decrease) in the price of milk $(p_m)$, you buy 0.20% *fewer* (more) boxes of cereal $(c)$.

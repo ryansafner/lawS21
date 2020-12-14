@@ -1,0 +1,206 @@
+---
+title: "4.1 — Modeling Firms With Market Power — Practice Problems"
+author: "Solutions"
+date: "ECON 306 - Fall 2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=F,
+                      warning=F,
+                      message=F)
+library(tidyverse)
+library(ggrepel)
+library(mosaic)
+```
+
+
+Bob's Bats produces baseball bats, and has the following costs:
+$$\begin{aligned}
+C(q)&=5q^2+720\\
+MC(q)&=10q\\	
+\end{aligned}$$
+
+> and faces a market demand for bats: 
+$$q = 120-0.4p$$
+
+> where quantity is measured in thousands of bats
+
+### 1. Write Bob's Marginal Revenue function.
+
+---
+
+If we can find the inverse demand (of the form $p=a+bx$, we can simply double the slope $(b)$ to get marginal revenue. We have the demand function, so solve it for $p$ to get the inverse:
+
+$$\begin{align*}
+q &= 120-0.4p\\
+q+0.4p&=120\\
+0.4p&=120-q\\
+p&=300-2.5q\\
+\end{align*}$$
+
+This is the inverse demand function, so marginal revenue is 
+
+$$MR(q)=300-5q$$
+
+---
+
+### 2. Find the profit-maximizing quantity and price.
+
+---
+
+First, the quantity, we follow **Rule #1** as always: the profit maximizing $q^*$ is where $MR(q)=MC(q)$
+
+$$\begin{align*}
+	MR(q)&= MC(q)\\
+	300-5q^=10q\\
+	300&=15q\\
+	20&=q^2\\
+\end{align*}$$
+
+Now that we know the profit-maximizing quantity, we need to find the maximum price consumers are willing to pay for 20 units. Plug this into the inverse demand function:
+
+$$\begin{align*}
+p&=300-2.5q\\
+p&=300-2.5(20)\\
+p&=300-50\\
+p^*&=250\\
+\end{align*}$$
+
+---
+
+### 3. How much total profit does Bob's Bats earn? Should Bob stay or exit this industry in the long run?
+
+---
+
+Total profit again can be found with **Rule #2**: $\pi=[p-AC(q)]q$
+
+We first need to find the Average Cost function from total cost, by dividing it by $q$:
+
+$$AC(q) = \frac{C(q)}{q} = \frac{5q^2+720}{q} = 5q+\frac{720}{q}$$
+
+Now we specifically need to find the average cost at 20 units:
+
+$$\begin{align*}
+AC(q)&=5q+\frac{720}{q}\\
+AC(20)&=5(20)+\frac{720}{20}\\
+AC(20)&=100+36\\
+AC(20)&=136\\
+\end{align*}$$
+
+Now just plug in the price, average cost, and quantity:
+
+$$\begin{align*}
+\pi&=[p-AC(q)]q\\
+\pi&=[250-136]20\\
+\pi&=[114]20\\
+\pi&=2,280\\
+\end{align*}$$
+
+---
+
+### 4. At what price would Bob's Bats break even?
+
+---
+
+From before, we know that a firm's break even price is at the minimum of its Average Cost curve, where Average Cost is equal to Marginal Cost. First let's find the quantity where that happens:
+
+$$\begin{align*}
+AC(q)&=MC(q)\\
+5q+\frac{720}{q}&=10q\\
+\frac{720}{q}&=5q\\
+720&=5q^2\\
+144&q^2\\
+12&=q\\
+\end{align*}$$
+
+This the *quantity* where AC is minimized and equal to MC. We need to find the *price*, so plug this quantity into either AC or MC. MC is easier here:
+
+$$\begin{align*}
+MC(q)&=10q\\
+MC(12)&=10(12)\\
+MC(12)&=120\\
+\end{align*}$$
+
+The firm breaks even at a price of $120.
+
+---
+
+### 5. How much of Bob's price is markup (over marginal cost)?
+
+---
+
+Use the Lerner Index: $L=\frac{p-MC(q)}{p}$. This will tell us what proportion of the price is markup above marginal cost.
+
+First, we do need to find the marginal cost at $q^*=20$:
+
+$$\begin{align*}
+MC(q)&=10q\\
+MC(20)&=10(20)\\
+MC(20)&=200\\
+\end{align*}$$
+
+Now plug this and $p^*$ into the Lerner index:
+
+$$\begin{align*}
+L &= \frac{p-MC(q)}{p}\\
+L &= \frac{250-200}{250}\\
+L &=\frac{50}{250}\\
+L &= 0.20\\
+\end{align*}$$
+
+The Lerner index says that 20% of the firm's price ($250) is markup above marginal cost ($200).
+
+---
+
+### 6. Calculate the price elasticity of demand at Bob's profit-maximizing price.
+
+---
+
+While you could calculate this manually, it's a lot faster to use the full Lerner Index equation: $L=\frac{p-MC(q)}{p}=-\frac{1}{\epsilon}$. Since we know $L$, we can set it equal to $-\frac{1}{\epsilon}$ and solve for $\epsilon$:
+
+$$\begin{align*}
+L&=-\frac{1}{\epsilon}\\
+0.20&=-\frac{1}{\epsilon}\\
+0.20\epsilon &=-1\\
+\epsilon &=-\frac{1}{0.20}\\
+\epsilon&=-5\\
+\end{align*}$$
+
+Demand is elastic. For every 1% the price increases (decreases), consumers will buy 5% less (more).
+
+---
+
+```{r, fig.retina=3}
+mc=function(x){10*x}
+ac=function(x){5*x+720/x}
+demand=function(x){300-2.5*x}
+mr=function(x){300-5*x}
+
+ggplot(data = tibble(x = 1:10), aes(x = x))+
+  geom_rect(xmin = 0, xmax = 20, ymin = 136, ymax = 250, fill = "green", alpha = 0.25)+
+  stat_function(fun = demand, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 32, y = demand(32), color = "blue", label = "Demand")+
+  stat_function(fun = mc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 32, y = mc(32), color = "red", label = "MC(q)")+
+  stat_function(fun = mr, geom = "line", size = 2, color = "purple")+
+    geom_label(x = 32, y = mr(32), color = "purple", label = "MR(q)")+
+  stat_function(fun = ac, geom = "line", size = 2, color = "orange")+
+  geom_label(x = 32, y = ac(32), color = "orange", label = "AC(q)")+
+
+  geom_segment(x = 0, y = 250, xend = 20, yend = 250, linetype = "dotted", size = 1)+
+  geom_segment(x = 0, y = 136, xend = 20, yend = 136, linetype = "dotted", size = 1)+
+  geom_segment(x = 20, y = 250, xend = 20, yend = 0, linetype = "dotted", size = 1)+
+  labs(x = "Quantity",
+       y = "Price")+
+  scale_x_continuous(breaks = seq(0,40,5),
+                     limits = c(0,45),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,300,50),
+                     limits = c(0,350),
+                     expand = c(0,0),
+                     labels = scales::dollar)+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size = 14)
+```

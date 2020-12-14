@@ -1,0 +1,176 @@
+---
+title: "1.8 — Price Elasticity — Practice Problems (Solutions)"
+author: "ECON 306 - Fall 2020"
+date: "Wednesday, September 9, 2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      fig.retina=3,
+                      fig.align="center")
+library(tidyverse)
+library(ggrepel)
+```
+
+The demand for monthly cell phone plans is given by:
+
+$$q_D =  50-0.5p$$
+
+### 1. Write the *inverse* demand function.
+
+Simply take the demand function and solve it for $p$:
+
+$$\begin{align*}
+	q_D&=50-0.5p\\
+	q_D+0.5p&=50\\
+	0.5p&=50-q_D\\
+	p&=100-2q_D\\
+\end{align*}$$
+
+The vertical intercept (“choke price”) is \$100 and the slope is $-2$.
+
+### 2. Calculate the price elasticity of demand when the price is $10. Is this relatively elastic or inelastic?
+
+First we need to find $q_D$ at \$10. 
+
+$$\begin{align*}
+	q_D&=50-0.5(10)\\
+	q_D&=50-5\\
+	q_D&=45\\
+\end{align*}$$
+
+Now we have the three ingredients to calculate elasticity at \$10:
+	 
+$$\begin{align*}
+	\epsilon_D &=\frac{1}{slope} \times \frac{p}{q_D}	\\
+	\epsilon_D &=\frac{1}{-2} \times \frac{10}{45}	\\
+	\epsilon_D &=-0.5 \times 0.22\\
+	\epsilon_D &=-0.11\\
+\end{align*}$$
+
+The demand is relatively inelastic, as $|\epsilon_D|<1$ 
+
+### 3. Calculate the price elasticity of demand when the price is $70. Is this relatively elastic or inelastic?
+
+First we need to find $q_D$ at \$70. 
+
+$$\begin{align*}
+	q_D&=50-0.5(70)\\
+	q_D&=50-35\\
+	q_D&=15\\
+	\end{align*}$$
+
+We already have the slope (since the demand is a straight line), so now we can simply plug into the elasticity formula:
+
+$$\begin{align*}
+	\epsilon_D &=\frac{1}{slope} \times \frac{p}{q_D}	\\
+	\epsilon_D &=\frac{1}{-2} \times \frac{70}{15}\\
+	\epsilon_D &=-0.5 \times 4.67\\
+	\epsilon_D &\approx -2.33\\
+\end{align*}$$
+
+The demand is relatively elastic, as $|\epsilon_D|>1$
+
+### 4. At what price is demand unit elastic $(\epsilon=-1)$?
+
+$$\begin{align*}
+		\epsilon_D &=\frac{1}{slope} \times \frac{p}{q_D} & & \text{Formula for elasticity}\\
+			-1&=-0.5 \times \frac{p}{q_D} & & \text{Set } \epsilon_D \text{ equal to }-1\\
+			-1&=-0.5 \times \frac{p}{(50-0.5p)} & & \text{Plug in demand function for } q_D\\
+			-1(50-0.5p)&=-0.5p & & \text{Multiply by term in parentheses}\\
+		0.5p-50&=-0.5p & & \text{Distribute the }-1 \\
+		-50&=-p & & \text{Add } 0.5p\\
+		p&=\$50 & & \text{Divide by }-50\\
+\end{align*}$$
+
+### 5. Calculate the total revenue at $10.
+
+The total revenue is:
+
+$$\begin{align*}
+R&=pq\\
+R&=(\$10)(45)\\
+R&=\$450\\
+\end{align*}$$
+
+### 6. Calculate the total revenue at $70.
+
+The total revenue is:
+
+$$\begin{align*}
+R&=pq\\
+R&=(\$70)(15)\\
+R&=\$1,050\\
+\end{align*}$$
+
+### 7. Calculate the total revenue at the price you found for question 4.
+
+That price was $p=\$50$. At this price, we need to find the quantity demanded. We can use the demand function: 
+
+$$\begin{align*}
+	q_D&=50-0.5p\\
+	q_D&=50-0.5(50)\\
+	q_D&=50-25\\
+	q_D&=25\\	
+	\end{align*}$$
+
+Now that we have price and quantity, revenue is:
+
+$$\begin{align*}
+	R& = pq\\
+	R&=(\$50)(25)\\	
+	R&=\$1,250\\
+	\end{align*}$$
+
+This is where revenue is maximized.
+
+```{r}
+demand = function(x){100-2*x}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=demand, geom="line", size=2, color = "blue")+
+  geom_label(aes(x=35,y=demand(35)), color = "blue", label="Demand", size = 5)+
+  
+  # line at 15,70
+  geom_segment(aes(x=0,xend=15, y=70, yend=70), linetype="dashed")+
+  geom_segment(aes(x=15,xend=15, y=70, yend=0), linetype="dashed")+
+  
+  # line at 25,50
+  geom_segment(aes(x=0,xend=25, y=50, yend=50), linetype="dashed")+
+  geom_segment(aes(x=25,xend=25, y=50, yend=0), linetype="dashed")+
+  
+  # line at 45,10
+  geom_segment(aes(x=0,xend=45, y=10, yend=10), linetype="dashed")+
+  geom_segment(aes(x=45,xend=45, y=10, yend=0), linetype="dashed")+
+  
+  geom_label_repel(data = tibble(x=15, y=70),
+                   aes(x=x, y=y),
+                  color="purple",
+                  label=expression(paste(epsilon == -2.33, ": Elastic; R = $1,050")),
+                  seed = 4 )+
+  geom_label_repel(data = tibble(x=25, y=50),
+                   aes(x=x, y=y),
+                  color="purple",
+                  label=expression(paste(epsilon == -1, ": Unit Elastic; R = $1,250")),
+                  seed = 4 )+
+  geom_label_repel(data = tibble(x=45, y=10),
+                   aes(x=x, y=y),
+                  color="purple",
+                  label=expression(paste(epsilon == -0.11, ": Inelastic; R = $450")),
+                  seed = 4 )+
+  scale_x_continuous(breaks=seq(0,50,5),
+                     limits=c(0,50),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,100,10),
+                     limits=c(0,100),
+                     expand=expand_scale(mult=c(0,0.1)),
+                     labels = function(x){paste("$", x, sep="")})+
+  labs(x = "Quantity of x",
+       y = "Price of x")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```

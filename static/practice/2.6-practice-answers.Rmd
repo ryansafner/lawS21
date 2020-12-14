@@ -1,0 +1,119 @@
+---
+title: "2.6 — Long Run Industry Equilibrium — Practice Problems"
+author: "Solutions"
+date: "ECON 306 - Fall 2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=F,
+                      warning=F,
+                      message=F)
+library(tidyverse)
+library(ggrepel)
+library(mosaic)
+```
+
+
+The supply of bicycle rentals in a small town is given by:
+
+$$q_S=10p-200$$
+
+## 1. Find the inverse supply function.
+
+---
+
+Solve the supply function for $p$:
+
+$$\begin{aligned}
+	q_S&=10p-200 & & \text{The supply function}\\
+	q_S-10p&=-200 & & \text{Subtracting }10p\\
+	-10p&=-200-q_S & & \text{Subtracting }q_S\\
+	p &=20+\frac{1}{10}q_S & & \text{Dividing by }-10\\	
+	\end{aligned}$$
+
+---
+
+## 2. What is the price elasticity of supply at a price of \$25.00?
+
+---
+
+First we use the supply function and find $q_S$ when $p=25$: 
+
+$$\begin{aligned}
+			q_S&=10p-200 & & \text{The supply function}\\
+			q_S&=10(25)-200 & & \text{Plugging in 25}\\
+			q_S&=250-200 & & \text{Multiplying}\\
+			q_S&=50 & & \text{Subtracting}\\
+			\end{aligned}$$
+
+Now we know the price, quantity, and slope, so we can use the elasticity formula.
+
+$$\begin{aligned}
+	\epsilon_S &=\frac{1}{slope} \times \frac{p}{q_S} & & \text{The formula for elasticity}\\
+	\epsilon_S &=\cfrac{1}{\frac{1}{10}} \times \frac{25}{50} & & \text{Plugging in}\\
+	\epsilon_S &=10 \times 0.5 & & \text{Simplifying}\\
+	\epsilon_S &=5 & & \text{Multiplying}\\
+	\end{aligned}$$
+
+This is relatively elastic.
+
+---
+
+## 3. What is the price elasticity of supply at a price of \$50.00?
+
+---
+
+First we use the supply function and find $q_S$ when $p=50$: 
+
+$$\begin{aligned}
+			q_S&=10p-200 & & \text{The supply function}\\
+			q_S&=10(50)-200 & & \text{Plugging in 25}\\
+			q_S&=500-200 & & \text{Multiplying}\\
+			q_S&=300 & & \text{Subtracting}\\
+			\end{aligned}$$
+
+Now we know the price, quantity, and slope, so we can use the elasticity formula. 
+
+$$\begin{aligned}
+	\epsilon_S &=\frac{1}{slope} \times \frac{p}{q_S} & & \text{The formula for elasticity}\\
+	\epsilon_S &=\cfrac{1}{\frac{1}{10}} \times \frac{50}{300} & & \text{Plugging in}\\
+	\epsilon_S &=10 \times \frac{50}{300} & & \text{Simplifying}\\
+	\epsilon_S &=1.667 & & \text{Multiplying}\\
+	\end{aligned}$$
+
+This is also relatively elastic, but less elastic than at the lower price.
+
+```{r, fig.retina=3}
+
+supply<-function(x){20+0.1*x}
+points<-tribble(
+  ~x, ~y, ~label,
+  50, 25, "E=5",
+  300, 50, "E=1.67"
+)
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=supply, geom="line", size=2, color = "red")+
+  geom_label(aes(x=700,y=supply(700)), color = "red", label="Supply", size = 6)+
+    scale_x_continuous(breaks=seq(0,1000,100),
+                     limits=c(0,1000),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,100,10),
+                     limits=c(0,100),
+                     expand=expand_scale(mult=c(0,0.1)),
+                     labels = function(x){paste("$", x, sep="")})+
+  geom_segment(x=0,y=25,xend=50,yend=25,linetype="dotted",size=1)+
+  geom_segment(x=50,y=0,xend=50,yend=25,linetype="dotted",size=1)+
+  
+  geom_segment(x=0,y=50,xend=300,yend=50,linetype="dotted",size=1)+
+  geom_segment(x=300,y=0,xend=300,yend=50,linetype="dotted",size=1)+
+  
+  geom_point(data = points, aes(x=x,y=y), color="purple", size =3)+
+  geom_label_repel(data = points, aes(x=x, y=y, label=label), color="purple", size =4)+
+  labs(x = "Quantity of x",
+       y = "Price of x")+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size=14)
+```

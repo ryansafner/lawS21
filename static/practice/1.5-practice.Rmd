@@ -1,0 +1,42 @@
+---
+title: "1.5 — Solving the Consumer’s Problem - Practice Problems"
+author: "ECON 306 - Fall 2020"
+date: "Monday August 31, 2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 1. Suppose you can watch movies in the theater ($t$) and streaming at home ($s$), and earn utility according to the utility function: 
+$$u(t,s)=4ts$$
+
+Where your marginal utilities are: 
+$$\begin{aligned}
+MU_t&=4s\\
+MU_s&=4t\\ \end{aligned}$$
+
+#### a. Put $t$ on the horizontal axis and $s$ on the vertical axis. Write an equation for $MRS_{t,s}$ 
+
+#### b. Would bundles of $(2,2)$ and $(1,4)$ be on the same indifference curve?
+
+#### c. Sketch this indifference curve. 
+
+\clearpage
+
+### 2. You can get utility from consuming Soda $(s)$ and Hot dogs $(h)$, according to the utility function:
+
+$$u(s,h)=\sqrt{sh}$$
+
+The marginal utilities are:
+
+$$\begin{aligned}
+MU_s&=0.5s^{-0.5}h^{0.5}	\\
+MU_h&=0.5s^{0.5}h^{-0.5} \\ \end{aligned}$$
+
+You have an income of $12, the price of Soda is $2, and the price of a Hot dog is $3. Put Soda on the horizontal axis and Hot dogs on the vertical axis.
+
+### a. What is your utility-maximizing bundle of Soda and Hot dogs?
+
+### b. How much utility does this provide?

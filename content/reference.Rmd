@@ -1,0 +1,70 @@
+---
+title: Reference
+slug: reference
+output:
+  blogdown::html_page:
+    template: ../pandoc/toc-title_html.template
+    toc: true
+---
+
+Look here over the course of the semester for resources, links, and tips on how to succeed in the course, how to write well, and other things of interest related to microeconomics.
+
+**Last Updated:** Monday, August 24, 2020
+
+# Tips for Success {#tips}
+
+1. **Take notes. On paper. Yes.** [Studies show](https://journals.sagepub.com/doi/abs/10.1177/0956797614524581) that using pen and paper trump taking notes on a device. The main reason is because *you cannot possibly write down everything I am saying by hand*. This forces you to selectively filter my lecture to its most essential and important components -- an integral part of the learning and retention process. If you are taking notes on a laptop, you become a court stenographer, thoughtlessly transcribing everything I am saying. At the other extreme, do not assume *everything* is written in my lecture slides. My lecture slides are visuals and cues to organize the content both for me and for you. I try hard to make sure that I have few words on slides, and even fewer answers to problems. 
+    - My suggestion: print out my lecture slides in advance (or follow along on your device) and take additional notes by hand.
+2. **At least skim all of the readings.** I give out readings for a reason, and that reason is not to bore you or waste your time. The truth is, as a beginner, you can't rely on heuristics or memory to "fill in the blanks." You need the readings to provide context to what I am saying in class. I cannot help you if you are not going to try. Any professor also will lose patience at short notice when it's discovered you haven't done the reading.
+3. **Do the homeworks** (if there are any). You might be surprised that I need to say this, but I do. Students that do not do the homeworks do poorly on exams, which often are similar to homework questions. Homeworks are *the best* practice for exams, they give you a sense of the relevant content areas that might come up, the type and style of questions that I ask, and you often get answer keys to help you "get inside my head" and study from. There is no good reason why you should have a low homework grade.
+4. **Work on assignments together and study together**. Recognize that you are not in this alone, and other students are just as anxious or uncertain as you are. More surprisingly, other students probably have some answers you are looking for, and you may have answers for some of their problems! You will learn better when you collaborate with others similar to you. More importantly, you don't truly understand something unless you can explain it to others.^[Yes, that means I am doing a *ton* of learning every time I teach!] As a wise woman once told me "whomever is doing the talking is doing the learning."
+5. **Learn how to learn**. The most important skill you learn in college is *how to learn*. Taking a course on a subject will *not* make you an expert on that subject. It a) helps you recognize that you do not know everything on that subject, and this prevents you from [actively saying stupid things](http://www.smbc-comics.com/?id=2475); and b) gives you enough context and skills to figure out how to *actually* fill those gaps. This is the actual skill that's relevant in the real world.^[Yes, Google is your best friend. But you do not yet know how to ask the right questions, or understand what constitutes good answers.]
+
+# Math Resources
+
+- [Math Review Guide](https://microf20.classes.ryansafner.com/files/math_review_guide.pdf)
+- [Preliminary Math Survey Answers](https://microf20.classes.ryansafner.com/assignment/preliminary-survey-answers.html)
+
+# How to Make a PDF (For Submitting Assignments)
+
+## Using an App on Your Phone
+
+There are many good apps out there that will allow you to take photos and convert them to PDFs. **This is actually a *better* method** than using your computer (described below), since theses apps optimize your photos for PDFs (using your computer to convert will often result in very large PDF file sizes!). Here are a few apps you can use:
+
+- [Scannable <i class="fab fa-apple"></i>](https://evernote.com/products/scannable)^[If you use [Evernote](https://evernote.com/) for notes (I do, it's amazing), this can sync up and store your PDFs in Evernote]
+- [Turboscan <i class="fab fa-apple"></i><i class="fab fa-android"></i>](https://turboscanapp.com/index.html)
+- [Image to PDF Converter Free <i class="fab fa-android"></i>](https://play.google.com/store/apps/details?id=com.innover.imagetopdf&hl=en_US)
+- [PDF Converter Pro <i class="fab fa-android"></i>](https://play.google.com/store/apps/details?id=com.twansoftware.pdfconverterpro&hl=en_US)
+- [Simple Scan <i class="fab fa-apple"></i>](https://apps.apple.com/us/app/simple-scanner-doc-scan-app-for-scanning-document-as/id1035256307)
+
+Personally, I use Scannable — primarily because of its association with Evernote, if you wanted a recommendation. But note it does not exist on Android. I also have successfully used Turboscan in the past.
+
+Additionally, as Hood students, you all have **Onedrive**, you can use the app on your phone to scan documents with photos and convert them to PDFs. 
+
+## Using Images Sent to Your Computer
+
+Most modern versions of operating system have a built-in tool in the File Viewer (or Finder) menus, after clicking on one or multiple files, to create a PDF from the files.
+
+So first take photos on your smartphone of your written work (one photo per page). **Please try to frame your photos properly!** Put your paper flat on a solid surface (table, desk, the floor, etc). Get the whole page within the borders of the photo, and not too much background. I don't need to see half of your desk or bed as you are taking the photo! Take a look at it and make sure it is legible.
+
+Next, get the photos onto your computer (whether by Airdrop, email to yourself, Dropbox, etc.). Finally, depending on your OS, convert the files to a PDF:
+
+**1. On a Windows PC**
+
+Open the folder where your photos are currently, in the File Explorer. Select all of the photos, and right click, and select `Print`. In the dialog box that pops up, select `Microsoft Print to PDF` in the `Printer` box, and then click `Print.` This will save it as a `.pdf` file in that folder. [See more information](https://www.howtogeek.com/361612/how-to-create-a-pdf-file-in-windows/).
+
+**2. On a Mac**
+
+As I use a Mac, I will show you how Mac OS has a neat feature built into Finder, which allows converting multiple files into a single PDF file as a Quick Action. I have written two pages in a notebook and taken two separate pictures of them, and airdropped them onto my computer.
+
+![](/images/photos_to_pdf1.png)
+
+![](/images/photos_to_pdf2.png)
+
+![](/images/photos_to_pdf3.png)
+
+Here is the [<i class="fas fa-file-pdf"></i> example PDF](../files/photos_to_pdf.pdf).
+
+**3. On Linux**
+
+If you use Linux, I assume you know your way around a computer well enough to make a PDF! 🤖

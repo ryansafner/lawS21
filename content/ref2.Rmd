@@ -1,0 +1,18 @@
+---
+title: Ref2
+slug: ref2
+output:
+  blogdown::html_page:
+    template: ../pandoc/toc-title_html.template
+    toc: true
+---
+
+Look here over the course of the semester for resources, links, and tips on how to succeed in the course, how to write well, and other things of interest related to microeconomics.
+
+# Links
+
+## Link 1
+
+- [Guide1](/leref/guide1)
+
+`r blogdown::shortcode("contentpage")`

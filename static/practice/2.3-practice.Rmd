@@ -1,0 +1,28 @@
+---
+title: "2.3 Cost Minimization - Practice Problems"
+author: "ECON 306 - Fall 2020"
+date: "Wednesday, September 23, 2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Your firm can use labor $l$ and capital $k$ to produce output according to the production function:
+$$q=4lk$$
+
+
+The marginal products are:
+
+$$\begin{aligned}
+MP_l &=4k \\
+MP_k &=4l \\ \end{aligned}$$
+
+Suppose you  need to produce 144 units, the price of labor is \$10, and the price of capital is \$40. 
+
+### 1. What is the least-cost combination of labor and capital that produces 144 units of output?
+
+### 2. How much does this combination cost?
+
+### 3. Does this technology experience constant returns, increasing returns, or decreasing returns to scale?

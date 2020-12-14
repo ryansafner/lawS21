@@ -1,0 +1,713 @@
+\documentclass{article}
+\usepackage{booktabs, graphicx, hyperref, fontspec}
+\usepackage{sectsty}
+\allsectionsfont{\sffamily}
+\usepackage[margin=1in]{geometry}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = cyan,
+ }
+ \providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newcommand*{\authorfont}{\fontfamily{phv}\selectfont}
+\usepackage[]{Fira Sans}
+
+\begin{document}
+
+\sffamily
+
+\centerline{\Huge Microeconomic Analysis}
+
+\vspace{3 mm}
+
+\centerline{\large Dr.~Ryan Safner}
+\vspace{2 mm}
+\centerline{\large \href{http://microF20.classes.ryansafner.com}{microF20.classes.ryansafner.com}}
+
+\vspace{5 mm}
+
+\begin{tabular}{@{}p{3.5in}p{3.5in}}           
+\textbf{Course}: ECON 306 Fall 2020  & \textbf{Email:}  \href{mailto:safner@hood.edu}{\nolinkurl{safner@hood.edu}}\\
+\textbf{Room}: ON ZOOM & \textbf{Office:}  Rosenstock 118\\
+\textbf{Meets}: MW 2:00--3:15PM & \textbf{Hours:} TuTh 3:30--5:00PM ON ZOOM\\ 
+\end{tabular}
+
+\vspace{5 mm}
+
+\hrule
+
+
+\begin{quote}
+``The curious task of economics is to demonstrate to men how little they
+really know about what they imagine they can design.'' - F.A. Hayek,
+1974 Economics Nobel Laureate
+\end{quote}
+
+\textbf{Microeconomic Analysis} is a collection of analytical tools for
+modeling and understanding how decisions made by agents (individuals and
+firms) in a context of market institutions lead to social coordination
+and the creation of value. This toolkit is the analytical foundation for
+exploring \emph{all} fields and applications of economics as a social
+science, has many practical applications in business, finance, politics,
+and insights into any realm of human endeavors. Economics, after all, is
+the study of human action. At the intermediate level, these concepts are
+made more rigorous through the use of mathematical models, but we will
+first and foremost lay the theoretical foundations with economic
+intuition. As such, this class assumes you have met the \textbf{required
+prerequisite courses} by taking introductory economics\footnote{ECON 205
+  \emph{and} ECON 206} and basic mathematics\footnote{MATH 112 \emph{or}
+  ECMG 212}.
+
+\hypertarget{hybrid-course-format}{%
+\section*{Hybrid Course Format}\label{hybrid-course-format}}
+\addcontentsline{toc}{section}{Hybrid Course Format}
+
+This course is taught in a \textbf{hybrid} format, providing a mixture
+of regular synchronous activity where we all can interact in real time,
+with asynchronous material, which can be done remotely at your own pace.
+
+\textbf{I will be holding all synchronous class sessions remotely (for
+reasons I will make clear to you by the first day) on Zoom.} You can
+attend these sessions on your computer or device from your dormitory or
+home, and a classroom is available for you to use (socially-distanced,
+and in masks), but I will not be in the classroom.
+
+During the synchronous, scheduled times for the course (Monday/Wednesday
+2:00 P.M.-3:15 P.M.), I will lecture on the material, hold in-class
+discussions, and answer questions in real time \emph{on Zoom.}
+Attendance to the live portion is strongly encouraged, but not required.
+
+\textbf{Lecture slides, videos, and other synchronous materials will be
+posted online by the end of the day in which the live session occurs.}
+
+Assignments will always be submitted \emph{online} and due at regular
+times (typically 11:59 PM Sunday) so that students unable to join in the
+live sessions can complete them asynchronously.
+
+Students are strongly encouraged to join the course
+\href{https://hoodcollegeeconomics.slack.com}{Slack channel} to maintain
+an active channel of communication, ask questions, and to build our
+course community together. Official course-related announcements will
+always come via Blackboard announcement and automatically sent to your
+Hood email accounts.
+
+\hypertarget{learning-in-a-time-of-coronavirus}{%
+\subsection*{Learning in a Time of
+Coronavirus}\label{learning-in-a-time-of-coronavirus}}
+\addcontentsline{toc}{subsection}{Learning in a Time of Coronavirus}
+
+Everything is awful right now. None of us signed up for this. None of us
+are really okay, \textbf{we're all just pretending for everyone else.}
+
+Many of you may be dealing with hardships at home and at work, and are
+generally juggling many more problems than usual. Everyone's future
+plans have been completely put on hold or cancelled to a large degree.
+We all miss the sense of normalcy and human sense of community from
+being isolated for so long.
+
+For this unique semester, we are going to prioritize supporting each
+other as human beings during this crazy era, and use simple, accessible
+solutions that make sense for the most people, and above all, to be
+flexible. I have designed the course to maintain some common structure
+but be flexible to your varied needs. Please see the
+\protect\hyperlink{policies-and-expectations}{policies and expectations
+below}. I hope you use this course as an opportunity to escape the
+boredom and insanity of social isolation, and to help keep interest in
+understanding the world around us.
+
+If you tell me you're having trouble, I will do whatever I can to help,
+and not judge you or think less of you. I hope you will extend me the
+same courtesy.
+
+\hypertarget{course-objectives}{%
+\section*{Course objectives}\label{course-objectives}}
+\addcontentsline{toc}{section}{Course objectives}
+
+This class will add rigor to your thinking about the world by empowering
+you with the ability to model the choices and interactions of people and
+organizations in their economic capacities -- as consumers, producers,
+firms, voters, etc.
+
+\textbf{By the end of this course,} you will:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  apply the models of microeconomics (constrained optimization and
+  equilibrium) towards explaining real world behavior of individuals,
+  firms, and governments
+\item
+  explore the effects of economic and political processes on market
+  performance (competition, market prices, profits and losses, property
+  rights, entrepreneurship, market power, market failures, public
+  policy, government failures)
+\item
+  apply the economic way of thinking to real world issues in writing
+\end{enumerate}
+
+Given these objectives, this course fulfills all three of the
+\href{https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes}{learning
+outcomes} for the Economics B.A. program in the George B. Delaplaine,
+Jr.~School of Business:
+
+\begin{itemize}
+\tightlist
+\item
+  Use quantitative tools and techniques in the preparation,
+  interpretation, analysis and presentation of data and information for
+  problem solving and decision making {[}\ldots{]}
+\item
+  Apply economic reasoning and models to understand and analyze problems
+  of public policy {[}\ldots{]}
+\item
+  Demonstrate effective oral and written communications skills for
+  personal and professional success {[}\ldots{]}
+\end{itemize}
+
+\textbf{My standard disclaimer:} This class may challenge many of your
+existing beliefs and conceptions about how the world works, and how it
+should work. This is the most important and exciting part of a liberal
+arts education. This does not mean that I want to make you to see
+everything ``my way.'' In fact, if you come out of this class thinking
+exactly like me, then I have probably failed you as a teacher. To the
+best of my ability, I keep my opinions to myself unless relevant for
+purposes of discussion, and I respect and invite you to reach your own
+conclusions on all matters.
+
+\textbf{Fair warning:} \textbf{Economics is hard.} \emph{This, in
+particular, may be of the hardest courses that you will take, primarily
+due to the mathematical content.} Using the economic way of thinking is
+a skill, it is literally retraining your brain to interpret and analyze
+the world in a novel way, and is not something that can be memorized. I
+will do my best to make this class intuitive and helpful, if not
+interesting. If at any point you find yourself struggling in this course
+for any reason, please come see me. Do not suffer in silence! Coming to
+see me for help does not diminish my view of you, in fact I will hold
+you in \emph{higher} regard for understanding your own needs and taking
+charge of your own learning. There are also a some fantastic resources
+on campus, such as the
+\href{http://www.hood.edu/campus-services/academic-services/index.html}{Center
+for Academic Achievement and Retention (CAAR)} and the
+\href{http://www.hood.edu/library/}{Beneficial-Hodson Library}.
+
+See my
+\href{http://microF20.classes.ryansafner.com/reference\#tips}{tips for
+success in this course}.
+
+\hypertarget{required-course-materials}{%
+\section*{Required Course materials}\label{required-course-materials}}
+\addcontentsline{toc}{section}{Required Course materials}
+
+This course requires regular online internet access. If you know you
+will be unable to access the internet regularly, please let me know and
+we can make arrangements.
+
+You can find all course materials at my \textbf{dedicated website} for
+this course:
+\href{https://microF20.classes.ryansafner.com}{microF20.classes.ryansafner.com}.
+Links to the website are posted on our Blackboard course page. Please
+familiarize yourself with the website, see that it contains this
+\href{https://microF20.classes.ryansafner.com/syllabus/}{syllabus},
+guides for your
+\href{https://microF20.classes.ryansafner.com/reference/}{reference},
+and our
+\href{https://microF20.classes.ryansafner.com/schedule/}{schedule}. On
+the schedule page, you can find each module with its own class page
+(\textbf{start there!}) along with all related readings, lecture slides,
+practice problems, and assignments.
+
+My lecture slides will be shared with you, and serve as your primary
+resource, but our main ``textbook'' below is \textbf{recommended} as the
+next best resource and will be available from the campus bookstore. I
+will discuss more about textbooks and materials in the first module.
+
+\hypertarget{books}{%
+\subsection*{Books}\label{books}}
+\addcontentsline{toc}{subsection}{Books}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Goolsbee, Austan, Steven Levitt, and Chad Syverson, 2012,
+  \emph{Microeconomics} 2nd ed, USA: Worth Publishers, ISBN:
+  978-1464187025
+\end{enumerate}
+
+You are welcome to purchase the book by other means (e.g.~Amazon,
+half.com, etc). I have no financial stake in requiring you to purchase
+this book. You are welcome to use previous version of the book, but
+carefully verify the reading assignments, as the material may be
+different across versions.
+
+\hypertarget{assignments-and-grades}{%
+\section*{Assignments and Grades}\label{assignments-and-grades}}
+\addcontentsline{toc}{section}{Assignments and Grades}
+
+Your final course grade is the weighted average of the following
+assignments. You can find general descriptions for all the assignments
+on the
+\href{http://microF20.classes.ryansafner.com/assignments/}{assignments
+page} and more specific information and examples on each assignment's
+page on the
+\href{http://microF20.classes.ryansafner.com/schedule/}{schedule page}.
+
+\begin{center}
+
+\begin{tabular}{lll}
+\toprule
+Frequency & Assignment & Weight\\
+\midrule
+1 & Opinion-Editorial & 20\%\\
+7 & Homeworks & 20\% (using average HW grade)\\
+3 & Exams & 20\% (each)\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Each assignment is graded on a 100 point scale. Letter-grade equivalents
+are based on the following scale:
+
+\begin{center}
+
+\begin{tabular}{llll}
+\toprule
+Grade & Range & Grade1 & Range1\\
+\midrule
+A & 93–100\% & C & 73–76\%\\
+A− & 90–92\% & C− & 70–72\%\\
+B+ & 87–89\% & D+ & 67–69\%\\
+B & 83–86\% & D & 63–66\%\\
+B− & 80–82\% & D− & 60–62\%\\
+\addlinespace
+C+ & 77–79\% & F & < 60\%\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+See also my
+\href{https://ryansafner.shinyapps.io/306_grade_calculator/}{
+\texttt{Grade\ Calculator}} app where you can calculate your overall
+grade using existing assignment grades and forecast ``what if''
+scenarios.
+
+These grades are firm cutoffs, but I do of course round upwards
+\((\geq\) 0.5) for final grades. A necessary reminder, as an academic, I
+am not in the business of \emph{giving} out grades, I merely report the
+grade that you \emph{earn}. I will not alter your grade unless you
+provide a reasonable argument that I am in error (which does happen from
+time to time).
+
+\hypertarget{homeworks}{%
+\subsection*{Homeworks}\label{homeworks}}
+\addcontentsline{toc}{subsection}{Homeworks}
+
+There will be roughly a homework assignment for every lesson. These
+questions will help check your understanding and mastery of the
+material, and will be a combination of quantitative, graph, and short
+answer questions of examples. These will also be good indicators of what
+to expect on the exams. You may collaborate with other students to work
+on homeworks, but each person must turn in an individual assignment.
+Homeworks are due one week from the class period where we finish a
+lesson, and must be turned in at the beginning of class. Homeworks will
+be graded by the T.A. as follows: 70\% of the grade for completion, and
+30\% for one randomly selected question. This is to reward students for
+putting in a full faith effort to try to reach an answer, even if not
+every answer ends up being correct.
+
+Homeworks are generally due by 11:59 PM Sunday by email. Please type
+your answers to the following questions in a document and email a PDF
+attachment to me.\footnote{In MS Word, or Pages, or most word processing
+  software, File -\textgreater{} Save As -\textgreater{} PDF, or File
+  -\textgreater{} Export -\textgreater{} PDF.} You may still handwrite
+answers if you will be able to scan and email them, as a PDF, if they
+are easily readable, but this is not preferred. It will be much easier
+for me to grade, annotate, and return to you as a PDF, so please save me
+some trouble. For the few questions that ask you to draw a graph, try to
+do so on your computer (use MS Paint, the drawing tools in MS Word or MS
+Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and
+save it as an image to include on your homework document. Again, they
+need not be perfect or to scale, just show that you understand the broad
+idea. Being able to understand and sketch the graphs is still a very
+important and useful skill! If all else fails, I will be lenient in
+grading graph questions if you are unable to technologically include a
+graph.
+
+\hypertarget{exams}{%
+\subsection*{Exams}\label{exams}}
+\addcontentsline{toc}{subsection}{Exams}
+
+There will be three exams (one at the end of each unit) including the
+final exam. Each exam only covers the material in its associated unit
+(i.e.~no exam is cumulative). These exams provide feedback both to you
+and to me that ensures everyone is progressing on schedule and
+apprehending the material. This is critical, as the rest of the course,
+and indeed, any future economics course you take, will build off of this
+foundation.
+
+Exams will be released \textbf{on Blackboard} as a timed assignment. You
+will have 2 hours once you open the exam on Blackboard. You will not
+need the whole time, I have given you some extra to accomodate the
+difficulties of taking an exam at home. Please pick a time to take it
+where you know you will have 2 hours. You may close the exam page and
+come back to it, but the timer will continue to run once the exam is
+first opened.
+
+\hypertarget{opinion-editorial}{%
+\subsection*{Opinion-Editorial}\label{opinion-editorial}}
+\addcontentsline{toc}{subsection}{Opinion-Editorial}
+
+Economic fallacies have always been popular, and journalists,
+politicians, and talking heads consistently engage in faulty economic
+reasoning in print and on television. Your task, as a student of
+economics, is to find some issue discussed in the past year, and write a
+critique of media discussion of that issue. Alternatively, instead of
+critiquing the reasoning or statements of others, you may write an
+advocacy piece, where you propose some economic policy and argue to
+persuade readers to endorse it. You will be graded both on the soundness
+of your economic reasoning and the quality of your writing. I would be
+happy to co-author an Op-Ed with anyone who writes an exemplary Op-Ed.
+Students who successfully publish their work in a media outlet will earn
+\emph{extra credit} on their Op-Ed grade. I will provide ample resources
+and examples to help you accomplish this, you can find more on the
+\href{}{assignment page}.
+
+\hypertarget{no-extra-credit-is-available}{%
+\subsection*{No extra credit is
+available}\label{no-extra-credit-is-available}}
+\addcontentsline{toc}{subsection}{No extra credit is available}
+
+\hypertarget{policies-and-expectations}{%
+\section*{Policies and Expectations}\label{policies-and-expectations}}
+\addcontentsline{toc}{section}{Policies and Expectations}
+
+This syllabus is a contract between you, the student, and me, your
+instructor. It has been carefully and deliberately thought out\footnote{A
+  syllabus can and will be used as a legal document for disputes tried
+  at a court of law. Ask me how I know.}, and I will uphold my end of
+the agreement and expect you to uphold yours.
+
+In the language of game theory, this syllabus is my commitment device. I
+am a very understanding person, and I know that exceptions to rules
+often need to be made for students. However, to be \emph{fair} to
+\emph{all} students the syllabus artificially constrains my ability to
+make exceptions at a whim for anyone. This prevents clever students from
+exploiting my congenial personality at everyone else's expense. Please
+read and familiarize yourself with the course policies and expectations
+of you. Chances are, if you have a question, it is answered herein.
+
+\hypertarget{online-attendance-and-participation}{%
+\subsection*{Online Attendance and
+Participation}\label{online-attendance-and-participation}}
+\addcontentsline{toc}{subsection}{Online Attendance and Participation}
+
+This is a hybrid course with synchronous (live) and asynchronous (on
+your own time) parts.
+
+You are generally expected to join (online via Zoom) our
+\textbf{synchronous} class sessions unless circumstances prevent you
+from doing so. Day-to-day attendance is not graded per se, but I
+strongly recommend you join in all live sessions in which you are able,
+since we all can provide live feedback and I can answer questions and
+address concerns as soon as they come up. You will also benefit from a
+rigid schedule and shared community.
+
+If you are unable to make a particular class, you generally do not need
+to let me know. \textbf{The videos from all class sessions are posted on
+Blackboard} so please review videos of classes you were unable to attend
+live.
+
+All assignmnents are able to be completed \textbf{asynchronously} during
+the week, and are \textbf{generally due by 11:59PM Sunday each week} to
+allow you flexibility in your hectic schedules.
+
+\hypertarget{late-assignments}{%
+\subsection*{Late Assignments}\label{late-assignments}}
+\addcontentsline{toc}{subsection}{Late Assignments}
+
+I will accept late assignments, but will subtract a specified amount of
+points as a penalty. Even if it is the last week of the semester, I
+encourage you to turn in late work: some points are better than no
+points!
+
+\textbf{Homeworks}: If you turn in a homework after it is due but before
+it is graded or the answer key posted, I generally will not take off any
+points. However, \textbf{if you turn in a homework \emph{after} the
+answer key is posted, I will automatically deduct 20 points (so the
+maximum grade you can earn on it is an 80).}
+
+\textbf{Exams}: If you know that you will be unable to complete an
+\emph{exam} as scheduled for a legitimate reason, please notify me at
+least \emph{one week} in advance, and we will schedule a make-up exam
+date. Failure to do so, including desperate attempts to make
+arrangements only \emph{after} the exam will result in a grade of 0 and
+little sympathy. I reserve the right to re-weight other assignments for
+students who I believe are legitimately unable to complete a particular
+assignment.
+
+\textbf{Op-eds}: Starting at the deadline, I will take off 1 point for
+every hour that your Op-ed is late.
+
+\hypertarget{grading}{%
+\subsection*{Grading}\label{grading}}
+\addcontentsline{toc}{subsection}{Grading}
+
+I will try my best to post grades on Blackboard's Grading Center and
+return graded assignments to you within about one week of you turning
+them in. There will be exceptions. Where applicable, I will post answer
+keys once I know most homeworks are turned in (see Late Assignments
+above for penalties). Blackboard's Grading Center is the place to look
+for your most up-to-date grades. See also my
+\href{https://ryansafner.shinyapps.io/306_grade_calculator/}{
+\texttt{Grade\ Calculator}} app where you can calculate your overall
+grade using existing assignment grades and forecast ``what if''
+scenarios.
+
+\hypertarget{communication-email-slack-and-virtual-office-hours}{%
+\subsubsection*{Communication: Email, Slack, and Virtual Office
+Hours}\label{communication-email-slack-and-virtual-office-hours}}
+\addcontentsline{toc}{subsubsection}{Communication: Email, Slack, and
+Virtual Office Hours}
+
+Students must regularly monitor their \textbf{Hood email accounts} to
+receive important college information, including messages related to
+this class. Email through the Blackboard system is my main method of
+communicating announcements and deadlines regarding your assignments.
+\textbf{Please do not reply to any automated Blackboard emails - I may
+not recieve it!}. My Hood email (\texttt{safner@hood.edu}) is the best
+means of contacting me. I will do my best to respond within 24 hours. If
+I do not reply within 48 hours, do not take it personally, and
+\emph{feel free to send a follow up email} in the very likely event that
+I genuinely did not see your original message.
+
+Our \href{https://hoodcollegeeconomics.slack.com}{slack channel} is
+available to all students and faculty in Economics and Business. I have
+invited all of my classes and advisees. It will not be extended to
+non-Business/Economics students or faculty. All users must use their
+\textbf{hood emails} and \textbf{true first and last names}. Each course
+has its own channel, exclusive for verified students in the course, and
+myself, by my invite only. As a third party platform, you agree to its
+Terms of Service. I have created this space as a way to stay connected,
+to help one another, and to foster community. Behaviors such as posting
+inappropriate content, harassing others, or engaging in academic
+dishonesty, to be determined solely at my discretion, will result in one
+warning, the content will be deleted, and subsequent behavior will
+result in a ban.
+
+I will host general \textbf{``office hours''} on Zoom. You can join in
+with video, audio, and/or chat, whichever you feel comfortable with. Of
+course, if you are not available during those times, we can schedule our
+own time if you prefer this method over email or Slack. If you want to
+go over material from class, please have \emph{specific} questions you
+want help with. I am not in the business of giving private lectures
+(particularly if you missed class without a valid excuse).
+
+Watch the excellent and accurate video
+\href{https://vimeo.com/270014784}{explaining office hours} (on website
+syllabus page).
+
+\hypertarget{netiquette}{%
+\subsection*{Netiquette}\label{netiquette}}
+\addcontentsline{toc}{subsection}{Netiquette}
+
+When using Zoom and Slack, please follow appropriate internet etiquette
+(``Netiquette''). Written communications, like blog posts or use of the
+Zoom chat, lacks important nonverbal cues (such as body language, tone
+of voice, sarcasm, etc).
+
+Above all else, please respect one another and think/reread carefully
+about how others may see your post before you submit a comment. You are
+expected to disagree and have different opinions, this is inherently
+valuable in a discussion. Please be civil and constructive in responding
+to others' comments: writing \emph{``have you considered `X'?''} is a
+lot more helpful to all involved than just writing \emph{``well you're
+just wrong.''}
+
+Posting content that is wilfully incindiary, illegal, or that
+constitutes academic dishonesty (such as plagarism) will automatically
+earn a grade of 0 and may be elevated to other authorities on campus.
+
+When using the chat function on Zoom or public Slack channels, please
+treat it as official course communications, even though I may not be
+grading it. It may be a quick and informal tool - don't feel you need to
+worry about spelling or perfect grammar - but please try to avoid
+\emph{too} informal ``text-speak'' (i.e.~say ``That's good for you''
+instead of ``thas good 4 u'').
+
+\hypertarget{privacy}{%
+\subsection*{Privacy}\label{privacy}}
+\addcontentsline{toc}{subsection}{Privacy}
+
+\href{https://www.execvision.io/blog/maryland-call-recording-laws/}{Maryland
+law}
+\href{https://law.justia.com/codes/maryland/2005/gcj/10-402.html}{requires}
+all parties consent for a conversation or meeting to be recorded. If you
+join in, and certainly if you participate, \textbf{you are consenting to
+be recorded.} However, as described below, videos are \emph{not
+accessible} beyond our class.
+
+Live lectures are recorded on Zoom and posted to Blackboard via Panopto,
+a secure course management system for video. Among other nice features
+(such as multiple video screens, close captioning, and time-stamped
+search functions!), Panopto is authenticated via your Blackboard
+credentials, ensuring that \emph{our course videos are not accessible to
+the open internet.}
+
+For the privacy of your peers, and to foster an environment of trust and
+academic freedom to explore ideas, \textbf{do not record our course
+lectures or discussions.} You are already getting my official copies.
+
+The
+\href{https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html}{Family
+Educational Rights and Privacy Act} prevents me from disclosing or
+discussing any student information, including grades and records about
+student performance. If the student is at least 18 years of age,
+\emph{parents (or spouses) do not have a right to obtain this
+information}, except with consent by the student.
+
+Many of you may be tuning in remotely, living with parents, and may have
+occasional interruptions due to sharing a space. This is normal and
+fine, but know that I will protect your privacy and not discuss your
+performance when parents (or anyone other than you, for that metter) are
+present, without your explicit consent.
+
+\hypertarget{enrollment}{%
+\subsection*{Enrollment}\label{enrollment}}
+\addcontentsline{toc}{subsection}{Enrollment}
+
+Students are responsible for verifying their enrollment in this class.
+The last day to add or drop this class with no penalty is
+\textbf{Thursday, August 27}. Be aware of
+\href{https://www.hood.edu/offices-services/registrars-office/academic-calendar}{important
+dates}.
+
+\hypertarget{honor-code}{%
+\subsection*{Honor Code}\label{honor-code}}
+\addcontentsline{toc}{subsection}{Honor Code}
+
+Hood College has an Academic Honor Code which requires all members of
+this community to maintain the highest standards of academic honesty and
+integrity. Cheating, plagiarism, lying, and stealing are all prohibited.
+All violations of the Honor Code are taken seriously, will be reported
+to appropriate authority, and may result in severe penalties, including
+expulsion from the college. See
+\href{http://hood.smartcatalogiq.com/en/2016-2017/Catalog/The-Spirit-of-Hood/The-Academic-Honor-Code-and-Code-of-Conduct}{here}
+for more detailed information.
+
+\hypertarget{van-halen-and-mms}{%
+\subsection*{Van Halen and M\&Ms}\label{van-halen-and-mms}}
+\addcontentsline{toc}{subsection}{Van Halen and M\&Ms}
+
+When you have completed reading the syllabus, email me a picture of the
+band Van Halen and a picture of a bowl of M\&Ms.~If you do this
+\emph{before} the date of the first exam, you will get bonus points on
+the exam.\footnote{If 75-100\% of the class does this, you each get 2
+  points. If 50-75\% of the class does this, you each get 4 points. If
+  25-50\% of the class does this, you each get 6 points. If 0-25\% of
+  the class does this, you each get 8 points.} Yes, this is real.
+
+\hypertarget{accessibility-equity-and-accommodations}{%
+\subsection*{Accessibility, Equity, and
+Accommodations}\label{accessibility-equity-and-accommodations}}
+\addcontentsline{toc}{subsection}{Accessibility, Equity, and
+Accommodations}
+
+College courses can, and should, be challenging and bring you out of
+your comfort zone in a safe and equitable environment. If, however, you
+feel at any point in the semester that certain assignments or aspects of
+the course will be disproportionately uncomfortable or burdensome for
+you due to any factor beyond your control, please come see me or email
+me. I am a very understanding person and am happy to work out a solution
+together. I reserve the right to modify and reweight assignments at my
+sole discretion for students that I belive would legitimately be at a
+disadvantage, through no fault of their own, to complete them as
+described.
+
+If you are unable to afford required textbooks or other resources for
+any reason, come see me and we can find a solution that works for you.
+
+This course is intended to be accessible for all students, including
+those with mental, physical, or cognitive disabilities, illness,
+injuries, impairments, or any other condition that tends to negatively
+affect one's equal access to education. If at any point in the term, you
+find yourself not able to fully access the space, content, and
+experience of this course, you are welcome to contact me to discuss your
+specific needs. I also encourage you to contact the
+\href{https://www.hood.edu/academics/josephine-steiner-center-academic-achievement-retention/accessibility-services}{Office
+of Accessibility Services} (301-696-3421). If you have a diagnosis or
+history of accommodations in high school or previous postsecondary
+institutions, Accessibility Services can help you document your needs
+and create an accommodation plan. By making a plan through Accessibility
+Services, you can ensure appropriate accommodations without disclosing
+your condition or diagnosis to course instructors.
+
+\hypertarget{acbsp-information}{%
+\subsection*{ACBSP Information}\label{acbsp-information}}
+\addcontentsline{toc}{subsection}{ACBSP Information}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[]{../images/acbsp.png}
+\end{figure}
+
+Hood College is an accredited member of the Accreditation Council for
+Business Schools and Programs (ACBSP), an organization devoted to
+enhancing business education. In receiving and maintaining this
+accreditation, the faculty has made a commitment to the continuous
+improvement, innovation, and scholarship of the Department of Economics
+and Management. For you, this means that your educational experience
+undergoes ongoing validation to ensure it meets the most rigorous
+international standards of business education. Only a select group of
+institutions have received this status and it is an attribute of Hood
+for which you should take great pride.
+
+Pragmatically, our accreditation means that we will engage in the
+ongoing use of measures, both quantitative and qualitative in nature, to
+assess the performance of our students and the program. We ask that you
+take very seriously the surveys and other measurement devices we will
+use -- your best work and honest response will help us best assess and
+improve our program.
+
+\hypertarget{tentative-schedule}{%
+\section*{Tentative Schedule}\label{tentative-schedule}}
+\addcontentsline{toc}{section}{Tentative Schedule}
+
+Below is a rough sketch of the weekly schedule we will aim to follow
+this semester. Each module should take approximately one class meeting.
+
+\textbf{You can find a full schedule} with much more details, including
+the readings, appendices, and other further resources for each class
+meeting on the
+\href{http://microF20.classes.ryansafner.com/schedule/}{course website's
+schedule page}.
+
+\begin{center}
+\small
+
+\begin{tabular}{llll}
+\toprule
+Week & Topics & Readings & Assignments\\
+\midrule
+8/16-8/22 & Tools of Microeconomics; Scarcity, Choice and Cost & None & Survey\\
+8/23-8/29 & Budget Constraint; Preferences & Goolsbee Ch. 4 & HW 1\\
+8/30-9/5 & Solving the Consumer's Problem; Building a Demand Function & Goolsbee Ch. 5 & HW 2\\
+9/6-9/12 & Income \& Substitution Effects; Price Elasticity & Goolsbee Ch. 5 & HW 3, Exam 1\\
+9/13-9/19 & Theory of the Firm; Short Run \& Long Run & Goolsbee Ch. 6 & None\\
+\addlinespace
+9/20-9/26 & Cost Minimization; Costs of Production & Goolsbee Ch. 7 & HW 4\\
+9/27-10/3 & Short Run Profit Maximization; Long Run Industry Equilibrium & Goolsbee Ch. 8 & HW 5, Exam 2\\
+10/4-10/10 & Supply and Demand Model; Market Competition \& Surpluses & Goolsbee Ch. 2 & None\\
+10/11-10/17 & Social Functions of Market Prices; Monopoly & Goolsbee Ch. 9 & HW 6\\
+10/18-10/24 & Consequences \& Sources of Market Power; Pricing with Market Power & Goolsbee Ch. 9 & HW 7\\
+\addlinespace
+10/25-10/31 & Monopolistic Competition; Oligopoly & Goolsbee Ch. 10 & None\\
+11/1-11/7 & Game Theory & Goolsbee Ch. 11 & None\\
+11/8-11/14 & Factor Markets; Market Failures & Goolsbee Ch. 13 & None\\
+11/15-11/21 & Market Failures & Goolsbee Ch. 14 & None\\
+11/22-11/28 & Review & None & Final Exam\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\end{document}

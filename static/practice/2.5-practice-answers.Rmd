@@ -1,0 +1,285 @@
+---
+title: "2.5 — Short Run Profit Maximization — Practice Problems"
+author: "Solutions"
+date: "ECON 306 - Fall 2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F,
+                      message = F,
+                      warning = F,
+                      fig.retina = 3)
+library(tidyverse)
+library(ggrepel)
+library(ggthemes)
+```
+
+
+A firm has short-run costs given by:
+$$\begin{aligned}
+C(q)&=q^2+1\\
+MC(q)&=2q\\ \end{aligned}$$
+
+### 1. Write an equation for fixed costs, $f$.
+
+Fixed costs are the part of the total cost function that do not change with output. Imagine if $q=0$ and the firm produced nothing, it would still have to pay \$1. 
+
+$$f=1$$
+
+
+### 2. Write an equation for variable costs, $VC(q)$.
+
+These are the terms of the cost function that change with output (have a variable in them). 
+
+$$VC(q)=q^2$$
+
+### 3. Write an equation for average fixed costs, $AFC(q)$.
+
+$$AFC(q)=\frac{C(q)}{q}=\frac{1}{q}$$
+
+### 4. Write an equation for average variable costs, $AVC(q)$.
+
+$$AVC(q)=\frac{VC(q)}{q}=\frac{q^2}{q} = q$$
+
+### 5. Write an equation for average (total) costs, $AC(q)$.
+
+$$AC(q)=\frac{C(q)}{q}=\frac{q^2+1}{q}=q+\frac{1}{q}$$
+
+Alternatively:
+
+$$\begin{align*}
+AC(q)&=AVC(q)+AFC(q)\\
+AC(q)&=q+\frac{1}{q}\\	
+\end{align*}$$
+
+### 6. Suppose the firm is in a competitive market, and the current market price is $4, how many units of output maximize profits?
+
+The firm's profit maximizing quantity of output occurs where $MR(q)=MC(q)$. Since we know for a competitive firm, $MR(q)$ is the same is the price, we can set $p=MC(q)$ to solve for $q^*$: 
+
+$$\begin{align*}
+	p=MR&=MC\\
+	4&=2q\\
+	q^*&=2 \\
+\end{align*}$$
+
+### 7. How much profit will this firm earn?
+
+Profit is total revenues minus total costs:
+
+$$\begin{align*}
+	\pi &= R(q)-C(q)\\
+	\pi &= pq-(q^2+1)	\\
+	\pi &= (4)(2)-(2^2 + 1)	\\
+	\pi &= (8)-(5)\\
+	\pi &= \$3\\
+\end{align*}$$
+
+Total profits are $3.
+	
+We could also calculate this using price and average cost: 
+
+$$\begin{align*}
+	\pi &=q(p-AC(q))\\
+	\pi &=q(p-\big[q+\frac{1}{q}\big])\\
+	\pi &=2(4-\big[2+\frac{1}{2}\big])\\
+	\pi &=2(4-[2.50])\\
+	\pi &=2(1.50)\\
+	\pi&=\$3\\ 
+\end{align*}$$
+
+
+```{r}
+mc=function(x){2*x}
+ac=function(x){x+1/x}
+avc=function(x){x}
+mr=function(x){4}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  geom_rect(xmin = 0, xmax = 2, ymin = 2.5, ymax = 4, fill = "green", alpha =0.5)+
+  stat_function(fun=mc, geom="line", size=2, color = "red")+
+    geom_label(x=2.5,y=mc(2.5), color = "red", label="MC(q)", size = 4)+
+  stat_function(fun=ac, geom="line", size=2, color = "orange")+
+    stat_function(fun=avc, geom="line", size=2, color = "brown")+
+    geom_label(x=3.5,y=avc(3.5), color = "brown", label="AVC(q)", size = 4)+
+    geom_label(x=2.5,y=ac(2.5), color = "orange", label="AC(q)", size = 4)+
+  stat_function(fun=mr, geom="line", size=2, color = "blue")+
+    geom_label(x=5,y=mr(5), color = "blue", label="p=AR(q)=MR(q)", size = 4)+
+
+  geom_segment(x = 2, y = 4, xend = 2, yend = 0, linetype = "dotted", size = 1)+
+  geom_segment(x = 0, y = 2.5, xend = 2, yend = 2.5, linetype = "dotted", size = 1)+
+    scale_x_continuous(breaks=seq(0,5,1),
+                     limits=c(0,5.5),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,5,1),
+                     limits=c(0,5.5),
+                     labels=scales::dollar,
+                     expand=expand_scale(mult=c(0,0.1)))+
+  #scale_colour_manual("Curves", values = line_colors, guide=F)+
+  labs(x = "Quantity (q)",
+       y = "Price (p)")+
+  theme_pander(base_family = "Fira Sans Condensed", base_size=14)
+```
+
+We can see visually that profits (in green) are the area of the box between price $4.00 and average cost at $q^*=2$, which is $2.50. Thus, profit per unit is $1.50, for two units, a total profit of $3.00. 
+
+### 8. At what market price would the firm break even $(\pi=0)$?
+
+A firm breaks even where profits are zero, and we know that is where price equals average cost. We want to find the lowest possible average cost, as that is the price that would produce no profits. Since price is marginal revenue, and the firm always sets $MR(q)=MC(q)$, we know that the minimum of the average cost curve is where it is equal to marginal cost, so we set: 
+
+$$\begin{aligned}
+	AC(q)&=MC(q)\\
+	q+\frac{1}{q}&=2q	\\
+	q^2+1&=2q^2	\\
+	1&=q^2	\\
+	1&=q^* \\
+\end{aligned}$$
+
+We know the quantity but we need to find the price where the firm breaks even, so plugging this back into either marginal cost or average cost: 
+
+$$\begin{aligned}
+	MC(q)&=2q\\
+	MC(1)=2(1)\\
+	MC(1)&=2\\
+\end{aligned}$$
+
+$$\begin{aligned}
+	AC(q)&=q+\frac{1}{q}\\
+	AC(1)=(1)+\frac{1}{(1)}\\
+	AC(1)&=2\\
+\end{aligned}$$
+
+```{r}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mc, geom="line", size=2, color = "red")+
+    geom_label(x=2.5,y=mc(2.5), color = "red", label="MC(q)", size = 4)+
+  stat_function(fun=ac, geom="line", size=2, color = "orange")+
+    stat_function(fun=avc, geom="line", size=2, color = "brown")+
+    geom_label(x=3.5,y=avc(3.5), color = "brown", label="AVC(q)", size = 4)+
+    geom_label(x=2.5,y=ac(2.5), color = "orange", label="AC(q)", size = 4)+
+  geom_hline(yintercept = 2, size = 1, linetype = "dashed")+
+  geom_label(x = 4, y = 2, label = "Break even price")+
+    scale_x_continuous(breaks=seq(0,5,1),
+                     limits=c(0,5.5),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,5,1),
+                     limits=c(0,5.5),
+                     labels=scales::dollar,
+                     expand=expand_scale(mult=c(0,0.1)))+
+  #scale_colour_manual("Curves", values = line_colors, guide=F)+
+  labs(x = "Quantity (q)",
+       y = "Price (p)")+
+  theme_pander(base_family = "Fira Sans Condensed", base_size=14)
+```
+
+### 9. Below what market price would the firm shut down in the short run if it were earning losses?
+
+A firm shuts down in the short run when it can no longer cover its average variable costs. We know the minimum average variable cost happens when it is equal to marginal cost:
+
+$$\begin{aligned}
+	AVC(q) &= MC(q)\\
+	q &= 2q\\
+	q&=0	\\
+\end{aligned}$$
+
+Where $q=0$, price is $MC(0)=2(0)=\$0$.
+
+### 10. Write out the firm's short run supply function.
+
+$$\begin{aligned}
+	p=MR&=MC\\	
+	p&=2q\\
+	q&=\frac{1}{2}p\\
+\end{aligned}$$
+
+```{r}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mc, geom="line", size=2, color = "red")+
+    stat_function(fun=mc, geom="line", size=3, color = "red")+
+    geom_label(x=2,y=mc(2), color = "red", label="Supply(q)", size = 5)+
+    geom_label(x=2.5,y=mc(2.5), color = "red", label="MC(q)", size = 4)+
+  stat_function(fun=ac, geom="line", size=2, color = "orange")+
+    stat_function(fun=avc, geom="line", size=2, color = "brown")+
+    geom_label(x=3.5,y=avc(3.5), color = "brown", label="AVC(q)", size = 4)+
+    geom_label(x=2.5,y=ac(2.5), color = "orange", label="AC(q)", size = 4)+
+  geom_hline(yintercept = 2, size = 1, linetype = "dashed")+
+  geom_label(x = 4, y = 2, label = "Break even price")+
+    scale_x_continuous(breaks=seq(0,5,1),
+                     limits=c(0,5.5),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,5,1),
+                     limits=c(0,5.5),
+                     labels=scales::dollar,
+                     expand=expand_scale(mult=c(0,0.1)))+
+  #scale_colour_manual("Curves", values = line_colors, guide=F)+
+  labs(x = "Quantity (q)",
+       y = "Price (p)")+
+  theme_pander(base_family = "Fira Sans Condensed", base_size=14)
+```
+
+$$\begin{aligned}
+				\text{Firm's Short Run Inverse Supply}&= \left\{
+ 		 \begin{array}{ll}
+    		p=MC(q) & \text{if } p \geq AVC(q) \\
+   			q=0 & \text{if } p < AVC(q)\\
+  		\end{array}
+  		\right. 	\\
+  						&= \left\{
+ 		 \begin{array}{ll}
+    		p=2q & \text{if } p \geq \$0 \\
+   			q=0 & \text{if } p < \$0\\
+  		\end{array}
+  		\right. 	\\
+\end{aligned}$$
+
+If you wanted to write the firm's supply curve (instead of the inverse), solve for $q$ to get: 
+
+$$q=\frac{1}{2}p \text{ for }p \geq 0$$
+
+In the long run, the firm only produces when it is profitable to do so, i.e. $p \geq AC(q)$. So the supply curve is the region of the $MC(q)$ curve above the minimum $AC(q)$. 	
+
+$$\begin{aligned}
+				\text{Firm's Long Run Inverse Supply}&= \left\{
+ 		 \begin{array}{ll}
+    		p=MC(q) & \text{if } p \geq AC(q) \\
+   			q=0 & \text{if } p < AC(q)\\
+  		\end{array}
+  		\right. 	\\
+  						&= \left\{
+ 		 \begin{array}{ll}
+    		p=2q & \text{if } p \geq \$2 \\
+   			q=0 & \text{if } p < \$2\\
+  		\end{array}
+  		\right. 	\\
+\end{aligned}$$
+
+```{r}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mc, geom="line", size=2, color = "red", alpha = 0.5)+
+    stat_function(fun=mc, xlim = c(1,5), geom="line", size=3, color = "red")+
+    geom_label(x=2,y=mc(2), color = "red", label="Supply(q)", size = 5)+
+    geom_label(x=2.5,y=mc(2.5), color = "red", label="MC(q)", size = 4)+
+  geom_segment(x = 0, xend = 1, y=2, yend =2, size = 3, color = "red")+
+  geom_segment(x = 0, xend = 0, y=0, yend =2, size = 4, color = "red")+
+  stat_function(fun=ac, geom="line", size=2, color = "orange")+
+    stat_function(fun=avc, geom="line", size=2, color = "brown")+
+    geom_label(x=3.5,y=avc(3.5), color = "brown", label="AVC(q)", size = 4)+
+    geom_label(x=2.5,y=ac(2.5), color = "orange", label="AC(q)", size = 4)+
+  geom_hline(yintercept = 2, size = 1, linetype = "dashed")+
+  geom_label(x = 4, y = 2, label = "Break even price")+
+    scale_x_continuous(breaks=seq(0,5,1),
+                     limits=c(0,5.5),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,5,1),
+                     limits=c(0,5.5),
+                     labels=scales::dollar,
+                     expand=expand_scale(mult=c(0,0.1)))+
+  #scale_colour_manual("Curves", values = line_colors, guide=F)+
+  labs(x = "Quantity (q)",
+       y = "Price (p)")+
+  theme_pander(base_family = "Fira Sans Condensed", base_size=14)
+```
+
+The long run equilibrium price must be equal to average cost, so there are no profits or losses to induce entry or exit. We've seen this happens at $2.
