@@ -1,17 +1,22 @@
 ---
-title: "Microeconomic Analysis"
+title: "Economics of the Law"
 author: "Ryan Safner"
 ---
 
-^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for **ECON 306 — Microeconomic Analysis**, held during **Spring 2021** at [Hood College](https://hood.edu).
+^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for **ECON 315 — Economics of the Law**, held during **Spring 2021** at [Hood College](https://hood.edu).
 
-**Last Update**: [`r format(Sys.time(), "%X %a %b %d %Y")`](https://github.com/ryansafner/microS21/commits/main)
+**Last Update**: [`r format(Sys.time(), "%X %a %b %d %Y")`](https://github.com/ryansafner/lawS21/commits/main)
 
 By the end of this course, you will: 
 
-1. apply the models of microeconomics (constrained optimization and equilibrium) towards explaining real world behavior of individuals, firms, & governments
-2. explore the effects of economic and political processes on market performance (competition, market prices, profits and losses, property rights, entrepreneurship, market power, market failures, public policy, government failures)
-3. apply the economic way of thinking to real world issues in writing
+1. Grapple with the conflicting social goals of justice and efficiency
+2. Derive the economic functions of key concepts, legal maxims, and rules in the substantive areas of
+law: torts, property, contracts, and criminal law
+3. Apply economic models to determine the efficiency of legal rules
+4. Identify the sources of law in the United States: common law jurisprudence, legislative statutes,
+administrative law
+5. Identify the key legal institutions of the United States: state vs. federal courts, the appellate court
+system, state and federal constitutions, regulatory agencies, arbitration
 
 Given these objectives, this course fulfills all three of the learning outcomes for [the George B. Delaplaine, Jr. School of Business](https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes) Economics B.A. program:
 

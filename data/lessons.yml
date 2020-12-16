@@ -1,5 +1,5 @@
 lessons:
-  - title: '<span class="fake-header-table">I. Overview</span>'
+  - title: '<span class="fake-header-table">I. Law and Economics</span>'
     header: True
 
   - title: "Preliminary Survey"
@@ -9,9 +9,9 @@ lessons:
     content: "1.1-content"
     slides: "1.1-slides"
 
-  - title: "1.2 Efficiency and Justice For All?"
+  - title: "1.2 Economic Efficiency"
 
-  - title: "1.3 Microeconomic Essentials"
+  - title: "1.3 The Goals of the Law"
 
   - title: "1.4 Sources of Law"
 
@@ -22,64 +22,76 @@ lessons:
   - title: '<span class="fake-header-table">II. Property</span>'
     header: True
 
-  - title: "2.1 Property Rights"
+  - title: "2.1 Of Foxes and the Coase Theorem"
 
-  - title: "2.2 Bargaining"
+  - title: "2.2 Transaction Costs"
 
-  - title: "1.8 Price Elasticity"
+  - title: "2.3 Remedies to Protect Entitlements"
 
+  - title: "2.4 Intellectual Property I"
+  
+  - title: "2.5 Intellectual Property II"
+  
+  - title: "2.6 Eminent Domain and Regulatory Takings"
+  
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2** due Sunday Sept 13'
+
+  - title: '<span class="fake-header-table">III. Contracts</span>'
+    header: True
+    
+  - title: "3.1 Elements of a Valid Contract"
+
+  - title: "2.2 Reliance"
+
+  - title: "2.3 Formation Defenses"
+  
+  - title: "2.4 Remedies for Breach of Contract"
+  
+  - title: "2.5 Reputation and Repeated Games"
 
   - title: '<i class="fas fa-star"></i> **Exam 1** Tuesday Sept 15 - Sunday Sept 20 on Blackboard'
 
-
-  - title: "2.1 Theory of the Firm"
-
-  - title: "2.2 Short Run and Long Run"
-
-  - title: "2.3 Cost Minimization"
-
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3** due Sunday Sept 27'
 
-  - title: "2.4 Costs of Production"
-
-  - title: "2.5 Short Run Profit Maximization"
-
-  - title: "2.6 Long Run Industry Equilibrium"
-
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4** due Sunday Oct 11'
-
-  - title: '<i class="fas fa-star"></i> **Exam 2** week of Oct 12'
-
-  - title: '<span class="fake-header-table">3. Market Equilibrium</span>'
+  - title: '<span class="fake-header-table">IV. Torts</span>'
     header: True
 
-  - title: "3.1 The Supply and Demand Model"
+  - title: "4.1 Elements of Tort Claim"
 
-  - title: "3.2 Market Competition and Surpluses"
+  - title: "4.2 An Economic Model of Care"
 
-  - title: "3.3 Social Functions of Market Prices"
+  - title: "4.3 Liability Rules and Negligence I"
 
-  - title: "3.4 Market Failures"
+  - title: "4.4 Liability Rules and Negligence II"
 
-  - title: "3.5 Government Failures & Introduction to Political Economy"
+  - title: "4.5 Products Liability"
+
+  - title: "4.6 Risk and Insurance"
+
+  - title: "4.7 Behavioral Law and Juries"
+
+  - title: "4.8 Class Action, Contingency Fees"
+  
+  - title: "4.9 The Rise of the Regulatory State"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5** due Sunday Nov 8'
 
-  - title: '<span class="fake-header-table">4. Imperfect Competition</span>'
+  - title: '<span class="fake-header-table">V. Criminal Law</span>'
     header: True
 
-  - title: "4.1 Modeling Firms with Market Power"
+  - title: "4.1 Criminal Law vs. Tort Law"
 
-  - title: "4.2 Consequences and Sources of Market Power"
+  - title: "4.2 Deterrence"
 
-  - title: "4.3 Pricing Strategies"
+  - title: "4.3 Ordeals"
 
-  - title: "4.4 Factor Markets"
+  - title: '<span class="fake-header-table">VI. Miscellany</span>'
 
-  - title: "4.5 Monopolistic Competition and Oligopoly"
+  - title: "5.1 The Legal Process"
 
-  - title: "4.6 Contestable Markets and Wrap Up"
+  - title: "5.2 Common Law vs. Civil Law Systems"
+
+  - title: "5.3 Antitrust Law"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 6** (ungraded/practice)'
 
