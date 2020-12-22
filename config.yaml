@@ -71,8 +71,8 @@ params:
     name: George B. Delaplaine, Jr. School of Business
     url: "https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business"
   description: "Economics of the Law"
-  primaryColor: "#5E81AC"
-  secondaryColor: "#D08770"
+  primaryColor: "#b14848" #5E81AC
+  secondaryColor: "#4282c6" #D08770
   credits: >-
     Hex icon by Ryan Safner via [hexSticker](https://github.com/GuangchuangYu/hexSticker).<br> Course website based on [Andrew Heiss](https://econw19.classes.andrewheiss.com/). <br>[Nord color scheme](https://github.com/arcticicestudio/nord) from [Arctic Ice Studio](http://arcticicestudio.com/).
   logo:

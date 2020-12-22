@@ -1,7 +1,7 @@
 ---
-title: "1.1 — The Tools of Microeconomics"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2020"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microF20"><i class="fa fa-github fa-fw"></i>ryansafner/microF20</a><br> <a href="https://microF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microF20.classes.ryansafner.com</a><br>'
+title: "1.1 — Law and Economics"
+subtitle: "ECON 315 • Economics of the Law • Spring 2021"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
@@ -39,741 +39,161 @@ theme_slides <- theme_light() +
   )
 ```
 
-# *Micro*-economics
+
+# About Me
+
+.left-column[
+.center[
+![](../images/meinfrontofsmith.jpg)
+]
+]
+
+.right-column[
+
+- Ph.D (Economics) — George Mason University, 2015
+
+- B.A. (Economics) — University of Connecticut, 2011
+
+- Specializations:
+  - Law and Economics
+  - Austrian Economics
+
+- Research interests
+  - modeling innovation & economic growth
+  - political economy & economic history of intellectual property
+
+- Expecting a son in March 2021!
+  - He may provide several cameos 👶
+]
+
+---
+
+# What Is This Class About?
+
+.pull-left[
+
+- This is not a class “about” the law (or a law class)
+
+- This is a class about how to *think* about the law, using economics
+  - Economics is a set of tools, not a bunch of facts or topics
+]
+
+---
+
+# What's Economics Got to Do With Law?
+
+.pull-left[
+.content-box-green[
+.hi-green[Example 1]: Why have locks on doors?
+]
+]
+
+---
+
+# What's Economics Got to Do With Law?
+
+.pull-left[
+.content-box-green[
+.hi-green[Example 2]: Police have evidence sufficient to convict a criminal
+  - Suppose the conviction costs the criminal $50,000
+  - The conviction benefits the police officer's career by $10,000
+
+- What will happen?
+  - The Atticus Finch approach: convict the criminal
+  - Or, a mutually-beneficial exchange?
+]
+]
+
+---
+
+# What's Economics Got to Do With Law?
+
+.pull-left[
+.content-box-green[
+.hi-green[Example 3]: Civil asset forfeiture
+  - Suppose the conviction costs the criminal $50,000
+  - The conviction benefits the police officer's career by $10,000
+  - A mutually-beneficial exchange?
+]
+]
+
+---
+
+# What's Economics Got to Do With Law?
+
+.pull-left[
+.content-box-green[
+.hi-green[Example 4]: Life imprisonment for petty theft
+]
+]
+
+---
+
+# Thinking Like a Lawyer vs. Thinking Like an Economist
+
+- Suppose something has happened
+
+- Lawyer — damage is *already* done, what to do:
+  - assign blame
+  - maybe punish someone
+  - maybe compensate
+
+- Not interesting to economists!
+
+---
+
+# Thinking Like a Lawyer vs. Thinking Like an Economist
+
+- **Before** the incident, lots of **decisions** were made
+
+- These were made based on **expectations** about what will happen
+
+- These decisions affect the **outcomes** and **how much value is created and destroyed** by society
+
+---
+
+# Outline and Areas of Law
+
+.pull-left[
+
+1. Property Law
+  - how do we establish who is entitled to what?
+2. Contract Law
+  - how do individuals permit use or exchange of entitlements?
+3. Tort Law
+  - how do we remedy violations of persons or entitlements?
+4. Criminal Law
+  - how does *the State* remedy *egregious* harms to *society*?
+
+]
+
+.pull-right[
+
+]
+
+---
+
+
+# Transaction costs
+
+- Costs of bargaining and reaching consensus
+
+- Industrial org
+- Law & Econ
+
+# Types of Laws
+
+
+|     | Punishment by State | Civil remedies |
+|-----|---------------------|----------------|
+| Imposed rules | Criminal law | Torts |
+| Consent to rules | -- | Contract |
+
+---
 
 .center[
 ![:scale 70%](../images/microeconomics.jpg)
 ]
-
----
-
-# Micro- vs. Macro-economics
-
-.pull-left[
-
-- What is “an economy?”
-
-- Where do aggregates (“GDP”, “unemployment”, & “inflation”) come from? 
-
-- .hi[Micro]: [modelling] .hi-purple[Choices] and .hi-purple[consequences]
-
-- .hi[Macro]: [modelling] .hi-purple[Systemic interaction] of choosers & .hi-purple[emergent behavior]
-
-]
-
-.pull-right[
-![:scale 100%](../images/macroeconomics.jpg)
-]
-
----
-
-# Where You Are Now
-
-.pull-left[
-- .hi-purple[Basic concepts] of markets, individuals (consumers & firms), economies:
-    - ECON 205: Principles of Macroeconomics
-    - ECON 206: Principles of Microeconomics
-
-- .hi-purple[Modelling] markets, individuals (consumers & firms), economies
-    - ECON 306: Microeconomic Analysis
-    - ECON 305: Macroeconomic Analysis<sup>1</sup>
-]
-
-.pull-right[
-.center[
-![](../images/choices.jpg)
-]
-.footnote[<sup>1</sup> Required for ECON majors only. Calculus I is required.]
-
-]
-
----
-
-# Economists Speak a Foreign Language...
-
-.pull-left[
-
-- Terms you “know” from ordinary life mean .hi-purple[very different things] to economists:
-
-> Cost, efficiency, welfare, competition, marginal, equilibrium, profit, public good, discrimination, elasticity
-
-- Using these words’ “ordinary” meanings will lead to wrong economic conclusions!
-
-- You will need to .hi-purple[“relearn”] the economic meanings of these words
-]
-
-.pull-right[
-
-.center[
-![](../images/leo_point.PNG)
-]
-]
-
----
-
-# ...But You Can Learn It
-
-.pull-left[
-
-- You’ll need to master a new vocabulary:
-
-> externality, marginal rate of substitution, marginal cost, consumer surplus, allocative efficiency
-
-- Avoid excessive jargon, but these concepts are useful to explain reality! 
-
-]
-
-.pull-right[
-
-.center[
-![](../images/translate.jpg)
-]
-]
-
----
-
-# ...But You Can Learn It
-
-.pull-left[
-
-- Everyone thinks they are *already* an economist and can speak this foreign language
-
-- Be humble!
-
-- Economics is *often* common sense, but reached via deep analytical thinking
-
-]
-
-.pull-right[
-
-.center[
-![:scale 100%](../images/expert.png)
-]
-]
-
----
-
-# Economics $\neq$ Business or $$$
-
-.center[
-![:scale 80%](../images/tweetmoney.png)
-]
-
----
-
-# Economics $\neq$ Business or $$$
-
-.center[
-![:scale 65%](../images/tweetmoney2.png)
-]
-
----
-
-class: inverse, center, middle
-
-# The Tools of Microeconomics
-
----
-
-# Economics as a *Way of Thinking*
-
-.pull-left[
-
-- Economics is a .hi-purple[way of thinking] based on a few core ideas:
-]
-
----
-
-# Economics as a *Way of Thinking*
-
-.pull-left[
-
-- Economics is a .hi-purple[way of thinking] based on a few core ideas:
-
-- .hi[People respond to incentives]
-    - Money, punishment, taxes and subsidies, risk of injury, reputation, profits, sex, effort, morals
-
-]
-
-.pull-right[
-
-.center[
-![:scale 70%](../images/incentive2.jpg)
-]
-]
-
----
-
-# Economics as a *Way of Thinking*
-
-.pull-left[
-
-- Economics is a .hi-purple[way of thinking] based on a few core ideas:
-
-- .hi[People respond to incentives]
-    - Money, punishment, taxes and subsidies, risk of injury, reputation, profits, sex, effort, morals
-
-- .hi[Environments adjust until they are in equilibrium]
-    - People adjust their choices until optimal, given others’ actions
-]
-
-.pull-right[
-
-.center[
-![:scale 70%](../images/incentive2.jpg)
-
-![:scale 70%](../images/equilibriumbalance.png)
-]
-]
-
----
-
-class: inverse, center, middle
-
-# Incentives
-
----
-
-# Incentives Example: Subway I
-
-.center[
-![:scale 50%](../images/nycsubway.png)
-
-The NYC Subway bans dogs unless they can be [“enclosed in a container”](https://cityroom.blogs.nytimes.com/2009/09/30/answers-about-exploring-new-york-with-your-dog/?_r=0)
-]
-
----
-
-# Incentives Example: Subway II
-
-.center[
-![:scale 40%](../images/dogsubway2.jpg) ![:scale 27%](../images/dogsubway1.jpg)
-
-Pictures [Source](https://www.rover.com/blog/nyc-subway-dogs-fs/)
-]
-
----
-
-# Incentives Example: Rat Bounty
-
-.content-box-green[
-Some governments pay bounties to reduce pest populations such as rats.
-
-.green[**Example**]: Suppose the government were to pay $250 for every rat tail turned in. 
-]
-
---
-
-.center[
-![:scale 45%](../images/ratfarming.jpg)
-]
-
----
-
-# Incentives: Even Dolphins Understand I
-
-.center[
-![:scale 70%](../images/dolphinincentives.png)
-]
-
-.source[July 2 2003, [“Why Dolphins are Deep Thinkers”](https://www.theguardian.com/science/2003/jul/03/research.science), *The Guardian*]
-
----
-
-# Incentives: Even Dolphins Understand II
-
-.center[
-![](../images/dolphinincentives2.png)
-]
-
-.source[July 2 2003, [“Why Dolphins are Deep Thinkers”](https://www.theguardian.com/science/2003/jul/03/research.science), *The Guardian*]
-
----
-
-# Takeaways About Incentives I
-
-.pull-left[
-
-- People respond to (changes in) incentives
-
-- People have goals they seek to attain
-
-- Removing one alternative $\neq$ people *stop* persuing their goals
-
-- People will seek (less preferred) alternative methods to attain goals
-
-- .hi-purple[Unintended consequences]!
-
-] 
-
-.pull-right[
-
-.center[
-![](../images/green_vehicles.PNG)
-]
-]
-
----
-
-# Takeaways About Incentives II
-
-.center[
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Whenever I am working on policy decisions I think of this image... 🚴
-♂️ <a href="https://t.co/GE3yyDmjs0">pic.twitter.com/GE3yyDmjs0</a></p>&mdash; Councillor Peter Fortune (@PeterTFortune) <a href="https://twitter.com/PeterTFortune/status/1159176114230763520?ref_src=twsrc%5Etfw">August 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-]
-
----
-
-class: inverse, center, middle
-
-# Equilibrium
-
----
-
-# Equilibrium Example I
-
-.pull-left[
-.center[
-![](../images/eq1.png)
-]
-]
-
-.pull-right[
-
-- Suppose 2 roads connect Frederick and Washington
-
-- 100 cars commute
-
-- Local road travel time: 30 min + 1 min/car
-
-- Highway travel time: 1 hour (always)
-]
-
----
-
-# Equilibrium Example I
-
-.pull-left[
-.center[
-![](../images/eq1.png)
-]
-]
-
-.pull-right[
-
-- Suppose 2 roads connect Frederick and Washington
-
-- 100 cars commute
-
-- Local road travel time: 30 min + 1 min/car
-
-- Highway travel time: 1 hour (always)
-
-- Assume people .hi[optimize]: choose road to **minimize travel time** between cities
-]
-
----
-
-# Equilibrium Example II
-
-.pull-left[
-.center[
-![](../images/eq2.png)
-]
-]
-
-.pull-right[
-
-- Suppose 2 roads connect Frederick and Washington
-
-- 100 cars commute
-
-- Local road travel time: 30 min + 1 min/car
-
-- Highway travel time: 1 hour (always)
-
-.content-box-green[
-.green[**Scenario I**:] There are **less than 30 cars** on the local road
-- What will people do?
-]
-]
-
----
-
-# Equilibrium Example III
-
-.pull-left[
-.center[
-![](../images/eq3.png)
-]
-]
-
-.pull-right[
-
-- Suppose 2 roads connect Frederick and Washington
-
-- 100 cars commute
-
-- Local road travel time: 30 min + 1 min/car
-
-- Highway travel time: 1 hour (always)
-
-.content-box-green[
-.green[**Scenario II**:] There are **more than 30 cars** on the local road
-- What will people do?
-]
-]
-
----
-
-# Equilibrium Example IV
-
-.pull-left[
-.center[
-![](../images/eq4.png)
-]
-]
-
-.pull-right[
-
-- Suppose 2 roads connect Frederick and Washington
-
-- 100 cars commute
-
-- Local road travel time: 30 min + 1 min/car
-
-- Highway travel time: 1 hour (always)
-
-.content-box-green[
-.green[**Equilibrium**:] How many cars are on each road?
-- Why?
-]
-]
-
----
-
-# Equilibrium Example V
-
-.pull-left[
-.center[
-![](../images/eq5.png)
-]
-]
-
-.pull-right[
-.smaller[
-- Suppose the State *doubles the capacity* of the local road
-
-- Local road travel time: .hi-purple[30 min + 0.5 min/car]
-
-- Highway travel time: 1 hour (always)
-]
-]
-
----
-
-# Equilibrium Example V
-
-.pull-left[
-.center[
-![](../images/eq5.png)
-]
-]
-
-.pull-right[
-.smaller[
-- Suppose the State *doubles the capacity* of the local road
-
-- Local road travel time: .hi-purple[30 min + 0.5 min/car]
-
-- Highway travel time: 1 hour (always)
-
-- Will this reduce travel time? 
-
-- Yes! says the State:
-    - 30 cars use the local road, takes 1 hour
-    - With wider road it takes 45 min!
-]
-]
-
----
-
-# Equilibrium Example V
-
-.pull-left[
-.center[
-![](../images/eq5.png)
-]
-]
-
-.pull-right[
-
-.smaller[
-- Suppose the State *doubles the capacity* of the local road
-
-- Local road travel time: .hi-purple[30 min + 0.5 min/car]
-
-- Highway travel time: 1 hour (always)
-
-- Will this reduce travel time? 
-
-- Yes! says the State:
-    - 30 cars use the local road, takes 1 hour
-    - With wider road it takes 45 min!
-
-- .hi[Is this an equilibrium?]
-]
-]
-
----
-
-# In the Long Run...(& Repeating the Same Mistake)
-
-.center[
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">1970: One more lane will fix it.<br>1980: One more lane will fix it.<br>1990: One more lane will fix it.<br>2000: One more lane will fix it.<br>2010: One more lane will fix it.<br>2020: ?<a href="https://t.co/NjS1IPORG2">pic.twitter.com/NjS1IPORG2</a><br>via <a href="https://twitter.com/avelezig?ref_src=twsrc%5Etfw">@avelezig</a></p>&mdash; Urban Planning &amp; Mobility 🚲🚶
-♂️🚆 (@urbanthoughts11) <a href="https://twitter.com/urbanthoughts11/status/1191295205187686400?ref_src=twsrc%5Etfw">November 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-]
-
----
-
-# Comparative Statics
-
-- .hi[Comparative statics]: examining changes in equilibria cased by an external change (in incentives, constraints, etc.)
-
-```{r, echo = F, message = F, warning = F, fig.align = "center", fig.width = 12, fig.asp = 0.618, fig.retina = 3}
-library("ggrepel")
-
-plot_eqs <- tibble(x = c(1, 3),
-                 y = c(1, 1),
-                 lab = c("Equilibrium 1", "Equilibrium 2"))
-
-plot_shock <- tibble(x = c(2),
-                 y = c(1),
-                 lab = c("Change"))
-
-ggplot(plot_eqs, aes(x = x,
-                   y = y))+
-  geom_point(data = plot_eqs, shape = 22, size = 40, fill = "limegreen")+ # shape for equilibria
-  geom_point(data = plot_shock, shape = 23, size = 28, fill = "firebrick2")+ # shape for shock
-  geom_text(data = plot_eqs, mapping = aes(label = lab), color = "white")+ # text for equilibria
-  geom_text(data = plot_shock, mapping = aes(label = lab), color = "white")+ # text for shock
-  scale_x_continuous(expand = c(0.125,0.125))+
-  scale_y_continuous(breaks=c(0.99, 1.01), limits = c(0.99, 1.01), expand = c(0,0))+
-  annotate("segment", x = 1.25, xend = 1.75, y = 1, yend = 1, colour = "#000000", size=0.5, linetype = 2, alpha=1, arrow=arrow(length=unit(0.25,"cm"), ends="last", type="closed"))+
-  annotate("segment", x = 2.25, xend = 2.75, y = 1, yend = 1, colour = "#000000", size=0.5, linetype = 2, alpha=1, arrow=arrow(length=unit(0.25,"cm"), ends="last", type="closed"))+
-  theme_void()
-```
-
----
-
-# Optimization and Equilibrium
-
-.pull-left[
-- If people can **learn** and **change** their behavior, they will always **switch** to a higher-valued option
-
-- If there are no alternatives that are better, people are at an .hi[optimum]
-
-- If everyone is at an optimum, the system is in .hi[equilibrium]
-]
-
-.pull-right[
-.center[
-![:scale 70%](../images/incentive2.jpg)
-
-![:scale 70%](../images/equilibriumbalance.png)
-]
-]
-
-
----
-
-# Economics Is Broader Than You Think
-
-.center[
-![:scale 82%](../images/cooleconbooks.png)
-]
-
----
-
-class: inverse, center, middle
-
-# Real Talk: The Math
-
----
-
-# Real Talk
-
-.center[
-![:scale 60%](../images/opengatemath1.jpg)
-]
-
----
-
-# Real Talk
-
-.center[
-![:scale 60%](../images/opengatemath2.jpg)
-]
-
----
-
-# Real Talk
-
-.center[
-![:scale 60%](../images/opengatemath3.jpg)
-]
-
----
-
-# Real Talk
-
-.pull-left[
-.center[
-![](../images/mathsurvey.png)
-]
-]
-
-.pull-right[
-
-- Complete the .hi-purple[preliminary math survey]
-
-- Help me help you with the math!
-
-]
-
----
-
-# Why We Model I
-
-.pull-left[
-
-- Economists often “speak” in models that explain and predict human behavior
-
-- The pure language of models is mathematics
-    - things that are universally true, deducible from axioms, can easily spot errors
-    - often equations and graphs
-    - this is what scares students most about economics 
-
-]
-
-.pull-right[
-.center[
-![](../images/maths.jpg)
-]
-]
-
----
-
-# Why We Model II
-
-.pull-left[
-
-- Economists use conceptual models: fictional constructions to logically examine consequences
-
-- Very different from other sciences
-    - No social experiments
-    - Purposive, strategic human beings 
-    - Introspective understanding
-
-> “All models lie. The art is telling useful lies.” - George Box
-
-]
-
-.pull-right[
-.center[
-![](../images/imagination.png)
-]
-]
-
----
-
-# The Two Major Models of Economics as a “Science”
-
-.pull-left[
-
-## Optimization
-
-- Agents have .hi[objectives] they value
-
-- Agents face .hi[constraints]
-
-- Make .hi[tradeoffs] to maximize objectives within constraints
-
-.center[
-![](../images/optimize.jpeg)
-]
-]
-
---
-
-.pull-right[
-
-## Equilibrium
-
-- Agents .hi[compete] with others over **scarce** resources
-
-- Agents .hi[adjust] behaviors based on prices
-
-- .hi[Stable outcomes] when adjustments stop
-
-.center[
-![](../images/equilibriumbalance.png)
-]
-
-]
-
----
-
-# Remember: All Models are Wrong!
-
-.pull-left[
-.content-box-red[
-.red[**Caution**:] Don't conflate models with reality!
-]
-- Models help us *understand* reality.
-
-- A good economist is always aware of:
-    - “*ceterus paribus*”
-    - “...and then what?”
-    - “...compared to what?”
-
-]
-
-.pull-right[
-.center[
-![](../images/citymodel.jpg)
-]
-]
-
----
-
-# Economics Uses, but Is Not Limited to, Math
-
-```{r, fig.width=12}
-red_pink <- "#e64173"
-blue <- "#2b59c3"
-
-venn_colors <- c(red_pink, blue)
-venn_lines <- rep("solid", 10)
-# Locations of circles
-venn_df <- tibble(
-  x  = c( 0.0,   2.0),
-  y  = c( 0.0,   0.0),
-  r  = c( 2.0,   2.0),
-  l  = c( "Math \n Modeling", "Thinking Like \n an Economist"),
-  xl = c( -1.0,    3.0),
-  yl = c( 0.0,   0.0))
-# Venn
-ggplot(data = venn_df, aes(x0 = x, y0 = y, r = r, fill = l, color = l)) +
-ggforce::geom_circle(aes(linetype = l), alpha = 0.3, size = 0.75) +
-theme_void() +
-theme(legend.position = "none") +
-scale_fill_manual(values = venn_colors) +
-scale_color_manual(values = venn_colors) +
-scale_linetype_manual(values = venn_lines) +
-  geom_text(aes(x = xl, y = yl, label = l), size = 8, family = "Fira Sans Condensed") +
-coord_equal()
-```
 
 ---
 
@@ -788,15 +208,12 @@ class: inverse, middle, center
 - .hi[hybrid]: more .hi-purple[synchronous] material than .hi-turquoise[asynchronous] material
 
 - I will always be teaching .hi[remotely]
-  - A classroom is available to you
-  - I may make occasional visits to campus if you *need* something in person (TBD)
+  - A physical classroom is available to you
+  - I may make *occasional* visits to campus
 
 - Office hours: Tu/Th 3:30-5:00 PM on Zoom
   - <i class="fas fa-video"></i> Zoom link in Blackboard's `LIVE CLASS SESSIONS` link
   - <i class="fab fa-slack"></i> Slack channels
-
-- Teaching Assistant(s): TBD
-  - grade HWs & hold (likely virtual) office hours
 ]
 
 ---
@@ -819,14 +236,17 @@ class: inverse, middle, center
 
 By the end of this course, you will: 
 
-1. apply the models of microeconomics (constrained optimization and equilibrium) towards explaining real world behavior of individuals, firms, and governments
+1. Grapple with the conflicting social goals of justice and efficiency
 
-2. explore the effects of economic and political processes on market performance (competition, market prices, profits and losses, property rights, entrepreneurship, market power, market failures, public policy, government failures)
+2. Derive the economic functions of key concepts, legal maxims, and rules in the substantive areas of law: torts, property, contracts, and criminal law
 
-3. apply the economic way of thinking to real world issues in writing
+3. Apply economic models to determine the efficiency of legal rules
+
+4. Identify the sources of law in the United States: common law jurisprudence, legislative statutes, administrative law
+
+5. Identify the key legal institutions of the United States: state vs. federal courts, the appellate court system, state and federal constitutions, regulatory agencies, arbitration
 
 ---
-
 
 # Assignments
 
@@ -843,13 +263,25 @@ knitr::kable(assignments, "html")
 
 ---
 
-# Your “Textbook”
+# Your Textbook
 
 .center[
-![:scale 40%](../images/microtextbook.jpg)
+![:scale 40%](../images/cooter_ulen.jpg)
 ]
 
+Free online as a `r fontawesome::fa("file-pdf")` PDF
+
 ---
+
+# Your Textbook (Knitr)
+
+```{r}
+here::here()
+```
+
+```{r, fig.cap = "Your Textbook"}
+knitr::include_graphics(here::here("static", "images", "cooter_ulen.jpg"))
+```
 
 # Course Website
 
