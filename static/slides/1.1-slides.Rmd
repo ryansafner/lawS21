@@ -51,6 +51,7 @@ theme_slides <- theme_light() +
 ]
 
 .right-column[
+.smallest[
 
 - Ph.D (Economics) — George Mason University, 2015
 
@@ -64,10 +65,9 @@ theme_slides <- theme_light() +
   - modeling innovation & economic growth
   - political economy & economic history of intellectual property
 
-- Expecting a son in March 2021!
-  - He may provide several cameos 👶
+- Expecting a son in March 2021 👶 (expect cameos!)
 ]
-
+]
 
 
 ---
@@ -78,9 +78,15 @@ theme_slides <- theme_light() +
 
 - This is not a class “about” the law (or a law class)
 
+- I am not a lawyer...though I am happily married to one
+
 - This is a class about how to *think* about the law, using economics
   - Economics is a set of tools, not a bunch of facts or topics
-  
+
+- Using microeconomic tools to analyze laws and legal systems:
+  - the incentives they create
+  - the choices and outcomes they lead to
+
 sag
 
 .tr[sag1
@@ -98,6 +104,11 @@ sag
 ]
 ]
 
+.pull-right[
+.center[
+![](../images/theft.png)
+]
+]
 
 ---
 
@@ -108,10 +119,12 @@ sag
 .hi-green[Example 2]: Police have evidence sufficient to convict a criminal
   - Suppose the conviction costs the criminal $50,000
   - The conviction benefits the police officer's career by $10,000
+]
+]
 
-- What will happen?
-  - The Atticus Finch approach: convict the criminal
-  - Or, a mutually-beneficial exchange?
+.pull-right[
+.center[
+![](../images/evidence.png)
 ]
 ]
 
@@ -122,9 +135,12 @@ sag
 .pull-left[
 .content-box-green[
 .hi-green[Example 3]: Civil asset forfeiture
-  - Suppose the conviction costs the criminal $50,000
-  - The conviction benefits the police officer's career by $10,000
-  - A mutually-beneficial exchange?
+]
+]
+
+.pull-right[
+.center[
+![](../images/cartoon_civil-asset-forfeiture.png)
 ]
 ]
 
@@ -136,6 +152,38 @@ sag
 .content-box-green[
 .hi-green[Example 4]: Life imprisonment for petty theft
 ]
+]
+
+.pull-right[
+.center[
+![](../images/pettytheft.jpg)
+]
+]
+
+---
+
+# What's Economics Got to Do With Law?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+.smallest[
+> “You live in a state where the most severe criminal punishment is life imprisonment. Someone proposes that since armed robbery is a very serious crime, armed robbers should get a life sentence. A constitutional lawyer asks whether that is consistent with the prohibition on cruel and unusual punishment. A legal philosopher asks whether it is just.”
+
+> “An economist points out that if the punishments for armed robbery and for armed robbery plus murder are the same, the additional punishment for the murder is zero—and asks whether you really want to make it in the interest of robbers to murder their victims.” (p.8)
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
 ]
 
 ---
@@ -286,26 +334,24 @@ Free online as a `r fontawesome::fa("file-pdf")` PDF
 
 # Your Textbook (Knitr)
 
-```{r}
-here::here()
-```
-
-```{r, fig.cap = "Your Textbook"}
+```{r,out.width = "30%", fig.cap = "Your Textbook"}
 knitr::include_graphics(here::here("static", "images", "cooter_ulen.jpg"))
 ```
+
+---
 
 # Course Website
 
 .pull-left[
 .center[
-![:scale 60%](https://microF20.classes.ryansafner.com/images/micro_hex.png)
+![:scale 60%](https://lawS21.classes.ryansafner.com/images/law_hex.png)
 
 ]
 ]
 
 .pull-right[
 .center[
-![](../images/microwebsite.png)
+![](../images/lawwebsite.png)
 ]
 ]
 

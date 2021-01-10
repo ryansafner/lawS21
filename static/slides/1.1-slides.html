@@ -1,472 +1,388 @@
-<!DOCTYPE html>
-<html lang="" xml:lang="">
-  <head>
-    <title>1.1 — Law and Economics</title>
-    <meta charset="utf-8" />
-    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/lawS21   lawS21.classes.ryansafner.com" />
-    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
-    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
-    <script src="libs/tile-view/tile-view.js"></script>
-    <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
-    <script src="https://use.fontawesome.com/5235085b15.js"></script>
-    <link rel="stylesheet" href="custom.css" type="text/css" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# 1.1 — Law and Economics
-## ECON 315 • Economics of the Law • Spring 2021
-### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>
-
+---
+title: "1.1 — Law and Economics"
+subtitle: "ECON 315 • Economics of the Law • Spring 2021"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: ocean #rainbow #monokai rainbow solarized-light #tomorrow-night -blue -eighties zenburn
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
 ---
 
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<link href="/rmarkdown-libs/tile-view/tile-view.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/tile-view/tile-view.js"></script>
+<link href="/rmarkdown-libs/tachyons/tachyons.min.css" rel="stylesheet" />
 
 
-
-
-# About Me
-
-.left-column[
+<div id="about-me" class="section level1">
+<h1>About Me</h1>
+<p>.left-column[
 .center[
-![](../images/meinfrontofsmith.jpg)
+<img src="../images/meinfrontofsmith.jpg" />]]</p>
+<p>.right-column[
+.smallest[</p>
+<ul>
+<li><p>Ph.D (Economics) — George Mason University, 2015</p></li>
+<li><p>B.A. (Economics) — University of Connecticut, 2011</p></li>
+<li><p>Specializations:</p>
+<ul>
+<li>Law and Economics</li>
+<li>Austrian Economics</li>
+</ul></li>
+<li><p>Research interests</p>
+<ul>
+<li>modeling innovation &amp; economic growth</li>
+<li>political economy &amp; economic history of intellectual property</li>
+</ul></li>
+<li><p>Expecting a son in March 2021 👶 (expect cameos!)
 ]
-]
-
-.right-column[
-
-- Ph.D (Economics) — George Mason University, 2015
-
-- B.A. (Economics) — University of Connecticut, 2011
-
-- Specializations:
-  - Law and Economics
-  - Austrian Economics
-
-- Research interests
-  - modeling innovation &amp; economic growth
-  - political economy &amp; economic history of intellectual property
-
-- Expecting a son in March 2021!
-  - He may provide several cameos 👶
-]
-
-
-
----
-
-# What Is This Class About?
-
-.pull-left[
-
-- This is not a class “about” the law (or a law class)
-
-- This is a class about how to *think* about the law, using economics
-  - Economics is a set of tools, not a bunch of facts or topics
-  
-sag
-
-.tr[sag1
-]
-
-]
-
----
-
-# What's Economics Got to Do With Law?
-
-.pull-left[
+]</p></li>
+</ul>
+<hr />
+</div>
+<div id="what-is-this-class-about" class="section level1">
+<h1>What Is This Class About?</h1>
+<p>.pull-left[</p>
+<ul>
+<li><p>This is not a class “about” the law (or a law class)</p></li>
+<li><p>I am not a lawyer…though I am happily married to one</p></li>
+<li><p>This is a class about how to <em>think</em> about the law, using economics</p>
+<ul>
+<li>Economics is a set of tools, not a bunch of facts or topics</li>
+</ul></li>
+<li><p>Using microeconomic tools to analyze laws and legal systems:</p>
+<ul>
+<li>the incentives they create</li>
+<li>the choices and outcomes they lead to</li>
+</ul></li>
+</ul>
+<p>sag</p>
+<p>.tr[sag1]</p>
+<p>]</p>
+<hr />
+</div>
+<div id="whats-economics-got-to-do-with-law" class="section level1">
+<h1>What’s Economics Got to Do With Law?</h1>
+<p>.pull-left[
 .content-box-green[
-.hi-green[Example 1]: Why have locks on doors?
-]
-]
-
-
----
-
-# What's Economics Got to Do With Law?
-
-.pull-left[
+.hi-green[Example 1]: Why have locks on doors?]]</p>
+<p>.pull-right[
+.center[
+<img src="../images/theft.png" />]]</p>
+<hr />
+</div>
+<div id="whats-economics-got-to-do-with-law-1" class="section level1">
+<h1>What’s Economics Got to Do With Law?</h1>
+<p>.pull-left[
 .content-box-green[
 .hi-green[Example 2]: Police have evidence sufficient to convict a criminal
-  - Suppose the conviction costs the criminal $50,000
-  - The conviction benefits the police officer's career by $10,000
-
-- What will happen?
-  - The Atticus Finch approach: convict the criminal
-  - Or, a mutually-beneficial exchange?
-]
-]
-
----
-
-# What's Economics Got to Do With Law?
-
-.pull-left[
+- Suppose the conviction costs the criminal $50,000
+- The conviction benefits the police officer’s career by $10,000]]</p>
+<p>.pull-right[
+.center[
+<img src="../images/evidence.png" />]]</p>
+<hr />
+</div>
+<div id="whats-economics-got-to-do-with-law-2" class="section level1">
+<h1>What’s Economics Got to Do With Law?</h1>
+<p>.pull-left[
 .content-box-green[
-.hi-green[Example 3]: Civil asset forfeiture
-  - Suppose the conviction costs the criminal $50,000
-  - The conviction benefits the police officer's career by $10,000
-  - A mutually-beneficial exchange?
-]
-]
-
----
-
-# What's Economics Got to Do With Law?
-
-.pull-left[
+.hi-green[Example 3]: Civil asset forfeiture]]</p>
+<p>.pull-right[
+.center[
+<img src="../images/cartoon_civil-asset-forfeiture.png" />]]</p>
+<hr />
+</div>
+<div id="whats-economics-got-to-do-with-law-3" class="section level1">
+<h1>What’s Economics Got to Do With Law?</h1>
+<p>.pull-left[
 .content-box-green[
-.hi-green[Example 4]: Life imprisonment for petty theft
-]
-]
-
----
-
-# Thinking Like a Lawyer vs. Thinking Like an Economist
-
-- Suppose something has happened
-
-- Lawyer — damage is *already* done, what to do:
-  - assign blame
-  - maybe punish someone
-  - maybe compensate
-
-- Not interesting to economists!
-
----
-
-# Thinking Like a Lawyer vs. Thinking Like an Economist
-
-- **Before** the incident, lots of **decisions** were made
-
-- These were made based on **expectations** about what will happen
-
-- These decisions affect the **outcomes** and **how much value is created and destroyed** by society
-
----
-
-# Outline and Areas of Law
-
-.pull-left[
-
-1. Property Law
-  - how do we establish who is entitled to what?
-2. Contract Law
-  - how do individuals permit use or exchange of entitlements?
-3. Tort Law
-  - how do we remedy violations of persons or entitlements?
-4. Criminal Law
-  - how does *the State* remedy *egregious* harms to *society*?
-
-]
-
-.pull-right[
-
-]
-
----
-
-
-# Transaction costs
-
-- Costs of bargaining and reaching consensus
-
-- Industrial org
-- Law &amp; Econ
-
-# Types of Laws
-
-
-|     | Punishment by State | Civil remedies |
-|-----|---------------------|----------------|
-| Imposed rules | Criminal law | Torts |
-| Consent to rules | -- | Contract |
-
----
-
+.hi-green[Example 4]: Life imprisonment for petty theft]]</p>
+<p>.pull-right[
 .center[
-![:scale 70%](../images/microeconomics.jpg)
-]
-
----
-
-class: inverse, middle, center
-# About This Course
-
----
-
-# Logistics: Hybrid Course
-
-.smaller[
-- .hi[hybrid]: more .hi-purple[synchronous] material than .hi-turquoise[asynchronous] material
-
-- I will always be teaching .hi[remotely]
-  - A physical classroom is available to you
-  - I may make *occasional* visits to campus
-
-- Office hours: Tu/Th 3:30-5:00 PM on Zoom
-  - &lt;i class="fas fa-video"&gt;&lt;/i&gt; Zoom link in Blackboard's `LIVE CLASS SESSIONS` link
-  - &lt;i class="fab fa-slack"&gt;&lt;/i&gt; Slack channels
-]
-
----
-
-# Logistics: Hybrid Course
-
-- We will have .hi-purple[synchronous] sessions Mon/Wed 2:00-3:15 PM on **&lt;i class="fas fa-video"&gt;&lt;/i&gt; Zoom**
-
-- Lecture videos will be posted on **Blackboard** via Panopto for students unable to join synchronously
-  - If you were present, you do not need to watch the video (again)!
-  - You are not *required* to attend synchronously, but it will help you
-
-- All graded assignments are .hi-turquoise[asynchronous]
-  - (Probably) submitted on Blackboard by 11:59 PM Sundays
-  - (Probably) timed exams on Blackboard
-
----
-
-# Learning Goals
-
-By the end of this course, you will: 
-
-1. Grapple with the conflicting social goals of justice and efficiency
-
-2. Derive the economic functions of key concepts, legal maxims, and rules in the substantive areas of law: torts, property, contracts, and criminal law
-
-3. Apply economic models to determine the efficiency of legal rules
-
-4. Identify the sources of law in the United States: common law jurisprudence, legislative statutes, administrative law
-
-5. Identify the key legal institutions of the United States: state vs. federal courts, the appellate court system, state and federal constitutions, regulatory agencies, arbitration
-
----
-
-# Assignments
-
-&lt;table&gt;
- &lt;thead&gt;
-  &lt;tr&gt;
-   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
-   &lt;th style="text-align:left;"&gt; Assignment &lt;/th&gt;
-   &lt;th style="text-align:left;"&gt; Percent &lt;/th&gt;
-  &lt;/tr&gt;
- &lt;/thead&gt;
-&lt;tbody&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Opinion-Editorial &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; 20% &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; n &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Homeworks (Average) &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; 20% &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; 3 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Exams &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; 20% each &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
----
-
-# Your Textbook
-
+<img src="../images/pettytheft.jpg" />]]</p>
+<hr />
+</div>
+<div id="whats-economics-got-to-do-with-law-4" class="section level1">
+<h1>What’s Economics Got to Do With Law?</h1>
+<p>.left-column[
 .center[
-![:scale 40%](../images/cooter_ulen.jpg)
+<img src="../images/davidfriedman5.jpg" alt=":scale 80%" /></p>
+<p>.smallest[
+David D. Friedman</p>
+<p>(1945—)
 ]
-
-Free online as a &lt;svg style="height:0.8em;top:.04em;position:relative;" viewBox="0 0 384 512"&gt;&lt;path d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"/&gt;&lt;/svg&gt; PDF
-
----
-
-# Your Textbook (Knitr)
-
-
-```
-## [1] "/Users/ryansafner/Dropbox/Teaching/Hood College/ECON 315 - Law and Economics/lawS21"
-```
-
-&lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="/Users/ryansafner/Dropbox/Teaching/Hood College/ECON 315 - Law and Economics/lawS21/static/images/cooter_ulen.jpg" alt="Your Textbook" width="99" /&gt;
-&lt;p class="caption"&gt;Your Textbook&lt;/p&gt;
-&lt;/div&gt;
-
-# Course Website
-
-.pull-left[
+]
+]</p>
+<p>.right-column[
+.smallest[
+&gt; “You live in a state where the most severe criminal punishment is life imprisonment. Someone proposes that since armed robbery is a very serious crime, armed robbers should get a life sentence. A constitutional lawyer asks whether that is consistent with the prohibition on cruel and unusual punishment. A legal philosopher asks whether it is just.”</p>
+<blockquote>
+<p>“An economist points out that if the punishments for armed robbery and for armed robbery plus murder are the same, the additional punishment for the murder is zero—and asks whether you really want to make it in the interest of robbers to murder their victims.” (p.8)</p>
+</blockquote>
+<p>]
+.source[Friedman, David D, 2000, <em>Law’s Order: What Economics Has to do with Law and Why it Matters</em>]
+]</p>
+<hr />
+</div>
+<div id="thinking-like-a-lawyer-vs.-thinking-like-an-economist" class="section level1">
+<h1>Thinking Like a Lawyer vs. Thinking Like an Economist</h1>
+<ul>
+<li><p>Suppose something has happened</p></li>
+<li><p>Lawyer — damage is <em>already</em> done, what to do:</p>
+<ul>
+<li>assign blame</li>
+<li>maybe punish someone</li>
+<li>maybe compensate</li>
+</ul></li>
+<li><p>Not interesting to economists!</p></li>
+</ul>
+<hr />
+</div>
+<div id="thinking-like-a-lawyer-vs.-thinking-like-an-economist-1" class="section level1">
+<h1>Thinking Like a Lawyer vs. Thinking Like an Economist</h1>
+<ul>
+<li><p><strong>Before</strong> the incident, lots of <strong>decisions</strong> were made</p></li>
+<li><p>These were made based on <strong>expectations</strong> about what will happen</p></li>
+<li><p>These decisions affect the <strong>outcomes</strong> and <strong>how much value is created and destroyed</strong> by society</p></li>
+</ul>
+<hr />
+</div>
+<div id="outline-and-areas-of-law" class="section level1">
+<h1>Outline and Areas of Law</h1>
+<p>.pull-left[</p>
+<ol style="list-style-type: decimal">
+<li>Property Law</li>
+</ol>
+<ul>
+<li>how do we establish who is entitled to what?</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Contract Law</li>
+</ol>
+<ul>
+<li>how do individuals permit use or exchange of entitlements?</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Tort Law</li>
+</ol>
+<ul>
+<li>how do we remedy violations of persons or entitlements?</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Criminal Law</li>
+</ol>
+<ul>
+<li>how does <em>the State</em> remedy <em>egregious</em> harms to <em>society</em>?</li>
+</ul>
+<p>]</p>
+<p>.pull-right[]</p>
+<hr />
+</div>
+<div id="transaction-costs" class="section level1">
+<h1>Transaction costs</h1>
+<ul>
+<li><p>Costs of bargaining and reaching consensus</p></li>
+<li><p>Industrial org</p></li>
+<li><p>Law &amp; Econ</p></li>
+</ul>
+</div>
+<div id="types-of-laws" class="section level1">
+<h1>Types of Laws</h1>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Punishment by State</th>
+<th>Civil remedies</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Imposed rules</td>
+<td>Criminal law</td>
+<td>Torts</td>
+</tr>
+<tr class="even">
+<td>Consent to rules</td>
+<td>–</td>
+<td>Contract</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>.center[
+<img src="../images/microeconomics.jpg" alt=":scale 70%" />]</p>
+<hr />
+<p>class: inverse, middle, center
+# About This Course</p>
+<hr />
+</div>
+<div id="logistics-hybrid-course" class="section level1">
+<h1>Logistics: Hybrid Course</h1>
+<p>.smaller[
+- .hi[hybrid]: more .hi-purple[synchronous] material than .hi-turquoise[asynchronous] material</p>
+<ul>
+<li>I will always be teaching .hi[remotely]
+<ul>
+<li>A physical classroom is available to you</li>
+<li>I may make <em>occasional</em> visits to campus</li>
+</ul></li>
+<li>Office hours: Tu/Th 3:30-5:00 PM on Zoom
+<ul>
+<li><i class="fas fa-video"></i> Zoom link in Blackboard’s <code>LIVE CLASS SESSIONS</code> link</li>
+<li><i class="fab fa-slack"></i> Slack channels
+]</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="logistics-hybrid-course-1" class="section level1">
+<h1>Logistics: Hybrid Course</h1>
+<ul>
+<li><p>We will have .hi-purple[synchronous] sessions Mon/Wed 2:00-3:15 PM on <strong><i class="fas fa-video"></i> Zoom</strong></p></li>
+<li><p>Lecture videos will be posted on <strong>Blackboard</strong> via Panopto for students unable to join synchronously</p>
+<ul>
+<li>If you were present, you do not need to watch the video (again)!</li>
+<li>You are not <em>required</em> to attend synchronously, but it will help you</li>
+</ul></li>
+<li><p>All graded assignments are .hi-turquoise[asynchronous]</p>
+<ul>
+<li>(Probably) submitted on Blackboard by 11:59 PM Sundays</li>
+<li>(Probably) timed exams on Blackboard</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+<div id="learning-goals" class="section level1">
+<h1>Learning Goals</h1>
+<p>By the end of this course, you will:</p>
+<ol style="list-style-type: decimal">
+<li><p>Grapple with the conflicting social goals of justice and efficiency</p></li>
+<li><p>Derive the economic functions of key concepts, legal maxims, and rules in the substantive areas of law: torts, property, contracts, and criminal law</p></li>
+<li><p>Apply economic models to determine the efficiency of legal rules</p></li>
+<li><p>Identify the sources of law in the United States: common law jurisprudence, legislative statutes, administrative law</p></li>
+<li><p>Identify the key legal institutions of the United States: state vs. federal courts, the appellate court system, state and federal constitutions, regulatory agencies, arbitration</p></li>
+</ol>
+<hr />
+</div>
+<div id="assignments" class="section level1">
+<h1>Assignments</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:left;">
+Assignment
+</th>
+<th style="text-align:left;">
+Percent
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+Opinion-Editorial
+</td>
+<td style="text-align:left;">
+20%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+n
+</td>
+<td style="text-align:left;">
+Homeworks (Average)
+</td>
+<td style="text-align:left;">
+20%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+3
+</td>
+<td style="text-align:left;">
+Exams
+</td>
+<td style="text-align:left;">
+20% each
+</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="your-textbook" class="section level1">
+<h1>Your Textbook</h1>
+<p>.center[
+<img src="../images/cooter_ulen.jpg" alt=":scale 40%" />]</p>
+<p>Free online as a <svg style="height:0.8em;top:.04em;position:relative;" viewBox="0 0 384 512"><path d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"/></svg> PDF</p>
+<hr />
+</div>
+<div id="your-textbook-knitr" class="section level1">
+<h1>Your Textbook (Knitr)</h1>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
+<img src="/Users/ryansafner/Dropbox/Teaching/Hood%20College/ECON%20315%20-%20Law%20and%20Economics/lawS21/static/images/cooter_ulen.jpg" alt="Your Textbook" width="30%" />
+<p class="caption">
+Figure 1: Your Textbook
+</p>
+</div>
+<hr />
+</div>
+<div id="course-website" class="section level1">
+<h1>Course Website</h1>
+<p>.pull-left[
 .center[
-![:scale 60%](https://microF20.classes.ryansafner.com/images/micro_hex.png)
-
-]
-]
-
-.pull-right[
+<img src="https://lawS21.classes.ryansafner.com/images/law_hex.png" alt=":scale 60%" />]
+]</p>
+<p>.pull-right[
 .center[
-![](../images/microwebsite.png)
-]
-]
-
+<img src="../images/lawwebsite.png" />]]</p>
+<p>.center[
+<a href="https://microF20.classes.ryansafner.com">microF20.classes.ryansafner.com</a>]</p>
+<hr />
+</div>
+<div id="tips-for-success-or-how-to-college" class="section level1">
+<h1>Tips for Success, Or: How to College</h1>
+<p>.pull-left[
+- Take notes. On paper. Really.</p>
+<ul>
+<li><p>Read the readings.</p></li>
+<li><p>Ask questions, come to office hours. Don’t struggle in silence, you are not alone!</p></li>
+<li><p>You are learning how to learn</p></li>
+<li><p>See the <a href="http://microF20.classes.ryansafner.com/reference">reference page</a> for more
+]</p></li>
+</ul>
+<p>.pull-right[
 .center[
-[microF20.classes.ryansafner.com](https://microF20.classes.ryansafner.com)
-]
-
----
-
-# Tips for Success, Or: How to College
-
-.pull-left[
-- Take notes. On paper. Really.
-
-- Read the readings.
-
-- Ask questions, come to office hours. Don’t struggle in silence, you are not alone!
-
-- You are learning how to learn
-
-- See the [reference page](http://microF20.classes.ryansafner.com/reference) for more
-]
-
-.pull-right[
-.center[
-![](../images/learning.png)
-]
-]
-
----
-
-# Roadmap for the Semester
-
-.center[
-![:scale 75%](../images/micro_flowchart_blankbg.png)
-]
-    </textarea>
-<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script src="macros.js"></script>
-<script src="https://platform.twitter.com/widgets.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "ocean",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"ratio": "16:9",
-"slideNumberFormat": "<div class=\"progress-bar-container\">\n  <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">\n  </div>\n</div>\n"
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function(d) {
-  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})(document);
-
-(function(d) {
-  var el = d.getElementsByClassName("remark-slides-area");
-  if (!el) return;
-  var slide, slides = slideshow.getSlides(), els = el[0].children;
-  for (var i = 1; i < slides.length; i++) {
-    slide = slides[i];
-    if (slide.properties.continued === "true" || slide.properties.count === "false") {
-      els[i - 1].className += ' has-continuation';
-    }
-  }
-  var s = d.createElement("style");
-  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
-  d.head.appendChild(s);
-})(document);
-// delete the temporary CSS (for displaying all slides initially) when the user
-// starts to view slides
-(function() {
-  var deleted = false;
-  slideshow.on('beforeShowSlide', function(slide) {
-    if (deleted) return;
-    var sheets = document.styleSheets, node;
-    for (var i = 0; i < sheets.length; i++) {
-      node = sheets[i].ownerNode;
-      if (node.dataset["target"] !== "print-only") continue;
-      node.parentNode.removeChild(node);
-    }
-    deleted = true;
-  });
-})();
-(function() {
-  "use strict"
-  // Replace <script> tags in slides area to make them executable
-  var scripts = document.querySelectorAll(
-    '.remark-slides-area .remark-slide-container script'
-  );
-  if (!scripts.length) return;
-  for (var i = 0; i < scripts.length; i++) {
-    var s = document.createElement('script');
-    var code = document.createTextNode(scripts[i].textContent);
-    s.appendChild(code);
-    var scriptAttrs = scripts[i].attributes;
-    for (var j = 0; j < scriptAttrs.length; j++) {
-      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
-    }
-    scripts[i].parentElement.replaceChild(s, scripts[i]);
-  }
-})();
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-// adds .remark-code-has-line-highlighted class to <pre> parent elements
-// of code chunks containing highlighted lines with class .remark-code-line-highlighted
-(function(d) {
-  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
-  const preParents = [];
-  const findPreParent = function(line, p = 0) {
-    if (p > 1) return null; // traverse up no further than grandparent
-    const el = line.parentElement;
-    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
-  };
-
-  for (let line of hlines) {
-    let pre = findPreParent(line);
-    if (pre && !preParents.includes(pre)) preParents.push(pre);
-  }
-  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
-})(document);</script>
-
-<script>
-slideshow._releaseMath = function(el) {
-  var i, text, code, codes = el.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-};
-slideshow._releaseMath(document);
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
+<img src="../images/learning.png" />]]</p>
+<hr />
+</div>
+<div id="roadmap-for-the-semester" class="section level1">
+<h1>Roadmap for the Semester</h1>
+<p>.center[
+<img src="../images/micro_flowchart_blankbg.png" alt=":scale 75%" />]</p>
+</div>
