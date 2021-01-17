@@ -45,3 +45,5 @@ This week is all introductory, but you may look at Chapter 1 in the textbook if 
 ## Preliminary Survey
 
 Please take the [preliminary survey](/assignment/00-preliminary-survey) on your math background by 11:59 PM Sunday. This will help us all have a productive course together.
+
+more testing...
