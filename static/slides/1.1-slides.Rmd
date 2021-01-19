@@ -332,7 +332,15 @@ Free online as a `r fontawesome::fa("file-pdf")` PDF
 
 ---
 
-# Your Textbook (Knitr) Does this work?
+# Your Textbook (Knitr)
+
+```{r,out.width = "30%", fig.cap = "Your Textbook"}
+knitr::include_graphics("../images/cooter_ulen.jpg")
+```
+
+---
+
+# Your Textbook (Knitr and here)
 
 ```{r,out.width = "30%", fig.cap = "Your Textbook"}
 knitr::include_graphics(here::here("static", "images", "cooter_ulen.jpg"))
