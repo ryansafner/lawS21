@@ -69,7 +69,6 @@ theme_slides <- theme_light() +
 ]
 ]
 
-
 ---
 
 # What Is This Class About?
