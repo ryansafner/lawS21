@@ -14,7 +14,7 @@ library(pander)
 
 - [<i class="fas fa-file-pdf"></i> Download as PDF](/files/syllabus-pdf.pdf)
 
-- **Last Updated**: January 19, 2021
+- **Last Updated**: January 19, 2021?
 
 > "For the rational study of the law the blackletter man may be the man of the present, but the man of the future is the man of statistics and the master of economics...As a step toward that ideal it seems to me that every lawyer ought to seek an understanding of economics...We learn that for everything we have we give up something else, and we are taught to set the advantage we gain against the other advantage we lose, and to know what we are doing when we elect." <br> [— Oliver Wendell Holmes, Jr.]{style="float:right"}^[Holmes, Oliver Wendell, Jr., 1897, "The Path of the Law," 10 Harvard Law Review 457:12-16]
 
