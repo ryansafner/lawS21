@@ -82,3 +82,8 @@ params:
     twitterSite: "@ryansafner"
     twitterCreator: "@ryansafner"
     fbAuthor: "https://www.facebook.com/ryansafner"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
