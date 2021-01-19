@@ -16,7 +16,7 @@ library(pander)
 
 - **Last Updated**: December 22, 2020
 
-> "For the rational study of the law the blackletter man may be the man of the present, but the man of the future is the man of statistics and the master of economics...As a step toward that ideal it seems to me that every lawyer ought to seek an understanding of economics...We learn that for everything we have we give up something else, and we are taught to set the advantage we gain against the other advantage we lose, and to know what we are doing when we elect." <br> [-— Oliver Wendell Holmes, Jr.]{style="float:right"}^[Holmes, Oliver Wendell, Jr., 1897, "The Path of the Law," 10 Harvard Law Review 457:12-16]
+> "For the rational study of the law the blackletter man may be the man of the present, but the man of the future is the man of statistics and the master of economics...As a step toward that ideal it seems to me that every lawyer ought to seek an understanding of economics...We learn that for everything we have we give up something else, and we are taught to set the advantage we gain against the other advantage we lose, and to know what we are doing when we elect." <br> [— Oliver Wendell Holmes, Jr.]{style="float:right"}^[Holmes, Oliver Wendell, Jr., 1897, "The Path of the Law," 10 Harvard Law Review 457:12-16]
 
 <span class="newthought">The law</span>[^courseinfo], in addition to promoting justice and redressing *past* wrongs, has a strong affect on the allocation of scarce resources and incentives for *future* decisions. The analysis of how legal rules and judicial decisions impact *economic efficiency* has been most strongly associated with the *"law and economics"* tradition of economists and lawyers since the 1960s. This tradition has grown rapidly, with many top law schools and judicial opinions now explicitly discussing the effects on incentives and the economic efficiency of legal rulings. Economist Ronald Coase won the 1991 Nobel Prize in Economics in part for his foundational papers in this tradition, and several influential federal judges have explicitly applied this approach, such as Richard Posner, Guido Calabresi, and Frank Easterbrook.
 
@@ -37,11 +37,11 @@ This course is taught in a **hybrid** format, providing a mixture of regular syn
 
 **I will be holding all synchronous class sessions remotely (for reasons I will make clear to you by the first day) on Zoom.** You can attend these sessions on your computer or device from your dormitory or home, and a classroom is available for you to use (socially-distanced, and in masks), but I will not be in the classroom.
 
-During the synchronous, scheduled times for the course (Monday/Wednesday 2:00 P.M.-3:15 P.M.), I will lecture on the material, hold in-class discussions, and answer questions in real time *on Zoom.* Attendance to the live portion is strongly encouraged, but not required.
+During the synchronous, scheduled times for the course (Tuesday/Thursday 2:00 P.M.-3:15 P.M.), I will lecture on the material, hold in-class discussions, and answer questions in real time *on Zoom.* Attendance to the live portion is *strongly encouraged*, but not required.
 
-**Lecture slides, videos, and other synchronous materials will be posted online by the end of the day in which the live session occurs.**
+**Lecture slides, videos, and other synchronous materials will be posted online by the time live sessions occur.** There will be occasional exceptions.
 
-Assignments will always be submitted *online* and due at regular times (typically 11:59 PM Sunday) so that students unable to join in the live sessions can complete them asynchronously.
+**Assignments will always be submitted _online_** and due at regular times (typically 11:59 PM Sunday) so that students unable to join in the live sessions can complete them asynchronously.
 
 Students are strongly encouraged to join the course [Slack channel](https://hoodcollegeeconomics.slack.com) to maintain an active channel of communication, ask questions, and to build our course community together. Official course-related announcements will always come via Blackboard announcement and automatically sent to your Hood email accounts.
 
@@ -49,11 +49,11 @@ Students are strongly encouraged to join the course [Slack channel](https://hood
 
 Everything is awful right now. None of us signed up for this. None of us are really okay, **we're all just pretending for everyone else.**
 
-Many of you may be dealing with hardships at home and at work, and are generally juggling many more problems than usual. Everyone's future plans have been completely put on hold or cancelled to a large degree. We all miss the sense of normalcy and human sense of community from being isolated for so long.
+Many of you may be dealing with hardships at home and at work, and are generally juggling many more problems than usual. Everyone's future plans have been completely put on hold or canceled to a large degree. We all miss the sense of normalcy and human sense of community from being isolated for so long.
 
 For this unique semester, we are going to prioritize supporting each other as human beings during this crazy era, and use simple, accessible solutions that make sense for the most people, and above all, to be flexible. I have designed the course to maintain some common structure but be flexible to your varied needs. Please see the [policies and expectations below](#policies-and-expectations). I hope you use this course as an opportunity to escape the boredom and insanity of social isolation, and to help keep interest in understanding the world around us.
 
-If you tell me you’re having trouble, I will do whatever I can to help, and not judge you or think less of you. I hope you will extend me the same courtesy.
+If you tell me you are having trouble, I will do whatever I can to help, and not judge you or think less of you. I hope you will extend me the same courtesy.
 
 # Course objectives
 
@@ -89,15 +89,19 @@ My lecture slides will be shared with you, and serve as your primary resource, b
 
 ## Books 
 
-1. Cooter, Robert, and Thomas Ulen, 2012, [*Law & Economics*](https://lawcat.berkeley.edu/record/1127400?ln=en), 6^th^ ed., New York: Addison-Wesley^
+1. Cooter, Robert, and Thomas Ulen, 2012, [*Law & Economics*](https://lawcat.berkeley.edu/record/1127400?ln=en), 6^th^ ed., New York: Addison-Wesley^[A free & legal PDF version is available at the link.]
 
 2. Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*, Princeton, NJ: Princeton University Press
 
-This textbook is out of print, you can find old hard copies on Amazon, but ownership has reverted to the authors, who have released their book as [**a free PDF online**](https://lawcat.berkeley.edu/record/1127400?ln=en). I have no financial stake in requiring you to purchase this book. You are welcome to use previous version of the book, but carefully verify the reading assignments, as the material may be different across versions.
+The first book is **required** but is out of print. Fortunately, you can find old hard copies on Amazon, but ownership has reverted to the authors, who have released their book as [**a free PDF online**](https://lawcat.berkeley.edu/record/1127400?ln=en). This will serve as your main textbook for the course, and we will largely follow it in order.
+
+The second is one of my favorite books on economics and law, which will help you understand some of the concepts through creative puzzles. This book I merely **recommend**, as we will not necessarily read from it all the time, or in order.
+
+I have no financial stake in requiring you to purchase either book. You are welcome to use previous version of books, but carefully verify the reading assignments, as the material may be different across versions.
 
 # Assignments and Grades 
 
-Your final course grade is the weighted average of the following assignments. You can find general descriptions for all the assignments on the [assignments page](http://lawS21.classes.ryansafner.com/assignments/) and more specific information and examples on each assignment's page on the [schedule page](http://lawS21.classes.ryansafner.com/schedule/). 
+Your final course grade is the weighted average of the following assignments. You can find general descriptions for all the assignments on the [assignments page](http://lawS21.classes.ryansafner.com/assignments/) and more specific information and examples on each assignment's page on the [schedule page](http://lawS21.classes.ryansafner.com/schedule/).
 
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
