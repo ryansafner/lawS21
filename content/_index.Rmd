@@ -24,5 +24,5 @@ Given these objectives, this course fulfills all three of the learning outcomes 
 - Demonstrate effective oral and written communications skills for personal and professional success[...]
 
 <figure>
-[![](/images/micro_flowchart_blankbg.png)](/images/micro_flowchart_blankbg.png)
+[![](/images/law_flowchart.png)](/images/law_flowchart.png)
 </figure>
