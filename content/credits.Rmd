@@ -6,12 +6,10 @@ bibliography: ../static/bib/references.bib
 csl: ../static/bib/chicago-syllabus-no-bib.csl
 ---
 
-```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
-library(dplyr)
-library(tibble)
-library(pander)
-```
+Nobody produces something like this without a lot of inspiration and guidance from those who have already done this before. Here, I try to give credit where it is due, and slowly begin to document how I made everything, for those who eventually want to do what I did.
 
-Course website based on those of [Andrew Heiss](https://andrewheiss.com).
+This website is written in [R Markdown](https://rmarkdown.rstudio.com/), built with [Hugo](https://gohugo.io), pushed to [Github](https://github.com/ryansafner/lawS21), and hosted by [Netlify](https://netlify.com). 
 
-[Hex sticker](https://github.com/ryansafner/hexstickers) made by Ryan Safner via [hexSticker](https://github.com/GuangchuangYu/hexSticker) 
+The inspiration for making individual course websites, along with the basic structure, comes from the incomparable [Andrew Heiss](https://andrewheiss.com). See his website for examples, as well as a number of helpful tutorials. Sadly, I had to figure out how these websites work on my own, and attempted to document my process in the README of [this repository](https://github.com/ryansafner/classwebtest) for those interested. One day I may make a guide.
+
+The course hex sticker I made via [hexSticker](https://github.com/GuangchuangYu/hexSticker), and keep all of my course hex stickers in [this repository](https://github.com/ryansafner/hexstickers). This particular one uses images from [The Noun Project](https://thenounproject.com), and I produced it in the free online version of [Gravit designer](https://designer.gravit.io) before running the hex sticker code.

@@ -211,6 +211,143 @@ David D. Friedman
 
 ---
 
+# The Law & Economics of 19th Century Whaling
+
+.pull-left[
+
+- A burning legal question: **who owns a dead whale**?
+
+- 18<sup>th</sup>—19<sup>th</sup> Century: whales hunted for oil, blubber, bone, other valuable products
+
+- A whale could be worth 3-4 times the median family income
+
+]
+
+.pull-right[
+```{r,out.width = "100%", fig.cap = ""}
+knitr::include_graphics("../images/whaling19thc.jpg")
+```
+]
+
+---
+
+# The Law & Economics of 19th Century Whaling
+
+.left-column[
+
+```{r,out.width = "80%", fig.cap = ""}
+knitr::include_graphics("../images/mobydick.jpg")
+```
+]
+
+.right-column[
+
+> “It frequently happens that when several ships are cruising in company, a whale may be struck by one vessel, then escape, and be finally killed and captured by another vessel...
+
+> [Or] after a weary and perilous chase and capture of a whale, the body may get loose from the ship by reason of a violent storm;	
+
+> and drifting far away to leeward, be retaken by a second whaler, who, in a calm, snugly tows it alongside, without risk of life or line.
+
+> Thus the most vexatious and violent disputes would often arise between the fishermen...”
+
+]
+
+---
+
+# The Law & Economics of 19th Century Whaling
+
+.left-column[
+
+```{r,out.width = "80%", fig.cap = "Robert C. Ellickson"}
+knitr::include_graphics("../images/ellickson.jpg")
+```
+]
+
+.right-column[
+
+- Looks at 12 U.S. & U.K. cases where ownership of a dead whale was contested
+
+- Whaling industry had established norms in each case
+  - Very different case by case, but well-suited to each situation
+
+- In every case, court ruled in accordance with the established norms
+
+.source[Ellickson, Robert C, 1989, “A Hypothesis of Wealth-Maximizing Norms: Evidence from the Whaling Industry,” *Journal of Law, Economics, & Organization* 5(1): 83-97]
+]
+
+---
+
+# The Law & Economics of 19th Century Whaling
+
+.left-column[
+
+```{r,out.width = "80%", fig.cap = "Robert C. Ellickson"}
+knitr::include_graphics("../images/ellickson.jpg")
+```
+]
+
+.right-column[
+
+- One norm: “fast fish/loose fish”
+  - Discussed in *Moby Dick*
+
+- British whalers in Greenland hunting *right whales* with harpoons roped to whaling boat
+
+- “Fast fish”: a harpooned whale attached to boat
+  - belonged to attached boat
+
+- “loose fish”: whale that broke free, or had not been harpooned
+  - other ships free to pursue it
+
+.source[Ellickson, Robert C, 1989, “A Hypothesis of Wealth-Maximizing Norms: Evidence from the Whaling Industry,” *Journal of Law, Economics, & Organization* 5(1): 83-97]
+]
+
+---
+
+# The Law & Economics of 19th Century Whaling
+
+.left-column[
+
+```{r,out.width = "80%", fig.cap = "Robert C. Ellickson"}
+knitr::include_graphics("../images/ellickson.jpg")
+```
+]
+
+.right-column[
+
+- *Sperm whales* swim faster, deeper, and fight harder, and travel in packs
+  - hunt with “drogues” to tire out whale
+  - most important to kill or wound as many whales as possible quickly rather than secure one at a time
+
+- Another norm: “iron holds the whale”
+  - first to harpoon the whale owns it, so long as your are in “fresh pursuit”
+
+.source[Ellickson, Robert C, 1989, “A Hypothesis of Wealth-Maximizing Norms: Evidence from the Whaling Industry,” *Journal of Law, Economics, & Organization* 5(1): 83-97]
+]
+
+---
+
+# The Law & Economics of 19th Century Whaling
+
+.left-column[
+
+```{r,out.width = "80%", fig.cap = "Robert C. Ellickson"}
+knitr::include_graphics("../images/ellickson.jpg")
+```
+]
+
+.right-column[
+
+- A tradeoff between these rules
+
+- “Iron holds the whale” is more complication & ambiguous
+
+- “Fast fish/loose fish” is simpler
+
+.source[Ellickson, Robert C, 1989, “A Hypothesis of Wealth-Maximizing Norms: Evidence from the Whaling Industry,” *Journal of Law, Economics, & Organization* 5(1): 83-97]
+]
+
+---
 # Outline and Areas of Law
 
 .pull-left[
@@ -386,5 +523,5 @@ knitr::include_graphics("../images/cooter_ulen.jpg")
 # Roadmap for the Semester
 
 .center[
-![:scale 75%](../images/micro_flowchart_blankbg.png)
+![:scale 75%](../images/law_flowchart.png)
 ]

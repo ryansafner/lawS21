@@ -323,12 +323,12 @@ a, a > code {
 
 /* unvisited link */
 a:link {
-    color: #DB7093;
+    color: #e7e4d9;
 }
 
 /* visited link */
 a:visited {
-    color: #5E81AC; /* #F08080, #5E81AC originally */ 
+    color: #747474; /* #F08080, #5E81AC originally */ 
 }
 
 /* mouse over link */
@@ -484,7 +484,7 @@ th, td { padding: 5px; }
 } */
 
 .inverse {
-  background-color: #236192; /* #236192; */
+  background-color: #b14848; /* #236192; */
   text-shadow: none;
 }
 
@@ -494,7 +494,7 @@ th, td { padding: 5px; }
   font-size: 48px;
   margin-top: 0px;
   margin-left: -00px;
-  color: #236192; /* #56B4E9 ; FAFAFA */
+  color: #b14848; /* #56B4E9 ; FAFAFA */
 }
 
 .inverse > h1 {
@@ -532,7 +532,7 @@ color: #23373B;
 }
 
 .title-slide {
-  background-color: #236192;
+  background-color: #b14848;
   background-image: url(https://laws21.classes.ryansafner.com/images/law_hex.png);
   background-position: 99% 90%;
   background-size: 25%;
@@ -770,7 +770,7 @@ color: #23373B;
 .source {
   font-size: 50%;
   color: gray;
-  float: bottom;
+  float: left;
 }
 
 
