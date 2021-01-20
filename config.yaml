@@ -74,7 +74,7 @@ params:
   primaryColor: "#b14848" #5E81AC
   secondaryColor: "#4282c6" #D08770
   credits: >-
-    Hex icon by Ryan Safner via [hexSticker](https://github.com/GuangchuangYu/hexSticker).<br> Course website based on [Andrew Heiss](https://econw19.classes.andrewheiss.com/). <br>[Nord color scheme](https://github.com/arcticicestudio/nord) from [Arctic Ice Studio](http://arcticicestudio.com/).
+    [Credits](/content/credits).
   logo:
     url: /images/law_hex.png
     alt: Law

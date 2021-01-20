@@ -1,0 +1,17 @@
+---
+title: Credits
+slug: credits
+citeproc: false
+bibliography: ../static/bib/references.bib
+csl: ../static/bib/chicago-syllabus-no-bib.csl
+---
+
+```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
+library(dplyr)
+library(tibble)
+library(pander)
+```
+
+Course website based on those of [Andrew Heiss](https://andrewheiss.com).
+
+[Hex sticker](https://github.com/ryansafner/hexstickers) made by Ryan Safner via [hexSticker](https://github.com/GuangchuangYu/hexSticker) 
