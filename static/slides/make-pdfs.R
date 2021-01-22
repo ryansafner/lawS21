@@ -1,2 +1,8 @@
 # make-pdfs
-pagedown::chrome_print("https://microf20.classes.ryansafner.com/slides/4.5-slides.html", timeout = 100)
+pagedown::chrome_print("https://lawS21.classes.ryansafner.com/slides/1.1-slides.html",
+                       timeout = 300)
+
+# create png of first slide
+pagedown::chrome_print("https://lawS21.classes.ryansafner.com/slides/1.1-slides.html",
+                       format = "png",
+                       timeout = 300)
