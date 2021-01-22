@@ -387,12 +387,6 @@ knitr::include_graphics("../images/ellickson.jpg")
 
 ---
 
-.center[
-![:scale 70%](../images/microeconomics.jpg)
-]
-
----
-
 class: inverse, middle, center
 # About This Course
 
