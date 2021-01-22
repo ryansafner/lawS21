@@ -33,7 +33,7 @@ menu:
     - name: Content
       url: /content/
       weight: 6
-    - name: '<i class="fab fa-slack"></i> Slack'
+    - name: '<i class="fab fa-slack"></i>'
       url: "https://hoodcollegeeconomics.slack.com"
       weight: 7
 # Disable taxonomies
