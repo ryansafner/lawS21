@@ -482,12 +482,12 @@ knitr::include_graphics("../images/cooter_ulen.jpg")
 
 .pull-right[
 .center[
-![](../images/lawwebsite.png)
+
 ]
 ]
 
 .center[
-[microF20.classes.ryansafner.com](https://microF20.classes.ryansafner.com)
+[lawS21.classes.ryansafner.com](https://laws21.classes.ryansafner.com)
 ]
 
 ---
