@@ -38,6 +38,7 @@ This week is all introductory, but you may look at Chapter 1 in the textbook if 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
 [![](/slides/1.1-slides.png)](/slides/1.1-slides.html)
+
 - [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/1.1-slides.pdf)
 
 # <i class="fas fa-dumbbell"></i> Practice
