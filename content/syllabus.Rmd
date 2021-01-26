@@ -37,7 +37,7 @@ This course is taught in a **hybrid** format, providing a mixture of regular syn
 
 **I will be holding all synchronous class sessions remotely (for reasons I will make clear to you by the first day) on Zoom.** You can attend these sessions on your computer or device from your dormitory or home, and a classroom is available for you to use (socially-distanced, and in masks), but I will not be in the classroom.
 
-During the synchronous, scheduled times for the course (Tuesday/Thursday 2:00 P.M.-3:15 P.M.), I will lecture on the material, hold in-class discussions, and answer questions in real time *on Zoom.* Attendance to the live portion is *strongly encouraged*, but not required.
+During the synchronous, scheduled times for the course (Tuesday/Thursday 11:30 A.M.-12:45 P.M.), I will lecture on the material, hold in-class discussions, and answer questions in real time *on Zoom.* Attendance to the live portion is *strongly encouraged*, but not required.
 
 **Lecture slides, videos, and other synchronous materials will be posted online by the time live sessions occur.** There will be occasional exceptions.
 
@@ -155,15 +155,11 @@ There will be roughly a homework assignment for every lesson. These questions wi
 
 Homeworks are generally due by 11:59 PM Sunday by email. Please type your answers to the following questions in a document and email a PDF attachment to me.^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] You may still handwrite answers if you will be able to scan and email them, as a PDF, if they are easily readable, but this is not preferred. It will be much easier for me to grade, annotate, and return to you as a PDF, so please save me some trouble. For the few questions that ask you to draw a graph, try to do so on your computer (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph.
 
-## Exams 
+## Exams
 
 There will be three exams (one at the end of each unit) including the final exam. Each exam only covers the material in its associated unit (i.e. no exam is cumulative). These exams provide feedback both to you and to me that ensures everyone is progressing on schedule and apprehending the material. This is critical, as the rest of the course, and indeed, any future economics course you take, will build off of this foundation.
 
 Exams will be released **on Blackboard** as a timed assignment. You will have 2 hours once you open the exam on Blackboard. You will not need the whole time, I have given you some extra to accomodate the difficulties of taking an exam at home. Please pick a time to take it where you know you will have 2 hours. You may close the exam page and come back to it, but the timer will continue to run once the exam is first opened.
-
-## Opinion-Editorial 
-
-Economic fallacies have always been popular, and journalists, politicians, and talking heads consistently engage in faulty economic reasoning in print and on television. Your task, as a student of economics, is to find some issue discussed in the past year, and write a critique of media discussion of that issue. Alternatively, instead of critiquing the reasoning or statements of others, you may write an advocacy piece, where you propose some economic policy and argue to persuade readers to endorse it. You will be graded both on the soundness of your economic reasoning and the quality of your writing. I would be happy to co-author an Op-Ed with anyone who writes an exemplary Op-Ed. Students who successfully publish their work in a media outlet will earn *extra credit* on their Op-Ed grade. I will provide ample resources and examples to help you accomplish this, you can find more on the [assignment page]().
 
 ## No extra credit is available 
 

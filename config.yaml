@@ -27,12 +27,6 @@ menu:
     - name: Reference
       url: /reference/
       weight: 5
-    - name: Ref2
-      url: /ref2/
-      weight: 4
-    - name: Content
-      url: /content/
-      weight: 6
     - name: Slack
       url: "https://hoodcollegeeconomics.slack.com"
       weight: 7

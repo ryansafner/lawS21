@@ -10,9 +10,9 @@ This page contains all of the following resources for each class meeting:
 - <i class="fas fa-dumbbell"></i> **Practice** problems we work on together in class to prepare for homeworks and exams
 - <i class="fas fa-laptop-code"></i> **Assignments** are generally 11:59 PM Sundays on Blackboard
 
-Relevant materials (if applicable, icons will become links) will be posted before class meets.
+Please note, the lesson numbers (e.g. 1.1) are my design, and do not match up with the textbook!
 
-**Last Update**: [`r format(Sys.time(), "%X %a %b %d %Y")`](https://github.com/ryansafner/lawS21/commits/main).
+Relevant materials (if applicable, icons will become links) will be posted before class meets.
 
 ---
 
