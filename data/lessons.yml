@@ -16,8 +16,6 @@ lessons:
 
   - title: "1.5 Survey of American Legal Institutions"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1** due Sunday Sept 6'
-
   - title: '<span class="fake-header-table">II. Property</span>'
     header: True
 
@@ -33,8 +31,6 @@ lessons:
   
   - title: "2.6 Eminent Domain and Regulatory Takings"
   
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2** due Sunday Sept 13'
-
   - title: '<span class="fake-header-table">III. Contracts</span>'
     header: True
     
@@ -47,10 +43,6 @@ lessons:
   - title: "2.4 Remedies for Breach of Contract"
   
   - title: "2.5 Reputation and Repeated Games"
-
-  - title: '<i class="fas fa-star"></i> **Exam 1** Tuesday Sept 15 - Sunday Sept 20 on Blackboard'
-
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3** due Sunday Sept 27'
 
   - title: '<span class="fake-header-table">IV. Torts</span>'
     header: True
@@ -73,8 +65,6 @@ lessons:
   
   - title: "4.9 The Rise of the Regulatory State"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5** due Sunday Nov 8'
-
   - title: '<span class="fake-header-table">V. Criminal Law</span>'
     header: True
 
@@ -92,8 +82,4 @@ lessons:
 
   - title: "5.3 Antitrust Law"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 6** (ungraded/practice)'
-
-  - title: '<i class="fas fa-laptop-code"></i> **Op-Ed Due** by Friday November 20'
-
-  - title: '<i class="fas fa-star"></i> **Final Exam** Thurs Nov 19 — Mon Nov 23'
+  - title: '<i class="fas fa-star"></i> **Final Exam**'

@@ -68,7 +68,6 @@ params:
   primaryColor: "#b14848" #5E81AC
   secondaryColor: "#4282c6" #D08770
   credits: >- 
-    [View the source at Github](https://github.com/ryansafner/lawS21)
     [Credits](/credits)
   logo:
     url: /images/law_hex.png
