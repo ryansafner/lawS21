@@ -737,6 +737,12 @@ class: inverse, middle, center
 
 ---
 
+# Using Zoom (& Slack, etc): A Polite Request
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My professor teaching to class on zoom: <br><br>🧑🏻‍🏫<br><br>Me, trying to prevent my professor from teaching into the void: <br><br>◼️◼️◼️🙂◼️◼️◼️◼️◼️◼️◼️◼️<br>◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️</p>&mdash; Adrianna (@adri_holmes00) <a href="https://twitter.com/adri_holmes00/status/1314253784638513155?ref_src=twsrc%5Etfw">October 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+---
+
 # Learning Goals
 
 By the end of this course, you will: 
