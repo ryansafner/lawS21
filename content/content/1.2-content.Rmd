@@ -1,5 +1,5 @@
 ---
-title: "1.1 — Law and Economics — Class Content"
+title: "1.2 — Efficiency — Class Content"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -11,17 +11,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Tuesday, February 2, 2021*
+*Thursday, February 4, 2021*
 
 # <i class="fas fa-info-circle fa-lg"></i> Overview
 
-Welcome to ECON 315 - Economics of the Law! Today's lesson will be an introduction to the course and the tools — what content we will cover, the assignments, what you will need, and what the field known as ["law and economics"](https://en.wikipedia.org/wiki/Law_and_economics) is about.
 
-If you have not done so, please watch my welcome video, read the announcements in Blackboard, take my survey, and join our class slack channel.
-
-The live class <i class="fas fa-video"></i> Zoom meeting link can be found on Blackboard (see `LIVE ZOOM MEETINGS` on the left navigation menu), starting at 2:00 PM.
-
-If you are unable to join today's live session, or if you want to review, you can find the recording stored on Blackboard via Panopto (see `Class Recordings` on the left navigation menu).
 
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 

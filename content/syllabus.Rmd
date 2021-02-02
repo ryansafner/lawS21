@@ -14,7 +14,7 @@ library(pander)
 
 - [<i class="fas fa-file-pdf"></i> Download as PDF](/files/syllabus-pdf.pdf)
 
-- **Last Updated**: January 19, 2021?
+- **Last Updated**: February 2, 2021
 
 > "For the rational study of the law the blackletter man may be the man of the present, but the man of the future is the man of statistics and the master of economics...As a step toward that ideal it seems to me that every lawyer ought to seek an understanding of economics...We learn that for everything we have we give up something else, and we are taught to set the advantage we gain against the other advantage we lose, and to know what we are doing when we elect."^[Holmes, Oliver Wendell, Jr., 1897, "The Path of the Law," 10 Harvard Law Review 457:12-16] <br> [— Oliver Wendell Holmes, Jr.]{style="float:right"}
 
@@ -57,15 +57,14 @@ If you tell me you are having trouble, I will do whatever I can to help, and not
 
 # Course objectives
 
-This class will add rigor to your thinking about the world by empowering you with the ability to model the choices and interactions of people and organizations in their economic capacities -- as consumers, producers, firms, voters, etc. 
-
 <span class="newthought">By the end of this course,</span> you will: 
 
-- Grapple with the conflicting social goals of justice and efficiency
+- Predict the consequences of various laws, institutions, and customs
+- Predict what law will emerge under given conditions
+- Determine whether law *is* economically efficient, and discuss whether the law *should* be economically efficient
 - Derive the economic functions of key concepts, legal maxims, and rules in the substantive areas of law: torts, property, contracts, and criminal law
-- Apply economic models to determine the efficiency of legal rules
-- Identify the sources of law in the United States: common law jurisprudence, legislative statutes, administrative law
-- Identify the key legal institutions of the United States: state vs. federal courts, the appellate court system, state and federal constitutions, regulatory agencies, arbitration
+- Identify the sources of law in the United States
+- Identify the key legal institutions of the United States
 
 Given these objectives, this course fulfills all three of the learning outcomes for [the George B. Delaplaine, Jr. School of Business](https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes) Economics B.A. program:
 
@@ -75,7 +74,7 @@ Given these objectives, this course fulfills all three of the learning outcomes 
 
 <span class="newthought">My standard disclaimer:</span> This class may challenge many of your existing beliefs and conceptions about how the world works, and how it should work. This is the most important and exciting part of a liberal arts education. This does *not* mean that I want to make you to see everything "my way." In fact, if you come out of this class thinking exactly like me, then I have probably failed you as a teacher. To the best of my ability, I keep my opinions to myself unless relevant for purposes of discussion, and I respect and invite you to reach your own conclusions on all matters.
 
-<span class="newthought">Fair warning:</span> **Economics is hard.** *This, in particular, may be of the hardest courses that you will take, primarily due to the mathematical content.* Using the economic way of thinking is a skill, it is literally retraining your brain to interpret and analyze the world in a novel way, and is not something that can be memorized. I will do my best to make this class intuitive and helpful, if not interesting. If at any point you find yourself struggling in this course for any reason, please come see me. Do not suffer in silence! Coming to see me for help does not diminish my view of you, in fact I will hold you in *higher* regard for understanding your own needs and taking charge of your own learning. There are also a some fantastic resources on campus, such as the [Center for Academic Achievement and Retention (CAAR)](http://www.hood.edu/campus-services/academic-services/index.html) and the [Beneficial-Hodson Library](http://www.hood.edu/library/).  
+<span class="newthought">Fair warning:</span> **Economics can be difficult.** Using the economic way of thinking is a skill, it is literally retraining your brain to interpret and analyze the world in a novel way, and is not something that can be memorized. I will do my best to make this class intuitive and helpful, if not interesting. If at any point you find yourself struggling in this course for any reason, please come see me. Do not suffer in silence! Coming to see me for help does not diminish my view of you, in fact I will hold you in *higher* regard for understanding your own needs and taking charge of your own learning. There are also a some fantastic resources on campus, such as the [Center for Academic Achievement and Retention (CAAR)](http://www.hood.edu/campus-services/academic-services/index.html) and the [Beneficial-Hodson Library](http://www.hood.edu/library/).  
 
 See my [tips for success in this course](/reference#tips). 
 
@@ -106,10 +105,11 @@ Your final course grade is the weighted average of the following assignments. Yo
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~Frequency,  ~Assignment, ~Weight,
-  "n"     , "Homework (Average)", "20%",
-  "2", "Short Papers", "10% each",
-  "1"      , "Midterm", "30%",
-  "1"     , "Final", "30%"
+  "1", "Midterm", "25%",
+  "1", "Final", "25%",
+  "n", "Homework (Average)", "20%",
+  "1", "Term Paper", "20%",
+  "n", "Participation/Discussion Boards", "10%"
 )
 
 grading <- tribble(
@@ -145,21 +145,46 @@ grading %>%
                col.names = c("Grade", "Range", "Grade", "Range"))
 ```
 
-See also my [<i class="fas fa-calculator"></i> `Grade Calculator`](https://ryansafner.shinyapps.io/306_grade_calculator/) app where you can calculate your overall grade using existing assignment grades and forecast "what if" scenarios.
+See also my [<i class="fas fa-calculator"></i> `Grade Calculator`](https://ryansafner.shinyapps.io/law_grade_calculator/) app where you can calculate your overall grade using existing assignment grades and forecast "what if" scenarios.
 
 These grades are firm cutoffs, but I do of course round upwards $(\geq$ 0.5) for final grades. A necessary reminder, as an academic, I am not in the business of *giving* out grades, I merely report the grade that you *earn*. I will not alter your grade unless you provide a reasonable argument that I am in error (which does happen from time to time). 
 
 ## Homeworks 
 
-There will be roughly a homework assignment for every lesson. These questions will help check your understanding and mastery of the material, and will be a combination of quantitative, graph, and short answer questions of examples. These will also be good indicators of what to expect on the exams. You may collaborate with other students to work on homeworks, but each person must turn in an individual assignment. Homeworks are due one week from the class period where we finish a lesson, and must be turned in at the beginning of class. Homeworks will be graded by the T.A. as follows: 70% of the grade for completion, and 30% for one randomly selected question. This is to reward students for putting in a full faith effort to try to reach an answer, even if not every answer ends up being correct.
+There will be several homework assignments over the semester. These questions will help check your understanding and mastery of the material, and will be a combination of quantitative, graph, and short answer questions of examples. You may collaborate with other students to work on homeworks, but each person must turn in an individual assignment. I will grade homeworks follows: 70% of the grade for completion, and 30% for one randomly selected question. This is to reward students for putting in a full faith effort to try to reach an answer, even if not every answer ends up being correct.
 
-Homeworks are generally due by 11:59 PM Sunday by email. Please type your answers to the following questions in a document and email a PDF attachment to me.^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] You may still handwrite answers if you will be able to scan and email them, as a PDF, if they are easily readable, but this is not preferred. It will be much easier for me to grade, annotate, and return to you as a PDF, so please save me some trouble. For the few questions that ask you to draw a graph, try to do so on your computer (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph.
+Homeworks are generally due by 11:59 PM EST Sunday by submission to Blackboard Assignments.
+
+Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph & convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](https://microS21.classes.ryansafner.com/resources/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers).
+
+For the few questions that ask you to draw a **graph**, *try* to do so *on your computer* (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph. 
+
+I will grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.
 
 ## Exams
 
-There will be three exams (one at the end of each unit) including the final exam. Each exam only covers the material in its associated unit (i.e. no exam is cumulative). These exams provide feedback both to you and to me that ensures everyone is progressing on schedule and apprehending the material. This is critical, as the rest of the course, and indeed, any future economics course you take, will build off of this foundation.
+The midterm exam will be released **on Blackboard** as a timed assignment. You will have 2 hours once you open the exam on Blackboard. You will not need the whole time, I have given you some extra to accommodate the difficulties of taking an exam at home. Please pick a time to take it where you know you will have 2 hours. You may close the exam page and come back to it, but the timer will continue to run once the exam is first opened.
 
-Exams will be released **on Blackboard** as a timed assignment. You will have 2 hours once you open the exam on Blackboard. You will not need the whole time, I have given you some extra to accomodate the difficulties of taking an exam at home. Please pick a time to take it where you know you will have 2 hours. You may close the exam page and come back to it, but the timer will continue to run once the exam is first opened.
+The final exam will be a take-home series of essay questions.
+
+## Term Paper
+
+I am looking for you to write a paper that analyzes a particular law/regulation, institution, custom/practice, or legal/policy issue using the economic analysis of law we develop in this course. For example — why does it exist? what are the consequences, and how does it affect people's incentives? is it efficient? etc. For more details, view the [assignment’s page](assignment/paper).
+
+## Participation/Discussion Board
+
+We will have a discussion board thread on Blackboard open most weeks in the course. I will let you know at the beginning of the week if there is, or is not, a required board open. You will be expected to contribute to the discussion board at least twice in the week. Your weekly contribution will be graded out of 5 points. At the end of the semester, I will apply the *average* of your weekly participation grades to apply (10%) towards your final course grade. 
+
+I am interested in your thoughts, reactions, comments, and questions about any of the material (lectures and/or readings). You do not need to write more than a paragraph. Anything more than that, including continuing to reply to each others’ thoughts, questions, or comments, (which I strongly hope you do!) is solely based on your own interest and curiosity. I will jump in to answer questions the group is stuck on, give my two cents, and stir the pot as needed. I strongly hope we still keep a conversation going and can learn from each other, that was always my goal, not to lecture at you! If you crave visual human contact, you can submit your comments/reactions in the form of a short video, and we can try that out!
+
+Here is my grading rubric for each week (when required):
+
+| Category | 3 Points | 2 Points | 1 Point | 0 points |
+|----------|----------|----------|---------|----------|
+| Quantity | More than 2 replies/started threads | 2 replies/started threads | 1 reply | 0 posts |
+| Quality | Extremely thought provoking, demonstrates clear grappling with readings, adds to conversation | Provides a well-reasoned reply, suggests familiarity with readings, keeps conversation going | A simple reply, may make no reference to readings or ideas, makes further conversation difficult | Minimal effort |
+
+Notice it is possible to get above 5 points for a truly remarkable week of contributions, but I give these sparingly.
 
 ## No extra credit is available 
 
@@ -185,11 +210,9 @@ I will accept late assignments, but will subtract a specified amount of points a
 
 **Exams**: If you know that you will be unable to complete an *exam* as scheduled for a legitimate reason, please notify me at least *one week* in advance, and we will schedule a make-up exam date. Failure to do so, including desperate attempts to make arrangements only *after* the exam will result in a grade of 0 and little sympathy. I reserve the right to re-weight other assignments for students who I believe are legitimately unable to complete a particular assignment.
 
-**Op-eds**: Starting at the deadline, I will take off 1 point for every hour that your Op-ed is late.
-
 ## Grading 
 
-I will try my best to post grades on Blackboard's Grading Center and return graded assignments to you within about one week of you turning them in. There will be exceptions. Where applicable, I will post answer keys once I know most homeworks are turned in (see Late Assignments above for penalties). Blackboard's Grading Center is the place to look for your most up-to-date grades. See also my [<i class="fas fa-calculator"></i> `Grade Calculator`](https://ryansafner.shinyapps.io/306_grade_calculator/) app where you can calculate your overall grade using existing assignment grades and forecast "what if" scenarios.
+I will try my best to post grades on Blackboard's Grading Center and return graded assignments to you within about one week of you turning them in. There will be exceptions. Where applicable, I will post answer keys once I know most homeworks are turned in (see Late Assignments above for penalties). Blackboard's Grading Center is the place to look for your most up-to-date grades. See also my [<i class="fas fa-calculator"></i> `Grade Calculator`](https://ryansafner.shinyapps.io/law_grade_calculator/) app where you can calculate your overall grade using existing assignment grades and forecast "what if" scenarios.
 
 ## Communication: Email, Slack, and Virtual Office Hours 
 
@@ -225,11 +248,11 @@ For the privacy of your peers, and to foster an environment of trust and academi
 
 The [Family Educational Rights and Privacy Act](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html) prevents me from disclosing or discussing any student information, including grades and records about student performance. If the student is at least 18 years of age, *parents (or spouses) do not have a right to obtain this information*, except with consent by the student.
 
-Many of you may be tuning in remotely, living with parents, and may have occasional interruptions due to sharing a space. This is normal and fine, but know that I will protect your privacy and not discuss your performance when parents (or anyone other than you, for that metter) are present, without your explicit consent.
+Many of you may be tuning in remotely, living with parents, and may have occasional interruptions due to sharing a space. This is normal and fine, but know that I will protect your privacy and not discuss your performance when parents (or anyone other than you, for that matter) are present, without your explicit consent.
 
 ## Enrollment 
 
-Students are responsible for verifying their enrollment in this class. The last day to add or drop this class with no penalty is **Thursday, August 27**. Be aware of [important dates](https://www.hood.edu/offices-services/registrars-office/academic-calendar).
+Students are responsible for verifying their enrollment in this class. The last day to add or drop this class with no penalty is **Wednesday, February 10**. Be aware of [important dates](https://www.hood.edu/offices-services/registrars-office/academic-calendar).
 
 ## Honor Code 
 

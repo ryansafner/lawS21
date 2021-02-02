@@ -2,19 +2,14 @@ lessons:
   - title: '<span class="fake-header-table">I. Law and Economics</span>'
     header: True
 
-  - title: "Preliminary Survey"
-    assignment: "00-preliminary-survey"
-
   - title: "1.1 Law and Economics"
     content: "1.1-content"
 
-  - title: "1.2 Economic Efficiency"
+  - title: "1.2 Overview of The Common Law"
 
-  - title: "1.3 Should the Law be Efficient?"
+  - title: "1.3 Optimization, Equilibrium, & Efficiency"
 
-  - title: "1.4 Sources of Law"
-
-  - title: "1.5 Survey of American Legal Institutions"
+  - title: "1.4 Should the Law Be Efficient?"
 
   - title: '<span class="fake-header-table">II. Property</span>'
     header: True

@@ -24,8 +24,8 @@ menu:
     - name: Schedule
       url: /schedule/
       weight: 2
-    - name: Reference
-      url: /reference/
+    - name: Resources
+      url: /resources/
       weight: 5
     - name: Slack
       url: "https://hoodcollegeeconomics.slack.com"
@@ -57,7 +57,7 @@ params:
     slack: "http://hoodcollegeeconomics.slack.com"
     copyrightYear: "2020-2021"
     contactDetails: >-
-      Office hours: TBD on Zoom
+      Office hours: Tu/Th 3:30—5:00 PM
   university: 
     name: Hood College
     url: "https://www.hood.edu"

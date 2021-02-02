@@ -1,0 +1,12 @@
+name: law_grade_calculator
+title: law_grade_calculator
+username:
+account: ryansafner
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3560857
+bundleId: 4168023
+url: https://ryansafner.shinyapps.io/law_grade_calculator/
+when: 1612202555.30266
+asMultiple: FALSE
+asStatic: FALSE

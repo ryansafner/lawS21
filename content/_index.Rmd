@@ -7,13 +7,12 @@ author: "Ryan Safner"
 
 By the end of this course, you will: 
 
-1. Grapple with the conflicting social goals of justice and efficiency
-2. Derive the economic functions of key concepts, legal maxims, and rules in the substantive areas of
-law: torts, property, contracts, and criminal law
-3. Apply economic models to determine the efficiency of legal rules
-4. Identify the sources of law in the United States: common law jurisprudence, legislative statutes,
-administrative law
-5. Identify the key legal institutions of the United States: state vs. federal courts, the appellate court system, state and federal constitutions, regulatory agencies, arbitration
+- Predict the consequences of various laws, institutions, and customs
+- Predict what law will emerge under given conditions
+- Determine whether law *is* economically efficient, and discuss whether the law *should* be economically efficient
+- Derive the economic functions of key concepts, legal maxims, and rules in the substantive areas of law: torts, property, contracts, and criminal law
+- Identify the sources of law in the United States
+- Identify the key legal institutions of the United States
 
 Given these objectives, this course fulfills all three of the learning outcomes for [the George B. Delaplaine, Jr. School of Business](https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes) Economics B.A. program:
 
