@@ -1,5 +1,5 @@
 ---
-title: "1.2 — An Overview of the Common Law — Class Content"
+title: "1.2 — An Overview of Common Law — Class Content"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -20,7 +20,7 @@ Today we discuss some of the major terms and distinctions between areas of law a
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
 ## Recommended/Referenced Readings
-- <i class="fas fa-book"></i> Ch. 3 in @CooterUlen
+- <i class="fas fa-book"></i> Ch. 3 in Cooter and Ulen, 2012, *Law & Economics*
 
 - [<i class="fas fa-file-pdf"></i> Hayek (1973), "The Changing Concept of Law," Ch.4 in in *Law, Legislation, and Liberty, Vol.1*](/readings/Hayek-1973-Ch4.pdf)
 
