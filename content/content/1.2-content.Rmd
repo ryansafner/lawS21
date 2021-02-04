@@ -1,5 +1,5 @@
 ---
-title: "1.2 — Efficiency — Class Content"
+title: "1.2 — An Overview of the Common Law — Class Content"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -15,29 +15,27 @@ editor_options:
 
 # <i class="fas fa-info-circle fa-lg"></i> Overview
 
-
+Today we discuss some of the major terms and distinctions between areas of law and types of legal systems, focusing on the common law and the legal institutions in the United States.
 
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
-# Required Readings
+## Recommended/Referenced Readings
+- <i class="fas fa-book"></i> Ch. 3 in @CooterUlen
 
-This week is all introductory, but you may look at Chapter 1 in the textbook if you wish. Otherwise, please heed this timeless message:
+- [<i class="fas fa-file-pdf"></i> Hayek (1973), "The Changing Concept of Law," Ch.4 in in *Law, Legislation, and Liberty, Vol.1*](/readings/Hayek-1973-Ch4.pdf)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A message to students from the Doggfather himself, <a href="https://twitter.com/SnoopDogg?ref_src=twsrc%5Etfw">@SnoopDogg</a> <a href="https://t.co/wsSANYv8u6">pic.twitter.com/wsSANYv8u6</a></p>&mdash; Ryan Briggs (@ryancbriggs) <a href="https://twitter.com/ryancbriggs/status/1293543531496308736?ref_src=twsrc%5Etfw">August 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Chapter 3 of the textbook provides a good overview of these issues.
 
-## Optional/Referenced Readings
-
-- [<i class="fas fa-file-pdf"></i> Ellickson, 1989, "A Hypothesis of Wealth-Maximizing Norms: Evidence from the Whaling Industry"](/readings/Ellickson-1989.pdf)
+Hayek discusses the nature of the common law, and how the role of judges is to "discover" what the law is (rather than make it), and this is very different from our nature of legislation (Congress makes a law). He also discusses how common law evolves, and a bit of the history of the idea of law. I highly recommend reading this to get a sense of how the Anglo-American legal system works, and why there is a large degree of spontaneous order (like markets).
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
-- [<i class="fas fa-chalkboard-teacher"></i> View Lecture Slides](/slides/1.1-slides.html)
-- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/1.1-slides.pdf)
+[![](/slides/1.2-slides.png)](/slides/1.2-slides.html)
 
-# <i class="fas fa-dumbbell"></i> Practice
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/1.2-slides.pdf)
 
 # <i class="fas fa-laptop-code"></i> Assignments
 
-## Preliminary Survey
+## Discussion Board
 
-Please take the [preliminary survey](/assignment/00-preliminary-survey) on your economics background by 11:59 PM Sunday. This will help us all have a productive course together!^[Side??]
+While this week will not be for a grade, let's give the Blackboard discussions a try. I will open a discussion board on this week's topics if you would like to discuss any of the suggested readins, or content we discussed in class.
