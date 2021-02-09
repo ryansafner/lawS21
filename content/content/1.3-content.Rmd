@@ -1,5 +1,5 @@
 ---
-title: "1.3 — What Is Law? — Class Content"
+title: "1.3 — Review of Economics & Efficiency — Class Content"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -11,39 +11,26 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Tuesday, February 2, 2021*
+*Tuesday, February 9, 2021*
 
 # <i class="fas fa-info-circle fa-lg"></i> Overview
 
-Welcome to ECON 315 - Economics of the Law! Today's lesson will be an introduction to the course and the tools — what content we will cover, the assignments, what you will need, and what the field known as ["law and economics"](https://en.wikipedia.org/wiki/Law_and_economics) is about.
-
-If you have not done so, please watch my welcome video, read the announcements in Blackboard, take my survey, and join our class slack channel.
-
-The live class <i class="fas fa-video"></i> Zoom meeting link can be found on Blackboard (see `LIVE ZOOM MEETINGS` on the left navigation menu), starting at 2:00 PM.
-
-If you are unable to join today's live session, or if you want to review, you can find the recording stored on Blackboard via Panopto (see `Class Recordings` on the left navigation menu).
+Today we essentially review the basic tools of microeconomics with a focus on economic efficiency — its definitions, why markets and consensual exchange are efficient, as well as what can give rise to inefficiencies. This will help us next class when we discuss whether the law *should* be efficient.
 
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
-# Required Readings
+- <i class="fas fa-book"></i> Ch. 2 in Cooter and Ulen, 2012, *Law & Economics*
+- <i class="fas fa-book"></i> Ch. 2 in Friedman, 2000, *Law's Order*
+- [<i class="fas fa-external-link-square-alt"></i> SMBC: Super Efficient]
 
-This week is all introductory, but you may look at Chapter 1 in the textbook if you wish. Otherwise, please heed this timeless message:
+The textbook covers a full review of intermediate microeconomics — utility maximization, supply and demand, perfect competition, monopoly, game theory, choice under risk, informational problems — in Chapter 2. It's unlikely we'll need *all* of it (now), but it will be helpful to refer back to.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A message to students from the Doggfather himself, <a href="https://twitter.com/SnoopDogg?ref_src=twsrc%5Etfw">@SnoopDogg</a> <a href="https://t.co/wsSANYv8u6">pic.twitter.com/wsSANYv8u6</a></p>&mdash; Ryan Briggs (@ryancbriggs) <a href="https://twitter.com/ryancbriggs/status/1293543531496308736?ref_src=twsrc%5Etfw">August 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-## Optional/Referenced Readings
-
-- [<i class="fas fa-file-pdf"></i> Ellickson, 1989, "A Hypothesis of Wealth-Maximizing Norms: Evidence from the Whaling Industry"](/readings/Ellickson-1989.pdf)
+Friedman, as usual, provides a great discussion of efficiency (he prefers a “Marshallian” view of efficiency as opposed to Pareto or Kaldor-Hicks) and also launches into a discussion about whether law *should* be efficient, which will be more relevant next class.
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
-- [<i class="fas fa-chalkboard-teacher"></i> View Lecture Slides](/slides/1.1-slides.html)
-- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/1.1-slides.pdf)
+[![](/slides/1.3-slides.png)](/slides/1.3-slides.html)
 
-# <i class="fas fa-dumbbell"></i> Practice
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/1.3-slides.pdf)
 
 # <i class="fas fa-laptop-code"></i> Assignments
-
-## Preliminary Survey
-
-Please take the [preliminary survey](/assignment/00-preliminary-survey) on your economics background by 11:59 PM Sunday. This will help us all have a productive course together!^[Side??]

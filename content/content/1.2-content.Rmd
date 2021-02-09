@@ -7,7 +7,7 @@ output:
   blogdown::html_page:
     template: ../../pandoc/toc-title_html.template
     toc: true
-editor_options: 
+editor_options:  
   chunk_output_type: console
 ---
 

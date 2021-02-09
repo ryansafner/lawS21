@@ -10,8 +10,10 @@ lessons:
     content: "1.2-content"
     slides: "1.2-slides"
     
-  - title: "1.3 Optimization, Equilibrium, & Efficiency"
-
+  - title: "1.3 Review of Economics & Efficiency"
+    content: "1.3-content"
+    slides: "1.3-slides"
+    
   - title: "1.4 Should the Law Be Efficient?"
 
   - title: '<span class="fake-header-table">II. Property</span>'
