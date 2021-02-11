@@ -1,0 +1,1062 @@
+---
+title: "1.4 — Should Law Be Efficient?"
+subtitle: "ECON 315 • Economics of the Law • Spring 2021"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: ocean #rainbow #monokai rainbow solarized-light #tomorrow-night -blue -eighties zenburn
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F,
+                      fig.retina=3,
+                      fig.align = "center")
+library("tidyverse")
+library("ggrepel")
+library("fontawesome")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_tachyons()
+
+theme_slides <- theme_light() + 
+  theme(
+    text = element_text(family = "Fira Sans", size = 24)
+  )
+```
+
+# Three Projects in Law & Economics
+
+.pull-left[
+
+.smallest[
+1. .hi-purple[Predicting consequences of law]
+  - least controversial
+
+2. .hi-purple[Predicting what law will be]
+  - an empirical conjecture: law *is* efficient
+
+3. .hi-purple[Recommending what law should be]
+  - a normative project: law *should* be efficient
+
+- You could still believe:
+  - law is efficient, but should not be
+  - law is not efficient, but should be
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+# Positive vs. Normative Economics
+
+.pull-left[
+
+.hi[Positive economics]: descriptive statements about the world
+  - “The Common Law *tends toward* efficiency”
+
+.hi-purple[Normative economics]: prescriptive statements about how the world *ought to be*
+  - “The Common Law *should be* efficient”
+]
+
+.pull-right[
+.center[
+![](../images/canought.png)
+]
+]
+
+---
+
+# What Should the Goals of the Law Be?
+
+.pull-left[
+
+> “Fiat justitia ruat caelum”
+
+- What is justice?
+  - Absence of *injustices*?
+
+- .hi-purple[Utilitarian] & .hi-purple[deontological] views of justice (among others)
+
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/ladyjustice.jpg)
+]
+]
+
+---
+
+# Efficiency or Justice?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+.smallest[
+> “The statement that we should choose just rules, while emotionally satisfying, does not convey much information. Economic value may capture only part of what we want out of a legal system, but at least economic theory tells us how to get it. And consequences are an important part of what we want. The doctrine *fiat justicia, ruat coelum* (let justice be done though the skies fall) is, in my experience, uniformly proclaimed by people who are confident that doing justice will not, in fact, bring down the sky,” (p.22).
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+]
+
+---
+
+# If You Remain Unconvinced
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+.smallest[
+> “As we develop the economic analysis of law, we will observe a surprising correspondence between justice and efficiency. In many cases principles we think of as just correspond fairly to rules that we discover are efficient...This suggests a radical conjecture—that what we call principles of justice may actually be rules of thumb for producing an efficient outcome, rules we have somehow internalized. Whether that is a sufficient account of justice you will have to decide for yourself,” (p.22-23).
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+]
+
+---
+
+# Posner: Common Law Is & Should Be Efficient
+
+.left-column[
+.center[
+![](../images/posner.jpg)
+
+.smallest[
+Richard A. Posner
+
+1939—
+
+Fmr. U.S. 7<sup>th</sup> Circuit Judge
+]
+]
+]
+
+.right-column[
+
+- Major figure in Law & Economics field
+
+- 1981—2017 Judge of U.S Court of Appeals for the 7<sup>th</sup> Circuit
+
+- University of Chicago Law Professor
+
+- Considered for U.S. Supreme Court, but too pragmatic & libertarian-ish
+
+- The most cited legal scholar of the 20<sup>th</sup> (and 21<sup>st</sup>) Century
+
+- Absolutely prolific scholarly output
+]
+
+---
+
+# Posner: Common Law Is & Should Be Efficient
+
+.left-column[
+.center[
+![](../images/posner.jpg)
+
+.smallest[
+Richard A. Posner
+
+1939—
+
+Fmr. U.S. 7<sup>th</sup> Circuit Judge
+]
+]
+]
+
+.right-column[
+
+- Defends Kaldor-Hicks efficiency, or “wealth-maximization” approach to law
+
+- Notion of consent as “ex-ante compensation”
+
+- We often consent *ex*-ante to the possibility of many *involuntary*, uncompensated losses
+
+- .hi-green[Example]: If you buy a lottery ticket and you don't win anything, you have consented to the loss (and deserve no compensation)
+
+.source[Posner, Richard A, 1980, “The Ethical and Political Basis of the Efficiency Norm in Common Law Adjudication,” *Hofstra Law Review* 8: 487]
+
+]
+
+---
+
+# Posner: Common Law Is & Should Be Efficient
+
+.left-column[
+.center[
+![](../images/posner.jpg)
+
+.smallest[
+Richard A. Posner
+
+1939—
+
+Fmr. U.S. 7<sup>th</sup> Circuit Judge
+]
+]
+]
+
+.right-column[
+
+- Imagine before we all drive, everyone got together and negotiated a liability rule for traffic accidents
+
+- If one rule was clearly more efficient than another, we would all vote for that rule
+
+- The rule has our *ex*-ante consent (before any accident occurs)
+  - *Ex*-post, when you are a party in an accident, you only care about the rule best *for you*
+  - but if that rule were more efficient, you would have supported it before the accident
+
+.source[Posner, Richard A, 1980, “The Ethical and Political Basis of the Efficiency Norm in Common Law Adjudication,” *Hofstra Law Review* 8: 487]
+
+]
+
+---
+
+# Consent as Ex-Ante Compensation: Example I
+
+.left-column[
+.center[
+![:scale 100%](../images/caraccident.jpg)
+]
+]
+
+.right-column[
+.smallest[
+- Suppose there are two possible rules for accident liability
+  - One favors pedestrians, one favors drivers
+  - The one favoring drivers is more efficient
+
+]
+
+.tiny[
+
+| Rule | Expected Payoff for Drivers | Expected Payoff for Pedestrians | Expected Payoff for Unknown in Advance|
+|---:|------------:|----------------:|------------------------:|
+| Strict Liability | -100 | 0 | -50 |
+| Negligence | -20 | -60 | -40 |
+
+]
+
+.smallest[
+- Posner: *before we know who we'll be*, everyone would unanimously agree to the second rule (less costly)
+
+]
+]
+
+---
+
+# Consent as Ex-Ante Compensation: Example II
+
+.left-column[
+.center[
+![](../images/Tenancy-agreement.png)
+]
+]
+
+.right-column[
+- Consider two potential tenancy laws, one that is “tenant-friendly” and one that is “landlord-friendly”
+  - might think tenants would prefer pro-tenant laws
+
+- But rents are determined competitively!
+  - tenant-friendly laws might go up to compensate
+  - less rental housing available to poor tenants
+
+- If the tenant-friendly law is less efficient, *nobody* would agree to it ex-ante (both sides harmed)
+
+]
+
+---
+
+# Posner's Basic Argument
+
+.left-column[
+.center[
+![](../images/posner.jpg)
+
+.smallest[
+Richard A. Posner
+
+1939—
+
+Fmr. U.S. 7<sup>th</sup> Circuit Judge
+]
+]
+]
+
+.right-column[
+
+- If we choose the most efficient legal system, everyone is “compensated *ex*-ante”, should willingly accept the outcome they get
+  - buying the lottery ticket, you were compensated ahead of time for the possible loss, by the possibility that you could win big
+
+- As members of society, our choosing efficient rules compensates us ex-ante, since these are the “lottery tickets” with the highest expected value
+
+
+.source[Posner, Richard A, 1980, “The Ethical and Political Basis of the Efficiency Norm in Common Law Adjudication,” *Hofstra Law Review* 8: 487]
+
+]
+
+---
+
+# Limitations to Posner’s Argument
+
+.pull-left[
+
+- The “lottery ticket” analogy assumes .hi-purple[risk neutrality]
+  - 50% chance at $1 million is just as good as a 50% chance at $900,000 and 50% chance at $100,000
+
+- And equal marginal utility of money
+]
+
+.pull-right[
+.center[
+![](../images/gamble.jpg)
+]
+]
+
+---
+
+# What Efficiency is Not
+
+.pull-left[
+
+- Highlights some of the things that efficiency is **not**:
+  - equity
+  - fairness
+  - maximizing happiness
+
+- A famous trade-off between efficiency and equity
+]
+
+.pull-right[
+.center[
+![](../images/economicpie.jpg)
+]
+]
+
+---
+
+# Equality vs. Equity
+
+.center[
+![:scale 100%](../images/equalityequity.jpg)
+]
+
+---
+
+# More Pragmatic Cases for Efficiency
+
+.left-column[
+.center[
+![:scale 80%](../images/ellickson.jpg)
+]
+
+.smallest[
+Robert C. Ellickson
+]
+]
+
+.right-column[
+
+.smallest[
+- In each situation, norms emerged which were well-suited to the environment
+
+> “[W]hen people are situated in a close-knit group, .hi[they will tend to develop for the ordinary run of problems norms that are wealth-maximizing].”
+
+> “A norm is wealth-maximizing when it operates to minimize the members' objective sum of (1) transaction costs, and (2) deadweight losses arising from failures to exploit potential gains from trade,” (p.84).
+
+]
+
+
+.source[Ellickson, Robert C, 1989, “A Hypothesis of Wealth-Maximizing Norms: Evidence from the Whaling Industry,” *Journal of Law, Economics, & Organization* 5(1): 83-97]
+
+]
+
+---
+
+# More Pragmatic Cases for Efficiency
+
+.left-column[
+
+.center[
+![:scale 80%](../images/landsburg.jpg)
+.smallest[
+Steven Landsburg
+]
+]
+
+]
+
+.right-column[
+
+.quitesmall[
+
+> “I think economists are right to emphasize efficiency, and I think so for (at least) two reasons. First, emphasizing efficiency forces us to concentrate on the most important problems... 
+
+> “In fact, whenever a policy is inefficient, there’s always an alternative policy that, in principle, is better for everyone. That’s what inefficiency means...
+
+> “So maybe we don’t want to pursue this alternative policy after all. But, says the economist, we ought at least to consider it...
+
+> “And — here’s the point — the bigger the deadweight loss, the greater the potential gains from an alternative policy. Therefore, the bigger the deadweight loss, the more it’s worth at least attempting to devise a good alternative policy. We calculate the deadweight loss as a rough but useful guide to how much effort we should put into this problem. (Calculating deadweight losses is the same thing as worrying about efficiency.)”
+
+]
+
+.source[Landsburg, Steven, August 30, 2011, [“Efficiency Experts”](http://www.thebigquestions.com/2010/08/30/efficiency-experts/)]
+
+]
+---
+
+# More Pragmatic Cases for Efficiency
+
+.left-column[
+
+.center[
+![:scale 80%](../images/landsburg.jpg)
+.smallest[
+Steven Landsburg
+]
+]
+]
+
+.right-column[
+
+.quitesmall[
+
+“Second, emphasizing efficiency forces us to be honest about our goals...efficiency analysis strikes down political smokescreens. Like this:
+]
+
+.tiny[
+> Politician: Here’s my program to make the health care system work better by subsidizing health care for the poor.
+
+> Economist: Your program costs a billion dollars and delivers half a billion dollars worth of benefits. That’s inefficient.
+
+> Politician: So what?
+
+> Economist: Well, the “so what” is that maybe you could take that billion dollars and deliver a full billion dollars worth of benefits instead if you spent it a little differently. Why not just hand the cash out to poor people?
+
+> Politician: Because I don’t want to help all poor people. I only want to help sick poor people — and this is the only way I can think of to do that.
+
+> Economist: Ah. So your goal here is not to make the health care system work better after all. Instead it’s to transfer resources to sick poor people.
+
+> Politician: I guess so.
+
+> Economist: That’s fine. Now we can have a healthy debate about whether that’s what we want to do.
+
+]
+
+.quitesmall[
+“And now, you see, thanks to the economist’s insistence on thinking about efficiency, we end up having an honest debate about the politician’s real goal instead of a dishonest debate about the politician’s feigned goal. However the debate turns out, that’s a useful exercise.”
+
+]
+
+.source[Landsburg, Steven, August 30, 2011, [“Efficiency Experts”](http://www.thebigquestions.com/2010/08/30/efficiency-experts/)]
+
+]
+
+---
+
+# Law Is a Bad Way To Redistribute Wealth
+
+.pull-left[
+
+- Efficiency should not necessarily be the goal of .hi-turquoise[society]
+
+- But efficiency should be the goal of the .hi-turquoise[legal system]
+
+- If redistribution is desirable for justice, better to have the legal system be efficient, and redress distribution via taxes and spending
+]
+
+.pull-right[
+.center[
+![](../images/distribution.jpg)
+]
+]
+
+---
+
+# Law Is a Bad Way To Redistribute Wealth
+
+.pull-left[
+.smallest[
+- Cooter & Ulen have 4 good reasons why using tax policy is superior for redistribution
+
+1. Taxes can target “rich” and “poor” more precisely than the legal system can
+
+2. Distributional effects of legal changes are hard to predict
+
+3. Transaction costs are higher for using the legal system (“Lawyers are more expensive than accountants”)
+
+4. Broad-based taxes cause less distortion than narrowly-targeted laws/policies (or equivalent taxes)
+]
+]
+
+.pull-right[
+.center[
+![](../images/distribution.jpg)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Review of Static Game Theory
+
+---
+
+# Game Theory
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/93gtv9xei0q5fik/gametheory.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- .hi[Game theory]: a set of tools that model .hi-purple[trategic interactions] (.hi-purple[“games”]) between rational agents, 3 elements:
+    1. **Players**
+    2. **Strategies** that each player can choose from
+    3. **Payoffs** to each player that are *jointly-determined* from combination of all players’ strategies 
+
+]
+
+---
+
+# Game Theory vs. Decision Theory Models I
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/kjm2fzw4o3p0sk3/optimize.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- Traditional economic models are often called .hi[“Decision theory”]:
+
+- .hi-purple[Optimization models] **ignore all other agents** and just focus on how can **you** maximize **your** objective within **your** constraints
+  - Consumers max utility; firms max profit, etc.
+
+- **Outcome**: .hi-purple[optimum]: decision where *you* have no better alternatives
+
+]
+
+
+---
+
+# Game Theory vs. Decision Theory Models I
+
+.pull-left[
+
+.center[
+![](https://www.dropbox.com/s/9d2bkesu20g5fj7/crowdartistic.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- Traditional economic models are often called .hi[“Decision theory”]:
+
+- .hi-purple[Equilibrium models] assume that there are **so many agents** that **no agent’s decision can affect the outcome**
+  - Firms are price-takers or the *only* buyer or seller
+  - **Ignores all other agents’ decisions**!
+
+- **Outcome**: .hi-purple[equilibrium]: where *nobody* has no better alternatives
+
+]
+
+---
+
+# Game Theory vs. Decision Theory Models III
+
+.pull-left[
+.center[
+![:scale 90%](https://www.dropbox.com/s/tymdsxbqaq2scxq/chessknights.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- .hi[Game theory models] directly confront .hi-purple[strategic interactions] between players
+  - How each player would optimally respond to a strategy chosen by other player(s)
+  - Lead to a stable outcome where everyone has considered and chosen mutual best responses
+
+- .hi-purple[Nash equilibrium]: set of strategy profiles where *nobody* wants to switch strategies *given the strategies everyone else is playing*
+  - each player is playing a **best response** against other players’ strategies
+
+]
+
+---
+
+# As a Prisoner's Dilemma I
+
+.pull-left[
+.center[
+
+![:scale 100%](https://www.dropbox.com/s/uj1jxo2s1dr8yeb/applevsgoogle.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- Suppose we have a simple **duopoly** between .hi-red[Apple] and .hi-blue[Google]
+
+- Each is planning to launch a new tablet, and choose to sell it at a **High Price** or a **Low Price**
+
+]
+
+
+---
+
+# As a Prisoner's Dilemma I
+
+.pull-left[
+
+- Payoff matrix represents profits to each firm
+  - First number in each box goes to .hi-red[Row player (Apple)]
+  - Second number in each box goes to .hi-blue[Column player (Google)]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/7z7okbojvajbfmq/pdapplegoogle.png?raw=1)
+]
+]
+---
+
+# As a Prisoner's Dilemma II
+
+.pull-left[
+
+- From .hi-red[Apple]'s perspective:
+  - .hi-red[Low Price] is a .hi-purple[dominant strategy] for .hi-red[Apple]
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/223j924yyaph1sk/pdapple1.png?raw=1)
+]
+]
+
+---
+
+# As a Prisoner's Dilemma II
+
+.pull-left[
+
+- From Google's perspective:
+  - .hi-blue[Low Price] is a .hi-purple[dominant strategy] for .hi-blue[Google]
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/5vzsainx3h556ke/pdgoogle1.png?raw=1)
+]
+]
+
+---
+
+# As a Prisoner's Dilemma II
+
+.pull-left[
+
+- .hi[Nash equilibrium]: (.hi-red[Low Price], .hi-blue[Low Price])
+  - neither player has an incentive to change price, *given the other's price*
+
+]
+
+.pull-right[
+.center[
+
+![](https://www.dropbox.com/s/9xram8ppumhfuoq/pdapplegooglenash.png?raw=1)
+
+]
+]
+
+---
+
+# As a Prisoner's Dilemma III
+
+.pull-left[
+
+- .hi[Nash equilibrium]: (.hi-red[Low Price], .hi-blue[Low Price])
+  - neither player has an incentive to change price, *given the other's price*
+  
+- A possible **Pareto improvement**: (.hi-red[High Price], .hi-blue[High Price])
+  - Both players are better off, nobody worse off!
+  - Is it a Nash Equilibrium?
+
+]
+
+.pull-right[
+.center[
+
+![](https://www.dropbox.com/s/y2903cwtikr31e4/pdapplegooglecartel.png?raw=1)
+
+]
+]
+
+---
+
+# As a Prisoner's Dilemma IV
+
+.pull-left[
+
+- Google and Apple could .hi-purple[collude] with one another and agree to both raise prices
+
+- .hi[Cartel]: group of sellers coordinate to raise prices to act like a collective monopoly and split the profits	
+
+]
+
+.pull-right[
+
+.center[
+![](https://www.dropbox.com/s/nxgqbud4hgatv2s/backroomdeal.png?raw=1)
+]
+]
+
+---
+
+# Game Theory: Some Generalizations
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/tymdsxbqaq2scxq/chessknights.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+There's a *lot* more to game theory than a one-shot prisoners' dilemma:
+
+- one shot vs. repeated game
+
+- discrete vs. continuous strategies
+
+- perfect vs. incomplete vs. and asymmetric information
+
+- simultaneous vs. sequential game
+
+- See my [game theory course](https://ryansafner.com/courses/econ316/) for more (likely taught next in Fall 2021)
+]
+
+---
+
+# Solution Concepts
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+.pull-right[
+
+- We use .hi-purple["solution concepts"] to allow us to predict an .hi-purple[equilibrium] of a game
+
+- .hi[Nash Equilibrium] is the primarly solution concept
+  - Note it has *many* variants depending on if games are sequential vs. simultaneous, perfect vs. imperfect information, etc.
+
+]
+
+---
+
+# Solution Concepts: Nash Equilibrium
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Recall, .hi[Nash Equilibrium]: no players want to change their strategy given what everyone else is playing
+  - All players are playing a best response to each other
+
+]
+
+---
+
+# Solution Concepts: Nash Equilibrium
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Important about Nash equilibrium:
+
+1. N.E. $\neq$ the "*best*" or *optimal* outcome
+  - Recall the Prisoners' Dilemma!
+
+2. Game may have *multiple* N.E.
+
+3. Game may have *no* N.E. (in "pure" strategies)
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/k431qrlyj2nbnc3/standards_game.png?raw=1)
+]
+]
+
+.pull-right[
+
+- A .hi-purple[Coordination Game]
+  - No dominant strategies
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/a0i4xlq2uipi360/standards_game_Nashes.png?raw=1)
+]
+]
+
+.pull-right[
+
+- .hi-purple[Two Nash equilibria]: (.red[A],.blue[A]) and (.red[B],.blue[B])
+  - Either just as good
+  - Coordination is most important
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/a0i4xlq2uipi360/standards_game_Nashes.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[1) Cell-by-Cell Inspection]: look in each cell, does either player want to deviate?
+  - .hi-purple[If no: a Nash equilibrium]
+  - If yes: *not a Nash equilibrium*
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/k431qrlyj2nbnc3/standards_game.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[2) Best-Response Analysis]: take the perspective of each player. If the other player plays a particular strategy, what is your strategy(s) that gets you the highest payoff?
+  - Ties are allowed
+  - .hi-purple[Any cell where both players are playing a best response is a Nash Equilibrium]
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/cn8l8c81yy6tcwh/standards_game_1br.png?raw=1)
+
+.red[Player 1's] best responses
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[2) Best-Response Analysis]: take the perspective of each player. If the other player plays a particular strategy, what is your strategy(s) that gets you the highest payoff?
+  - Ties are allowed
+  - .hi-purple[Any cell where both players are playing a best response is a Nash Equilibrium]
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/etk1nlasbo788h8/standards_game_2br.png?raw=1)
+
+.blue[Player 2's] best responses
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[2) Best-Response Analysis]: take the perspective of each player. If the other player plays a particular strategy, what is your strategy(s) that gets you the highest payoff?
+  - Ties are allowed
+  - .hi-purple[Any cell where both players are playing a best response is a Nash Equilibrium]
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/8yzrc25hzb6fd9x/standards_game_brnashes.png?raw=1)
+
+.hi-purple[N.E.]: each player is playing a best response
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[2) Best-Response Analysis]: take the perspective of each player. If the other player plays a particular strategy, what is your strategy(s) that gets you the highest payoff?
+  - Ties are allowed
+  - .hi-purple[Any cell where both players are playing a best response is a Nash Equilibrium]
+
+]
+
+---
+
+# A Change in the Game
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/8r7nkpwplojj4pd/standards_game_lockin.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Two Nash equilibria again: (.red[A],.blue[A]) and (.red[B],.blue[B])
+
+- But here (.red[A],.blue[A]) $\succ$ (.red[B],.blue[B])!
+
+]
+
+---
+
+# A Change in the Game
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/8r7nkpwplojj4pd/standards_game_lockin.png?raw=1)
+]
+]
+
+.pull-right[
+- .hi-purple[Path Dependence]: early choices may affect later ability to choose or switch
+
+- .hi-purple[Lock-in]: the switching cost of moving from one equilibrium to another becomes prohibitive
+
+- Suppose we are currently in equilibrium (B,B)
+
+- .hi-purple[Inefficient lock-in]:
+  - Standard A is superior to B
+  - But too costly to switch from B to A
+
+]
+
+---
+
+# Some Games Have No Nash Equilibrium
+
+.pull-left[
+
+.center[
+![](../images/soccer-game.png)
+]
+]
+
+---
+
+# Some Games Have No Nash Equilibrium
+
+
+.pull-left[
+
+.center[
+![](../images/soccer-game-best-responses.png)
+]
+]
+
+.pull-right[
+
+- Best responses
+
+- No strategy profile where both players are playing a best responses
+
+- No Nash Equilibrium in .hi-purple[“pure strategies”]
+
+- But there is (always) a Nash Equilibrium in .hi-turquoise[“mixed strategies”]
+]
