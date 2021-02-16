@@ -21,8 +21,6 @@ Since Hood College [has designated](https://www.hood.edu/offices-services/regist
 
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
-# Readings
-
 - <i class="fas fa-book"></i> Ch. 2^[For the game theory review.], 4.I^[For some fundamentals of property law.] in Cooter and Ulen, 2012, *Law & Economics*
 - [<i class="fab fa-wikipedia-w"></i> Pierson v. Post](https://en.wikipedia.org/wiki/Pierson_v._Post)
 - [<i class="fas fa-external-link-square-alt"></i> Pierson v. Post (Opinion of the  Court)](http://www.courts.state.ny.us/reporter/archives/pierson_post.htm)

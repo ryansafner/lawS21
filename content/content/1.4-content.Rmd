@@ -19,8 +19,6 @@ After having reviewed what efficiency means in economics, why markets and volunt
 
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
-# Readings
-
 - <i class="fas fa-book"></i> Ch. 1.III in Cooter and Ulen, 2012, *Law & Economics*
 - <i class="fas fa-book"></i> Ch. 2 in Friedman, 2000, *Law's Order*
 - [<i class="fas fa-file-pdf"></i> Posner, 1980, "The Ethical and Political Basis of the Efficiency Norm in Common Law Adjudication"](/readings/Posner-1980a.pdf)
