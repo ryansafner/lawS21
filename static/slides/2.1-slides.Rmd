@@ -566,7 +566,7 @@ There's a *lot* more to game theory than a one-shot prisoners' dilemma:
 
 class: inverse, center, middle
 
-# Property
+# The Problem, Philosophically, and Game-Theoretically
 
 ---
 
@@ -579,6 +579,25 @@ class: inverse, center, middle
 - Imagine two neighboring farmers (from Cooter & Ulen)
   - game theoretic interaction
   - each farmer can either .hi-purple[Farm] or .hi-purple[Steal]
+]
+
+.pull-right[
+.center[
+![](../images/wheatfarmfence.jpg)
+]
+]
+
+---
+
+# Why Do We Need Property Law?
+
+.pull-left[
+
+- Suppose:
+  - crops are valued at 15
+  - planting & watering costs 5
+  - stealing costs 2
+
 ]
 
 .pull-right[
@@ -616,13 +635,149 @@ class: inverse, center, middle
 
 - .hi-purple[Nash Equilibrium]: (.red[Steal],.blue[Steal])
 
-- Pareto-improvement: (.red[Farm],.blue[Farm])
 ]
 
 .pull-right[
 .center[
 ![](../images/propertygameNE.png)
 ]
+]
+
+---
+
+# The Hobbesian Dilemma
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/yejb6ou2bwaqlxb/hobbes.png?raw=1)
+
+Thomas Hobbes
+
+1588-1679
+]
+]
+
+.right-column[
+
+> "In [the state of nature], there is no place for Industry; because the fruit thereof is uncertain; and consequently no Culture of the Earth...no Knowledge of the face of the Earth; no account of Time; no Arts; no Letters; no Society; and which is worst of all, continuall feare, and danger of violent death; .ji[And the life of man, solitary, poore, nasty, brutish, and short], (Ch. XVIII).
+]
+
+.source[Hobbes, Thomas, 1651, [*Leviathan: Or the Matter, Forme and Power of a Commonwealth, Ecclesiasticall and Civil*](https://www.gutenberg.org/files/3207/3207-h/3207-h.htm)]
+
+---
+
+# The Hobbesian Dilemma
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/yejb6ou2bwaqlxb/hobbes.png?raw=1)
+
+Thomas Hobbes
+
+1588-1679
+]
+]
+
+.right-column[
+
+> "And because the condition of man...is a condition of .hi[war of every one against every] one...it followeth that in such a condition .hi[every man has a right to every thing, even to one another's body]. And therefore, as long as this natural right of every man to every thing endureth, .hi[there can be no security to any man]...The .hi[first fundamental law of nature] is: .hi[to seek peace and follow it] (Ch. XVIV).
+]
+
+.source[Hobbes, Thomas, 1651, [*Leviathan: Or the Matter, Forme and Power of a Commonwealth, Ecclesiasticall and Civil*](https://www.gutenberg.org/files/3207/3207-h/3207-h.htm)]
+
+---
+
+# The Hobbesian Dilemma
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/yejb6ou2bwaqlxb/hobbes.png?raw=1)
+
+Thomas Hobbes
+
+1588-1679
+]
+]
+
+.right-column[
+
+> "For the Lawes of Nature (as Justice, Equity, Modesty, Mercy, and (in summe) Doing To Others, As Wee Would Be Done To,) if themselves, without the terrour of some Power, to cause them to be observed, are contrary to our naturall Passions, that carry us to Partiality, Pride, Revenge, and the like. And .hi[Covenants, without the Sword, are but Words, and of no strength to secure a man at all], (Ch. XVIII).
+]
+
+.source[Hobbes, Thomas, 1651, [*Leviathan: Or the Matter, Forme and Power of a Commonwealth, Ecclesiasticall and Civil*](https://www.gutenberg.org/files/3207/3207-h/3207-h.htm)]
+
+---
+
+# The Hobbesian Dilemma 
+
+.pull-left[
+
+- .hi[Nash equilibrium]: everyone *steals*! 
+
+- Pareto-improvement: (.red[Farm],.blue[Farm])
+  - This is the .hi-purple[socially optimal equilibrium]
+
+- Hobbes' insight: .hi-purple[no _individual_ has an incentive to farm when everyone steals!]
+
+]
+
+.pull-right[
+.center[
+![](../images/propertygameNE.png)
+]
+]
+
+---
+
+# The Hobbesian Solution
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/yejb6ou2bwaqlxb/hobbes.png?raw=1)
+
+Thomas Hobbes
+
+1588-1679
+]
+]
+
+.right-column[
+
+> "It is a real unity of them all in one and the same person, made by covenant of every man with every man, in such manner as ife every man should say to every man: .hi[I authorise and give up my right of governing myself to this man, or to this assembly of men, on this condition; that thou give up, thy right to him, and authorise all his actions in like manner]. This done, the multitude so united in one person is called a .hi[COMMONWEALTH]," (Ch. XVII).
+
+]
+
+.source[Hobbes, Thomas, 1651, [*Leviathan: Or the Matter, Forme and Power of a Commonwealth, Ecclesiasticall and Civil*](https://www.gutenberg.org/files/3207/3207-h/3207-h.htm)]
+
+---
+
+# The Hobbesian Solution
+
+.center[
+![:scale 70%](https://www.dropbox.com/s/aby3cf6ijkrjs7k/benevolentdespot.jpg?raw=1)
+]
+
+---
+
+# The Hobbesian Solution Is Not the Only Solution
+
+.left-column[
+.center[
+![:scale 80%](../images/hume.png)
+
+David Hume
+
+1711-1776
+]
+]
+
+.right-column[
+
+> But although men can maintain a small uncultivated society without government, they can’t possibly maintain a society of any kind without justice, i.e. without obeying the three fundamental laws concerning the stability of ownership, its transfer by consent, and the keeping of promises.
+
+
+.source[Hume, David, 1751, *Enquiry Concerning the Principles of Morals*]
+
 ]
 
 ---
@@ -642,22 +797,57 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![](../images/propertygameNE.png)
+![](../images/propertygame2.png)
 ]
 ]
+
+---
+
+# Government Exists to Protect Property Rights
+
+.left-column[
+.center[
+![:scale 70%](https://www.dropbox.com/s/6jvd6w2jfdfx35f/locke.png?raw=1)
+
+.smallest[
+John Locke
+
+1632-1704
+]
+]
+]
+
+.right-column[
+
+.smallest[
+> "Why will he part with his freedom? ... Though .hi[in the state of nature he hath such a right, yet the enjoyment of it is very uncertain, and constantly exposed to the invasion of others]...the enjoyment of the property he has in this state is very unsafe very unsecure....hi[[He] is willing to join in society with others...for the mutual preservation of their lives, liberties, and estates], which I call by the general name, .hi[property.]" (Ch. IX).
+
+> "The great and chief end, therefore, of men's uniting into commonwealths, and putting themselves under government, is the preservation of their property." (Ch. IX).
+
+]
+
+.source[Locke, John, 1689, *Second Treatise on Government*]
+]
+
+---
+
+class: inverse, center, middle
+
+# Property Law
 
 ---
 
 # Property Rights
 
 .pull-left[
-
+.smaller[
 > “Property is a bundle of legal rights over resources that the owner is free to exercise and whose exercise is protected from interference by others” (Cooter and Ulen, p.73)
 
 - This bundle contains a lot of rights, to:
 
 > possess, use, develop, improve, transform, consume, deplete, destroy, sell, donate, bequeath, transfer, mortgage, lease, loan, or exclude others
 
+]
 ]
 
 .pull-right[
@@ -755,7 +945,7 @@ class: inverse, center, middle
 
 .pull-left[
 .smaller[
-- In 1802, .hi-turquoise[Lodewick Post] organized a fox hunt in Southampton, NY
+- In 1802, .hi-turquoise[Lodowick Post] organized a fox hunt in Southampton, NY
   - His dogs caught the scent, and he gave chase to a fox
 
 - .hi-purple[Jesse Pierson] appears “out of nowhere,” kills, and claims the fox for his own
@@ -775,43 +965,49 @@ class: inverse, center, middle
 
 # “The Fox Case”
 
-.pull-left[
+.left-column[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+.right-column[
 
 - Legal question: When do you own an animal?
 
 - NY Supreme Court ruled for .hi-purple[Pierson] (who killed fox)
 
+.quitesmall[
 > “If the first seeing, starting, or pursuing such animals...should afford the basis of actions against others for intercepting and killing them, .hi[it would prove a fertile source of quarrels and litigation]”
 
-- Also, just because an action is “uncourteous or unkind” does not make it illegal
+> “However uncourteous or unkind the conduct of Pierson towards Post, in this instance, may have been, yet his act was productive of no injury or damage for which a legal remedy can be applied. We are of opinion the judgment below was erroneous, and ought to be reversed.”
+
+]
 ]
 
-.pull-right[
-.center[
-![](../images/fox-hunting.jpg)
-]
-]
 
 ---
 
 # “The Fox Case”
 
-.pull-left[
-
-- Legal question: When do you own an animal?
-
-- The dissenting opinion sided with .hi-turquoise[Post]:
-  - a fox is a “wild and noxious beast”
-  - killing foxes is of “meretorious and of a public benefit”
-  - ruling for .hi-turquoise[Post] would incentivize fox hunting
-
-]
-
-.pull-right[
+.left-column[
 .center[
-![](../images/fox-hunting.jpg)
+![](../images/saucyintruder.jpg)
 ]
 ]
+
+.right-column[
+
+- Judge Livingston’s dissent:
+
+.quitesmall[
+> “[A] fox is a "wild and noxious beast." Both parties have regarded him, as the law of nations does a pirate, *"hostem humani generis,"*...His depredations on farmers and on barn yards, have not been forgotten; and to put him to death wherever found, is allowed to be meritorious, and of public benefit. Hence it follows, that our decision should have in view the greatest possible encouragement to the destruction of an animal, so cunning and ruthless in his career.”
+
+> “But who would keep a pack of hounds; or what gentleman, at the sound of the horn, and at peep of day, would mount his steed, and for hours together...pursue the windings of this wily quadruped, if, just as night came on, and his stratagems and strength were nearly exhausted, a saucy intruder, who had not shared in the honours or labours of the chase, were permitted to come in at the death, and bear away in triumph the object of pursuit?”
+
+]
+]
+
 
 ---
 
