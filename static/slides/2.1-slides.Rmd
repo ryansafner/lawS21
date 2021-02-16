@@ -576,7 +576,7 @@ class: inverse, center, middle
 
 - A solution to the tragedy of the commons
 
-- Imagine two neighboring farmers (from Cooter & Ulen)
+- Imagine two neighboring farmers
   - game theoretic interaction
   - each farmer can either .hi-purple[Farm] or .hi-purple[Steal]
 ]
