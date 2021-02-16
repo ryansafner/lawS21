@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>2.1-slides.utf8</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/5235085b15.js"></script>
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+title: "2.1 — Game Theory &amp; Property"
+subtitle: "ECON 315 • Economics of the Law • Spring 2021"
+author: 'Ryan Safner&lt;br&gt; Assistant Professor of Economics &lt;br&gt; &lt;a href="mailto:safner@hood.edu"&gt;&lt;i class="fa fa-paper-plane fa-fw"&gt;&lt;/i&gt;safner@hood.edu&lt;/a&gt; &lt;br&gt; &lt;a href="https://github.com/ryansafner/lawS21"&gt;&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;ryansafner/lawS21&lt;/a&gt;&lt;br&gt; &lt;a href="https://lawS21.classes.ryansafner.com"&gt; &lt;i class="fa fa-globe fa-fw"&gt;&lt;/i&gt;lawS21.classes.ryansafner.com&lt;/a&gt;&lt;br&gt;'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: ocean #rainbow #monokai rainbow solarized-light #tomorrow-night -blue -eighties zenburn
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        &lt;div class="progress-bar-container"&gt;
+          &lt;div class="progress-bar" style="width: calc(%current% / %total% * 100%);"&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+
+
+class: inverse, center, middle
+
+# Review of Static Game Theory
+
+---
+
+# Game Theory
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/93gtv9xei0q5fik/gametheory.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- .hi[Game theory]: a set of tools that model .hi-purple[trategic interactions] (.hi-purple[“games”]) between rational agents, 3 elements:
+    1. **Players**
+    2. **Strategies** that each player can choose from
+    3. **Payoffs** to each player that are *jointly-determined* from combination of all players’ strategies 
+
+]
+
+---
+
+# Game Theory vs. Decision Theory Models I
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/kjm2fzw4o3p0sk3/optimize.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- Traditional economic models are often called .hi[“Decision theory”]:
+
+- .hi-purple[Optimization models] **ignore all other agents** and just focus on how can **you** maximize **your** objective within **your** constraints
+  - Consumers max utility; firms max profit, etc.
+
+- **Outcome**: .hi-purple[optimum]: decision where *you* have no better alternatives
+
+]
+
+
+---
+
+# Game Theory vs. Decision Theory Models I
+
+.pull-left[
+
+.center[
+![](https://www.dropbox.com/s/9d2bkesu20g5fj7/crowdartistic.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- Traditional economic models are often called .hi[“Decision theory”]:
+
+- .hi-purple[Equilibrium models] assume that there are **so many agents** that **no agent’s decision can affect the outcome**
+  - Firms are price-takers or the *only* buyer or seller
+  - **Ignores all other agents’ decisions**!
+
+- **Outcome**: .hi-purple[equilibrium]: where *nobody* has no better alternatives
+
+]
+
+---
+
+# Game Theory vs. Decision Theory Models III
+
+.pull-left[
+.center[
+![:scale 90%](https://www.dropbox.com/s/tymdsxbqaq2scxq/chessknights.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- .hi[Game theory models] directly confront .hi-purple[strategic interactions] between players
+  - How each player would optimally respond to a strategy chosen by other player(s)
+  - Lead to a stable outcome where everyone has considered and chosen mutual best responses
+
+- .hi-purple[Nash equilibrium]: set of strategy profiles where *nobody* wants to switch strategies *given the strategies everyone else is playing*
+  - each player is playing a **best response** against other players’ strategies
+
+]
+
+---
+
+# As a Prisoner's Dilemma I
+
+.pull-left[
+.center[
+
+![:scale 100%](https://www.dropbox.com/s/uj1jxo2s1dr8yeb/applevsgoogle.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+- Suppose we have a simple **duopoly** between .hi-red[Apple] and .hi-blue[Google]
+
+- Each is planning to launch a new tablet, and choose to sell it at a **High Price** or a **Low Price**
+
+]
+
+
+---
+
+# As a Prisoner's Dilemma I
+
+.pull-left[
+
+- Payoff matrix represents profits to each firm
+  - First number in each box goes to .hi-red[Row player (Apple)]
+  - Second number in each box goes to .hi-blue[Column player (Google)]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/7z7okbojvajbfmq/pdapplegoogle.png?raw=1)
+]
+]
+---
+
+# As a Prisoner's Dilemma II
+
+.pull-left[
+
+- From .hi-red[Apple]'s perspective:
+  - .hi-red[Low Price] is a .hi-purple[dominant strategy] for .hi-red[Apple]
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/223j924yyaph1sk/pdapple1.png?raw=1)
+]
+]
+
+---
+
+# As a Prisoner's Dilemma II
+
+.pull-left[
+
+- From Google's perspective:
+  - .hi-blue[Low Price] is a .hi-purple[dominant strategy] for .hi-blue[Google]
+
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/5vzsainx3h556ke/pdgoogle1.png?raw=1)
+]
+]
+
+---
+
+# As a Prisoner's Dilemma II
+
+.pull-left[
+
+- .hi[Nash equilibrium]: (.hi-red[Low Price], .hi-blue[Low Price])
+  - neither player has an incentive to change price, *given the other's price*
+
+]
+
+.pull-right[
+.center[
+
+![](https://www.dropbox.com/s/9xram8ppumhfuoq/pdapplegooglenash.png?raw=1)
+
+]
+]
+
+---
+
+# As a Prisoner's Dilemma III
+
+.pull-left[
+
+- .hi[Nash equilibrium]: (.hi-red[Low Price], .hi-blue[Low Price])
+  - neither player has an incentive to change price, *given the other's price*
+  
+- A possible **Pareto improvement**: (.hi-red[High Price], .hi-blue[High Price])
+  - Both players are better off, nobody worse off!
+  - Is it a Nash Equilibrium?
+
+]
+
+.pull-right[
+.center[
+
+![](https://www.dropbox.com/s/y2903cwtikr31e4/pdapplegooglecartel.png?raw=1)
+
+]
+]
+
+---
+
+# As a Prisoner's Dilemma IV
+
+.pull-left[
+
+- Google and Apple could .hi-purple[collude] with one another and agree to both raise prices
+
+- .hi[Cartel]: group of sellers coordinate to raise prices to act like a collective monopoly and split the profits	
+
+]
+
+.pull-right[
+
+.center[
+![](https://www.dropbox.com/s/nxgqbud4hgatv2s/backroomdeal.png?raw=1)
+]
+]
+
+---
+
+# Game Theory: Some Generalizations
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/tymdsxbqaq2scxq/chessknights.jpg?raw=1)
+]
+]
+
+.pull-right[
+
+There's a *lot* more to game theory than a one-shot prisoners' dilemma:
+
+- one shot vs. repeated game
+
+- discrete vs. continuous strategies
+
+- perfect vs. incomplete vs. and asymmetric information
+
+- simultaneous vs. sequential game
+
+- See my [game theory course](https://ryansafner.com/courses/econ316/) for more (likely taught next in Fall 2021)
+]
+
+---
+
+# Solution Concepts
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+.pull-right[
+
+- We use .hi-purple["solution concepts"] to allow us to predict an .hi-purple[equilibrium] of a game
+
+- .hi[Nash Equilibrium] is the primarly solution concept
+  - Note it has *many* variants depending on if games are sequential vs. simultaneous, perfect vs. imperfect information, etc.
+
+]
+
+---
+
+# Solution Concepts: Nash Equilibrium
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Recall, .hi[Nash Equilibrium]: no players want to change their strategy given what everyone else is playing
+  - All players are playing a best response to each other
+
+]
+
+---
+
+# Solution Concepts: Nash Equilibrium
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Important about Nash equilibrium:
+
+1. N.E. `\(\neq\)` the "*best*" or *optimal* outcome
+  - Recall the Prisoners' Dilemma!
+
+2. Game may have *multiple* N.E.
+
+3. Game may have *no* N.E. (in "pure" strategies)
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/k431qrlyj2nbnc3/standards_game.png?raw=1)
+]
+]
+
+.pull-right[
+
+- A .hi-purple[Coordination Game]
+  - No dominant strategies
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/a0i4xlq2uipi360/standards_game_Nashes.png?raw=1)
+]
+]
+
+.pull-right[
+
+- .hi-purple[Two Nash equilibria]: (.red[A],.blue[A]) and (.red[B],.blue[B])
+  - Either just as good
+  - Coordination is most important
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/a0i4xlq2uipi360/standards_game_Nashes.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[1) Cell-by-Cell Inspection]: look in each cell, does either player want to deviate?
+  - .hi-purple[If no: a Nash equilibrium]
+  - If yes: *not a Nash equilibrium*
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/k431qrlyj2nbnc3/standards_game.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[2) Best-Response Analysis]: take the perspective of each player. If the other player plays a particular strategy, what is your strategy(s) that gets you the highest payoff?
+  - Ties are allowed
+  - .hi-purple[Any cell where both players are playing a best response is a Nash Equilibrium]
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/cn8l8c81yy6tcwh/standards_game_1br.png?raw=1)
+
+.red[Player 1's] best responses
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[2) Best-Response Analysis]: take the perspective of each player. If the other player plays a particular strategy, what is your strategy(s) that gets you the highest payoff?
+  - Ties are allowed
+  - .hi-purple[Any cell where both players are playing a best response is a Nash Equilibrium]
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/etk1nlasbo788h8/standards_game_2br.png?raw=1)
+
+.blue[Player 2's] best responses
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[2) Best-Response Analysis]: take the perspective of each player. If the other player plays a particular strategy, what is your strategy(s) that gets you the highest payoff?
+  - Ties are allowed
+  - .hi-purple[Any cell where both players are playing a best response is a Nash Equilibrium]
+
+]
+
+---
+
+# Example: Coordination Game
+
+.pull-left[
+.center[
+![:scale 100%](https://www.dropbox.com/s/8yzrc25hzb6fd9x/standards_game_brnashes.png?raw=1)
+
+.hi-purple[N.E.]: each player is playing a best response
+]
+]
+
+.pull-right[
+
+- Two general methods to solve for Nash equilibria:
+
+.hi-purple[2) Best-Response Analysis]: take the perspective of each player. If the other player plays a particular strategy, what is your strategy(s) that gets you the highest payoff?
+  - Ties are allowed
+  - .hi-purple[Any cell where both players are playing a best response is a Nash Equilibrium]
+
+]
+
+---
+
+# A Change in the Game
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/8r7nkpwplojj4pd/standards_game_lockin.png?raw=1)
+]
+]
+
+.pull-right[
+
+- Two Nash equilibria again: (.red[A],.blue[A]) and (.red[B],.blue[B])
+
+- But here (.red[A],.blue[A]) `\(\succ\)` (.red[B],.blue[B])!
+
+]
+
+---
+
+# A Change in the Game
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/8r7nkpwplojj4pd/standards_game_lockin.png?raw=1)
+]
+]
+
+.pull-right[
+- .hi-purple[Path Dependence]: early choices may affect later ability to choose or switch
+
+- .hi-purple[Lock-in]: the switching cost of moving from one equilibrium to another becomes prohibitive
+
+- Suppose we are currently in equilibrium (B,B)
+
+- .hi-purple[Inefficient lock-in]:
+  - Standard A is superior to B
+  - But too costly to switch from B to A
+
+]
+
+---
+
+# Some Games Have No Nash Equilibrium
+
+.pull-left[
+
+.center[
+![](../images/soccer-game.png)
+]
+]
+
+---
+
+# Some Games Have No Nash Equilibrium
+
+.pull-left[
+
+.center[
+![](../images/soccer-game-best-responses.png)
+]
+]
+
+.pull-right[
+
+- Best responses
+
+- No strategy profile where both players are playing a best responses
+
+- No Nash Equilibrium in .hi-purple[“pure strategies”]
+
+- But there is (always) a Nash Equilibrium in .hi-turquoise[“mixed strategies”]
+]
+
+---
+
+class: inverse, center, middle
+
+# Property
+
+---
+
+# Why Do We Need Property Law?
+
+.pull-left[
+
+- A solution to the tragedy of the commons
+
+- Imagine two neighboring farmers (from Cooter &amp; Ulen)
+  - game theoretic interaction
+  - each farmer can either .hi-purple[Farm] or .hi-purple[Steal]
+]
+
+.pull-right[
+.center[
+![](../images/wheatfarmfence.jpg)
+]
+]
+
+---
+
+# Why Do We Need Property Law?
+
+.pull-left[
+
+- Suppose:
+  - crops are valued at 15
+  - planting &amp; watering costs 5
+  - stealing costs 2
+
+- With no legal system, the game looks like:
+
+]
+
+.pull-right[
+.center[
+![](../images/propertygame.png)
+]
+]
+
+---
+
+# Why Do We Need Property Law?
+
+.pull-left[
+
+- .hi-purple[Nash Equilibrium]: (.red[Steal],.blue[Steal])
+
+- Pareto-improvement: (.red[Farm],.blue[Farm])
+]
+
+.pull-right[
+.center[
+![](../images/propertygameNE.png)
+]
+]
+
+---
+
+# Why Do We Need Property Law?
+
+.pull-left[
+
+- Suppose there are many farmers that face the same problem
+
+- They recognize that establishing rules of property and punishing theft gets them the Pareto improvement
+  - Setting up a property law system (and someone to enforce it) has costs `\(c\)`
+  - The punishment to theft is `\(P\)`
+
+- If `\(10-c&gt;12-P\)`, then (.red[Farm],.blue[Farm]) becomes an equilibrium
+]
+
+.pull-right[
+.center[
+![](../images/propertygameNE.png)
+]
+]
+
+---
+
+# Property Rights
+
+.pull-left[
+
+&gt; “Property is a bundle of legal rights over resources that the owner is free to exercise and whose exercise is protected from interference by others” (Cooter and Ulen, p.73)
+
+- This bundle contains a lot of rights, to:
+
+&gt; possess, use, develop, improve, transform, consume, deplete, destroy, sell, donate, bequeath, transfer, mortgage, lease, loan, or exclude others
+
+]
+
+.pull-right[
+.center[
+![](../images/propertybundleofrights.png)
+]
+]
+
+---
+
+# Property Rights
+
+.pull-left[
+
+- Three important legal points about property rights:
+  1. These rights are .hi[impersonal] — they attach to property, not persons
+  2. Owner is free to exercise rights over her property (law neither forbids nor obliges)
+  3. Others are forbidden to interfere with owner’s exercise of her rights
+
+]
+
+.pull-right[
+.center[
+![](../images/propertyrights.png)
+]
+]
+
+---
+
+# Property Rights
+
+.pull-left[
+- Any property system must answer:
+  1. What can be privately owned?
+  2. What can (and can't) an owner do with her property?
+  3. How are property rights established?
+  4. What remedies are available when property rights are violated?
+]
+
+.pull-right[
+.center[
+![](../images/propertybundleofrights.png)
+]
+]
+
+---
+
+# It's Not So Simple: A Story
+
+.center[
+![](../images/propertyline.jpg)
+]
+
+---
+
+# It's Not So Simple: A Story
+
+.pull-left[
+.center[
+![](../images/fencetree.jpg)
+]
+]
+
+--
+
+.pull-right[
+.center[
+![](../images/shadedpool.jpg)
+]
+]
+
+---
+
+# This Story Has Million Dollar Implications
+
+.pull-left[
+.center[
+![](../images/miamihotel.jpg)
+
+*Fontainebleau Hotel Corp. v. Forty-Five Twenty-Five, Inc* (1959) 114 So. 2d 357, 1959 Fla. App.
+]
+]
+
+.pull-right[
+.center[
+![](../images/miamihotelcase.png)
+]
+
+.source[Source: [Florida Trend (2014)](https://www.floridatrend.com/article/17938/the-spite-wall-between-the-fontainbleau-and-the-eden-roc)]
+]
+
+---
+
+# “The Fox Case”
+
+.pull-left[
+.smaller[
+- In 1802, .hi-turquoise[Lodewick Post] organized a fox hunt in Southampton, NY
+  - His dogs caught the scent, and he gave chase to a fox
+
+- .hi-purple[Jesse Pierson] appears “out of nowhere,” kills, and claims the fox for his own
+  - Claims not to have seen Post
+
+- .hi-turquoise[Post] sued .hi-purple[Pierson] to get the fox back
+  - Lower court sided with .hi-turquoise[Post]; .hi-purple[Pierson] appealed to NY Supreme Court
+]
+]
+.pull-right[
+.center[
+![](../images/fox-hunting.jpg)
+]
+]
+
+---
+
+# “The Fox Case”
+
+.pull-left[
+
+- Legal question: When do you own an animal?
+
+- NY Supreme Court ruled for .hi-purple[Pierson] (who killed fox)
+
+&gt; “If the first seeing, starting, or pursuing such animals...should afford the basis of actions against others for intercepting and killing them, .hi[it would prove a fertile source of quarrels and litigation]”
+
+- Also, just because an action is “uncourteous or unkind” does not make it illegal
+]
+
+.pull-right[
+.center[
+![](../images/fox-hunting.jpg)
+]
+]
+
+---
+
+# “The Fox Case”
+
+.pull-left[
+
+- Legal question: When do you own an animal?
+
+- The dissenting opinion sided with .hi-turquoise[Post]:
+  - a fox is a “wild and noxious beast”
+  - killing foxes is of “meretorious and of a public benefit”
+  - ruling for .hi-turquoise[Post] would incentivize fox hunting
+
+]
+
+.pull-right[
+.center[
+![](../images/fox-hunting.jpg)
+]
+]
+
+---
+
+# What Rule?
+
+.pull-left[
+
+- If .hi-purple[Pierson] gets the fox
+  - simpler rule: “finders keepers”
+  - bright-line, easy to implement, discourages disputes
+
+- If .hi-turquoise[Post] gets the fox
+  - better incentives for hunting hard-to-catch noxious animals (like foxes)
+
+- Same tradeoff between simplicity and good incentives as the whaling cases!
+]
+
+.pull-right[
+.center[
+![](../images/fox-hunting.jpg)
+]
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "ocean",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"slideNumberFormat": "<div class=\"progress-bar-container\">\n  <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">\n  </div>\n</div>\n"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

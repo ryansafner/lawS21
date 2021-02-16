@@ -21,7 +21,7 @@ Today we essentially review the basic tools of microeconomics with a focus on ec
 
 - <i class="fas fa-book"></i> Ch. 2 in Cooter and Ulen, 2012, *Law & Economics*
 - <i class="fas fa-book"></i> Ch. 2 in Friedman, 2000, *Law's Order*
-- [<i class="fas fa-external-link-square-alt"></i> SMBC: Super Efficient]
+- [<i class="fas fa-external-link-square-alt"></i> SMBC: Super Efficient](https://www.smbc-comics.com/comic/super-efficient)
 
 The textbook covers a full review of intermediate microeconomics — utility maximization, supply and demand, perfect competition, monopoly, game theory, choice under risk, informational problems — in Chapter 2. It's unlikely we'll need *all* of it (now), but it will be helpful to refer back to.
 

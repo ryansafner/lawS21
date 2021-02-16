@@ -11,21 +11,21 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Tuesday, February 2, 2021*
+*Thursday, February 11, 2021*
 
 # <i class="fas fa-info-circle fa-lg"></i> Overview
 
-Welcome to ECON 315 - Economics of the Law! Today's lesson will be an introduction to the course and the tools — what content we will cover, the assignments, what you will need, and what the field known as ["law and economics"](https://en.wikipedia.org/wiki/Law_and_economics) is about.
+After having reviewed what efficiency means in economics, why markets and voluntary exchange is efficient, and what forces give rise to inefficiencies, we discuss whether and why the law should be efficient. We will then conclude with a brief (re)introduction to static game theory to prepare to first look at property law.
 
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
-# Required Readings
+# Readings
 
-This week is all introductory, but you may look at Chapter 1 in the textbook if you wish. Otherwise, please heed this timeless message:
-
-## Optional/Referenced Readings
-
+- <i class="fas fa-book"></i> Ch. 1.III in Cooter and Ulen, 2012, *Law & Economics*
+- <i class="fas fa-book"></i> Ch. 2 in Friedman, 2000, *Law's Order*
 - [<i class="fas fa-file-pdf"></i> Posner, 1980, "The Ethical and Political Basis of the Efficiency Norm in Common Law Adjudication"](/readings/Posner-1980a.pdf)
+- [<i class="fas fa-external-link-square-alt"></i> Landsburg, 2010, "Efficiency Experts"](http://www.thebigquestions.com/2010/08/30/efficiency-experts/)
+- [<i class="fas fa-external-link-square-alt"></i> SMBC: Super Efficient](https://www.smbc-comics.com/comic/super-efficient)
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
@@ -34,7 +34,3 @@ This week is all introductory, but you may look at Chapter 1 in the textbook if 
 - [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/1.4-slides.pdf)
 
 # <i class="fas fa-laptop-code"></i> Assignments
-
-## Preliminary Survey
-
-Please take the [preliminary survey](/assignment/00-preliminary-survey) on your economics background by 11:59 PM Sunday. This will help us all have a productive course together!^[Side??]
