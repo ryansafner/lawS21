@@ -615,7 +615,7 @@ class: inverse, center, middle
 - Suppose:
   - crops are valued at 15
   - planting & watering costs 5
-  - stealing costs 2
+  - stealing costs 3
 
 - With no legal system, the game looks like:
 
