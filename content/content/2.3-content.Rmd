@@ -1,0 +1,59 @@
+---
+title: "2.3 — Bargaining & Transaction Costs — Class Content"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+*Thursday, February 25, 2021*
+
+# <i class="fas fa-info-circle fa-lg"></i> Overview
+
+We continue our exploration of property with some more game theory, this time about bargaining. Furthermore, we  discuss how establishing, clarifying, and enforcing property rights is not costless! Like anything in economics, whether or not something is efficient depends on whether the marginal benefit exceeds the marginal cost. This is the primary point of the Demsetz (1967) reading.
+
+# <i class="fas fa-book-reader fa-lg"></i> Readings
+
+## Required Reading
+- [<i class="fas fa-file-pdf"></i> Demsetz, 1967, "Toward a Theory of Property Rights"](/readings/Demsetz-1967.pdf)
+
+## Optional but Useful Reading
+
+- <i class="fas fa-book"></i> Ch. 4 in Cooter and Ulen, 2012, *Law & Economics*
+- <i class="fas fa-book"></i> Ch. 5 in Friedman, 2000, *Law's Order*
+
+## Questions To Help Your Reading
+
+- What are the benefits and costs of property rights?
+
+- Why don’t we make everything property? Why might we leave some things un-“propertized”?
+
+- What is the relationship between property rights and externalities?
+
+- How is this article related to Coase’s article?
+
+# <i class="fas fa-chalkboard-teacher"></i> Slides
+
+# <i class="fas fa-laptop-code"></i> Assignments
+
+## Discussion Board
+
+Starting this week, we will occasionally have a weekly discussion board open on Blackboard.^[Not every week. I will let you know when we have one open at the beginning of each week.] You will be expected to contribute to the discussion board at least twice by Sunday night. Your weekly contribution will be graded out of 5 points. At the end of the semester, I will apply the average of your weekly participation grades to apply (10%) towards your final course grade.
+
+I am interested in your thoughts, reactions, comments, and questions about any of the material (lectures and/or readings). You do not need to write more than a paragraph. Anything more than that, including continuing to reply to each others’ thoughts, questions, or comments, (which I strongly hope you do!) is solely based on your own interest and curiosity. I will jump in to answer questions the group is stuck on, give my two cents, and stir the pot as needed. I strongly hope we still keep a conversation going and can learn from each other, that was always my goal, not to lecture at you!
+
+Rubric:
+
+| Category | 3 Points | 2 Points | 1 Point | 0 points |
+|----------|----------|----------|---------|----------|
+| Quantity | More than 2 replies/started threads | 2 replies/started threads | 1 reply | 0 posts |
+| Quality | Extremely thought provoking, demonstrates clear grappling with readings, adds to conversation | Provides a well-reasoned reply, suggests familiarity with readings, keeps conversation going | A simple reply, may make no reference to readings or ideas, makes further conversation difficult | Minimal effort |
+
+Recall, these are out of 5 points. Notice it is possible to get above 5 points for a truly remarkable week of contributions, but I give these sparingly.
+
+At the end of the semester, I will drop your lowest participation score.

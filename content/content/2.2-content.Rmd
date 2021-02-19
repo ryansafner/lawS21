@@ -11,13 +11,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Thursday, February 16, 2021*
+*Tuesday, February 23, 2021*
 
 # <i class="fas fa-info-circle fa-lg"></i> Overview
 
-We begin with a brief (re)introduction to static game theory to prepare to first look at property law.
-
-Since Hood College [has designated](https://www.hood.edu/offices-services/registrars-office/academic-calendar) that there are no classes on Thursday February 18, we will not meet again until next Tuesday. This makes it difficult to get too deep into property and the Coase theorem today, and so I will save it all for next week. Please look at the **required readings** for next week on the associated class pages, and next week we will also start our **required discussion board**, since we will have readings.
+We continue our introduction to property by spending time on a principle that undergirds the entire law & economics analytical approach, what is often called “The Coase Theorem.” It is often misunderstood and misapplied, so it is worth spending some time unpacking and discussing what Ronald Coase’s famous 1960 paper, “The Problem of Social Cost” is advocating.
 
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
@@ -26,7 +24,8 @@ Since Hood College [has designated](https://www.hood.edu/offices-services/regist
 
 ## Optional but Useful Reading
 
-- <i class="fas fa-book"></i> Ch. 4.I in Cooter and Ulen, 2012, *Law & Economics*
+- <i class="fas fa-book"></i> Ch. 4 in Cooter and Ulen, 2012, *Law & Economics*
+- <i class="fas fa-book"></i> Ch. 4 in Friedman, 2000, *Law's Order*
 - [<i class="fas fa-file-pdf"></i> Coase, 1992, "The Institutional Structure of Production"](/readings/Coase-1992.pdf)
 - [<i class="fas fa-file-pdf"></i> McCloskey, 1998, "The So-Called Coase Theorem"](/readings/Mccloskey-1998.pdf)
 - [<i class="fas fa-file-pdf"></i> Medema, 2020, "The Coase Theorem At Sixty"](/readings/Medema-2020.pdf)
