@@ -27,6 +27,7 @@ lessons:
 
   - title: "2.2 The Coase Theorem"
     content: "2.2-content"
+    slides: "2.2-slides"
 
   - title: "2.3 Bargaining & Transaction Costs"
     content: "2.3-content"

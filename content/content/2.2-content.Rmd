@@ -29,6 +29,9 @@ We continue our introduction to property by spending time on a principle that un
 - [<i class="fas fa-file-pdf"></i> Coase, 1992, "The Institutional Structure of Production"](/readings/Coase-1992.pdf)
 - [<i class="fas fa-file-pdf"></i> McCloskey, 1998, "The So-Called Coase Theorem"](/readings/Mccloskey-1998.pdf)
 - [<i class="fas fa-file-pdf"></i> Medema, 2020, "The Coase Theorem At Sixty"](/readings/Medema-2020.pdf)
+- [<i class="fab fa-wikipedia-w"></i> Pierson v. Post](https://en.wikipedia.org/wiki/Pierson_v._Post)
+- [<i class="fas fa-external-link-square-alt"></i> Pierson v. Post (Opinion of the  Court)](http://www.courts.state.ny.us/reporter/archives/pierson_post.htm)
+
 
 The primary reading that is required of you is Ronald Coase’s famous 1960 paper, "The Problem of Social Cost." This is one of the most cited papers in the 20<sup>th</sup> century, and is almost single-handedly the foundation of law and economics as a discipline. Coase’s important contributions in the paper, and the “Coase Theorem” (not they are *not* necessarily the same thing!) have been debated and interpreted in different ways over the past 60 years. 
 
@@ -53,7 +56,7 @@ Coase (1960) is quite lengthy and detailed, weaving back and forth between theor
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
-[![](/slides/2.2-slides.png)](/slides/2.1-slides.html)
+[![](/slides/2.2-slides.png)](/slides/2.2-slides.html)
 
 - [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/2.2-slides.pdf)
 
