@@ -281,7 +281,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-.content-box-green[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 .hi-green[Example]: There is a car which you value at $3,000, and I value at $4,000.
 ]
 
@@ -305,7 +305,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-.content-box-green[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 .hi-green[Example]: There is a car which you value at $3,000, and I value at $4,000.
 ]
 
