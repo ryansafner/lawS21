@@ -806,13 +806,14 @@ David Hume
 # Rent-Seeking
 
 .pull-left[
-
+.smaller[
 - .hi[Rent-seeking]: a party investing resources to transfer wealth from other parties to themselves (or investing resources to *prevent* transfer of their wealth to others) 
 
 - Grew out of literature on lobbying and government favors
   - a much more general problem, even if no government exists to hand out favors!
 
 - .hi[Economic rent]: a return above an asset's opportunity cost
+]
 
 ]
 
@@ -865,7 +866,7 @@ Gordon Tullock
 .right-column[
 
 .smallest[
-> “The total social cost of theft is the sum of the efforts invested in the activity of theft, private protection against theft, and the public investment in police protection. The theft itself is a pure transfer, and has no welfare cost, but the existence of theft as a potential activity results in very substantial diversion of resources to fields where they essentially offset each other,and produce no positive product. The problem with income transfers is not that they directly inflict welfare losses, but that they lead  people to employ resources in attempting to obtain or prevent such transfers. A successful bank robbery will inspire potential thieves to greater efforts, lead to, the installation of improved protective equipment in other banks, and  perhaps result in the hiring of additional policemen. These are its social costs, and they can be very sizable,” (p.231)
+> “The total social cost of theft is the sum of the efforts invested in the activity of theft, private protection against theft, and the public investment in police protection. The theft itself is a pure transfer, and has no welfare cost, but the existence of theft as a potential activity results in very substantial diversion of resources to fields where they essentially offset each other,and produce no positive product. .hi[The problem with income transfers is not that they directly inflict welfare losses, but that they lead  people to employ resources in attempting to obtain or prevent such transfers.] A successful bank robbery will inspire potential thieves to greater efforts, lead to, the installation of improved protective equipment in other banks, and  perhaps result in the hiring of additional policemen. These are its social costs, and they can be very sizable,” (p.231)
 
 ]
 
@@ -887,13 +888,13 @@ Gordon Tullock
 ]
 ]
 
-.pull-right[
+.right-column[
 
 .smallest[
 
-> “[Conflicts] lead to investment of resources by *A* to get *B*’s property and by *B* to defend it. Regardless of the outcome of the conflict, the use of resources for this purpose is offsetting and therefore inherently wasteful.”
+> “[Conflicts] lead to investment of resources by *A* to get *B*’s property and by *B* to defend it. .hi[Regardless of the outcome of the conflict, the use of resources for this purpose is offsetting and therefore inherently wasteful.]”
 
-> “Social contrivances for reducing such investment are, on the whole, desirable, although there may be cases where it is more efficient to place no institutional restrictions on such conflict,” (p. 5). 
+> “.hi[Social contrivances for reducing such [rent-seeking] investment are, on the whole, desirable], although there may be cases where it is more efficient to place no institutional restrictions on such conflict,” (p. 5). 
 
 ]
 

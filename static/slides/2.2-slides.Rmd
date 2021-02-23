@@ -43,6 +43,16 @@ theme_slides <- theme_light() +
   )
 ```
 
+class: inverse
+
+# Outline
+
+### [Property Law](#3)
+### [The Coase Theorem](#18)
+### [Transaction Costs](#41)
+
+---
+
 class: inverse, center, middle
 
 # Property Law
@@ -53,7 +63,7 @@ class: inverse, center, middle
 
 .pull-left[
 .smaller[
-> “Property is a bundle of legal rights over resources that the owner is free to exercise and whose exercise is protected from interference by others” (Cooter and Ulen, p.73)
+> “.hi[Property] is a bundle of legal rights over resources that the owner is free to exercise and whose exercise is protected from interference by others” (Cooter and Ulen, p.73)
 
 - This bundle contains a lot of rights, to:
 
@@ -74,10 +84,13 @@ class: inverse, center, middle
 
 .pull-left[
 
-- Three important legal points about property rights:
-  1. These rights are .hi[impersonal] — they attach to property, not persons
-  2. Owner is .hi[at liberty] to exercise rights over her property (law neither forbids nor obliges her to)
-  3. Others are .hi[forbidden to interfere] with owner’s exercise of her rights
+- Three important legal points:
+
+1. These rights are .hi[impersonal] — they attach to property, not persons
+
+2. Owner is .hi[at liberty] to exercise rights over her property (law neither forbids nor obliges her to)
+
+3. Others are .hi[forbidden to interfere] with owner’s exercise of her rights
 
 ]
 
@@ -93,10 +106,14 @@ class: inverse, center, middle
 
 .pull-left[
 - Any property system must answer:
-  1. What can be privately owned?
-  2. What can (and can't) an owner do with her property?
-  3. How are property rights established?
-  4. What remedies are available when property rights are violated?
+
+1. What can be privately owned?
+
+2. What can (and can't) an owner do with her property?
+
+3. How are property rights established?
+
+4. What remedies are available when property rights are violated?
 ]
 
 .pull-right[
@@ -255,15 +272,15 @@ class: inverse, center, middle
 
 .pull-right[
 .quitesmall[
-- My neighbor likes tall trees
+- .hi-green[My neighbor likes tall trees]
   - does she have the right to plant a tree on her property that shades my pool?
   - do I have a right to an unobstructed view? or an unshaded pool?
 
-- You want to have a party
+- .hi-green[You want to have a party]
   - do you have the right to make noise in your house/dorm?
   - does your neighbor have the right to good nights sleep in their house/dorm?
 
-- I own a small plant located on a river
+- .hi-green[I own a small plant located on a river]
   - do I have a right to use the river for cooling?
   - do I have a right to pollute as much as I want?
 
@@ -280,7 +297,50 @@ class: inverse, center, middle
 # How Should Property Rights Be Allocated?
 
 .pull-left[
+.smaller[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: There is a car which you value at $3,000, and I value at $4,000.
+]
 
+- It is .hi-purple[efficient] for me to end up with the car.
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/car.png)
+]
+]
+
+---
+
+# How Should Property Rights Be Allocated?
+
+.pull-left[
+.smaller[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: There is a car which you value at $3,000, and I value at $4,000.
+]
+
+- It is .hi-purple[efficient] for me to end up with the car.
+
+- Suppose I start out with the car
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/car.png)
+]
+]
+
+---
+# How Should Property Rights Be Allocated?
+
+.pull-left[
+.smaller[
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 .hi-green[Example]: There is a car which you value at $3,000, and I value at $4,000.
 ]
@@ -291,6 +351,7 @@ class: inverse, center, middle
 
 - Suppose instead, *you* own the car
 
+]
 ]
 
 .pull-right[
@@ -305,6 +366,7 @@ class: inverse, center, middle
 
 .pull-left[
 
+.smaller[
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 .hi-green[Example]: There is a car which you value at $3,000, and I value at $4,000.
 ]
@@ -315,8 +377,8 @@ class: inverse, center, middle
 
 - Suppose instead, *you* own the car
 
-- .hi-turquoise[It does not matter who is _initially_ assigned a property right, our bargaining will reach the efficient result]!
-
+- .hi-turquoise[It does not matter who is *initially* assigned a property right, our bargaining will reach the efficient result]!
+]
 ]
 
 .pull-right[
@@ -352,7 +414,7 @@ class: inverse, center, middle
 .pull-left[
 - This is the essence of what is called the .hi[Coase theorem]:
 
-> If .hi[transaction costs are low], with .hi[well-defined] and .hi[tradeable property rights], parties can bargain voluntarily to reach the efficient outcome. 
+> If .hi-purple[transaction costs are low], with .hi-purple[well-defined] and .hi-purple[tradeable property rights], parties can bargain voluntarily to reach the efficient outcome. 
 
 - Note: the starting point *does* matter for distribution!
 ]
@@ -372,7 +434,7 @@ class: inverse, center, middle
 
 - Resources tend to flow to those who value them the most
 
-- .hi-green[Example]: I will pay you to acquire your car
+- .hi-green[Example]: I will pay you to acquire the car if you currently own it
 
 ]
 
@@ -388,12 +450,12 @@ class: inverse, center, middle
 
 .pull-left[
 
-- We don't need to resort to law for mutually-agreeable transactions (like the car exchange)
+- We don't need to resort to law for mutually-agreeable transactions (like the car)
 
-- What's more interesting are .hi[incompatible uses] of our property that give rise to conflict
-  - One person's use of their own property causes an .hi-purple[externality] on another
+- What's more interesting are .hi[incompatible uses] of our own property that give rise to conflict
+  - One person's use of their own property imposes an .hi-purple[externality] on another
 
-- Here, we do need the law to define the rights...but that's not the end of the story
+- Here, we *do* need the law to define the rights...but that's not the end of the story
 ]
 
 .pull-right[
@@ -453,12 +515,12 @@ Economics Nobel 1991]
 - Harm is actually .hi-turquoise[bilateral], not unilateral
   - Party A $\underbrace{\iff}_{harms}$ Party B
 
-- Takes two parties to have a dispute
+- Requires *two* associating parties to have a dispute
 
-- Settling the dispute will impose a cost on one party
+- Settling the dispute *will* impose a cost on *some* party
 
 - Origin of the problem is unclear property rights!
-  - Who has right/responsibility over activity creating the externality? 
+  - Who has right/duty over activities creating the externality? 
 
 ]
 
@@ -535,7 +597,7 @@ Economics Nobel 1991]
 # Coase's Example: Farmer and Rancher
 
 .pull-left[
-- English common law: “closed range”/“fencing in” (farmer's rights)
+- English common law: .hi-purple[“closed range”/“fencing in” (farmer's rights)]
   - Ranchers have responsibility to control their herd
   - Ranchers must pay for any damage done by herd
 ]
@@ -551,7 +613,7 @@ Economics Nobel 1991]
 # Coase's Example: Farmer and Rancher
 
 .pull-left[
-- U.S. law (at various times): “open range”/“fencing out” (rancher's rights)
+- U.S. law (at various times): .hi-orange[“open range”/“fencing out” (rancher's rights)]
   - Ranchers can let their herd roam free
   - Ranchers are not liable for damages done by herd<sup>.magenta[†]</sup>
 
@@ -573,11 +635,11 @@ Economics Nobel 1991]
 .smallest[
 - .hi-turquoise[Which rule is more efficient?]
 
-- Consider incentives to farmer and rancher under:
-  1. Open range (rancher's rights)
+- Consider incentives to farmer & rancher under:
+  1. .hi-orange[Open range (rancher's rights)]
       - rancher only weighs private MC and MB, imposes externality on farmer
       - farmer has incentive to try to reduce damage (build fence, plant different crops)
-  2. Closed range (farmer's rights)
+  2. .hi-turquoise[Closed range (farmer's rights)]
       - farmer has no incentive to build a fence or plant different crops
       - rancher has incentive to try to reduce damage
 ]
@@ -599,9 +661,9 @@ Economics Nobel 1991]
 
 - Coase: .hi-purple[it doesn't matter which rule we use — both lead to efficient outcome!]
 
-- Under rancher's rights, farmer will build fence or pay rancher to keep fewer cattle
+- Under .hi-orange[rancher's rights], farmer will build fence or pay rancher to keep fewer cattle
 
-- Under farmer's rights, rancher can build a fence or pay farmer to build a fence
+- Under .hi-turquoise[farmer's rights], rancher can build a fence or pay farmer to build a fence
 
 - Regardless of the rule, the parties can negotiate to reach the efficient combination of cattle, crops, fences, etc.
 ]
@@ -621,16 +683,65 @@ Economics Nobel 1991]
 .pull-left[
 
 .quitesmall[
-- Suppose there are three solutions to the problem:
+- Suppose there are **three solutions** to the problem:
+  1. Rancher builds a fence around herd: costs $400
+  2. Farmer builds a fence around crops: costs $200
+  3. Do nothing
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# A Numerical Example: Farmer and Rancher
+
+.pull-left[
+
+.quitesmall[
+- Suppose there are **three solutions** to the problem:
   1. Rancher builds a fence around herd: costs $400
   2. Farmer builds a fence around crops: costs $200
   3. Do nothing
 
-- If expected crop damage is $100
+- If expected crop damage is **$100**
   - Rancher's rights: farmer lives with damages
   - Farmer's rights: rancher pays for damages rather than fence
 
-- If expected crop damage is $500
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# A Numerical Example: Farmer and Rancher
+
+.pull-left[
+
+.quitesmall[
+- Suppose there are **three solutions** to the problem:
+  1. Rancher builds a fence around herd: costs $400
+  2. Farmer builds a fence around crops: costs $200
+  3. Do nothing
+
+- If expected crop damage is **$100**
+  - Rancher's rights: farmer lives with damages
+  - Farmer's rights: rancher pays for damages rather than fence
+
+- If expected crop damage is **$500**
   - Rancher's rights: farmer builds fence
   - Farmer's rights: rancher pays farmer to build fence
 
@@ -667,6 +778,7 @@ Economics Nobel 1991
 
 .right-column[
 
+.smaller[
 - Coase provides lots of examples from .hi-turquoise[nuisance] cases in common law:
   - *Sturges v Bridgman* 11 Ch. D. 852 (1879)
   - *Fontainebleau Hotel Corp. v. Forty-Five Twenty-Five, Inc* (1959) 114 So. 2d 357 (1959)
@@ -674,6 +786,7 @@ Economics Nobel 1991
   - *Bass v. Gregory* 25 Q.B.D. 481 (1890)
 
 - In each case, regardless of who is held liable (or found to have the property right), parties can negotiate to undertake whatever remedy is cheapest to fix (or endure), leading to efficient outcome
+]
 ]
 
 ---
@@ -704,7 +817,7 @@ Economics Nobel 1991
 
 - Does the Doctor have the right to a quiet work environment?
 
-- Does the Manufacturer have the right to use own equipment as noisily as he wants?
+- Does the Confectioner have the right to use own equipment as noisily as he wants?
 
 - Note there was no problem until the Doctor expanded his waiting room!
 
@@ -813,7 +926,8 @@ Economics Nobel 1991
 
 .right-column[
 
-- Coase Theorem: 
+.smallest[
+- .hi[Coase Theorem]: 
 
 > If transaction costs are low, with well-defined and tradeable property rights, parties can bargain voluntarily to reach the efficient outcome.
 
@@ -825,6 +939,7 @@ Economics Nobel 1991
 - The initial allocation of property rights does not matter, we will always get the efficient outcome
   - initial allocation does matter for distribution
 ]
+]
 
 ---
 
@@ -834,9 +949,9 @@ Economics Nobel 1991
 
 - .hi[First Welfare Theorem]: competitive markets in equilibrium maximize efficiency
 
-- We said this is not true if there are **externalities** (or other types of market failure)
+- We said this is not true if there are **externalities** (or other types of market failure), a “missing market”
 
-- But defining tradeable property rights and letting parties negotiate is like introducing the “missing market”
+- But defining tradeable property rights and letting parties negotiate is like introducing the “missing market”!
 ]
 
 .pull-right[
@@ -847,18 +962,21 @@ Economics Nobel 1991
 
 ---
 
+class: inverse, center, middle
+
+# Transaction Costs
+
+---
+
 # Back to Foxes
 
 .pull-left[
-
-- Return to Pierson v. Post — both the majority & dissent implied the ruling mattered for efficiency
+.smallest[
+- Return to *Pierson v. Post* — both the majority & dissent implied the ruling *mattered* for efficiency
 
 - Doesn't Coase make the case ruling irrelevant?
   - If Post values it more, can buy it off Pierson, or vice versa, regardless of the ruling
-
-- But it does matter because of .hi[transaction costs]!
-  - Majority: if Post gets the fox, “a fertile course of quarrels and litigation”
-  - Dissent: killing foxes is a good thing (externality), so lots of people benefit; hard to get efficient amount of fox hunting via bargaining
+]
 ]
 
 .pull-right[
@@ -869,13 +987,35 @@ Economics Nobel 1991
 
 ---
 
+# Back to Foxes
+
+.pull-left[
+.smallest[
+- Return to *Pierson v. Post* — both the majority & dissent implied the ruling *mattered* for efficiency
+
+- Doesn't Coase make the case ruling irrelevant?
+  - If Post values it more, can buy it off Pierson, or vice versa, regardless of the ruling
+
+- But it *does* matter because of .hi[transaction costs]!
+  - .hi-purple[Majority]: if Post gets the fox, “a fertile course of quarrels and litigation”
+  - .hi-orange[Dissent]: killing foxes is a good thing (externality), so lots of people benefit; hard to get efficient amount of fox hunting via bargaining
+]
+]
+
+.pull-right[
+.center[
+![](../images/fox-hunting.jpg)
+]
+]
+
+---
 # Transaction Costs Matter
 
 .pull-left[
 
-- Recall the Coase Theorem is about when transaction costs are low
+- Recall the .hi[Coase Theorem] is about when transaction costs are low
 
-- It also implies the corollary: when transaction costs are high, voluntary bargaining will not reach the efficient outcome!
+- It also implies the corollary: .hi-purple[when transaction costs are high, voluntary bargaining will not reach the efficient outcome!]
 
 ]
 
@@ -946,6 +1086,8 @@ Economics Nobel 1991
 
 > “However, I tend to regard the Coase theorem as a stepping stone on the way to an analysis of an economy with positive transaction costs. The significance to me of the Coase theorem is that it undermines the Pigovian system. Since standard economic theory assumes transaction costs to be zero, the Coase theorem demonstrates that the Pigovian solutions are unnecessary in these circumstances. Of course, it does not imply, when transaction costs are positive, that government actions (such as government operation, regulation, or taxation, including subsidies) could not produce a better result than relying on negotiations between individuals in the market. Whether this would be so could be discovered not by studying imaginary governments but what real governments actually do. My conclusion: let us study the world of positive transaction costs,” (p.717).
 
+]
+
 .source[Coase, Ronald H, 1992, “The Institutional Structure of Production,” *American Economic Review* 82(4): 713-719]
 
 ]
@@ -975,9 +1117,9 @@ Economics Nobel 1991
 
 > “[W]hat are traded on the market are not, as is often supposed by economists, physical entities, but the rights to perform certain actions, and the rights which individuals possess are established by the legal system.” (p.717).
 
-> “ Because of [transaction costs], the rights which individuals possess, with their duties and privileges, will be, to a large extent, what the law determines. As a result, the legal system will have a profound effect on the working of the economic system and may in certain respects be said to control it. It is obviously desirable that these rights should be as- signed to those who can use them most productively and with incentives that lead them to do so and that, to discover (and maintain) such a distribution of rights,
-”
+> “Because of [transaction costs], the rights which individuals possess, with their duties and privileges, will be, to a large extent, what the law determines. As a result, the legal system will have a profound effect on the working of the economic system and may in certain respects be said to control it. It is obviously desirable that these rights should be as- signed to those who can use them most productively and with incentives that lead them to do so and that, to discover (and maintain) such a distribution of rights, the costs of their transference should be low...” (pp.717-718)
 
+]
 .source[Coase, Ronald H, 1992, “The Institutional Structure of Production,” *American Economic Review* 82(4): 713-719]
 
 ]
