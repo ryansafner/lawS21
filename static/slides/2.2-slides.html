@@ -1,47 +1,29 @@
----
-title: "2.2 — The Coase Theorem"
-subtitle: "ECON 315 • Economics of the Law • Spring 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>'
-#date:
-output:
-  xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
-    lib_dir: libs
-    #seal: false
-    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
-    nature:
-      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
-      highlightStyle: ocean #rainbow #monokai rainbow solarized-light #tomorrow-night -blue -eighties zenburn
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: "16:9"
-      slideNumberFormat: |
-        <div class="progress-bar-container">
-          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
-          </div>
-        </div>
-    includes:
-      in_header: header.html # for font awesome, used in title  
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>2.2 — The Coase Theorem</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/lawS21   lawS21.classes.ryansafner.com " />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/5235085b15.js"></script>
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# 2.2 — The Coase Theorem
+## ECON 315 • Economics of the Law • Spring 2021
+### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>
+
 ---
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(echo=F,
-                      message=F,
-                      warning=F,
-                      fig.retina=3,
-                      fig.align = "center")
-library("tidyverse")
-library("ggrepel")
-library("fontawesome")
-xaringanExtra::use_tile_view()
-xaringanExtra::use_tachyons()
 
-theme_slides <- theme_light() + 
-  theme(
-    text = element_text(family = "Fira Sans", size = 24)
-  )
-```
+
 
 class: inverse, center, middle
 
@@ -53,11 +35,11 @@ class: inverse, center, middle
 
 .pull-left[
 .smaller[
-> “Property is a bundle of legal rights over resources that the owner is free to exercise and whose exercise is protected from interference by others” (Cooter and Ulen, p.73)
+&gt; “Property is a bundle of legal rights over resources that the owner is free to exercise and whose exercise is protected from interference by others” (Cooter and Ulen, p.73)
 
 - This bundle contains a lot of rights, to:
 
-> possess, use, develop, improve, transform, consume, deplete, destroy, sell, donate, bequeath, transfer, mortgage, lease, loan, or exclude others
+&gt; possess, use, develop, improve, transform, consume, deplete, destroy, sell, donate, bequeath, transfer, mortgage, lease, loan, or exclude others
 
 ]
 ]
@@ -190,9 +172,9 @@ class: inverse, center, middle
 - NY Supreme Court ruled for .hi-purple[Pierson] (who killed fox)
 
 .quitesmall[
-> “If the first seeing, starting, or pursuing such animals...should afford the basis of actions against others for intercepting and killing them, .hi[it would prove a fertile source of quarrels and litigation]”
+&gt; “If the first seeing, starting, or pursuing such animals...should afford the basis of actions against others for intercepting and killing them, .hi[it would prove a fertile source of quarrels and litigation]”
 
-> “However uncourteous or unkind the conduct of Pierson towards Post, in this instance, may have been, yet his act was productive of no injury or damage for which a legal remedy can be applied. We are of opinion the judgment below was erroneous, and ought to be reversed.”
+&gt; “However uncourteous or unkind the conduct of Pierson towards Post, in this instance, may have been, yet his act was productive of no injury or damage for which a legal remedy can be applied. We are of opinion the judgment below was erroneous, and ought to be reversed.”
 
 ]
 ]
@@ -213,9 +195,9 @@ class: inverse, center, middle
 - Judge Livingston’s dissent:
 
 .quitesmall[
-> “[A] fox is a "wild and noxious beast." Both parties have regarded him, as the law of nations does a pirate, *"hostem humani generis,"*...His depredations on farmers and on barn yards, have not been forgotten; and to put him to death wherever found, is allowed to be meritorious, and of public benefit. Hence it follows, that our decision should have in view the greatest possible encouragement to the destruction of an animal, so cunning and ruthless in his career.”
+&gt; “[A] fox is a "wild and noxious beast." Both parties have regarded him, as the law of nations does a pirate, *"hostem humani generis,"*...His depredations on farmers and on barn yards, have not been forgotten; and to put him to death wherever found, is allowed to be meritorious, and of public benefit. Hence it follows, that our decision should have in view the greatest possible encouragement to the destruction of an animal, so cunning and ruthless in his career.”
 
-> “But who would keep a pack of hounds; or what gentleman, at the sound of the horn, and at peep of day, would mount his steed, and for hours together...pursue the windings of this wily quadruped, if, just as night came on, and his stratagems and strength were nearly exhausted, a saucy intruder, who had not shared in the honours or labours of the chase, were permitted to come in at the death, and bear away in triumph the object of pursuit?”
+&gt; “But who would keep a pack of hounds; or what gentleman, at the sound of the horn, and at peep of day, would mount his steed, and for hours together...pursue the windings of this wily quadruped, if, just as night came on, and his stratagems and strength were nearly exhausted, a saucy intruder, who had not shared in the honours or labours of the chase, were permitted to come in at the death, and bear away in triumph the object of pursuit?”
 
 ]
 ]
@@ -352,7 +334,7 @@ class: inverse, center, middle
 .pull-left[
 - This is the essence of what is called the .hi[Coase theorem]:
 
-> If .hi[transaction costs are low], with .hi[well-defined] and .hi[tradeable property rights], parties can bargain voluntarily to reach the efficient outcome. 
+&gt; If .hi[transaction costs are low], with .hi[well-defined] and .hi[tradeable property rights], parties can bargain voluntarily to reach the efficient outcome. 
 
 - Note: the starting point *does* matter for distribution!
 ]
@@ -418,14 +400,14 @@ A.C. Pigou
 
 .right-column[
 
-- Each party only considering own $MPC$ and $MPB$
+- Each party only considering own `\(MPC\)` and `\(MPB\)`
 
-- Injurer $\xrightarrow{harms}$ Injured
+- Injurer `\(\xrightarrow{harms}\)` Injured
 
 - .hi-green[Examples]: 
-  - polluting factory $\xrightarrow{harms}$ households living nearby
-  - neighbor planting trees $\xrightarrow{harms}$ my shaded pool
-  - partying neighbor $\xrightarrow{harms}$ quiet neighbor
+  - polluting factory `\(\xrightarrow{harms}\)` households living nearby
+  - neighbor planting trees `\(\xrightarrow{harms}\)` my shaded pool
+  - partying neighbor `\(\xrightarrow{harms}\)` quiet neighbor
 
 - Tax/restrain injurer (A) until his MPC = MSC
 ]
@@ -451,7 +433,7 @@ Economics Nobel 1991]
 .right-column[
 
 - Harm is actually .hi-turquoise[bilateral], not unilateral
-  - Party A $\underbrace{\iff}_{harms}$ Party B
+  - Party A `\(\underbrace{\iff}_{harms}\)` Party B
 
 - Takes two parties to have a dispute
 
@@ -484,7 +466,7 @@ Economics Nobel 1991]
 
 .right-column[
 
-> “The traditional approach has tended to obscure the nature of the choice that has to be made. The question is commonly thought of as one in which A inflicts harm on B and what has to be decided is: how should we restrain A? But this is wrong. We are dealing with a problem of a reciprocal nature. To avoid the harm to B would inflict harm on A. The real question that has to be decided is: should A be allowed to harm B or should B be allowed to harm A?” (p.2).
+&gt; “The traditional approach has tended to obscure the nature of the choice that has to be made. The question is commonly thought of as one in which A inflicts harm on B and what has to be decided is: how should we restrain A? But this is wrong. We are dealing with a problem of a reciprocal nature. To avoid the harm to B would inflict harm on A. The real question that has to be decided is: should A be allowed to harm B or should B be allowed to harm A?” (p.2).
 
 ]
 
@@ -553,9 +535,9 @@ Economics Nobel 1991]
 .pull-left[
 - U.S. law (at various times): “open range”/“fencing out” (rancher's rights)
   - Ranchers can let their herd roam free
-  - Ranchers are not liable for damages done by herd<sup>.magenta[†]</sup>
+  - Ranchers are not liable for damages done by herd&lt;sup&gt;.magenta[†]&lt;/sup&gt;
 
-.footnote[<sup>.magenta[†]</sup> Unless the farmer had a clear fence and the cattle broke through it.]
+.footnote[&lt;sup&gt;.magenta[†]&lt;/sup&gt; Unless the farmer had a clear fence and the cattle broke through it.]
 ]
 
 .pull-right[
@@ -682,7 +664,7 @@ Economics Nobel 1991
 
 .pull-left[
 .quitesmall[
-> "[Imagine] the case of a confectioner the noise and vibrations from whose machinery disturbed a doctor in his work. To avoid harming the doctor would inflict harm on the confectioner. The problem posed by this case was essentially whether it was worth while, as a result of restricting the methods of production which could be used by the confectioner, to secure more doctoring at the cost of a reduced supply of confectionery products," (p.2).
+&gt; "[Imagine] the case of a confectioner the noise and vibrations from whose machinery disturbed a doctor in his work. To avoid harming the doctor would inflict harm on the confectioner. The problem posed by this case was essentially whether it was worth while, as a result of restricting the methods of production which could be used by the confectioner, to secure more doctoring at the cost of a reduced supply of confectionery products," (p.2).
 ]
 
 .source[Coase, Ronald H, 1960, “The Problem of Social Cost” *Journal of Law and Economics* 3: 1-44]
@@ -761,7 +743,7 @@ Economics Nobel 1991
 
 .right-column[
 
-> “Judges have to decide on legal liability but this should not confuse economists about the nature of the economic problem involved. In the case of the cattle and the crops, it is true that there would be no crop damage without the cattle. It is equally true that there would be no crop damage without the crops. The doctor’s work would not have been disturbed if the confectioner had not worked his machinery; but the machinery would have disturbed no one if the doctor had not set up his consulting room in that particular place...” (p.13).
+&gt; “Judges have to decide on legal liability but this should not confuse economists about the nature of the economic problem involved. In the case of the cattle and the crops, it is true that there would be no crop damage without the cattle. It is equally true that there would be no crop damage without the crops. The doctor’s work would not have been disturbed if the confectioner had not worked his machinery; but the machinery would have disturbed no one if the doctor had not set up his consulting room in that particular place...” (p.13).
 
 .source[Coase, Ronald H, 1960, “The Problem of Social Cost” *Journal of Law and Economics* 3: 1-44]
 ]
@@ -787,7 +769,7 @@ Economics Nobel 1991
 
 .right-column[
 
-> “If we are to discuss the problem in terms of causation, both parties cause the damage. If we are to attain an optimum allocation of resources, it is therefore desirable that both parties should take the harmful effects into account when deciding on their course of action. It is one of the beauties of a smoothly operating pricing system that...the fall in the value of production due to the harmful effect would be a cost for both parties,” (p.13).
+&gt; “If we are to discuss the problem in terms of causation, both parties cause the damage. If we are to attain an optimum allocation of resources, it is therefore desirable that both parties should take the harmful effects into account when deciding on their course of action. It is one of the beauties of a smoothly operating pricing system that...the fall in the value of production due to the harmful effect would be a cost for both parties,” (p.13).
 
 .source[Coase, Ronald H, 1960, “The Problem of Social Cost” *Journal of Law and Economics* 3: 1-44]
 ]
@@ -815,7 +797,7 @@ Economics Nobel 1991
 
 - Coase Theorem: 
 
-> If transaction costs are low, with well-defined and tradeable property rights, parties can bargain voluntarily to reach the efficient outcome.
+&gt; If transaction costs are low, with well-defined and tradeable property rights, parties can bargain voluntarily to reach the efficient outcome.
 
 - Requires:
   1. low transaction costs
@@ -851,7 +833,7 @@ Economics Nobel 1991
 
 .pull-left[
 
-- Return to Pierson v. Post — both the majority & dissent implied the ruling mattered for efficiency
+- Return to Pierson v. Post — both the majority &amp; dissent implied the ruling mattered for efficiency
 
 - Doesn't Coase make the case ruling irrelevant?
   - If Post values it more, can buy it off Pierson, or vice versa, regardless of the ruling
@@ -908,76 +890,131 @@ Economics Nobel 1991
 
 .quitesmall[
 
-> “If market transactions were costless, all that matters (questions of equity apart) is that the rights of the various parties should be well-defined and the results of legal actions easy to forecast.
+&gt; “If market transactions were costless, all that matters (questions of equity
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "ocean",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"slideNumberFormat": "<div class=\"progress-bar-container\">\n  <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">\n  </div>\n</div>\n"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
 
-> “But...the situation is quite different when market transactions are so costly as to make it difficult to change the arrangement of rights established by the law.”
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
 
-> “In such cases, the courts directly influence economic activity.”
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
-> “Even when it is possible to change the legal delimitation of rights through market transactions, it is obviously desirable to reduce the need for such transactions and thus reduce the employment of resources in carrying them out.”
-
-]
-
-.source[Coase, Ronald H, 1960, “The Problem of Social Cost” *Journal of Law and Economics* 3: 1-44]
-]
-
----
-
-# That Was Coase (1960)'s Whole Point!
-
-.left-column[
-.center[
-![:scale 80%](../images/coase.png)
-
-.smallest[
-Ronald H. Coase
-
-(1910-2013)
-
-Economics Nobel 1991
-]
-
-]
-]
-
-.right-column[
-
-.quitesmall[
-
-> “However, I tend to regard the Coase theorem as a stepping stone on the way to an analysis of an economy with positive transaction costs. The significance to me of the Coase theorem is that it undermines the Pigovian system. Since standard economic theory assumes transaction costs to be zero, the Coase theorem demonstrates that the Pigovian solutions are unnecessary in these circumstances. Of course, it does not imply, when transaction costs are positive, that government actions (such as government operation, regulation, or taxation, including subsidies) could not produce a better result than relying on negotiations between individuals in the market. Whether this would be so could be discovered not by studying imaginary governments but what real governments actually do. My conclusion: let us study the world of positive transaction costs,” (p.717).
-
-.source[Coase, Ronald H, 1992, “The Institutional Structure of Production,” *American Economic Review* 82(4): 713-719]
-
-]
-
----
-
-# That Was Coase (1960)'s Whole Point!
-
-.left-column[
-.center[
-![:scale 80%](../images/coase.png)
-
-.smallest[
-Ronald H. Coase
-
-(1910-2013)
-
-Economics Nobel 1991
-]
-
-]
-]
-
-.right-column[
-
-.quitesmall[
-
-> “[W]hat are traded on the market are not, as is often supposed by economists, physical entities, but the rights to perform certain actions, and the rights which individuals possess are established by the legal system.” (p.717).
-
-> “ Because of [transaction costs], the rights which individuals possess, with their duties and privileges, will be, to a large extent, what the law determines. As a result, the legal system will have a profound effect on the working of the economic system and may in certain respects be said to control it. It is obviously desirable that these rights should be as- signed to those who can use them most productively and with incentives that lead them to do so and that, to discover (and maintain) such a distribution of rights,
-”
-
-.source[Coase, Ronald H, 1992, “The Institutional Structure of Production,” *American Economic Review* 82(4): 713-719]
-
-]
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
