@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>2.3 — The Coase Theorem</title>
+    <title>2.3 — Bargaining &amp; Transaction Costs</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/lawS21   lawS21.classes.ryansafner.com " />
     <script src="libs/header-attrs/header-attrs.js"></script>
@@ -16,7 +16,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# 2.3 — The Coase Theorem
+# 2.3 — Bargaining &amp; Transaction Costs
 ## ECON 315 • Economics of the Law • Spring 2021
 ### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>
 
@@ -25,25 +25,37 @@ class: center, middle, inverse, title-slide
 
 
 
+class: inverse
+
+# Outline
+
+### [Some Bargaining Theory](#3)
+### [The Benefits &amp; Costs of Property Rights](#25)
+### [Transaction Costs &amp; Some Normative Prescriptions](#41)
+
+---
+
 class: inverse, center, middle
 
-# Game Theory and Bargaining
+# Some Bargaining Theory
 
 ---
 
-# Game Theory and Bargaining
+# Some Bargaining Theory
 
 .pull-left[
 
-.content-box-green[
-.hi-green[Example] (from before): Your car is worth $3,000 to you, and $4,000 to me. Suppose I have $10,000 to spend.
+.smallest[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: Your car is worth $3,000 to you, and $4,000 to me. Suppose I have $10,000 to spend.
 ]
 
-- .hi[“threat point”] or .hi[“BATNA”] or .hi[“outside option”] is value we each get if we don't exchange:
-  - Mine: $10,000
-  - Yours: $3,000
+- .hi[“Threat point”] or .hi[“BATNA”] or .hi[“outside option”] is value we each get if we don't exchange:
+  - .orange[Mine: $10,000]
+  - .purple[Yours: $3,000]
 
-- Any outcome we both consent to must make us at least as well off as our BATNA
+- Any outcome we both consent to must make **each of us at least as well off as our respective BATNA**
+]
 ]
 
 .pull-right[
@@ -54,15 +66,16 @@ class: inverse, center, middle
 
 ---
 
-# Game Theory and Bargaining
+# Some Bargaining Theory
 
 .pull-left[
-
+.smallest[
 - If we don't exchange, payoffs are:
-  - Me: $10,000
-  - You: $3,000
-  - Joint: $13,000
+  - .orange[Me: $10,000]
+  - .purple[You: $3,000]
+  - **Joint: $13,000**
 
+]
 ]
 
 .pull-right[
@@ -73,20 +86,21 @@ class: inverse, center, middle
 
 ---
 
-# Game Theory and Bargaining
+# Some Bargaining Theory
 
 .pull-left[
-
+.smallest[
 - If we don't exchange, payoffs are:
-  - Me: 10,000
-  - You: 3,000
-  - Joint: 13,000
+  - .orange[Me: $10,000]
+  - .purple[You: $3,000]
+  - **Joint: $13,000**
 
-- If I purchase your car at some price `\(p\)`, payoffs are:
-  - Me: 4,000+10,000-P = 14,000-P
-  - You: P
-  - Joint: 14,000 (14,000-P+P)
+- If I purchase your car at price P, payoffs are:
+  - .orange[Me]: 4,000+10,000-P = .orange[14,000-P]
+  - .purple[You]: .purple[P]
+  - **Joint**: **14,000** (14,000-P+P)
 
+]
 ]
 
 .pull-right[
@@ -97,27 +111,1101 @@ class: inverse, center, middle
 
 ---
 
-# Game Theory and Bargaining
+# Some Bargaining Theory
 
 .pull-left[
-
+.smallest[
 - If we don't exchange, payoffs are:
-  - Me: 10,000
-  - You: 3,000
-  - Joint: 13,000
+  - .orange[Me: $10,000]
+  - .purple[You: $3,000]
+  - **Joint: $13,000**
 
-- If I purchase your car at some price `\(p\)`, payoffs are:
-  - Me: 4,000+10,000-P = 14,000-P
-  - You: P
-  - Joint: 14,000 (14,000-P+P)
+- If I purchase your car at price P, payoffs are:
+  - .orange[Me]: 4,000+10,000-P = .orange[14,000-P]
+  - .purple[You]: .purple[P]
+  - **Joint**: **14,000** (14,000-P+P)
 
 - A $1,000 .hi[gain from exchange] or .hi[cooperative surplus]
-  - Exchange increases our joint payoff by $1,000 
+  - Exchange increases our joint payoff by $1,000
+]
+]
+.pull-right[
+.center[
+![](../images/Settlement-handshake.jpg)
+]
+]
+
+---
+
+# Some Bargaining Theory
+
+.pull-left[
+.smallest[
+
+- A $1,000 .hi[gain from exchange] or .hi[cooperative surplus]
+  - Exchange increases our joint payoff by $1,000
+  
+- Further challenge to .hi-purple[agree how to divide the surplus]
+  - fairness
+  - relative BATNAs
+  - bargaining skill, threats, promises, etc
+
+- Many theories of bargaining, game theory, seek to answer this challenge
+  - Not our focus right now
+]
+]
+.pull-right[
+.center[
+![](../images/Settlement-handshake.jpg)
+]
+]
+
+---
+
+# Some Bargaining Theory
+
+.pull-left[
+.smallest[
+
+- A $1,000 .hi[gain from exchange] or .hi[cooperative surplus]
+  - Exchange increases our joint payoff by $1,000
+  
+- Suppose we simply .hi-turquoise[split the surplus equally]
+  - .orange[I] pay .purple[you] $3,500 for the car
+
+- Our resulting payoffs:
+  - .orange[Me]: $10,000 `\(\rightarrow\)` $10,500 (+$500)
+  - .purple[You]: $3,000 `\(\rightarrow\)` $3,500 (+$500)
+  - **Joint**: $13,000 `\(\rightarrow\)` $14,000 (+$1,000)
+]
+]
+.pull-right[
+.center[
+![](../images/Settlement-handshake.jpg)
+]
+]
+
+---
+
+# Returning to the Farmer and Rancher Example
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.smallest[
+- Suppose we're under a regime of .hi-orange[Farmer's rights]: .turquoise[Rancher] is liable for any crop damage
+
+- What does Coasian logic predict will happen?
+]
 ]
 
 .pull-right[
 .center[
-![](../images/Settlement-handshake.jpg)
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Farmer's Rights
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.smallest[
+- Suppose we're under a regime of .hi-orange[Farmer's rights]: .turquoise[Rancher] is liable for any crop damage
+
+- What does Coasian logic predict will happen?
+  - .hi-purple[The efficient outcome]: Rancher will pay farmer to build fence
+  - **_How much_ will the Rancher pay to farmer?**
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Farmer's Rights
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.smallest[
+- Consider .orange[Farmer's] perspective:
+  - .turquoise[Rancher] is liable for all damage, no reason for .orange[Farmer] to do *anything*!
+  - .orange[BATNA payoff: **0**]
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Farmer's Rights
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.smallest[
+- Consider .turquoise[Rancher's] perspective:
+  - .turquoise[Rancher] is liable for all damage, .orange[Farmer] isn't going to do anything
+  - If he does nothing, will have to pay **-$500** damages
+  - Or spend **-$400** to build a fence
+  - .turquoise[BATNA payoff: **-$400**] (building fence)
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Farmer's Rights
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.quitesmall[
+- .orange[Farmer's BATNA: $0]
+- .turquoise[Rancher's BATNA: -$400]
+- **Joint payoff**: -$400
+
+- .hi-purple[Efficient outcome]: .turquoise[Rancher] to pay .orange[Farmer] some money for .orange[Farmer] to build fence 
+  - **Joint payoff** increases to **$-200**, a **$200** .hi[gain from cooperation]
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Farmer's Rights
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.smallest[
+- Basic prediction of bargaining theory: .turquoise[Rancher] will pay .orange[Farmer] **something between $200 and $400** to build the fence
+  - Exactly where depends on their relative bargaining strengths
+
+- For simplicity, let's **assume a 50-50 split** of the .hi[gains to cooperation ($200)]
+]
+
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Farmer's Rights
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.smallest[
+- .turquoise[Rancher] gives $300 to .orange[Farmer] to build fence
+
+- .orange[Farmer's payoff]: 0 + (0.5 `\(\times\)` 200) = .orange[100]
+
+- .turquoise[Rancher's payoff]: -400 + (0.5 `\(\times\)` 200) = .turquoise[-300]
+]
+
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Farmer's Rights
+
+|    | .hi-orange[Farmer's Rights] |
+|----|---:|
+| .turquoise[Rancher's BATNA] | -400 |
+| .orange[Farmer's BATNA] | 0 |
+| **Joint Payoff** (BATNAs) | -400 |
+| .hi[Gains from Coop.] | 200 |
+| .turquoise[Rancher's Payoff] from Deal | -300 |
+| .orange[Farmer's Payoffs] from Deal | 100 |
+| **Joint Payoff** (Deal) | -200 |
+
+---
+
+# Farmer and Rancher Example: Rancher's Rights
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.smallest[
+- Suppose instead, we're under a regime of .hi-turquoise[Rancher's rights]: rancher is *not* liable for any crop damage
+
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Rancher's Rights
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.smallest[
+- Consider .turquoise[Rancher's] perspective:
+  - .turquoise[Rancher] is *not* liable for any damage, no reason to do *anything*!
+  - .turquoise[BATNA payoff: **0**]
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Rancher's Rights
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+  - Potential crop damage: $500
+  - .turquoise[Rancher] can build fence for $400
+  - .orange[Farmer] can build fence for $200
+]
+]
+
+.smallest[
+- Consider .orange[Farmer's] perspective:
+  - .turquoise[Rancher] is not liable for damage, won't do *anything*
+  - .orange[Farmer] can build do nothing and suffer -$500 from damage, or build fence for -$200 and incur no damage
+  - .orange[BATNA payoff: **-$200**] (build fence)
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/wheat2.jpg)
+
+![:scale 70%](../images/grazing_cattle.jpg)
+]
+]
+
+---
+
+# Farmer and Rancher Example: Rancher's Rights
+
+
+|    | .hi-orange[Farmer's Rights] | .hi-turquoise[Rancher's Rights] |
+|----|---:|---:|
+| .turquoise[Rancher's BATNA] | -400 | 0 |
+| .orange[Farmer's BATNA] | 0 | -200 |
+| **Joint Payoff** (BATNAs) | -400 | -200 |
+| .hi[Gains from Coop.] | 200 | 0 |
+| .turquoise[Rancher's Payoff] from Deal | -300 | 0 |
+| .orange[Farmer's Payoffs] from Deal | 100 | -200 |
+| **Joint Payoff** (Deal) | -200 | -200 |
+
+
+---
+# Farmer and Rancher Example: Rancher's Rights
+
+.quitesmall[
+
+|    | .hi-orange[Farmer's Rights] | .hi-turquoise[Rancher's Rights] |
+|----|---:|---:|
+| .turquoise[Rancher's BATNA] | -400 | 0 |
+| .orange[Farmer's BATNA] | 0 | -200 |
+| **Joint Payoff** (BATNAs) | -400 | -200 |
+| .hi[Gains from Coop.] | 200 | 0 |
+| .turquoise[Rancher's Payoff] from Deal | -300 | 0 |
+| .orange[Farmer's Payoffs] from Deal | 100 | -200 |
+| **Joint Payoff** (Deal) | **-200** | **-200** |
+
+]
+
+.smallest[
+- .hi-purple[Coase Theorem]: most efficient outcome (farmer builds fence), maximized joint payoff, is identical under either rule! (Note **distribution** (final payoffs to each party) is different!)
+
+- Note there is no need for a transaction in the 2&lt;sup&gt;nd&lt;/sup&gt; rule, .orange[Farmer] builds fence on own
+
+]
+
+---
+
+# One More Example: Party
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: .purple[You] want to have a party in your house next to .orange[mine].
+  - .purple[You] value having the party at $150
+  - .orange[I] value a good night's sleep at $100
+]
+
+- Efficient for you to have the party
+
+- If parties are allowed, no need for negotiation, .purple[you] will have the party
+  - No .hi[gains from cooperation] (.orange[my WTP] &lt; .purple[your WTA])
+
+]
+]
+.pull-right[
+.center[
+![](../images/beerbottles.jpg)
+]
+]
+
+---
+
+# One More Example: Party
+
+.pull-left[
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: .purple[You] want to have a party in your house next to .orange[mine].
+  - .purple[You] value having the party at $150
+  - .orange[I] value a good night's sleep at $100
+]
+
+- Efficient for you to have the party
+
+- If parties are not allowed:
+  - .orange[My BATNA: 0]
+  - .purple[Your BATNA: 0]
+  - .hi[Gains from cooperation: 50]
+  - If split evenly, .purple[you] pay .orange[me] $125 to have the party
+]
+]
+.pull-right[
+.center[
+![](../images/beerbottles.jpg)
+]
+]
+
+---
+class: inverse, center, middle
+
+# The Benefits &amp; Costs of Property Rights
+
+---
+
+# Recall the Game Between Farmers
+
+.pull-left[
+
+- Recall our original game that motivated the need for property rights
+
+- Farmers set up a property rights system
+  - Had costs `\(c\)` of administering
+  - Set punishment `\(P\)` for theft
+
+- If `\(10-c&gt;12-P\)`, then (.red[Farm],.blue[Farm]) becomes an equilibrium
+
+- Today we'll take a deeper look at `\(c\)`
+]
+
+.pull-right[
+.center[
+![](../images/propertygame.png)
+
+![](../images/propertygame2.png)
+]
+]
+
+---
+
+# Thank Property Rights for Thanksgiving!
+
+.pull-left[
+
+- The Pilgrims arriving at Plymouth Rock in 1620 immediately set up a collective property system
+
+- All farmland held in common, no private ownership
+
+- Promptly led to famine
+]
+
+.pull-right[
+.center[
+![](../images/plymothcolony.jpg)
+]
+]
+
+---
+
+# Thank Property Rights for Thanksgiving!
+
+.left-column[
+.center[
+![:scale 80%](../images/williambradford.jpg)
+
+.smallest[
+William Bradford
+
+1590—1657
+
+1&lt;sup&gt;st&lt;/sup&gt; Governor of Plymouth Colony
+]
+]
+]
+
+.right-column[
+
+.quitesmall[
+
+&gt; “All this while no supply was heard of, neither knew they when they might expect any. So they began to think how they might raise as much corn as they could, and obtain a better crop than they had done, that they might not still thus languish in misery.”
+
+&gt; “[A]fter much debate of things, the Governor...gave way that they should set corn every man for his own particular, and in that regard trust to themselves; in all other things to go on in the general way as before. And so assigned to every family a parcel of land, according to the proportion of their number, for that end...This had very good success, for it made all hands very industrious, so as much more corn was planted than otherwise would have been by any means the Governor or any other could use, and saved him a great deal of trouble, and gave far better content. The women now went willingly into the field, and took their little ones with them to set corn; which before would allege weakness and inability; whom to have compelled would have been thought great tyranny and oppression.”
+
+]
+
+.source[Bradford, William, [*Of Plymoth Plantation 1620-1647*](https://press-pubs.uchicago.edu/founders/documents/v1ch16s1.html)]
+]
+
+---
+
+# Thank Property Rights for Thanksgiving!
+
+.left-column[
+.center[
+![:scale 80%](../images/williambradford.jpg)
+
+.smallest[
+William Bradford
+
+1590—1657
+
+1&lt;sup&gt;st&lt;/sup&gt; Governor of Plymouth Colony
+]
+]
+]
+
+.right-column[
+
+.tiny[
+
+&gt; “The experience that was had in this common course and condition, tried sundry years and that amongst godly and sober men, may well evince the vanity of that conceit of Plato's and other ancients applauded by some of later times; that the taking away of property and bringing in community into a commonwealth would make them happy and flourishing; as if they were wiser than God. For this community (so far as it was) was found to breed much confusion and discontent and retard much employment that would have been to their benefit and comfort. For the young men, that were most able and fit for labour and service, did repine that they should spend their time and strength to work for other men's wives and children without any recompense. The strong, or man of parts, had no more in division of victuals and clothes than he that was weak and not able to do a quarter the other could; this was thought injustice. The aged and graver men to be ranked and equalized in labours and victuals, clothes, etc., with the meaner and younger sort, thought it some indignity and disrespect unto them. And for men's wives to be commanded to do service for other men, as dressing their meat, washing their clothes, etc., they deemed it a kind of slavery, neither could many husbands well brook it. Upon the point all being to have alike, and all to do alike, they thought themselves in the like condition, and one as good as another; and so, if it did not cut off those relations that God hath set amongst men, yet it did at least much diminish and take off the mutual respects that should be preserved amongst them. And would have been worse if they had been men of another condition. Let none object this is men's corruption, and nothing to the course itself. I answer, seeing all men have this corruption in them, God in His wisdom saw another course fitter for them.”
+
+]
+
+.source[Bradford, William, [*Of Plymoth Plantation 1620-1647*](https://press-pubs.uchicago.edu/founders/documents/v1ch16s1.html)]
+]
+
+---
+
+# Property Rights Internalize Externalities
+
+.left-column[
+.center[
+![:scale 80%](../images/demsetz.png)
+
+Harold Demsetz
+
+1930-2019
+]
+]
+
+.right-column[
+
+.smallest[
+&gt; “.hi[A primary function of property rights is that of guiding incentives to achieve a greater internalization of externalities]. Every cost and benefit associated with social interdependencies is a potential externality. One condition is necessary to make costs and benefits [become] externalities. The cost of a transaction in the rights between the parties (internalization) must exceed the gains from internalization. In general, transacting cost can be large relative to gains because of ‘natural’ difficulties in trading or they can be large because of legal reasons,” (p.348).
+
+&gt; “Property rights develop to internalize externalities when the gains from internalization become larger than the costs of externalization,” (p.350).
+
+]
+]
+
+.source[Demsetz, Harold, 1967, "Towards a Theory of Property Rights," *American Economic Review* 57(2): 347-359]
+
+---
+
+# But Property Rights Are Costly
+
+.pull-left[
+.smaller[
+- Many decisions impose an externality on other parties
+
+- Externalities can be solved by defining property rights and permitting exchanges
+
+- There are always transaction costs to exchange
+
+- If transaction costs are low, efficient to create &amp; exchange property rights
+
+- If transaction costs are high, *inefficient* to create property rights!
+]
+]
+
+.pull-right[
+.center[
+![](../images/transactionscosts.JPG)
+]
+]
+
+---
+
+# It's Just a Cost-Benefit Calculation
+
+.pull-left[
+
+- Essentially, does .hi-purple[MB &gt; MC] of internalizing the externality?
+  - **If yes**: create property rights, internalize externalities
+  - **If no**: leave as commons, incur externalities
+
+- Exogenous shocks — opening new markets, new technologies, etc — can change this equilibrium!
+
+]
+
+.pull-right[
+.center[
+![](../images/transactionscosts.JPG)
+]
+]
+
+---
+
+# Efficient to Keep as a Commons
+
+.left-column[
+.center[
+![:scale 80%](../images/demsetz.png)
+
+Harold Demsetz
+
+1930-2019
+]
+]
+
+.right-column[
+.quitesmall[
+&gt; “A close relationship existed, both historically and geographically, between the development of private rights in land and the development of the commercial fur trade.
+
+&gt; “Because of the lack of control over hunting by others, it is in no person’s interest to invest in increasing or maintaining the stock of game.  Overly intensive hunting takes place.
+
+&gt; “Before the fur trade became established, hunting was carried on primarily for purposes of food and the relatively few furs that were required for the hunter’s family.  The externality was clearly present...but these external effects were of such small significance that it did not pay for anyone to take them into account.” (p.351).
+
+]
+]
+
+.source[Demsetz, Harold, 1967, "Towards a Theory of Property Rights," *American Economic Review* 57(2): 347-359]
+
+---
+
+# ...Until an Exogenous Change
+
+.center[
+![:scale 65%](../images/furtrade.jpg)
+]
+
+---
+
+# ...Until an Exogenous Change
+
+.left-column[
+.center[
+![:scale 80%](../images/demsetz.png)
+
+Harold Demsetz
+
+1930-2019
+]
+]
+
+.right-column[
+
+.quitesmall[
+&gt; “[T]he advent of the fur trade had two immediate consequences. First, the value of furs to the Indians was increased considerably. Second, and as a result, the scale of hunting activity rose sharply. Both consequences must have increased considerably the importance of the externalities associated with free hunting. The property right system began to change.”
+
+&gt; “[Algonkians and Iroquois] divide themselves into several bands in order to hunt more efficiently. It was their custom...to appropriate pieces of land about two leagues square for each group to hunt exclusively. Ownership of beaver houses, however, had already become established, and when discovered, they were marked. A starving Indian could kill and eat another's beaver if he left the fur and the tail.”
+
+&gt; “The principle of the Indians is to mark off the hunting ground selected by them Dy blazing the trees with their crests so that they may never encroach on each other...By the middle of the century these allotted territories were relatively stabilized,” (p.352).
+
+]
+]
+.source[Demsetz, Harold, 1967, "Towards a Theory of Property Rights," *American Economic Review* 57(2): 347-359]
+
+---
+
+# Technology Can *Reduce Costs* of Property Rights
+
+.center[
+![:scale 60%](https://www.dropbox.com/s/dw0vevynralcmxm/barbedwirestory.png?raw=1)
+]
+.source[Source: [TED Ideas](https://ideas.ted.com/why-barbed-wire-yes-barbed-wire-was-as-transformative-as-the-telephone/)]
+
+---
+
+# Technology Can *Raise the Benefits* of Property Rights
+
+.center[
+![:scale 70%](../images/spectrummapfull.png)
+
+.quitesmall[
+The electromagnetic spectrum allocated by the Federal Communications Commission to private parties ([high res](https://www.ntia.doc.gov/files/ntia/publications/2003-allochrt.pdf))
+]
+]
+
+---
+
+# Technology Can *Raise the Benefits* of Property Rights
+
+.pull-left[
+.center[
+![](../images/spectrumrevenue.png)
+]
+]
+
+.pull-right[
+
+.center[
+![:scale 100%](../images/spectrumauctionsarticle.png)
+]
+.source[Source: [Priceonomics](https://priceonomics.com/the-spectrum-auction-how-economists-saved-the-day/)]
+]
+
+---
+
+# Summarizing Coase &amp; Demsetz
+
+.pull-left[
+
+- **Coase**: if property rights are clearly defined and tradeable, we'll get efficient outcomes
+  - Fix externalities by expanding property rights
+
+- **Demsetz**: yes, but this comes at a .hi-purple[cost]!
+  - Property rights will expand only when the .hi-purple[benefits outweigh the costs]
+  - Either because benefits rise, or costs fall
+]
+
+.pull-right[
+.center[
+![:scale 90%](../images/propertyrights.png)
+]
+]
+
+---
+
+# Of Course, Coase Knew About Transaction Costs!
+
+.left-column[
+.center[
+![:scale 80%](../images/coase.png)
+
+.smallest[
+Ronald H. Coase
+
+(1910-2013)
+
+Economics Nobel 1991
+]
+
+]
+]
+
+.right-column[
+
+.quitesmall[
+
+&gt; “If market transactions were costless, all that matters (questions of equity apart) is that the rights of the various parties should be well-defined and the results of legal actions easy to forecast.
+
+&gt; “But...the situation is quite different when market transactions are so costly as to make it difficult to change the arrangement of rights established by the law.”
+
+&gt; “In such cases, the courts directly influence economic activity.”
+
+&gt; “Even when it is possible to change the legal delimitation of rights through market transactions, it is obviously desirable to reduce the need for such transactions and thus reduce the employment of resources in carrying them out.”
+
+]
+
+.source[Coase, Ronald H, 1960, “The Problem of Social Cost” *Journal of Law and Economics* 3: 1-44]
+]
+
+---
+
+class: inverse, center, middle
+
+# Transaction Costs &amp; Some Normative Prescriptions
+
+---
+
+# Transaction Costs
+
+.pull-left[
+- .hi[Transaction costs]: the costs of voluntary exchange (or markets)
+  - .hi-purple[Search costs]: cost of finding trading partners
+  - .hi-purple[Bargaining costs]: cost of reaching an agreement
+  - .hi-purple[Enforcement costs]: **trust** between parties, cost of upholding agreement, dealing with unforeseen contingencies, punishing defection, using police and courts 
+]
+
+.pull-right[
+.center[
+![](../images/transactionscosts.JPG)
+]
+]
+
+---
+
+# Focus on Bargaining Costs
+
+.pull-left[
+
+- Now that we have discussed bargaining, consider some types of associated transaction costs
+
+1) .hi[Asymmetric information]
+  - Lemons problem (Akerlof 1970)&lt;sup&gt;.magenta[†]&lt;/sup&gt;
+  - Adverse selection &amp; moral hazard
+
+.footnote[&lt;sup&gt;.magenta[†]&lt;/sup&gt; I cover this in detail in [this game theory lecture](https://www.dropbox.com/s/xo5a79phoepskoy/Lesson8.pdf?dl=0).]
+]
+
+.pull-right[
+.center[
+![](../images/lemons.png)
+]
+]
+
+---
+
+# Focus on Bargaining Costs
+
+.pull-left[
+
+- Now that we have discussed bargaining, consider some types of associated transaction costs
+
+2) .hi[Private information]
+  - not knowing each other's BATNAs
+  - bargaining *requires* revealing private information
+  - parties reluctant to divulge information
+
+]
+
+.pull-right[
+.center[
+![](../images/confidentialinfo.jpeg)
+]
+]
+
+---
+
+# Focus on Bargaining Costs
+
+.pull-left[
+
+- Now that we have discussed bargaining, consider some types of associated transaction costs
+
+3) .hi[Large number of parties]
+  - free riding, public goods problem, hold out problem
+
+]
+
+.pull-right[
+.center[
+![](../images/holdout3.jpg)
+]
+]
+
+---
+
+# Focus on Bargaining Costs
+
+.pull-left[
+
+- Now that we have discussed bargaining, consider some types of associated transaction costs
+
+4) .hi[Uncertainty] about property rights, BATNAs, the value of the property, etc
+
+]
+
+.pull-right[
+.center[
+![](../images/choices.jpg)
+]
+]
+
+---
+
+# Focus on Bargaining Costs
+
+.pull-left[
+
+- Now that we have discussed bargaining, consider some types of associated transaction costs
+
+5) .hi[Enmity between parties]
+  - emotions cloud rationality
+  - can you negotiate with someone you consider a mortal enemy?
+  - after trial, some parties *refuse* to bargain!
+
+]
+
+.pull-right[
+.center[
+![](../images/arabisraeliconflict.png)
+]
+]
+
+---
+
+# Focus on Bargaining Costs
+
+.pull-left[
+
+- Now that we have discussed bargaining, consider some types of associated transaction costs
+
+5) .hi[Enmity between parties]
+  - emotions cloud rationality
+  - can you negotiate with someone you consider a mortal enemy?
+  - after trial, some parties *refuse* to bargain!
+
+]
+
+.pull-right[
+.center[
+![](../images/beaniebabydivorce.jpg)
+]
+]
+
+---
+
+# Transaction Costs and the Law
+
+.pull-left[
+
+- When transaction costs are low
+  - bargaining is easy
+  - initial allocation of property rights doesn't matter, can trade until reach efficient outcome
+
+- When transaction costs are high
+  - bargaining is hard
+  - initial allocate of property rights *does* matter, since trade may not occur (or is costly)
+]
+
+.pull-right[
+.center[
+![](../images/transactionscosts.JPG)
+]
+]
+
+---
+
+# Two Normative Approaches to Law &amp; Economics
+
+.pull-left[
+
+.smaller[
+Design the law to:
+
+1) .hi-purple[Minimize the &lt;u&gt;cost of&lt;/u&gt; bargaining]
+  - .hi[Normative Coase]: “Structure the law so as to remove the impediments to private bargaining”
+
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+# Two Normative Approaches to Law &amp; Economics
+
+.pull-left[
+
+.smaller[
+Design the law to:
+
+1) .hi-purple[Minimize the &lt;u&gt;cost of&lt;/u&gt; bargaining]
+  - .hi[Normative Coase]: “Structure the law so as to remove the impediments to private bargaining”
+
+2) .hi-purple[Minimize the &lt;u&gt;need for&lt;/u&gt; bargaining]
+  - .hi[Normative Hobbes]: “Structure the law so as to minimize the harm caused by failures in private agreements”
+
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+# Two Normative Approaches to Law &amp; Economics
+
+.pull-left[
+.smallest[
+
+- Compare the .hi-turquoise[costs] of each approach
+  - **Normative Coase**: .hi-turquoise[cost of bargaining], lubricate private exchange
+  - **Normative Hobbes**: .hi-turquoise[information costs] of determining how to efficiently allocate property rights
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+# Two Normative Approaches to Law &amp; Economics
+
+.pull-left[
+.smallest[
+
+- Compare the .hi-turquoise[costs] of each approach
+  - **Normative Coase**: .hi-turquoise[cost of bargaining], lubricate private exchange
+  - **Normative Hobbes**: .hi-turquoise[information costs] of determining how to efficiently allocate property rights
+]
+
+.smaller[
+- When .hi-purple[transaction costs are low] and .hi-purple[information costs are high], structure the law so as to .hi-purple[minimize transaction costs]
+
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+# Two Normative Approaches to Law &amp; Economics
+
+.pull-left[
+.smallest[
+
+- Compare the .hi-turquoise[costs] of each approach
+  - **Normative Coase**: .hi-turquoise[cost of bargaining], lubricate private exchange
+  - **Normative Hobbes**: .hi-turquoise[information costs] of determining how to efficiently allocate property rights
+]
+
+.smaller[
+
+- When .hi-purple[transaction costs are low] and .hi-purple[information costs are high], structure the law so as to .hi-purple[minimize transaction costs]
+
+- When .hi-purple[transaction costs are high] and .hi-purple[information costs are low], structure the law so as to .hi-purple[allocate property rights to whomever values them the most]
+
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
 ]
 ]
     </textarea>

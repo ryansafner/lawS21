@@ -398,20 +398,6 @@ class: inverse, center, middle
 # It (Often) Doesn't Matter How We Start
 
 .pull-left[
-.smaller[
-]
-]
-.pull-right[
-.center[
-![](../images/car.png)
-]
-]
-
----
-
-# It (Often) Doesn't Matter How We Start
-
-.pull-left[
 - This is the essence of what is called the .hi[Coase theorem]:
 
 > If .hi-purple[transaction costs are low], with .hi-purple[well-defined] and .hi-purple[tradeable property rights], parties can bargain voluntarily to reach the efficient outcome. 
