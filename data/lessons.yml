@@ -31,10 +31,12 @@ lessons:
 
   - title: "2.3 Bargaining & Transaction Costs"
     content: "2.3-content"
+    slides: "2.3-slides"
     
-  - title: "2.4 Intellectual Property I"
-  
-  - title: "2.5 Intellectual Property II"
+  - title: "2.4 Relief: Property Rules vs. Liability Rules"
+    content: "2.4-content"
+    
+  - title: "2.5 Intellectual Property"
   
   - title: "2.6 Eminent Domain and Regulatory Takings"
   

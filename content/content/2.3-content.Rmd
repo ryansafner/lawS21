@@ -15,7 +15,7 @@ editor_options:
 
 # <i class="fas fa-info-circle fa-lg"></i> Overview
 
-We continue our exploration of property with some more game theory, this time about bargaining. Furthermore, we  discuss how establishing, clarifying, and enforcing property rights is not costless! Like anything in economics, whether or not something is efficient depends on whether the marginal benefit exceeds the marginal cost. This is the primary point of the Demsetz (1967) reading.
+We continue our exploration of property with some more game theory, this time about bargaining. Furthermore, we discuss how establishing, clarifying, and enforcing property rights is not costless! Like anything in economics, whether or not something is efficient depends on whether the marginal benefit exceeds the marginal cost. This is the primary point of the Demsetz (1967) reading.
 
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
@@ -38,6 +38,10 @@ We continue our exploration of property with some more game theory, this time ab
 - How is this article related to Coase’s article?
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
+
+[![](/slides/2.3-slides.png)](/slides/2.3-slides.html)
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/2.3-slides.pdf)
 
 # <i class="fas fa-laptop-code"></i> Assignments
 
