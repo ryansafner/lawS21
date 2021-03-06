@@ -19,16 +19,19 @@ If we follow the Normative Coase & Normative Hobbes “theorems” for achieving
 
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
-## Required Reading
+## Readings
 - [<i class="fas fa-file-pdf"></i> Calabresi and Melamed, 1972, "Property Rules, Liability Rules, and Inalienability: One View of the Cathedral"](/readings/Calabresi-Melamed-1972.pdf)
+- <i class="fas fa-book"></i> Ch. 4 in Cooter and Ulen, 2012, *Law & Economics*
+- <i class="fas fa-book"></i> Ch. 5 in Friedman, 2000, *Law's Order*
 
 ## Optional but Useful Reading
-
-
-## Questions To Help Your Reading
+- [<i class="fas fa-file-pdf"></i> Farnsworth, 1999, Do Parties to Nuisance Cases Bargain after Judgment? A Glimpse inside the Cathedral"](/readings/Farnsworth-1999.pdf)
+- [<i class="fas fa-file-pdf"></i> Roth, 2007, "Repugnance as a Constraint on Markets"](/readings/Roth-2007.pdf)
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
-# <i class="fas fa-laptop-code"></i> Assignments
+[![](/slides/2.4-slides.png)](/slides/2.4-slides.html)
 
-## Discussion Board
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/2.4-slides.pdf)
+
+# <i class="fas fa-laptop-code"></i> Assignments

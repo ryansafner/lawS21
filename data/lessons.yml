@@ -38,7 +38,9 @@ lessons:
     slides: "2.4-slides"
     
   - title: "2.5 Property Acquisition & Use"
-  
+    content: "2.5-content"
+    slides: "2.5-slides"
+
   - title: "2.6 Intellectual Property"
   
   - title: "2.7 Regulation and Takings"
