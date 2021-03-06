@@ -367,11 +367,6 @@ class: inverse, center, middle
 
 ---
 
-# Another Trespass/Nuisance
-
-
----
-
 class: inverse, center, middle
 
 # Establishing Property Rights
