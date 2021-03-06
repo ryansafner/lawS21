@@ -37,10 +37,15 @@ lessons:
     content: "2.4-content"
     slides: "2.4-slides"
     
-  - title: "2.5 Intellectual Property"
+  - title: "2.5 Property Acquisition & Use"
   
-  - title: "2.6 Eminent Domain and Regulatory Takings"
+  - title: "2.6 Intellectual Property"
   
+  - title: "2.7 Regulation and Takings"
+  
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1**'
+    assignment: "01-problem-set"
+    
   - title: '<span class="fake-header-table">III. Contracts</span>'
     header: True
     
