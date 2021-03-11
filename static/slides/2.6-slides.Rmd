@@ -1405,7 +1405,7 @@ class: inverse, center, middle
 
 - Use/sale of product without consent of copyright-holder constitutes .hi-purple[infringement]
   - Copyright-holder can sue for .hi-purple[damages] & .hi-purple[injunction] against future use
-\
+]
 ]
 
 .pull-right[
