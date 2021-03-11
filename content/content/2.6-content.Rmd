@@ -1,0 +1,39 @@
+---
+title: "2.6 — Intellectual Property — Class Content"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+*Tuesday, march 2, 2021*
+
+# <i class="fas fa-info-circle fa-lg"></i> Overview
+
+Continuing on addressing what an efficient property system would look like, having already discussed remedies, we examine several other questions: what can and can't owners do with their property and how are new property rights established.
+
+# <i class="fas fa-book-reader fa-lg"></i> Readings
+
+## Required Reading
+- <i class="fas fa-book"></i> Ch. 5.II-IV in Cooter and Ulen, 2012, *Law & Economics*
+- <i class="fas fa-book"></i> Ch. 5 in Friedman, 2000, *Law's Order*
+- [<i class="fas fa-file-pdf"></i> Safner, 2021, "Honor Among Thieves"](/readings/Safner-2021.pdf)
+- [<i class="fas fa-file-pdf"></i> Hesse, 2002, "The rise of intellectual property, 700 b.c.–a.d. 2000: an idea in the balance"](/readings/Hesse-2002.pdf)
+
+## Optional but Useful Reading
+- [<i class="fas fa-file-pdf"></i> Nordhaus, 2004, "Schumpeterian Profits in the American Economy: Theory and Measurement"](/readings/Nordhaus-2004.pdf)
+
+# <i class="fas fa-chalkboard-teacher"></i> Slides
+
+[![](/slides/2.6-slides.png)](/slides/2.6-slides.html)
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/2.6-slides.pdf)
+
+# <i class="fas fa-laptop-code"></i> Assignments
+
+## Discussion Board

@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>2.6 — Intellectual Property</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/lawS21   lawS21.classes.ryansafner.com " />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
+    <script src="libs/kePrint/kePrint.js"></script>
+    <link href="libs/lightable/lightable.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/5235085b15.js"></script>
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# 2.6 — Intellectual Property
+## ECON 315 • Economics of the Law • Spring 2021
+### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>
+
+---
+
+
+
+
+class: inverse
+
+# Outline
+
+### [Exercising Property Rights](#7)
+### [Back to Remedies: Nuisance Law](#35)
+### [Establishing Property Rights](#35)
+### [What Can Be Privately Owned?](#35)
+
+---
+
+class: inverse, center, middle
+
+# Sequential Games
+
+---
+
+# Sequential Games: Extensive Form
+
+.pull-left[
+
+- We consider an .hi[Entry Game], a .hi-purple[sequential] game played between a potential .hi-red[Entrant] and an .hi-blue[Incumbent]
+
+- A sequence of play: .hi-red[Entrant] moves first, .hi-blue[Incumbent] moves second
+
+- Note: the magnitude of the payoffs don't really matter, only their *relative sizes*
+  - Hence, my simple numbers
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive.png)
+]
+
+]
+
+
+---
+
+# Pure Strategies
+
+.pull-left[
+
+- This game is depicted in .hi-purple[“Extensive form”] or a .hi-purple[game tree]
+
+- Each player faces at least one .hi-turquoise[“decision node”] (solid, colored by player)
+  - .hi-red[Entrant] chooses between .red[Enter] or .red[Stay Out] at node .red[E.1]
+  - .hi-blue[Incumbent] chooses between .blue[Accommodate] or .blue[Fight] at .blue[I.1]
+  - Game ends at any .hi-turquoise[“terminal node”] (hollow), and each player earns payoffs (.red[Entrant], .blue[Incumbent])
+
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive.png)
+]
+]
+
+---
+
+# Pure Strategies
+
+.pull-left[
+
+- We need to talk more about .hi[strategies]
+
+- .hi[“Pure” strategy]: a player's *complete* plan of action for every possible contingency
+  - i.e. what a player will choose at *every* possible decision node; think like an .hi-turquoise[algorithm]:
+  
+&gt; If we reach node 1, then I will play X; if we reach node 2, then I will play Y; if ... 
+
+- .hi-purple["Mixed strategy"]: play a strategy with some probability
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive.png)
+]
+]
+
+---
+
+# Solving a Sequential Game
+
+.pull-left[
+
+- .hi-red[Entrant] has 2 pure strategies:
+  1. .red[Stay Out] at .red[E.1]
+  2. .red[Enter] at .red[E.1]
+
+- .hi-blue[Incumbent] has 2 pure strategies:
+  1. .blue[Accommodate] at .blue[I.1]
+  2. .blue[Fight] at .blue[I.1]
+
+- Note .hi-blue[Incumbent]'s strategy only comes into play if .hi-red[Entrant] plays .red[Enter] and the game reaches node .blue[I.1] 
+
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive.png)
+]
+]
+
+---
+
+# Solving a Sequential Game: Backward Induction
+
+.pull-left[
+
+- .hi[Backward induction]: to determine the outcome of the game, start with the *last-mover* (i.e. decision nodes just before terminal nodes) and work to the beginning
+
+- A process of considering .hi[“sequential rationality”]:
+
+&gt; “If I play X, my opponent will respond with Y; given their response, do I really want to play X?”
+
+- What is that mover's best choice to maximize their payoff?
+
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive.png)
+]
+]
+
+
+---
+
+# Solving a Sequential Game: Backward Induction
+
+.pull-left[
+
+- We start at .blue[I.1] where .hi-blue[Incumbent] can:
+  - .blue[Accommodate] to earn .blue[1]
+  - .blue[Fight] to earn .blue[0]
+
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive.png)
+]
+]
+
+---
+
+# Solving a Sequential Game: Backward Induction
+
+.pull-left[
+
+- .hi-blue[Incumbent] will .hi-blue[Accommodate] if game reaches .hi-blue[I.1]
+
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive_last.png)
+]
+]
+
+---
+
+# Solving a Sequential Game: Backward Induction
+
+.pull-left[
+
+- .hi-blue[Incumbent] will .hi-blue[Accommodate] if game reaches .hi-blue[I.1]
+
+- Given this, what will .hi-red[Entrant] do at .hi-red[E.1]?
+  - .red[Stay Out] to earn .red[1]
+  - .red[Enter], knowing .hi-blue[Incumbent] will .blue[Accommodate], and so will earn .red[2]
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive_last.png)
+]
+]
+
+---
+
+# Solving a Sequential Game: Backward Induction
+
+.pull-left[
+
+- .hi-red[Entrant] will .red[Enter] at .red[E.1]
+
+- Continue until we've reached the initial node (beginning)
+
+- We have the outcome:
+
+.center[
+(.hi-red[Enter], .hi-blue[Accommodate])
+]
+- Some textbooks call this a .hi-purple[“rollback equilibrium”]
+  - more technical name: .hi-purple[subgame perfect Nash equilibrium]
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive_rollback.png)
+]
+]
+
+
+---
+
+# Sequential Games: Normal vs. Extensive Form
+
+.pull-left[
+
+- Any game in extensive form can also be depicted in .hi-purple[“normal”] or .hi-purple[“strategic” form] (a payoff matrix)
+
+- Note, if .hi-red[Entrant] plays .red[Stay Out], doesn't matter what .hi-blue[Incumbent] plays, payoffs are the same
+
+- Solve this for Nash Equilibria...
+
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_normal.png)
+]
+]
+
+---
+
+# Nash Equilibria
+
+.pull-left[
+
+- Two Nash Equilibria:
+1. (.hi-red[Enter], .hi-blue[Accommodate])
+2. (.hi-red[Stay Out], .hi-blue[Fight])
+
+- But remember, we ignored the *sequential* nature of this game in normal form
+  - Which Nash equilibrium is **sequentially rational?**
+
+- New solution concept: .hi[subgame perfect Nash equilibrium (SPNE)]
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_normal_BR.png)
+]
+]
+
+---
+
+# Subgames
+
+.pull-left[
+
+- .hi-purple[Subgame]: any portion of a full game beginning at one node and continuing until all terminal nodes
+  - i.e. any decision node starts a subgame containing all the "branches" of that decision node
+
+- Every full game is itself a subgame
+
+- How many subgames does *this* game have?
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_extensive.png)
+]
+]
+
+---
+
+# Subgames
+
+.pull-left[
+
+1. Subgame initiated at decision node .hi-red[E.1] (i.e. the full game)
+2. Subgame initiated at decision node .hi-blue[I.1]
+
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_subgames.png)
+]
+]
+
+---
+
+# Subgame Perfect Nash Equilibrium
+
+.pull-left[
+
+- Consider each subgame as a game itself and ignore the .hi-purple[“history”] of play that got a to that subgame
+  - What is optimal to play in *that* subgame?
+
+- Consider a set of strategies that is optimal for all players in *every* subgame it reaches
+
+- That is a .hi[subgame perfect Nash equilibrium]
+
+]
+
+.pull-right[
+.center[
+![](../images/entry_game_subgames.png)
+]
+]
+
+
+---
+
+# Subgame Perfect Nash Equilibrium
+
+.pull-left[
+
+- Recall our two Nash Equilibria from normal form: 
+1. (.hi-red[Enter], .hi-blue[Accommodate])
+2. (.hi-red[Stay Out], .hi-blue[Fight])
+
+]
+
+.pull-right[
+.center[
+![:scale 75%](../images/entry_game_subgames.png)
+
+![:scale 80%](../images/entry_game_normal_BR.png)
+
+]
+]
+
+
+---
+
+# Subgame Perfect Nash Equilibrium
+
+.pull-left[
+
+- Recall our two Nash Equilibria from normal form: 
+1. (.hi-red[Enter], .hi-blue[Accommodate])
+2. (.hi-red[Stay Out], .hi-blue[Fight])
+
+- Consider the second set of strategies, where .hi-blue[Incumbent] chooses to .blue[Fight] at node .blue[I.1]
+
+- What if for some reason, .hi-blue[Incumbent] is playing this strategy, and .hi-red[Entrant] unexpectedly plays .red[Enter]?
+]
+
+.pull-right[
+.center[
+![:scale 75%](../images/entry_game_subgames.png)
+
+![:scale 80%](../images/entry_game_normal_BR.png)
+
+]
+]
+
+
+---
+
+# Subgame Perfect Nash Equilibrium
+
+.pull-left[
+
+- It's **not rational** for .hi-blue[Incumbent] to play .blue[Fight] if the game reaches .blue[I.1]!
+  - Would want to switch to .blue[Accommodate]!
+
+- .hi-blue[Incumbent] playing .hi-blue[Fight] at .blue[I.1] is **not a Nash Equilibrium in this subgame!**
+
+- Thus, Nash Equilibrium (.hi-red[Stay Out], .hi-blue[Fight]) is **not sequentially rational**
+  - It *is* still a Nash equilibrium!
+]
+
+.pull-right[
+.center[
+![:scale 75%](../images/entry_game_subgames.png)
+
+![:scale 80%](../images/entry_game_normal_BR.png)
+
+]
+]
+
+---
+
+# Subgame Perfect Nash Equilibrium
+
+.pull-left[
+
+- Only (.hi-red[Enter], .hi-blue[Accommodate]) is a .hi-purple[Subgame Perfect Nash Equilibrium (SPNE)]
+
+- These strategy profiles for each player constitute a Nash equilibrium in every possible subgame!
+
+- Simple connection: rollback equilibrium is always SPNE!
+]
+
+.pull-right[
+.center[
+![:scale 75%](../images/entry_game_subgames.png)
+
+![:scale 80%](../images/entry_game_normal_BR.png)
+
+]
+]
+
+---
+
+# SPNE and Credibility
+
+.pull-left[
+
+- Suppose before the game started, .hi-blue[Incumbent] announced to .hi-red[Entrant]
+
+&gt; “if you .red[Enter], I will .blue[Fight]!”
+
+- This **threat** is .hi-purple[not credible] because playing .blue[Fight] in response to .red[Enter] is not rational!
+
+- The strategy is not Subgame Perfect!
+
+]
+
+.pull-right[
+.center[
+![:scale 75%](../images/entry_game_subgames.png)
+
+![:scale 80%](../images/entry_game_normal_BR.png)
+
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Intellectual Property
+
+---
+
+# What Would an Efficient Property Law Look Like?
+
+.pull-left[
+- Recall the 4 questions any property system must answer:
+
+1. .hi-purple[What can be privately owned?]
+
+2. .gray[What can (and can't) an owner do with her property?]
+
+3. .gray[How are property rights established?]
+
+4. .gray[What remedies are available when property rights are violated?]
+
+]
+
+.pull-right[
+.center[
+![](../images/propertybundleofrights.png)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# The Problem With Ideas
+
+---
+
+# The Economic *Problem* with Ideas I
+
+.pull-left[
+
+.center[
+![](https://www.dropbox.com/s/32yfwsk7g4sfvvr/privatesign.png?raw=1)
+]
+
+]
+
+--
+
+.pull-right[
+
+&lt;table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Rivalrous &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Nonrival &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;font-weight: bold;vertical-align: middle !important;" rowspan="2"&gt; Excludable &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; PRIVATE GOODS &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; COMMON RESOURCES &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   
+   &lt;td style="text-align:left;"&gt; (Houses, Jeans) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (Fisheries, Environment) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;font-weight: bold;vertical-align: middle !important;" rowspan="2"&gt; Nonexcludable &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; CLUB GOODS &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; PUBLIC GOODS &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   
+   &lt;td style="text-align:left;"&gt; (Wifi, Cable TV) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (Asteroid Defense) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+---
+
+# The Economic *Problem* with Ideas II
+
+
+.left-column[
+
+.center[
+![:scale 75%](https://www.dropbox.com/s/wyifyyvs8xbyijc/jefferson1.jpg?raw=1)
+
+Thomas Jefferson
+
+(1743-1826)
+]
+]
+
+.right-column[
+
+&gt; "He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me. That ideas should freely spread from one to another over the globe, for the moral and mutual instruction of man, and improvement of his condition, seems to have been peculiarly and benevolently designed by nature, when she made them, like fire, expansible over all space, without lessening their density in any point, and like the air in which we breathe, move, and have our physical being, incapable of confinement or exclusive appropriation."
+
+]
+
+.source[Jefferson, Thomas, 13 Aug 1813, "Letter to Isaac MacPherson," ]
+
+
+---
+
+# The Economic *Problem* with Ideas II
+
+
+.left-column[
+
+.center[
+![:scale 75%](https://www.dropbox.com/s/8xrpsdf2mj2z4fj/macaulay.png?raw=1)
+
+Thomas Macaulay
+
+(1800-1859)
+]
+]
+
+.right-column[
+
+&gt; "It is then on men whose profession is literature, and whose private means are not ample, that you must rely for a supply of valuable books. Such men must be remunerated for their literary labour...It is desirable that we should have a supply of good books; we cannot have such a supply unless men of letters are liberally remunerated, and the least objectionable way of remunerating them is by means of copyright...The system of copyright has great advantages, and great disadvantages...Copyright is monopoly, and produces all the effects which the general voice of mankind attributes to monopoly...Monopoly is an evil...For the sake of the good we must submit to the evil; but the evil ought not to last a day longer than is necessary for the purpose of securing the good..."
+
+]
+
+.source[Macaulay, Thomas, 1841 Parliamentay speech against Serjeant Talfourd's 1841 Copyright Bill]
+
+---
+
+# High Fixed Costs, Low Marginal Costs I
+
+.pull-left[
+
+.center[
+![](https://www.dropbox.com/s/j5rxriut8sinvob/pharmaceutical.png?raw=1)
+]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/4ibyb8oohmmge5z/genericpill.jpg?raw=1)
+]
+]
+
+- It costs about $1,000,000,000 and 10 years on average to create a new drug. Once discovered, it costs the firm (or it's competitors!) about $0.50/pill to manufacture.
+
+---
+
+# High Fixed Costs, Low Marginal Costs II
+
+.pull-left[
+
+.center[
+![](https://www.dropbox.com/s/5kfldu00lodqa1s/got1.png?raw=1)
+]
+]
+
+--
+
+.pull-right[
+.center[
+![:scale 75%](https://www.dropbox.com/s/lt9c30lpwho7uh8/gotpirated.png?raw=1)
+
+Source: [Washington Post (Sept 8, 2017)](https://www.washingtonpost.com/news/morning-mix/wp/2017/09/08/game-of-thrones-was-pirated-more-than-a-billion-times-far-more-than-it-was-watched-legally/)
+]
+]
+
+---
+
+# Positive Spillovers
+
+.left-column[
+
+.center[
+![:scale 70%](https://www.dropbox.com/s/10htmt0dupcb3kb/nordhaus.jpg?raw=1)
+
+William Nordhaus
+
+(1941-)
+
+Economics Nobel 2018
+]
+]
+
+.right-column[
+
+&gt; "We conclude that [about 2.2%] of the social returns from technological advances over the 1948-2001 period was captured by producers, indicating that most of the benefits of technological change are passed on to consumers rather than captured by producers," (p.1)
+
+
+]
+
+.source[Nordhaus, William, 2004, ["Schumpeterian Profits in the American Economy: Theory and Measurement,"](https://www.nber.org/papers/w10433) *NBER Working Paper* 10433]
+
+---
+
+# The Economic Problem With Information
+
+.pull-left[
+
+- Information is very costly to generate, very easy to disseminate/imitate
+
+- High fixed costs `\(f\)`, constant low/zero marginal costs `\(c\)`
+ - Implies .hi-purple[economies of scale], falling average costs
+ 
+`$$AC(q)=\frac{f}{q}+c$$`
+- `\(AC(q)&gt;MC(q)\)` always
+  - Socially-efficient .hi-purple[marginal cost pricing *is not* profitable]
+  - Producing `\(q_c\)` where `\(p=MC\)`, is below `\(AC(q)\)`
+
+]
+
+.pull-left[
+&lt;img src="2.6-slides_files/figure-html/unnamed-chunk-2-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# The Economic Problem With Information
+
+.pull-left[
+
+- Information is very costly to generate, very easy to disseminate/imitate
+
+- High fixed costs `\(f\)`, constant low/zero marginal costs `\(c\)`
+ - Implies .hi-purple[economies of scale], falling average costs
+ 
+`$$AC(q)=\frac{f}{q}+c$$`
+- `\(AC(q)&gt;MC(q)\)` always
+  - Socially-efficient .hi-purple[marginal cost pricing *is not* profitable]
+  - Producing `\(q_c\)` where `\(p=MC\)`, is below `\(AC(q)\)`
+
+]
+
+.pull-right[
+&lt;img src="2.6-slides_files/figure-html/unnamed-chunk-3-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# The Economic Problem With Information
+
+.pull-left[
+
+- If left to own devices, acts like a monopoly
+
+- Creates inefficiency
+  - Restrict output to `\(q_M\)` where `\(MR(q)=MC(q)\)`
+  - Mark up price to consumers' max WTP at `\(p_M\)`
+  - Small .hi-blue[consumer surplus]
+  - Generates **DWL**
+]
+
+.pull-right[
+&lt;img src="2.6-slides_files/figure-html/monopolist-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# The Economic Problem With Information
+
+.pull-left[
+
+- But now consider a second firm, with same `\(MC(q)=c\)` but no fixed costs `\(f\)`!
+  - Doesn't have to invest in R&amp;D, just copy the first firm!
+
+- If by itself, could maximize profits at `\(p_m\)`
+  - But so long as it can charge `\(p&lt;AC(q)\)` of the first firm, can capture the market and push the first firm out of business
+]
+
+.pull-right[
+&lt;img src="2.6-slides_files/figure-html/unnamed-chunk-4-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# A Game-Theoretic Example
+
+.pull-left[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: Suppose a company discovers a new drug.
+]
+
+- Fixed costs of $1,000 for R&amp;D
+
+- Monopoly profits of $2,500
+
+- Second firm can imitate for free, duopoly profits would be $450 each
+
+]
+
+.pull-right[
+
+]
+
+---
+
+# A Game-Theoretic Example
+
+.pull-left[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: Suppose a company discovers a new drug.
+]
+
+- Fixed costs of $1,000 for R&amp;D
+
+- Monopoly profits of $2,500
+
+- Second firm can imitate for free, duopoly profits would be $450 each
+
+- A sequential game where .hi-red[Innovator] goes first
+]
+
+.pull-right[
+.center[
+![](../images/innovate_game_extensive.png)
+]
+]
+
+---
+
+# A Game-Theoretic Example
+
+.pull-left[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: Suppose a company discovers a new drug.
+]
+
+- .hi-purple[SPNE]: {.red[Don't], .blue[Imitate]}
+ - Lose valuable innovation
+
+- Note: .hi-blue[Copycat] could *promise* not to .blue[Imitate], but it would not be a .hi-purple[credible] promise!
+]
+
+.pull-right[
+.center[
+![](../images/innovate_game_rollback.png)
+]
+]
+
+---
+
+# A Game-Theoretic Example
+
+.pull-left[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: Suppose a company discovers a new drug.
+]
+
+- Suppose instead, .hi-red[Innovator] can obtain a .hi-purple[patent] and sue .hi-blue[Copycat] (whether for damages or injunction) for .hi-purple[infringement]
+  - .hi-blue[Copycat] would suffer some penalty P
+
+]
+
+.pull-right[
+.center[
+![](../images/innovate_game_patent.png)
+]
+]
+
+---
+
+# A Game-Theoretic Example
+
+.pull-left[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: Suppose a company discovers a new drug.
+]
+
+- Suppose instead, .hi-red[Innovator] can obtain a .hi-purple[patent] and sue .hi-blue[Copycat] (whether for damages or injunction) for .hi-purple[infringement]
+  - .hi-blue[Copycat] would suffer some penalty P
+
+- If P&gt;450, .hi-blue[Copycat] chooses .blue[Don't]
+
+- .hi-purple[SPNE] becomes {.red[Innovate], .blue[Don't]}
+]
+
+.pull-right[
+.center[
+![](../images/innovate_game_patent_rollback.png)
+]
+]
+
+---
+
+# The Economic Problem With Information
+
+.pull-left[
+
+- But now we're back to the outcome where the .hi-red[Innovator] becomes a **monopoly**!
+
+- We’re trading off one inefficiency for another
+  - Without patents: no innovation
+  - With patents: monopoly
+]
+
+.pull-right[
+&lt;img src="2.6-slides_files/figure-html/unnamed-chunk-5-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# The Purpose of Intellectual Property
+
+.left-column[
+.center[
+![](../images/constitution.png)
+]
+]
+
+.right-column[
+
+&gt; “The Congress shall have Power...To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.”
+
+United States Constitution, Article I, `\(\S\)` 8, Clause 8
+
+]
+
+---
+
+# Intellectual Property
+
+.pull-left[
+
+- .hi-purple[Intellectual property (IP)]: ways that individual/s (or firm) can claim ownership of .hi-purple[information]
+
+- .hi[Patents] over products, commercial processes
+
+- .hi[Copyrights] over expressions
+
+- .hi[Trademarks] over brand names, logos
+
+- .hi[Trade secrets]
+
+]
+
+.pull-right[
+.center[
+![](../images/IPR.png)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Patents
+
+---
+
+# Patents
+
+.pull-left[
+
+- .hi[Patent] grants the holder the **exclusive rights** to prevent others from producing and selling a product for a limited time
+
+]
+
+.pull-right[
+.center[
+![](../images/US_Patent_cover.jpg)
+]
+]
+
+---
+
+# Patents: Rights
+
+.pull-left[
+
+- .hi[Patent] grants the holder 
+
+&gt; “the right to exclude others from making, using, offering for sale, or selling the invention throughout the U.S. or importing the invention into the U.S”
+
+- Lasts only for a limited time
+  - 20 years from date of application
+  - Optional 20 year renewal
+
+.source[[35 U.S.C. \S154](https://www.law.cornell.edu/uscode/text/35/154)]
+]
+
+.pull-right[
+.center[
+![](../images/US_Patent_cover.jpg)
+]
+]
+
+
+---
+
+# Patents: Acquisition
+
+.pull-left[
+
+- Apply to government .hi[Patent and Trademark Office (PTO)]
+
+- For application to be approved, invention must be:
+  1. .hi-purple[Novel]
+  2. .hi-purple[Non-obvious]
+  3. Have .hi-purple[practical utility]
+
+.source[[35 U.S.C. \S101-103](https://www.law.cornell.edu/uscode/text/35/part-II/chapter-10)]
+]
+
+.pull-right[
+.center[
+![](../images/patents.png)
+]
+]
+
+---
+
+# Patents and the Public Domain
+
+.pull-left[
+
+- Patent requires detailed instructions and figures for how to produce the product
+
+- Upon expiration, invention enters the .hi[public domain], where all at liberty to use
+
+- Cannot patent “laws of nature, natural phenomena, and abstract ideas”
+
+]
+
+.pull-right[
+.center[
+![](../images/patentexample.png)
+]
+]
+
+---
+
+# Patents
+
+.pull-left[
+
+- Patents are property rights
+  - Can be sold or gifted to others
+  - Can be .hi-purple[licensed] to others (others can produce/sell/use product in exchange for a .hi-purple[royalty] fee)
+  - Holder can choose *not* to exercise rights
+
+- Use/sale of product without consent of patent-holder constitutes .hi-purple[infringement]
+  - Patent-holder can sue for .hi-purple[damages] &amp; .hi-purple[injunction] against future use
+
+]
+
+.pull-right[
+.center[
+![](../images/patents.png)
+]
+]
+
+---
+
+# History of Patents
+
+.pull-left[
+
+- “Letters Patent” by English Crown (esp. 17&lt;sup&gt;th&lt;/sup&gt; C.—18&lt;sup&gt;th&lt;/sup&gt; C.)
+
+- 1623 Statute of Monopolies
+
+- Patent Act of 1790 (U.S.)
+]
+
+.pull-right[
+.center[
+![](../images/elizabethpatent.jpg)
+]
+]
+
+---
+
+# Issues With Patents: The PTO
+
+.pull-left[
+
+- Patents are managed by government bureaucrats
+  - Underpaid, overworked
+  - Lot of bad patents getting through
+]
+
+.pull-right[
+
+]
+
+---
+
+# Issues With Patents: Litigation and “Weak Patents”
+
+.pull-left[
+
+]
+
+.pull-right[
+
+]
+
+---
+
+# The “Patent Thicket”
+
+
+---
+
+anticommons
+
+---
+
+# Patent Trolls
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/4mfduDYCQqA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+
+# Alternatives to Patents
+
+.pull-left[
+
+- Trade secrets
+
+- Prizes
+  - Google X prize
+
+- Government R&amp;D subsidies
+
+- Patent buyouts (Kremer)
+
+- 
+]
+
+.pull-right[
+
+]
+---
+
+class: inverse, center, middle
+
+# Copyright
+
+---
+
+# Copyright
+
+.pull-left[
+
+- .hi[Copyright] grants the holder the **exclusive rights** to prevent others from publishing and selling a particular expressive work for a limited time
+
+]
+
+.pull-right[
+.center[
+![](../images/copyright.png)
+]
+]
+
+---
+
+# Copyright: Rights
+
+.pull-left[
+
+- .hi[Copyright] grants the holder 
+
+&gt; “the exclusive rights to reproduce the [work]...to prepare derivative works...to distribute to the public by sale or other transfer of ownership, or by rental, lease, or lending,...to perform,...to display publicly”
+
+.source[[17 U.S.C. `\(\S\)` 106](https://www.law.cornell.edu/uscode/text/17/106)]
+
+.pull-right[
+.center[
+![](../images/copyright.png)
+]
+]
+
+---
+
+# Copyright: Acquisition
+
+.pull-left[
+
+- Since the Copyright Act of 1976, copyright is .hi-purple[automatic]
+
+&gt; “in original works of authorship fixed in any tangible medium of expression, now known or later developed”
+
+- Applies to “literary works, musical works, dramatic works, choreographs, pictorial, graphic, and sculptural works, motion pictures, sound recordings, and architecture”
+
+.source[[17 U.S.C. `\(\S\)` 102](https://www.law.cornell.edu/uscode/text/17/102)]
+
+]
+
+.pull-right[
+.center[
+![](../images/copyright.png)
+]
+]
+
+---
+
+# Copyright: Duration
+
+.pull-left[
+
+- Copyright lasts for 
+
+&gt; “a term consisting of the life of the author and 70 years after the author’s death.”
+
+- Afterwards, works enter the .hi-purple[public domain] where all are at liberty to use
+
+.source[[17 U.S.C. `\(\S\)` 302](https://www.law.cornell.edu/uscode/text/17/302)]
+
+]
+
+.pull-right[
+.center[
+![](../images/copyright.png)
+]
+]
+
+---
+
+# Copyrights
+
+.pull-left[
+
+- Copyrights are property rights
+  - Can be sold or gifted to others
+  - Can be .hi-purple[licensed] to others (others can produce/sell/use product in exchange for a .hi-purple[royalty] fee)
+  - Holder can choose *not* to exercise rights
+
+- Use/sale of product without consent of copyright-holder constitutes .hi-purple[infringement]
+  - Copyright-holder can sue for .hi-purple[damages] &amp; .hi-purple[injunction] against future use
+
+]
+
+.pull-right[
+.center[
+![](../images/copyright.png)
+]
+]
+
+---
+
+# Copyright vs. Patents
+
+.pull-left[
+
+- .hi-purple[Idea-expression dichotomy]: copyright scope is limited to the particular *expressions*, whereas patents can cover the *idea per se*
+
+- e.g. for an adventure novel/movie
+  - Can copyright characters, text, scenes, artwork, film, etc.
+  - Can't copyright the general *idea* of the plot (“boy meets girl” or “the hero's journey”) 
+]
+
+.pull-right[
+
+]
+
+---
+
+# Copyrights and Fair Use
+
+.pull-left[
+
+- One legal defense against infringement (unique to copyright): .hi-purple[“fair use”]
+
+&gt; “for purposes such as criticism, comment, news reporting, teaching (including multiple copies for classroom use), scholarship, or research” 
+
+.source[[17 U.S.C. `\(\S\)` 107](https://www.law.cornell.edu/uscode/text/17/107)]
+
+]
+
+.pull-right[
+.center[
+![](../images/fairuse.png)
+]
+]
+
+---
+
+# Copyrights: History
+
+.pull-left[
+
+- Stationers' Company since 1557 — London publishers guild &amp; censorship
+  - monopoly over all publishing
+  - created their own private “copy right”
+
+- English Civil Wars (1630s—1660s)
+  - Censorship, abuses by Crown &amp; Parliament
+  - Spurned origins of freedom of speech, freedom of press, habeas corpus
+
+- 1710 Statute of Anne creates statutory copyright
+  - 1774 *Donaldson v. Beckett*, replaced Stationers' “copy right”
+
+]
+
+.pull-right[
+.center[
+![](../images/stationers.png)
+
+![](../images/milton.png)
+]
+]
+
+---
+
+# Copyright: History
+
+.pull-left[
+- Copyright Act of 1790 creates federal copyright in U.S.
+  - Covers “books, maps, and charts”
+  - 14 year terms, with optional 14 year renewal
+  - authors must both register &amp; declare on their works if they want copyright protection
+
+- Almost verbatim 1710 Statute of Anne
+]
+
+.pull-right[
+
+]
+
+---
+
+# Copyright: History
+
+.pull-left[
+- 1790—1891 U.S. did not recognize copyrights to foreign authors
+
+- U.S. publishing industry largely pirated famous British authors
+ - Set up “courtesy of the trade” system of voluntary norms to avoid tragedy of commons
+ - Created pseudo-property rights in foreign authors works
+ - Ended up paying authors despite no obligation to, nor any legal protection earned
+
+- My paper “Honor Among Thieves”
+]
+
+.pull-right[
+.center[
+![](../images/pirate.png)
+]
+]
+
+---
+
+# Copyright Challenges: Derivatives
+
+# Copyright Challenges: Orphan Works
+
+Of the music, movies, and books that were produced in 1923-1946 (the first 23 years affected by the recent Copyright Term Extension Act of 1998), less than 6% are commercially available today
+
+---
+
+# Copyright Challenges: “Limited” Duration
+
+- amazon
+
+- rent-seeking, Mickey Mouse 1998
+
+No Electronic Theft (NET) Act (1997): infringing copyright even if for purposes other than commercial resale is illegal
+
+- dmca anti-circ; safe harbor Digital Millennium Copyright Act (DMCA) (1998):
+§512 Safe Harboring Provisions: any website-owner can avoid liability
+for users uploading infringing content by automatically removing the material (“DMCA Takedown Notices”)
+§1201 Anti-Circumvention Provisions: manufacturing or using any device that could potentially be used to infringe copyright is illegal
+
+
+Copyright Term Extension Act (Sunny Bono Act) (1998): Copyright now extends to the life of the author plus 70 years; applied retroactively to all existing copyrights!
+
+---
+
+# Interlude
+
+- Should IP be property?
+
+- Trade secrets, trademarks *are* longstanding concepts in common law 
+
+- Patent &amp; copyright are entirely statutory creations, not common law
+
+---
+
+- contractual agreements
+ - NDAs
+ - libel/slander
+
+
+- trademarks
+  - Dumb starbucks
+  - Washington Redskins
+
+
+- trade secrets vs. patent tradeoff
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "ocean",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"slideNumberFormat": "<div class=\"progress-bar-container\">\n  <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">\n  </div>\n</div>\n"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
