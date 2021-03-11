@@ -1431,7 +1431,7 @@ class: inverse, center, middle
 ]
 .pull-right[
 .center[
-![:scale50%](../images/ideaguy.jpg)
+![:scale 50%](../images/ideaguy.jpg)
 
 ![:scale 75%](../images/ideas.jpg)
 ]
