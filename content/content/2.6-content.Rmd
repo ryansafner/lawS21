@@ -11,7 +11,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Tuesday, march 2, 2021*
+*Thursday, March 11, 2021*
 
 # <i class="fas fa-info-circle fa-lg"></i> Overview
 
@@ -25,6 +25,7 @@ Continuing on addressing what an efficient property system would look like, havi
 - [<i class="fas fa-file-pdf"></i> Hesse, 2002, "The rise of intellectual property, 700 b.c.–a.d. 2000: an idea in the balance"](/readings/Hesse-2002.pdf)
 
 ## Optional but Useful Reading
+- [<i class="fab fa-youtube"></i> *Last Week Tonight*: Patents (2015)](https://www.youtube.com/watch?v=3bxcc3SM_KA)
 - [<i class="fas fa-file-pdf"></i> Nordhaus, 2004, "Schumpeterian Profits in the American Economy: Theory and Measurement"](/readings/Nordhaus-2004.pdf)
 - <i class="fas fa-book"></i> Ch. 5 in Friedman, 2000, *Law's Order*
 
@@ -37,3 +38,5 @@ Continuing on addressing what an efficient property system would look like, havi
 # <i class="fas fa-laptop-code"></i> Assignments
 
 ## Discussion Board
+
+There will be a required discussion board due by Sunday March 21.
