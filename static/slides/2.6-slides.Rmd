@@ -49,11 +49,11 @@ class: inverse
 
 ### [Sequential Games](#7)
 ### [The Problem With Ideas](#23)
-### [Patents](#35)
-### [Copyrights](#35)
-### [Interlude: Intellectual *Property Rights*?](#35)
-### [Trademarks](#)
-### [Trade Secrets](#)
+### [Patents](#44)
+### [Copyrights](#65)
+### [Interlude: Intellectual *Property Rights*?](#83)
+### [Trademarks](#94)
+### [Trade Secrets](#108)
 
 ---
 
@@ -995,7 +995,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 > “The Congress shall have Power...To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.”
 
-United States Constitution, Article I, $\S$ 8, Clause 8
+United States Constitution, Article I, § 8, Clause 8
 
 ]
 
@@ -1059,7 +1059,7 @@ class: inverse, center, middle
   - 20 years from date of application
   - Optional 20 year renewal
 
-.source[[35 U.S.C. $\S$ 154](https://www.law.cornell.edu/uscode/text/35/154)]
+.source[[35 U.S.C. § 154](https://www.law.cornell.edu/uscode/text/35/154)]
 ]
 
 .pull-right[
@@ -1082,7 +1082,7 @@ class: inverse, center, middle
   2. .hi-purple[Non-obvious]
   3. Have .hi-purple[practical utility]
 
-.source[[35 U.S.C. $\S$ 101-103](https://www.law.cornell.edu/uscode/text/35/part-II/chapter-10)]
+.source[[35 U.S.C. § 101-103](https://www.law.cornell.edu/uscode/text/35/part-II/chapter-10)]
 ]
 
 .pull-right[
@@ -1191,7 +1191,7 @@ class: inverse, center, middle
 
 # Issues With Patents: Breadth
 
-.smallest[
+.quitesmall[
 .hi-green[Example]: Consider two similar, but distinct inventions
 
 .center[
@@ -1203,13 +1203,14 @@ class: inverse, center, middle
 
 # Issues With Patents: Breadth
 
-.smallest[
+.quitesmall[
 .hi-green[Example]: Consider two similar, but distinct inventions
-
+]
 .center[
 ![:scale 75%](../images/patentbreadthnarrow.png)
 ]
 
+.quitesmall[
 - If patent breadth is .hi-turquoise[narrow], each be able to patent our own invention, regardless of who invented first
   - Focus on quality, price, better product vs competition
 ]
@@ -1219,11 +1220,12 @@ class: inverse, center, middle
 
 .smallest[
 .hi-green[Example]: Consider two similar, but distinct inventions
-
+]
 .center[
 ![:scale 75%](../images/patentbreadthwide.png)
 ]
 
+.quitesmall[
 - If patent breadth is .hi-turquoise[narrow], each be able to patent our own invention, regardless of who invented first
   - Focus on quality, price, better product vs competition
 
@@ -1236,20 +1238,57 @@ class: inverse, center, middle
 # Issues With Patents: Litigation and “Weak Patents”
 
 .pull-left[
-.smallest[
 - Individuals have been allowed to patent a wide variety of things, often extremely broad and vague 
-  - .hi-purple[“Weak” patents]: many of these would not hold up in court
+
+- .hi-purple[“Weak” patents]: many of these would not hold up in court
   - But requires **going to court** to determine; the average patent lawsuit [costs](https://apnews.com/press-release/news-direct-corporation/a5dd5a7d415e7bae6878c87656e90112) $2-5 million
 
-- Raises transaction costs of production
-  - Some products, especially in tech sector, touch upon hundreds of patents!
-  - Industry-based solutions: patent pools, cross-licensing agreements
-]
+
 ]
 
 .pull-right[
 .center[
 ![](../images/transactionscosts.JPG)
+]
+]
+
+---
+
+# Issues With Patents: Litigation and “Weak Patents”
+
+.pull-left[
+
+- Makes Coasian bargaining too difficult
+
+- Unclear who owns property rights (what is the valid breadth of a vague patent?)
+
+- Raises transaction costs of production
+  - Some products, especially in tech sector, touch upon hundreds of patents!
+
+]
+
+.pull-right[
+.center[
+![](../images/transactionscosts.JPG)
+]
+]
+
+---
+
+# Industry Response: Patent Pools
+
+.pull-left[
+
+- .hi[Patent pools]: multiple firms with their own patents reach an agreement to .hi-purple[cross-license] their patents
+  - Effectively all firms in the pool can use all the accumulated patents for a fee
+
+- Reduces transaction costs...if you're *in* the patent pool
+  - Market power, oligopoly
+]
+
+.pull-right[
+.center[
+![](../images/patentpool.png)
 ]
 ]
 
@@ -1319,6 +1358,30 @@ class: inverse, center, middle
 
 ---
 
+# This Is Extra Problematic Now
+
+.pull-left[
+.center[
+![:scale 100%](../images/patentblockcovid.png)
+]
+]
+
+.pull-right[
+.source[Source: [Techdirt (March 16, 2020)](https://www.techdirt.com/articles/20200316/14584244111/softbank-owned-patent-troll-using-monkey-selfie-law-firm-sues-to-block-covid-19-testing-using-theranos-patents.shtml)]
+]
+
+---
+
+# Patent Challenges in a Nutshell
+
+.center[
+![](../images/mrpatents.png)
+]
+
+.source[[Marginal Revolution (September 19, 2012): “Patent Policy on the Back of a Napkin”](https://marginalrevolution.com/marginalrevolution/2012/09/patent-theory-on-the-back-of-a-napkin.html)]
+
+---
+
 class: inverse, center, middle
 
 # Copyright
@@ -1335,7 +1398,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![](../images/copyright.png)
+![:scale 80%](../images/copyright.png)
 ]
 ]
 
@@ -1349,13 +1412,13 @@ class: inverse, center, middle
 
 > “the exclusive rights to reproduce the [work]...to prepare derivative works...to distribute to the public by sale or other transfer of ownership, or by rental, lease, or lending,...to perform,...to display publicly”
 
-.source[[17 U.S.C. $\S$ 106](https://www.law.cornell.edu/uscode/text/17/106)]
+.source[[17 U.S.C. § 106](https://www.law.cornell.edu/uscode/text/17/106)]
 
 ]
 
 .pull-right[
 .center[
-![](../images/copyright.png)
+![:scale 80%](../images/copyright.png)
 ]
 ]
 
@@ -1371,13 +1434,13 @@ class: inverse, center, middle
 
 - Applies to “literary works, musical works, dramatic works, choreographs, pictorial, graphic, and sculptural works, motion pictures, sound recordings, and architecture”
 
-.source[[17 U.S.C. $\S$ 102](https://www.law.cornell.edu/uscode/text/17/102)]
+.source[[17 U.S.C. § 102](https://www.law.cornell.edu/uscode/text/17/102)]
 
 ]
 
 .pull-right[
 .center[
-![](../images/copyright.png)
+![:scale 80%](../images/copyright.png)
 ]
 ]
 
@@ -1393,13 +1456,13 @@ class: inverse, center, middle
 
 - Afterwards, works enter the .hi-purple[public domain] where all are at liberty to use
 
-.source[[17 U.S.C. $\S$ 302](https://www.law.cornell.edu/uscode/text/17/302)]
+.source[[17 U.S.C. § 302](https://www.law.cornell.edu/uscode/text/17/302)]
 
 ]
 
 .pull-right[
 .center[
-![](../images/copyright.png)
+![:scale 80%](../images/copyright.png)
 ]
 ]
 
@@ -1421,7 +1484,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![](../images/copyright.png)
+![:scale 80%](../images/copyright.png)
 ]
 ]
 
@@ -1442,9 +1505,9 @@ class: inverse, center, middle
 ]
 .pull-right[
 .center[
-![:scale 50%](../images/ideaguy.jpg)
+![:scale 35%](../images/ideaguy.jpg)
 
-![:scale 75%](../images/ideas.jpg)
+![:scale 70%](../images/ideas.jpg)
 ]
 ]
 
@@ -1458,7 +1521,7 @@ class: inverse, center, middle
 
 > “for purposes such as criticism, comment, news reporting, teaching (including multiple copies for classroom use), scholarship, or research” 
 
-.source[[17 U.S.C. $\S$ 107](https://www.law.cornell.edu/uscode/text/17/107)]
+.source[[17 U.S.C. § 107](https://www.law.cornell.edu/uscode/text/17/107)]
 
 ]
 
@@ -1510,7 +1573,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![](../images/copyright.png)
+![:scale 80%](../images/copyright.png)
 ]
 ]
 
@@ -1546,15 +1609,17 @@ class: inverse, center, middle
 
 - But most media (books, music, films) need to borrow from originals!
 
+.center[
+![:scale 65%](../images/derivatives.png)
+]
 ]
 
 .pull-right[
 .center[
-![](../images/monalisaderivative.jpg)
+![:scale 80%](../images/derivatives2.png)
+]
+]
 
-![](../images/derivatives.png)
-]
-]
 ---
 
 # Copyright Challenges: “Limited” Duration
@@ -1565,7 +1630,7 @@ class: inverse, center, middle
 
 ---
 
-# Copyright Challenges: “Limited” Duration + Rent-Seeking
+# Copyright Challenges: Rent-Seeking
 
 .pull-left[
 
@@ -1588,8 +1653,8 @@ class: inverse, center, middle
 
 .pull-left[
 .smaller[
-- 2003 *Eldred v. Ashcroft*
-  - Eldred sued U.S., claiming the 1998 Sunny Bono Act makes copyright no longer a reasonable “limited time”
+- 2003 [*Eldred v. Ashcroft*](https://en.wikipedia.org/wiki/Eldred_v._Ashcroft)
+  - Eldred sued U.S., claiming the 1998 CTEA makes copyright no longer a reasonable “limited time”
 
 - [Amicus brief](https://cyber.harvard.edu/openlaw/eldredvashcroft/supct/amici/economists.pdf) by 17 top economists (5 Nobel prize winners, including Coase!) agreed
   - Argued that the expected value of extending existing copyrights decades into future is very small, but increase in transaction costs is very large
@@ -1635,17 +1700,18 @@ class: inverse, center, middle
 # Copyright Challenges: Over-criminalization
 
 .pull-left[
-.smaller[
-- No Electronic Theft (NET) Act (1997): infringing copyright even if for purposes other than commercial resale is illegal
+.smallest[
+- **No Electronic Theft (NET) Act** (1997): infringing copyright even if for purposes other than commercial resale is illegal
 
-- Digital Millennium Copyright Act (DMCA) (1998):
+- **Digital Millennium Copyright Act (DMCA)** (1998):
   - §512 Safe Harboring Provisions: any website-owner can avoid liability for users uploading infringing content by automatically removing the material (“DMCA Takedown Notices”)
   - §1201 Anti-Circumvention Provisions: manufacturing or using any device that could potentially be used to infringe copyright is illegal
 ]
 ]
+
 .pull-right[
 .center[
-![](../images/dmca.png)
+![:scale 80%](../images/dmca.png)
 ]
 ]
 
@@ -1714,7 +1780,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![](../images/constitution.png)
+![:scale 80%](../images/constitution.png)
 ]
 ]
 
@@ -1778,7 +1844,7 @@ Thomas Macaulay
 
 .pull-right[
 .center[
-![](../images/againstIP.jpg)
+![:scale 70%](../images/againstIP.jpg)
 ]
 ]
 
@@ -1822,7 +1888,7 @@ Thomas Macaulay
 
 .pull-right[
 .center[
-![](../images/creativity.jpg)
+![:scale 80%](../images/creativity.jpg)
 ]
 ]
 
@@ -1839,7 +1905,7 @@ Thomas Macaulay
   - Google X prize
 
 - Government R&D subsidies
-  - grants for scientific research (NSF, NIH)
+  - grants for scientific research
 
 - Crowdfunding?
 
@@ -1854,23 +1920,10 @@ Thomas Macaulay
 
 ---
 
-# Alternatives to IP: Contractual Agreements?
-
-.pull-left[
-
-- .hi[Non-disclosure agreement (NDA)]
-]
-
-.pull-right[
-
-]
-
----
-
 # IP Controversy in a Nutshell
 
 .center[
-![:scale 60%](../images/smbc3372.png)
+![:scale 40%](../images/smbc3372.png)
 ]
 
 .source[Source: [SMBC Comics](https://www.smbc-comics.com/?id=3372)]
@@ -1961,26 +2014,6 @@ class: inverse, center, middle
 ]
 
 ---
-
-# Trademark Infringement
-
-.pull-left[
-
-- Trademark infringement
-
-- Trademark dilution
-]
-
-.pull-right[
-.center[
-![](../images/candycrush.png)
-
-![](../images/chewyvuiton.png)
-]
-]
-
----
-
 # Trademark Infringement
 
 .left-column[
@@ -2056,6 +2089,49 @@ class: inverse, center, middle
 
 ---
 
+# Trademarks Have No “Fair Use” Defense
+
+.center[
+![:scale 70%](../images/dumbstarbucks.png)
+]
+
+---
+
+# You Can Trademark Some Crazy Things
+
+.pull-left[
+.center[
+![](../images/trademarksports.png)
+]
+]
+
+.pull-right[
+
+> “Trademarking nicknames and phrases is not new. Pat Riley obtained a trademark for the term “three-peat” in 1989, when he coached the Los Angeles Lakers. But lawyers who handle intellectual property rights say the practice has accelerated in recent years as athletes and sports figures seek to extend their brands into the entertainment world.”
+
+.source[[New York Times (Dec 12, 2010)](https://www.nytimes.com/2010/12/10/sports/10trademark.html?hp)]
+]
+---
+
+# Trademarks Apparently *Can* Be “Disparaging”
+
+.pull-left[
+.center[
+![](../images/redskins.png)
+]
+]
+
+.pull-right[
+.center[
+![](../images/washingtonfootballteam.png)
+]
+]
+
+
+.source[[Wikipedia: Washington Redskins name controversy](https://en.wikipedia.org/wiki/Washington_Redskins_name_controversy); [Matal v. Tam (2017)](https://en.wikipedia.org/wiki/Matal_v._Tam)]
+
+---
+
 class: inverse, center, middle
 
 # Trade Secrets
@@ -2082,4 +2158,75 @@ class: inverse, center, middle
 
 ---
 
-# Th
+# Trade Secrets
+
+.pull-left[
+
+- Plaintiff can sue Defendant for .hi[”misappropriation”] (basically, theft) of a trade secret if can demonstrate:
+  1. It is a valid trade secret
+  2. The Defendant acquired it illegally
+  3. Plaintiff took reasonable steps to protect it
+]
+
+.pull-right[
+.center[
+![](../images/secrets.jpg)
+]
+]
+
+---
+
+# Trade Secrets
+
+.pull-left[
+
+- Unlike normal property rights, possessor of trade secrets must continually make efforts to keep them secret!
+
+- If they leave their “secrets” lying around, they lose claim to them
+  - Kind of like adverse possession in property
+]
+
+.pull-right[
+.center[
+![](../images/openvault.jpg)
+]
+]
+
+---
+
+# Trade Secrets vs. Patents
+
+.pull-left[
+
+- Strategic choice by firms/inventors to use trade secrets vs. patents
+
+- Tradeoff of indefinite secrecy vs. guaranteed temporary monopoly
+  - Patents require public disclosure of secrets, once they expire, firm loses competitive advantage
+]
+
+.pull-right[
+.center[
+![](../images/secrets.jpg)
+]
+]
+
+---
+
+# The Limits of Trade Secrets
+
+.pull-left[
+
+- .hi[Non-disclosure agreements]
+  - Suppose B works for A, who has her sign an NDA
+  - B then leaves to work for competitor, C, and reveals A's secrets to C
+  - A can sue B for breach of contract (our next unit)
+  - But A has no recourse against party C, if C had no reasonable way of knowing about the NDA
+
+- NDAs tend to be very difficult to enforce
+]
+
+.pull-right[
+.center[
+![](../images/nda.png)
+]
+]
