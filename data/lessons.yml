@@ -46,10 +46,11 @@ lessons:
     slides: "2.6-slides"
   
   - title: "2.7 Regulation and Takings"
-  
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1**'
-    assignment: "01-problem-set"
+    content: "2.7-content"
+    slides: "2.7-slides"
     
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1** due Wed Mar 24'
+
   - title: '<span class="fake-header-table">III. Contracts</span>'
     header: True
     

@@ -1,0 +1,42 @@
+---
+title: "2.7 — Regulation and Takings — Class Content"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+*Thursday, March 18, 2021*
+
+# <i class="fas fa-info-circle fa-lg"></i> Overview
+
+
+# <i class="fas fa-book-reader fa-lg"></i> Readings
+
+## Required Reading
+
+## Optional but Useful Reading
+- <i class="fas fa-book"></i> Ch. 5.II-IV in Cooter and Ulen, 2012, *Law & Economics*
+- [<i class="fas fa-file-pdf"></i> Blume and Rubinfeld, 1984, "Compensation for Takings: An Economic Analysis"](/readings/Safner-2021.pdf)
+- [<i class="fab fa-wikipedia-w"></i> Regulatory Taking](https://en.wikipedia.org/wiki/Regulatory_taking)
+- [<i class="fab fa-wikipedia-w"></i> Pennsylvania Coal Co. v. Mahon](https://en.wikipedia.org/wiki/Pennsylvania_Coal_Co._v._Mahon)
+- [<i class="fab fa-wikipedia-w"></i> Kelo v. City of New London](https://en.wikipedia.org/wiki/Kelo_v._City_of_New_London)
+- [<i class="fab fa-wikipedia-w"></i> Mugler v. Kansas](hhttps://en.wikipedia.org/wiki/Mugler_v._Kansas)
+
+
+# <i class="fas fa-chalkboard-teacher"></i> Slides
+
+[![](/slides/2.6-slides.png)](/slides/2.6-slides.html)
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/2.6-slides.pdf)
+
+# <i class="fas fa-laptop-code"></i> Assignments
+
+## Discussion Board
+
+There will be a required discussion board due by Sunday March 21.
