@@ -50,7 +50,7 @@ Explain the major differences between patents, copyrights, trademarks, and trade
 
 Consider the farm or steal game that motivated our discussion of property in lesson 2.1, but recast as a *sequential* game. Farmer A decides to farm or (commit to) steal *first*, and then given this decision, Farmer B decides to farm or steal.
 
-![](../../static/images/lawhwgame.png)
+![](../../images/lawhwgame.png)
 
 ### Part A
 
@@ -76,7 +76,7 @@ Suppose before the game begins, Farmer B promises Farmer A that if Farmer A *far
 
 Suppose the farmers set up a property system like we discussed in class. Administering property rights costs 2, and the penalty for theft is -5. The new game looks like this:
 
-![](../../static/images/lawhwgame3.png)
+![](../../images/lawhwgame3.png)
 
 Find the rollback equilibrium using backwards induction. Prune the game tree as you do so.
 
@@ -116,16 +116,3 @@ Which outcome is most efficient?
 ### Part E
 
 Redo part D, but assume the crop damage is only $100.
-
-## Question 8
-
-Under the ancient law of admiralty, the finder of an abandoned shipwreck becomes the owner of the full value of the ship and its cargo under the *law of finds*. It is quite difficult and requires a lot of investment to discover an abandoned shipwreck.
-
-### Part A
-Discuss the incentives (good and bad) this rule creates for would-be treasure hunters.
-
-### Part B
-Suppose instead, the law followed a “first-committed searcher doctrine” where the first hunter to invest resources, regardless of whether they were the party to find the shipwreck, was awarded ownership. Discuss how this would affect incentives for would-be treasure hunters.
-
-### Part C
-The Abandoned Shipwreck Act of 1987 is a federal law that upended this doctrine by awarding ownership of the discovered ship and its cargo to the U.S. State in whose waters the ship is found (rather than to the discoverer). Discuss how this would affect incentives for would-be treasure hunters.
