@@ -50,6 +50,7 @@ lessons:
     slides: "2.7-slides"
     
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1** due Wed Mar 24'
+    assignment: "01-problem-set"
 
   - title: '<span class="fake-header-table">III. Contracts</span>'
     header: True
