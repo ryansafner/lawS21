@@ -10,17 +10,17 @@ library(pander)
 #source(file.path(here::here(), "lib", "graphics.R"))
 ```
 
-*Due by 11:59 PM __Wednesday__, February __17__, 2021 by PDF upload in Blackboard Assignments*^[Note this has been changed from Sunday February 14, to give you more time to be able to come to office hours or ask questions. Normally assignment deadlines will remain Sundays at 11:59PM.]
+*Due by 11:59 PM Wednesday, March 24, 2021 by PDF upload in Blackboard Assignments*
 
 - [<i class="fas fa-file-pdf"></i> Download as PDF](/assignment/01-problem-set-pdf.pdf)
 <!-- [<i class="far fa-life-ring"></i> Answer Key](/assignment/01-problem-set-answers.html)
 - [<i class="fas fa-file-pdf"></i> Answer Key (PDF)](/assignment/01-problem-set-answers-pdf.pdf)-->
 
-Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph & convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](/resources/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers). 
+Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph & convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](/resources/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers).
 
-For the few questions that ask you to draw a **graph**, *try* to do so *on your computer* (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph. 
+For any questions that ask you to draw a **graph**, *try* to do so *on your computer* (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph. 
 
-You may work together (and I highly encourage that) but you must turn in your own answers. Your TA, under my supervision, will grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.
+You may work together (and I highly encourage that) but you must turn in your own answers. I will grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.
 
 # Concepts and Critical Thinking
 
@@ -42,53 +42,90 @@ Explain the difference between a *property rule*, a *liability rule*, and an *un
 
 ## Question 5
 
+Explain the major differences between patents, copyrights, trademarks, and trade secrets. You do not need to go into detail, but what does each type of intellectual property cover, and how does each basically work?
 
 # Problems
 
-## Question 5 — The Elgin Marbles
+## Question 6
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Elgin_Marbles):
+Consider the farm or steal game that motivated our discussion of property in lesson 2.1, but recast as a *sequential* game. Farmer A decides to farm or (commit to) steal *first*, and then given this decision, Farmer B decides to farm or steal.
 
-> The Parthenon Marbles, also known as the Elgin Marbles are a collection of Classical Greek marble sculptures made under the supervision of the architect and sculptor Phidias and his assistants. They were originally part of the temple of the Parthenon and other buildings on the Acropolis of Athens. The collection is now on display in the British Museum, in the purpose-built Duveen Gallery.
+![](../../static/images/lawhwgame.png)
 
-> From 1801 to 1812, agents of Thomas Bruce, 7th Earl of Elgin removed about half of the surviving sculptures of the Parthenon, as well as sculptures from the Propylaea and Erechtheum. The Marbles were transported by sea to Britain. Elgin later claimed to have obtained in 1801 an official decree (a firman) from the Sublime Porte, the central government of the Ottoman Empire which at that time ruled Greece. This firman has not been found in the Ottoman archives despite its wealth of documents from the same period and its veracity is disputed. The Acropolis Museum displays a portion of the complete frieze, aligned in orientation and within sight of the Parthenon, with the position of the missing elements clearly marked and space left should they be returned to Athens.
+### Part A
 
-> In Britain, the acquisition of the collection was supported by some, while some others, such as Lord Byron, likened the Earl's actions to vandalism or looting. Following a public debate in Parliament and its subsequent exoneration of Elgin, he sold the Marbles to the British government in 1816. They were then passed into the trusteeship of the British Museum,where they are now on display in the purpose-built Duveen Gallery.
+Solve this game for the rollback equilibrium using backwards induction. Prune the game tree as you do so.
 
-> After gaining its independence from the Ottoman Empire in 1832, the newly-founded Greek state began a series of projects to restore its monuments and retrieve looted art. It has expressed its disapproval of Elgin's removal of the Marbles from the Acropolis and the Parthenon, which is regarded as one of the world's greatest cultural monuments. International efforts to repatriate the Marbles to Greece were intensified in the 1980s by then Greek Minister of Culture Melina Mercouri, and there are now many organisations actively campaigning for the Marbles' return, several united as part of the International Association for the Reunification of the Parthenon Sculptures. The Greek government itself continues to urge the return of the marbles to Athens so as to be unified with the remaining marbles and for the complete Parthenon frieze sequence to be restored, through diplomatic, political and legal means.
+### Part B
 
-> A range of slightly different points have been put by British Museum spokespersons over the years in defence of retention of the Elgin Marbles within the museum. The main points include:
-- the maintenance of a single worldwide-oriented cultural collection, all viewable in one location, thereby serving as a world heritage centre;
-- the saving of the marbles from what would have been, or would be, pollution and other damage if relocated back to Athens; and
-- a legal position that the museum is banned by charter from returning any part of its collection.
+Circle (or describe) all subgames of this game.
 
-a. Would you expect the transaction costs of private bargaining to be high or low in this case? Why?
+### Part C
 
-b. Explain the difference between the Normative Coase and Normative Hobbes approaches to property law. Given your answer to (a), which seems more appropriate in this case?
+Carefully convert this game from extensive form to strategic form. (Be mindful of how many potential strategies each player has!)^[Hint: This will not look exactly like the payoff matrix in the slides!] Find any Nash equilibria in strategic form.
 
-c. Suppose it were decided that Greece had a right (in the words of Calabresi and Melamed, an entitlement) to the statues. Given your answer to (a), what would you expect to be the final outcome if this entitlement were protected by each of the following remedies: injunctive relief (property rules)? damages (liability rules)? inalienability?
+### Part D
 
-## Question 6 — Water Rights
+What is the subgame perfect Nash Equilibrium? Why?
 
-**Background** 
+### Part E
 
-Centuries ago in England, the general rule [on water rights] was that rights were vested in the “riparian owner,” that is, in the person who owned the land on the bank of the river. The riparian owner’s principal right was to a flow of water past his land. It would be a violation of someone else’s rights for an upstream user to use the water that passed by his property in such a way as to reduce the flow to downstream users. The upstream user could not, therefore, divert so much of the water to his own use that the flow was significantly diminished for those downstream. A riparian was restricted in his ability to sell water to nonriparians (i.e., people who do not own land along the water).
+Suppose before the game begins, Farmer B promises Farmer A that if Farmer A *farms*, Farmer B will *farm* as well. What should Farmer A make of this?
 
-However, in the 19th century, this legal arrangement had to be altered because industrial demand on the natural flow of a river frequently exceeded the supply. In the eastern United States, these issues were resolved by elaborating the natural-flow theory of water rights that had been adopted from the English common law. An alternative theory of water rights appeared in the western United States. Under the reasonable-use theory, the riparian owner is entitled to use the water flow in any reasonable way. It was deemed reasonable for one owner to use all of the water in a stream or lake when others are making no use of it. Under the reasonable-use theory, a riparian owner does not have a right to the natural water flow. Furthermore, a riparian owner may transfer rights to nonriparians.
+### Part F
 
-a. Explain why a rule which worked perfectly well in pre-industrial England might not have worked well after the industrial revolution. Hint: consider the argument in Demsetz (1967).
+Suppose the farmers set up a property system like we discussed in class. Administering property rights costs 2, and the penalty for theft is -5. The new game looks like this:
 
-b. The Coase theorem would suggest that, when transaction costs are low, the initial allocation of property rights does not affect efficiency. Is that the only difference between the natural-flow and reasonable-use theories? Does the law seem to be evolving in the direction of greater efficiency?
+![](../../static/images/lawhwgame3.png)
 
+Find the rollback equilibrium using backwards induction. Prune the game tree as you do so.
 
+### Part G
 
+Convert this game to strategic form. Find any Nash equilibria. Which is/are subgame perfect, and why?
 
-## Shipwrecks
+## Question 7
 
-Under the ancient law of admiralty, the finder of an abandoned shipwreck becomes the owner under the *law of finds*.
+A railroad operates trains on a route that runs adjacent to farmland, where farmers are growing wheat. Occasionally, sparks from the railroad cause the wheat to catch fire. Suppose that sparks cause $1,000 worth of crop damage. The railroad could install spark arresters that would prevent fires at a cost of $300. Farmers could install a fence that would prevent fires at a cost of $800.
 
-a. Discuss the incentives (good and bad) this rule creates for would-be treasure hunters.
+### Part A
 
-b. Suppose instead, the law followed a “first-committed searcher doctrine” where the first hunter to invest resources, regardless of whether they were the party to find the shipwreck, was awarded ownership.
+What would the classic Pigouvian approach to understanding and solving this dilemma be?
 
-b. The Abandoned Shipwreck Act of 1987 is a federal law that upended this doctrine by awarding ownership of the discovered ship to the U.S. State whose waters the ship is found in (rather than to the discoverer). 
+### Part B
+
+Regardless of the rule, what is the efficient outcome, and why?
+
+### Part C
+
+The farmers sue the railroad. For each of the following parts, explain what the consequences are under each scenario, and the resulting payoffs to each party. Assume transaction costs are zero, and in the event of a bargain, assume parties split the cooperative surplus evenly.
+
+i. The court grants farmers a property right to spark-free crops and issues an injunction against the railroad operating in the area.
+ii. The court grants the railroad a property right to run the trains regardless of interference.
+iii. The court adopts a liability rule, and awards damages to the farmers that the railroad must pay.
+
+### Part D
+Suppose instead, transaction costs are *high*, and *no* bargains will occur. What will happen under each rule:
+
+i. Railroad has the right to run its railroad regardless of crop damage.
+ii. Court issues an injunction against the Railroad.
+iii. Court awards damages against the Railroad.
+
+Which outcome is most efficient?
+
+### Part E
+
+Redo part D, but assume the crop damage is only $100.
+
+## Question 8
+
+Under the ancient law of admiralty, the finder of an abandoned shipwreck becomes the owner of the full value of the ship and its cargo under the *law of finds*. It is quite difficult and requires a lot of investment to discover an abandoned shipwreck.
+
+### Part A
+Discuss the incentives (good and bad) this rule creates for would-be treasure hunters.
+
+### Part B
+Suppose instead, the law followed a “first-committed searcher doctrine” where the first hunter to invest resources, regardless of whether they were the party to find the shipwreck, was awarded ownership. Discuss how this would affect incentives for would-be treasure hunters.
+
+### Part C
+The Abandoned Shipwreck Act of 1987 is a federal law that upended this doctrine by awarding ownership of the discovered ship and its cargo to the U.S. State in whose waters the ship is found (rather than to the discoverer). Discuss how this would affect incentives for would-be treasure hunters.
