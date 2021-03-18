@@ -31,9 +31,9 @@ editor_options:
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
-[![](/slides/2.6-slides.png)](/slides/2.6-slides.html)
+[![](/slides/2.7-slides.png)](/slides/2.7-slides.html)
 
-- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/2.6-slides.pdf)
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/2.7-slides.pdf)
 
 # <i class="fas fa-laptop-code"></i> Assignments
 
