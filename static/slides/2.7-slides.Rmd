@@ -43,16 +43,6 @@ theme_slides <- theme_light() +
   )
 ```
 
-class: inverse
-
-# Outline
-
-### [Sequential Games](#7)
-### [The Problem With Ideas](#23)
-### [Patents](#44)
-
----
-
 # What Would an Efficient Property Law Look Like?
 
 .pull-left[
@@ -846,7 +836,6 @@ Associate Justice of U.S. Supreme Court
 # Blume and Rubinfeld
 
 .pull-left[
-.smaller[
 
 - Requiring government to provide compensation for regulatory takings provides exactly this form of insurance
   - By compensating owners *after* harm occurs, spreads cost of regulation over everyone
