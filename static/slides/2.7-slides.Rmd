@@ -839,10 +839,10 @@ Associate Justice of U.S. Supreme Court
 
 - Requiring government to provide compensation for regulatory takings provides exactly this form of insurance
   - By compensating owners *after* harm occurs, spreads cost of regulation over everyone
-]
 
 .source[Blume, Lawrence and Daniel L. Rubinfeld, 1984, “Compensation for Takings: An Economic Analysis,” *California Law Review* 72(4): 569-628]
 
+]
 
 .pull-right[
 .center[
