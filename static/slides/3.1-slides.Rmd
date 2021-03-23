@@ -108,7 +108,7 @@ theme_slides <- theme_light() +
 # The Timing of Exchange
 
 .pull-left[
-
+.smallest[
 - Many transactions are more complex
   - Neighbors pay factory to pollute less going forward
   - What if technology/cost changes, factory wants to pollute more?
@@ -120,7 +120,7 @@ theme_slides <- theme_light() +
 
 - There’s now additional .hi[enforcement costs] to ensure parties uphold their side of the bargain
 ]
-
+]
 .pull-right[
 .center[
 ![](../images/timeandmoney.jpg)
@@ -237,7 +237,7 @@ theme_slides <- theme_light() +
 # In The Old Days, These Were *Actual* Hostages
 
 .center[
-![](../images/theon.png)
+![:scale 50%](../images/theon.png)
 ]
 
 .source[Williamson, Oliver E, 1983, “Credible Commitments: Using Hostages to Support Exchange,” *American Economic Review* 73(4): 519–540]
@@ -302,7 +302,7 @@ theme_slides <- theme_light() +
 
 .pull-right[
 .center[
-![](../images/agencygamecontractlaw.png)
+![](../images/agencygamecontractlawNE.png)
 ]
 ]
 
@@ -533,7 +533,7 @@ class: inverse, center, middle
 # The Limits of Bargain Theory
 
 .pull-left[
-
+.smaller[
 - Bargain theory of contract highly influential, but two major problems:
 
 1. Not an accurate description of what courts actually do
@@ -542,6 +542,7 @@ class: inverse, center, middle
   - Would not enforce some promises that both parties want to be enforceable
   - Enforces some promises that should not be enforced
   - Often due to lack of consideration
+]
 ]
 
 .pull-right[
@@ -835,13 +836,14 @@ class: inverse, center, middle
 .pull-left[
 
 .smallest[
-- Lots of things could happen in between:
-  - Price of materials goes up, raising my costs to $700,000
-      - inefficient to build the plane
-  - Or raises my costs to $400,000
-      - efficient to build the plane, but I no longer want to
-  - Another buyer could arrive and offer me $600,000
-  - I could break my leg, making it impossible for me to build
+Lots of things could happen in between:
+
+- Price of materials goes up, raising my costs to $700,000
+  - inefficient to build the plane
+- Or raises my costs to $400,000
+  - efficient to build the plane, but I no longer want to
+- Another buyer could arrive and offer me $600,000
+- I could break my leg, making it impossible for me to build
 ]
 ]
 .pull-right[
@@ -990,6 +992,7 @@ Incentives of .red[promisor] (what will actually happen):
 # Back to the Aircraft Example
 
 .pull-left[
+.smallest[
 - Plane worth $500,000 to you
 - We agree to price of $350,000
 
@@ -1000,7 +1003,7 @@ Incentives of .red[promisor] (what will actually happen):
 - Whenever my cost is above than $500,000:
   - I'm better off breaking my promise and paying damages
   - It's efficient for me to not build the plane
-
+]
 ]
 .pull-right[
 .center[
@@ -1030,12 +1033,6 @@ Incentives of .red[promisor] (what will actually happen):
 ![](../images/breach.jpg)
 ]
 ]
-
----
-
-class: inverse, center, middle
-
-# Why Breach Penalties Matter
 
 ---
 
