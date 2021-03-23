@@ -37,6 +37,10 @@ editor_options:
 
 # <i class="fas fa-laptop-code"></i> Assignments
 
+## Homework 1 Due Wednesday March 24
+
+[Homework 1](/assignment/01-problem-set) is due by PDF upload to Blackboard Assignments by 11:59 PM Wednesday March 24. You can find more information on that page.
+
 ## Discussion Board
 
 There will be a required discussion board due by Sunday March 21.

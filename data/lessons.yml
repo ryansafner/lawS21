@@ -55,8 +55,10 @@ lessons:
   - title: '<span class="fake-header-table">III. Contracts</span>'
     header: True
     
-  - title: "3.1 Elements of a Valid Contract"
-
+  - title: "3.1 Bargain Theory of Contract"
+    content: "3.1-content"
+    slides: "3.1-slides"
+    
   - title: "2.2 Reliance"
 
   - title: "2.3 Formation Defenses"
@@ -64,6 +66,9 @@ lessons:
   - title: "2.4 Remedies for Breach of Contract"
   
   - title: "2.5 Reputation and Repeated Games"
+  
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2**'
+  - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam**'
 
   - title: '<span class="fake-header-table">IV. Torts</span>'
     header: True
