@@ -202,7 +202,7 @@ Lots of things could happen in between:
 
 .pull-left[
 .smallest[
-- We know it's **efficient** to breach when $C<V$, but what will .red[promisor] **actually** do?
+- We know it's **efficient** to breach when $C>V$, but what will .red[promisor] **actually** do?
   - Depends only on their personal costs & benefits
 
 - .red[Promisor]'s cost to perform $<$ .red[promisor]'s liability from breach $\implies$ .red[Promisor] will .hi-purple[perform]
@@ -289,24 +289,6 @@ $$D=V-P$$
 
 ---
 
-# Getting Only Efficient Breach
-
-.pull-left[
-- .hi-green[Example]: if I promise you something that you value at $100, if I break my promise, I owe you $100 worth of expectation damages
-
-- That way:
-  - if it costs me more than $100 to perform, I'll break it (efficient)
-  - if it costs me less than $100 to perform, I'll keep it (efficient)
-]
-
-.pull-right[
-.center[
-![](../images/breach.jpg)
-]
-]
-
----
-
 # An Externalities View of Breach
 
 .pull-left[
@@ -318,7 +300,7 @@ $$D=V-P$$
 - If .red[Promisor] has to pay $V-P$ in damages for breach, then .hi-purple[they internalize the externality]
   - Now .red[Promisor's] decision no longer affects .blue[Promisee's] payoff
   - Gets the same surplus whether or not contract is performed
-  - With externality internalized, .red[Promisor] chooses efficiently when deciding to *perform* or *breach*
+  - With ext. internalized, .red[Promisor] chooses efficiently when deciding to *perform* or *breach*
 ]
 ]
 
@@ -554,6 +536,7 @@ $$V>P>\mathbb{E}[C]$$
 
 .pull-left[
 
+.smallest[
 - Under .hi-purple[reliance damages] $(D=R)$, what are seller's incentives to breach?
 
 - Recall seller will *want* to breach when $C>P+D$
@@ -563,6 +546,7 @@ $$V>P>\mathbb{E}[C]$$
   - Since $V-P>R$ (.blue[promisee]'s reliance investment must be less than the gain from performance, otherwise unprofitable to invest!)...,
   - Then $P+R<V$, implying .hi-purple[seller will breach too often under reliance damages] (since $C<V$ is inefficient to breach) 
   
+]
 ]
 
 .pull-right[
@@ -847,13 +831,14 @@ plot+stat_function(fun=qV, geom="line", size=2, color = "purple")+
 
 - Found the lost profits were not reasonably forseeable, thus not entitled to damages on those
 ]
+
 .pull-right[
 .center[
 ![](../images/mill.png)
 ]
 ]
 
-]
+
 ---
 
 # The Hadley v. Baxendale Rule in Our Model

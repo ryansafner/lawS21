@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>3.2 — Efficient Breach</title>
+    <title>3.2-slides.utf8</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/lawS21   lawS21.classes.ryansafner.com " />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/hygge.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -14,14 +13,255 @@
   </head>
   <body>
     <textarea id="source">
-class: center, middle, inverse, title-slide
 
-# 3.2 — Efficient Breach
-## ECON 315 • Economics of the Law • Spring 2021
-### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>
+
+# What Do Courts Set Damages At?
+
+.center[
+![](../images/contractbreachdamages.png)
+
+Ranges of production costs over which breach occurs under the various damage measures
+
+]
 
 ---
 
+class: inverse, center, middle
+
+# Incentives for Efficient Reliance
+
+---
+
+# Choosing Reliance
+
+.pull-left[
+- Extend our example to let .blue[Promisor] *choose* their level of reliance, .red[R]
+
+- Let .red[R] enhance the value of .blue[V], but with diminishing returns
+`$$\begin{align*}
+\frac{\partial V(R)}{\partial R} &gt; 0\\
+\frac{\partial^2 V(R)}{\partial R^2} &lt; 0\\
+\end{align*}$$`
+
+]
+
+--
+
+.pull-right[
+&lt;img src="3.2-slides_files/figure-html/unnamed-chunk-1-1.png" width="504" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Choosing Reliance
+
+.pull-left[
+- If performance were certain, then socially efficient level of reliance would maximize net value of performance
+
+`$$\max_{R} V(R)-R$$`
+- Let `\(R^\star\)` be the solution
+  - Amount with greatest distance between `\(V(R)\)` and `\(R\)`
+  - Also where the two slopes are equal
+]
+
+.pull-right[
+&lt;img src="3.2-slides_files/figure-html/unnamed-chunk-2-1.png" width="504" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Choosing Reliance
+
+.pull-left[
+.smaller[
+- Now suppose .red[promisor]'s costs *could* become prohibitively high, and would *not* perform the contract (nor would it be efficient to do so)
+  - `\(q\)`: probability of performance (low costs)
+  - `\(1-q\)`: probability of breach (high costs)
+
+`$$\max_{R} qV(R)-R$$`
+
+- Solution is `\(\hat{R} &lt; R^\star\)`
+  - .blue[Promisee] should invest less reliance when performance is uncertain
+  - As `\(\downarrow q\)`, `\(\downarrow \hat{R}\)` (and vice versa)
+]
+]
+.pull-right[
+&lt;img src="3.2-slides_files/figure-html/unnamed-chunk-3-1.png" width="504" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+
+# Choosing Reliance
+
+.pull-left[
+.smallest[
+- What will the .blue[promisee] *actually* do?
+
+- Start with the possibility of recovering .hi[expectation damages] `\(D=V-P\)`
+
+$$
+\max_{R} q[V(R)-R-P]+(1-q)[D-R]
+$$
+- Substitute `\(D=V-P\)` in to get
+
+$$
+\max_{R} V(R)-R-P
+$$
+]
+]
+
+.pull-right[
+&lt;img src="3.2-slides_files/figure-html/unnamed-chunk-4-1.png" width="504" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Choosing Reliance
+
+.pull-left[
+.smallest[
+- Optimum reliance for buyer is `\(R^\star\)` (since `\(P\)` is just a constant, derivative is 0)
+  - This (again) is the efficient amount of reliance *when performance is certain*
+  - .hi-purple[Expectation damages causes the buyer to overinvest in reliance]
+  - .hi[Moral hazard problem]: expectation damages fully insures buyer against risk of breach; behaves as if performance were certain!
+    - buyer has no incentive to take precautions against possibility of breach!
+]
+]
+
+.pull-right[
+&lt;img src="3.2-slides_files/figure-html/unnamed-chunk-5-1.png" width="504" style="display: block; margin: auto;" /&gt;
+]
+
+---
+# Overreliance
+
+.pull-left[
+
+- *Hadley v. Baxendale* (1854)
+
+- Hadley owned a flour mill, crankshaft broke
+
+- Hired Baxendale to transport broken shaft for repair
+  - Baxendale shipped by boat instead of by train, causing a delay of a week
+
+- Hadley sued Baxendale for week of lost profits
+
+]
+.pull-right[
+.center[
+![](../images/mill.png)
+]
+]
+
+---
+
+# Overreliance
+
+.pull-left[
+
+- *Hadley v. Baxendale* (1854) EWHC J70
+
+- Defendant conceded negligence in delaying the delivery, but claimed the requested damages were too high, since the need for the mill to close was only a “remote” possibility
+
+&gt; “The shipper assumed that Hadley, like most millers, kept a spare shaft...Hadley did not inform him of the special urgency in getting the shaft repaired.”
+
+]
+.pull-right[
+.center[
+![](../images/mill.png)
+]
+]
+
+---
+
+# Hadley v. Baxendale
+
+.left-column[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+.right-column[
+
+- Court elucidated the following rule:
+
+.quitesmall[
+&gt; “Where two parties have made a contract which one of them has broken, the damages which the other party ought to recieve in respect of such breach of contract should be such as may fairly and reasonably be considered either arising naturally, i.e., according to the usual course of things, from such breach of contract itself, or such as may reasonably be supposed to have been in the conemplation of both parties, at the time they made the contract, as the probable results of the breach of it.”
+
+]
+
+.source[[Opinion of the Court](http://www.bailii.org/ew/cases/EWHC/Exch/1854/J70.html)]
+
+]
+
+---
+
+# Hadley v. Baxendale
+
+.pull-left[
+
+- *Hadley v. Baxendale* (1854) EWHC J70
+
+- In other words, damages for breach will be .hi[limited] to a .hi[reasonable] level
+  - What the parties could have .hi-purple[reasonably foreseen] at the time they made the contract
+  - And liable for .hi-purple[no more] than that
+
+- Found the lost profits were not reasonably forseeable, thus not entitled to damages on those
+]
+
+.pull-right[
+.center[
+![](../images/mill.png)
+]
+]
+
+
+---
+
+# The Hadley v. Baxendale Rule in Our Model
+
+.pull-left[
+
+- Expectation damages under the *Hadley* rule, set:
+`$$D=V(\hat{R})-P$$`
+- This is *not* the unlimited damages of `\(D=V-P\)`
+
+- Here, damages are limited to *efficient level of reliance* (“reasonably forseeable”), vs. the *actual* level of reliance
+]
+
+.pull-right[
+.center[
+![](../images/mill.png)
+]
+
+]
+---
+title: "3.2 — Efficient Breach"
+subtitle: "ECON 315 • Economics of the Law • Spring 2021"
+author: 'Ryan Safner&lt;br&gt; Assistant Professor of Economics &lt;br&gt; &lt;a href="mailto:safner@hood.edu"&gt;&lt;i class="fa fa-paper-plane fa-fw"&gt;&lt;/i&gt;safner@hood.edu&lt;/a&gt; &lt;br&gt; &lt;a href="https://github.com/ryansafner/lawS21"&gt;&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;ryansafner/lawS21&lt;/a&gt;&lt;br&gt; &lt;a href="https://lawS21.classes.ryansafner.com"&gt; &lt;i class="fa fa-globe fa-fw"&gt;&lt;/i&gt;lawS21.classes.ryansafner.com&lt;/a&gt;&lt;br&gt;'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: ocean #rainbow #monokai rainbow solarized-light #tomorrow-night -blue -eighties zenburn
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        &lt;div class="progress-bar-container"&gt;
+          &lt;div class="progress-bar" style="width: calc(%current% / %total% * 100%);"&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
 
 
 
@@ -184,7 +424,7 @@ Lots of things could happen in between:
 
 .pull-left[
 .smallest[
-- We know it's **efficient** to breach when `\(C&lt;V\)`, but what will .red[promisor] **actually** do?
+- We know it's **efficient** to breach when `\(C&gt;V\)`, but what will .red[promisor] **actually** do?
   - Depends only on their personal costs &amp; benefits
 
 - .red[Promisor]'s cost to perform `\(&lt;\)` .red[promisor]'s liability from breach `\(\implies\)` .red[Promisor] will .hi-purple[perform]
@@ -271,24 +511,6 @@ Lots of things could happen in between:
 
 ---
 
-# Getting Only Efficient Breach
-
-.pull-left[
-- .hi-green[Example]: if I promise you something that you value at $100, if I break my promise, I owe you $100 worth of expectation damages
-
-- That way:
-  - if it costs me more than $100 to perform, I'll break it (efficient)
-  - if it costs me less than $100 to perform, I'll keep it (efficient)
-]
-
-.pull-right[
-.center[
-![](../images/breach.jpg)
-]
-]
-
----
-
 # An Externalities View of Breach
 
 .pull-left[
@@ -300,7 +522,7 @@ Lots of things could happen in between:
 - If .red[Promisor] has to pay `\(V-P\)` in damages for breach, then .hi-purple[they internalize the externality]
   - Now .red[Promisor's] decision no longer affects .blue[Promisee's] payoff
   - Gets the same surplus whether or not contract is performed
-  - With externality internalized, .red[Promisor] chooses efficiently when deciding to *perform* or *breach*
+  - With ext. internalized, .red[Promisor] chooses efficiently when deciding to *perform* or *breach*
 ]
 ]
 
@@ -536,6 +758,7 @@ class: inverse, center, middle
 
 .pull-left[
 
+.smallest[
 - Under .hi-purple[reliance damages] `\((D=R)\)`, what are seller's incentives to breach?
 
 - Recall seller will *want* to breach when `\(C&gt;P+D\)`
@@ -545,6 +768,7 @@ class: inverse, center, middle
   - Since `\(V-P&gt;R\)` (.blue[promisee]'s reliance investment must be less than the gain from performance, otherwise unprofitable to invest!)...,
   - Then `\(P+R&lt;V\)`, implying .hi-purple[seller will breach too often under reliance damages] (since `\(C&lt;V\)` is inefficient to breach) 
   
+]
 ]
 
 .pull-right[
@@ -772,13 +996,14 @@ $$
 
 - Found the lost profits were not reasonably forseeable, thus not entitled to damages on those
 ]
+
 .pull-right[
 .center[
 ![](../images/mill.png)
 ]
 ]
 
-]
+
 ---
 
 # The Hadley v. Baxendale Rule in Our Model
