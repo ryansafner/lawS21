@@ -34,8 +34,8 @@ This course does rely on essential microeconomic concepts and models that you ar
 
 | Case | Year | Class | Topic | Resources |
 |------|------|-------|-------|-----------|
-| *Ghen v Rich* | 1881 | [https://laws21.classes.ryansafner.com/content/1.1-content/](1.1 class) | Property (Whaling) | |
-| *Popov v. Hayashi* | 2002 | [https://laws21.classes.ryansafner.com/content/1.1-content/](1.1 class) | Property (Baseball) | |
+| *Ghen v Rich* | 1881 | [1.1 class](https://laws21.classes.ryansafner.com/content/1.1-content/) | Property (Whaling) | |
+| *Popov v. Hayashi* | 2002 | [1.1 class](https://laws21.classes.ryansafner.com/content/1.1-content/) | Property (Baseball) | |
 | *Boomer v. Atlantic Cement Co. | 1970 | [2.5 class](https://laws21.classes.ryansafner.com/content/2.5-content/) | Property (Injunction vs. Damages) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Boomer_v._Atlantic_Cement_Co.) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.nycourts.gov/reporter/archives/boomer_atlantic.htm)
 | *Ploof v. Putnam* | 1908 | [2.5 class](https://laws21.classes.ryansafner.com/content/2.5-content/) | Property (Necessity Defense) | [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.ravellaw.com/opinions/b4364904d75f62a53e7dcfc1d687987a) |
 | *Eldred v. Ashcroft* | 2003 | [2.6 class](https://laws21.classes.ryansafner.com/content/2.6-content/) | Property (Copyright) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Eldred_v._Ashcroft) [<i class="fas fa-external-link-square-alt"></i> Briefs & Opinions](https://cyber.harvard.edu/openlaw/eldredvashcroft/) |
