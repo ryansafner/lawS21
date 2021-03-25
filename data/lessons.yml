@@ -59,13 +59,15 @@ lessons:
     content: "3.1-content"
     slides: "3.1-slides"
     
-  - title: "2.2 Reliance"
+  - title: "3.2 Efficient Breach"
+    content: "3.2-content"
+    slides: "3.2-slides"
 
-  - title: "2.3 Formation Defenses"
+  - title: "3.3 Formation Defenses"
   
-  - title: "2.4 Remedies for Breach of Contract"
+  - title: "3.4 Remedies for Breach of Contract"
   
-  - title: "2.5 Reputation and Repeated Games"
+  - title: "3.5 Reputation and Repeated Games"
   
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2**'
   - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam**'
