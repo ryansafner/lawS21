@@ -30,6 +30,23 @@ Look here over the course of the semester for resources, links, and tips on how 
 
 This course does rely on essential microeconomic concepts and models that you are assumed to know. We will review some as necessary, but I point you to the lectures from my [ECON 306 course](https://microf20.classes.ryansafner.com)^[This links to the latest completed semester, Fall 2020.]
 
+# List of Cases Discussed
+
+| Case | Year | Class | Topic | Resources |
+|------|------|-------|-------|-----------|
+| *Ghen v Rich* | 1881 | [https://laws21.classes.ryansafner.com/content/1.1-content/](1.1 class) | Property (Whaling) | |
+| *Popov v. Hayashi* | 2002 | [https://laws21.classes.ryansafner.com/content/1.1-content/](1.1 class) | Property (Baseball) | |
+| *Boomer v. Atlantic Cement Co. | 1970 | [2.5 class](https://laws21.classes.ryansafner.com/content/2.5-content/) | Property (Injunction vs. Damages) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Boomer_v._Atlantic_Cement_Co.) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.nycourts.gov/reporter/archives/boomer_atlantic.htm)
+| *Ploof v. Putnam* | 1908 | [2.5 class](https://laws21.classes.ryansafner.com/content/2.5-content/) | Property (Necessity Defense) | [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.ravellaw.com/opinions/b4364904d75f62a53e7dcfc1d687987a) |
+| *Eldred v. Ashcroft* | 2003 | [2.6 class](https://laws21.classes.ryansafner.com/content/2.6-content/) | Property (Copyright) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Eldred_v._Ashcroft) [<i class="fas fa-external-link-square-alt"></i> Briefs & Opinions](https://cyber.harvard.edu/openlaw/eldredvashcroft/) |
+| *Poletown Neighborhood Council v. Detroit* | 1981 | [2.7 class](https://laws21.classes.ryansafner.com/content/2.7-content/) | Property (Eminent Domain) | [<i class="fas fa-external-link-square-alt"></i> Opinion](https://casetext.com/case/poletown-council-v-detroit) |
+| *Kelo v. City of New London* | 2005 | [2.7 class](https://laws21.classes.ryansafner.com/content/2.7-content/) | Property (Eminent Domain) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Kelo_v._City_of_New_London) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.oyez.org/cases/2004/04-108) |
+| *Mugler v. Kansas* | 1922 | [2.7 class](https://laws21.classes.ryansafner.com/content/2.7-content/) | Property (Takings) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Mugler_v._Kansas) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.oyez.org/cases/1850-1900/123us623) |
+| *Pennsylvania Coal v. Mahon* | 1922 | [2.7 class](https://laws21.classes.ryansafner.com/content/2.7-content/) | Property (Takings) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Pennsylvania_Coal_Co._v._Mahon) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.oyez.org/cases/1900-1940/260us393) |
+| *Hamer v. Sidway* | 1891 | [3.1 class](https://laws21.classes.ryansafner.com/content/3.1-content/) | Contract (Bargain theory) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Hamer_v._Sidway) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.nycourts.gov/reporter/archives/hamer_sidway.htm) |
+| *Hadley v. Baxendale* | 1854 | [3.2 class](https://laws21.classes.ryansafner.com/content/3.2-content/) | Contract (reliance) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Hadley_v_Baxendale) |
+
+
 
 # How to Make a PDF (For Submitting Assignments)
 
