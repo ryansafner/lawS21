@@ -838,7 +838,6 @@ plot+stat_function(fun=qV, geom="line", size=2, color = "purple")+
 ]
 ]
 
-
 ---
 
 # The Hadley v. Baxendale Rule in Our Model

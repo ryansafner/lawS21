@@ -13,8 +13,7 @@ library(pander)
 *Due by 11:59 PM Wednesday, March 24, 2021 by PDF upload in Blackboard Assignments*
 
 - [<i class="fas fa-file-pdf"></i> Download as PDF](/assignment/01-problem-set-pdf.pdf)
-<!-- [<i class="far fa-life-ring"></i> Answer Key](/assignment/01-problem-set-answers.html)
-- [<i class="fas fa-file-pdf"></i> Answer Key (PDF)](/assignment/01-problem-set-answers-pdf.pdf)-->
+- [<i class="far fa-life-ring"></i> Answer Key](/assignment/01-problem-set-answers.html)
 
 Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph & convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](/resources/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers).
 
