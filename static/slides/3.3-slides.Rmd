@@ -484,7 +484,7 @@ David D. Friedman
 # Peace Treaties?
 
 .pull-left[
-
+.quitesmall[
 - Tradeoff means not *always* optimal to rule out enforceability under duress!
 
 - .hi-green[Example]: what about peace treaties between nations at war?
@@ -496,7 +496,7 @@ David D. Friedman
 
 - Likely efficient for peace treaties to be enforceable but promises made a mugger to not be!
 ]
-
+]
 .pull-right[
 .center[
 ![](../images/interkorean.jpg)

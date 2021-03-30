@@ -730,7 +730,7 @@ Ranges of production costs over which breach occurs under the various damage mea
 .quitesmall[
 - Suppose my costs rise to **$600,000**
   - I don't want to perform $(P<C'')$
-  - Efficient to not perform $(C''<V)$
+  - Efficient to not perform $(C''>V)$
 
 - If contract is performed:
 
@@ -818,7 +818,7 @@ Ranges of production costs over which breach occurs under the various damage mea
 ]
 
 .smallest[
-- V': **$500,000**
+- V': **$600,000**
 - P: $350,000
 - .hi-turquoise[R: $75,000]
 - C: **$300,000**
@@ -899,10 +899,10 @@ Ranges of production costs over which breach occurs under the various damage mea
 .smallest[
 
 - But this affects .red[your] incentives about *how much* to rely on .blue[my performance]; .red[your payoffs] if:
-  - .red[No hangar] and .blue[I perform]: $150,000 (500,000-350,000)
-  - .red[No hangar] and .blue[I breach] (with .hi[expectation damages]): $150,000 
-  - .red[Hangar] and .blue[I perform]: $175,000 (600,000-350,000-75,000)
-  - .red[Hangar] and .blue[I breach] (with .hi[expectation damages] that include the full amount): $175,000
+  - .red[No hangar] and .blue[I perform]: **$150,000** (500,000-350,000)
+  - .red[No hangar] and .blue[I breach] (with .hi[expectation damages]): **$150,000 **
+  - .red[Hangar] and .blue[I perform]: **$175,000** (600,000-350,000-75,000)
+  - .red[Hangar] and .blue[I breach] (with .hi[expectation damages] that include the full amount): **$175,000**
 
 - So if .hi[expectation damages] include the *full* added benefit, .hi-purple[promisee will over-rely!]
 ]
@@ -1207,14 +1207,14 @@ class: inverse, center, middle
 
 .pull-left[
 .center[
-![](../images/io_hex.png)
+![:scale 75%](../images/io_hex.png)
 
-[ECON] 326 — Industrial Organization](https://ios20.classes.ryansafner.com)
+[ECON 326 — Industrial Organization](https://ios20.classes.ryansafner.com)
 ]
 ]
 
 .pull-right[
-.smaller[
+.smallest[
 - Research in industrial organization about how .hi-purple[firms solve these problems of transaction costs]
   - vertical integration to prevent post-contractual opportunism
   - contractual restraints (that look like they create market power but are actually efficient)
