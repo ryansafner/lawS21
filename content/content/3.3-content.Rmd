@@ -1,0 +1,37 @@
+---
+title: "3.3 — Invalidating Contracts — Class Content"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+*Tuesday, March 30, 2021*
+
+# <i class="fas fa-info-circle fa-lg"></i> Overview
+
+TBD
+
+# <i class="fas fa-book-reader fa-lg"></i> Readings
+
+## Required Reading
+
+## Optional but Useful Reading
+- <i class="fas fa-book"></i> Ch. 8 in Cooter and Ulen, 2012, *Law & Economics*
+- [<i class="fab fa-wikipedia-w"></i> Lucy v. Zehmer](https://en.wikipedia.org/wiki/Lucy_v._Zehmer)
+- [<i class="fas fa-external-link-square-alt"></i> Lucy v. Zehmer (Court Opinion)](https://law.justia.com/cases/virginia/supreme-court/1954/4272-1.html)
+
+
+
+# <i class="fas fa-chalkboard-teacher"></i> Slides
+
+[![](/slides/3.3-slides.png)](/slides/3.3-slides.html)
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/3.3-slides.pdf)
+
+# <i class="fas fa-laptop-code"></i> Assignments

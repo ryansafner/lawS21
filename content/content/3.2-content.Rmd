@@ -23,6 +23,7 @@ TBD
 
 ## Optional but Useful Reading
 - <i class="fas fa-book"></i> Ch. 8 in Cooter and Ulen, 2012, *Law & Economics*
+- [<i class="fas fa-file-pdf"></i> Ayres and Gertner, 1989, "Filling in Gaps in Incomplete Contracts: An Economic Theory of Default Rules"](/readings/Ayres-Gertner-1989.pdf)
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 

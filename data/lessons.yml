@@ -63,8 +63,10 @@ lessons:
     content: "3.2-content"
     slides: "3.2-slides"
 
-  - title: "3.3 Formation Defenses"
-  
+  - title: "3.3 Invalidating Contracts"
+    content: "3.3-content"
+    slides: "3.3-slides"
+    
   - title: "3.4 Remedies for Breach of Contract"
   
   - title: "3.5 Reputation and Repeated Games"

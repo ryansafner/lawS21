@@ -36,7 +36,7 @@ library("ggrepel")
 library("fontawesome")
 xaringanExtra::use_tile_view()
 xaringanExtra::use_tachyons()
-
+xaringanExtra::use_freezeframe()
 theme_slides <- theme_light() + 
   theme(
     text = element_text(family = "Fira Sans", size = 24)
@@ -590,176 +590,426 @@ Ranges of production costs over which breach occurs under the various damage mea
 
 ---
 
-class: inverse, center, middle
-
-# Incentives for Efficient Reliance
-
----
-
-# Choosing Reliance
+# An Example
 
 .pull-left[
-- Extend our example to let .blue[Promisor] *choose* their level of reliance, .red[R]
 
-- Let .red[R] enhance the value of .blue[V], but with diminishing returns
-$$\begin{align*}
-\frac{\partial V(R)}{\partial R} > 0\\
-\frac{\partial^2 V(R)}{\partial R^2} < 0\\
-\end{align*}$$
-
+.smallest[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+- .hi-green[Example]: I am an aircraft manufacturer, you and I sign a contract
+  - You agree to pay me $350,000
+  - I agree to deliver an airplane to you
+  - You value the airplane at $500,000
+  - I expect it will cost me $300,000 to produce
 ]
-
---
-
-.pull-right[
-```{r}
-R<-function(x){x}
-V<-function(x){2*sqrt(x)}
-
-plot<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
-  stat_function(fun=R, geom="line", size=2, color = "red")+
-    geom_label(aes(x=4.75,y=R(4.75)), color = "red", label="R", size = 4)+
-  stat_function(fun=V, geom="line", size=2, color = "blue")+
-    geom_label(aes(x=4.75,y=V(4.75)), color = "blue", label=expression(V(R)), size = 4)+
-    scale_x_continuous(breaks=NULL,
-                     limits=c(0,5),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=NULL,
-                     limits=c(0,5),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  labs(x = "R",
-       y = "$")+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=16)
-plot
-```
 ]
-
----
-
-# Choosing Reliance
-
-.pull-left[
-- If performance were certain, then socially efficient level of reliance would maximize net value of performance
-
-$$\max_{R} V(R)-R$$
-- Let $R^\star$ be the solution
-  - Amount with greatest distance between $V(R)$ and $R$
-  - Also where the two slopes are equal
 ]
 
 .pull-right[
-```{r}
-plot+geom_segment(x=1,y=0,xend=1,yend=V(1),size=1,linetype="dotted")+
-    scale_x_continuous(breaks=c(1),
-                       labels=c(expression(R^{"*"})),
-                     limits=c(0,5),
-                     expand=expand_scale(mult=c(0,0.1)))
-```
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V: $500,000
+- P: $350,000
+- C: $300,000
+]
 ]
 
 ---
 
-# Choosing Reliance
+# An Example
+
+.pull-left[
+
+.smaller[
+
+- If contract is performed:
+
+| Party |    | Payoff |
+|-----|----|----:|
+| You | V-P = | $150,000 |
+| Me | P-C = | $50,000 |
+| **Joint** | V-C = | **$200,000** |
+]
+]
+
+.pull-right[
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V: $500,000
+- P: $350,000
+- C: $300,000
+]
+
+]
+
+---
+
+# An Example
+
+.pull-left[
+
+.quitesmall[
+- Suppose my costs rise to $400,000
+  - I don't want to perform $(P<C')$
+  - But efficient to perform $(C'<V)$
+
+- If contract is performed:
+
+| Party |    | Payoff |
+|-----|----|---:|
+| You | V-P = |$150,000 |
+| Me | P-C' = | -$50,000 |
+| **Joint** | V-C' = | **$100,000** |
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V: $500,000
+- P: $350,000
+- C': **$400,000**
+]
+
+]
+
+---
+
+# An Example
+
+.pull-left[
+
+.quitesmall[
+- Suppose my costs rise to $400,000
+  - I don't want to perform $(P<C')$
+  - But efficient to perform $(C'<V)$
+
+- Under .hi[expectation damages]: I would owe you $150,000
+  - Since $D<P-C'$, I'll perform (better to lose only $50,000!)
+  - .hi-turquoise[Efficient performance], since $C'<V$!
+  
+| Party |    | Payoff |
+|-----|----|---:|
+| You | V-P = | $150,000 |
+| Me | P-C' = | -$50,000 |
+| **Joint** | V-C' = | **$100,000** |
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V: $500,000
+- P: $350,000
+- C': **$400,000**
+- .red[D=V-P: $150,000]
+]
+
+]
+
+---
+
+# An Example
+
+.pull-left[
+
+.quitesmall[
+- Suppose my costs rise to **$600,000**
+  - I don't want to perform $(P<C'')$
+  - Efficient to not perform $(C''<V)$
+
+- If contract is performed:
+
+| Party |    | Payoff |
+|-----|----|---:|
+| You | V-P = | $150,000 |
+| Me | P-C'' = | -$250,000 |
+| **Joint** | V-C'' = | **-$100,000** |
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V: $500,000
+- P: $350,000
+- C'': **$600,000**
+]
+]
+
+---
+
+# An Example
+
+.pull-left[
+
+.quitesmall[
+
+- Suppose my costs rise to **$600,000**
+  - I don't want to perform $(P<C'')$
+  - Efficient to not perform $(C''<V)$
+
+- Under .hi[expectation damages]: I would owe you $150,000
+  - Since $D>P-C''$, I will breach (better to lose only -$150,000)
+  - .hi-turquoise[Efficient breach], since $C''>V$!
+
+| Party |    | Payoff |
+|-----|----|---:|
+| You | D = | $150,000 |
+| Me | -D = | -$150,000 |
+| **Joint** | D-D = | **$0** |
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V: $500,000
+- P: $350,000
+- C'': **$600,000**
+- .red[D=V-P: $150,000]
+]
+]
+
+---
+
+# An Example with Reliance
+
+.pull-left[
+
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+- .hi-green[Example]: I am an aircraft manufacturer, you and I sign a contract
+  - You agree to pay me $350,000
+  - I agree to deliver an airplane to you
+  - You value the airplane at $500,000
+  - I expect it will cost me **$300,000** to produce
+  - .hi-turquoise[You buy a $75,000 hangar that increases the value of performance to $600,000]
+]
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V': **$500,000**
+- P: $350,000
+- .hi-turquoise[R: $75,000]
+- C: **$300,000**
+- .red[D: ?]
+]
+
+]
+
+---
+
+# An Example with Reliance
+
+.pull-left[
+
+.quitesmall[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+- .hi-green[Example]: I am an aircraft manufacturer, you and I sign a contract
+  - You agree to pay me $350,000
+  - I agree to deliver an airplane to you
+  - You value the airplane at $500,000
+  - I expect it will cost me **$300,000** to produce
+  - .hi-turquoise[You buy a $75,000 hangar that increases the value of performance to $600,000]
+]
+
+- With your .hi[reliance investment] in the hangar, If I breach the contract, should I owe...
+  - $150,000? (V-P, value of original promise)
+  - $300,000? (V'-P, value of performance after your investment)
+  - $225,000? (V+R, value of original promise plus your reliance investment)
+]
+]
+
+.pull-right[
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V': **$600,000**
+- P: $350,000
+- .hi-turquoise[R: $75,000]
+- C: **$300,000**
+- .red[D: ?]
+]
+
+]
+
+# An Example with Reliance
+
+.pull-left[
+
+.smaller[
+- To get .hi-purple[efficient breach] only, damages must include the .hi-purple[added benefit] from reliance
+  - You anticipate benefit (with hangar) of $250,000
+  - If $D250,000, I will breach too often (any time $C > P$, rather than only when $C > V)$
+]
+]
+
+.pull-right[
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V': **$500,000**
+- P: $350,000
+- R: $75,000
+- C: **$300,000**
+- .red[D: ?]
+]
+]
+
+---
+
+# An Example with Reliance
+
+.pull-left[
+
+.smallest[
+
+- But this affects .red[your] incentives about *how much* to rely on .blue[my performance]; .red[your payoffs] if:
+  - .red[No hangar] and .blue[I perform]: $150,000 (500,000-350,000)
+  - .red[No hangar] and .blue[I breach] (with .hi[expectation damages]): $150,000 
+  - .red[Hangar] and .blue[I perform]: $175,000 (600,000-350,000-75,000)
+  - .red[Hangar] and .blue[I breach] (with .hi[expectation damages] that include the full amount): $175,000
+
+- So if .hi[expectation damages] include the *full* added benefit, .hi-purple[promisee will over-rely!]
+]
+]
+
+.pull-right[
+.center[
+![](../images/cessna.jpg)
+]
+
+.smallest[
+- V': **$500,000**
+- P: $350,000
+- R: $75,000
+- C: **$300,000**
+- .red[D: $250,000]
+]
+]
+
+---
+
+# Expectation Damages and Overreliance
+
+.pull-left[
+
+- So if .hi[expectation damages] include the *full* added benefit, .hi-purple[promisee will over-rely!]
+
+- Creates a .hi[moral hazard problem]
+  - .blue[Promisee] inefficiently over-invests in reliance
+  - Expectation damages fully insure buyer against risk of breach, behaves as if performance were certain
+  - .blue[Promisee] has no incentive to take precautions against possibility of breach
+]
+]
+
+.pull-right[
+.center[
+![](../images/harland-miller-you-can-rely-on-me-small.jpg)
+]
+]
+
+---
+
+# Reliance and Breach
+
+.pull-left[
+
+- If damages *include* full added benefit from reliance, .blue[promisee] will invest more than the efficient amount in reliance
+
+- But if damages *exclude* the added benefit, then .red[promisor] will breach more often than is efficient, and underinvest in performance
+  - .red[Promisor]'s liability < .blue[Promisee]'s benefit from performance
+  - $D<(V'-P)$
+
+]
+
+.pull-right[
+.center[
+![](../images/harland-miller-you-can-rely-on-me-small.jpg)
+]
+]
+
+---
+
+# Reliance and Breach
+
+.pull-left[
+
+- .hi[Paradox of compensation]: a single “price” (damages owed) sets multiple incentives
+  - How much the .red[promisor] will invest in performance, whether or not to breach or perform
+  - How much the .blue[promisee] will invest in reliance
+  - Impossible to set them all efficiently!
+
+]
+
+.pull-right[
+.center[
+![](../images/moneysignal.jpg)
+]
+]
+
+---
+
+# Efficient Reliance
 
 .pull-left[
 .smaller[
-- Now suppose .red[promisor]'s costs *could* become prohibitively high, and would *not* perform the contract (nor would it be efficient to do so)
-  - $q$: probability of performance (low costs)
-  - $1-q$: probability of breach (high costs)
+- Cooter & Ulen: include only .hi-purple[efficient reliance]
+  - .hi[Perfect expectation damages]: restore .blue[promisee] to level of well-being she would have gotten from performance .hi-purple[if she had relied the efficient amount]
+  - .blue[Promisee] rewarded for efficient reliance, not overreliance
 
-$$\max_{R} qV(R)-R$$
-
-- Solution is $\hat{R} < R^\star$
-  - .blue[Promisee] should invest less reliance when performance is uncertain
-  - As $\downarrow q$, $\downarrow \hat{R}$ (and vice versa)
-]
-]
-.pull-right[
-```{r}
-qV<-function(x){1.5*sqrt(x)}
-
-plot+stat_function(fun=qV, geom="line", size=2, color = "purple")+
-    geom_label(aes(x=4.75,y=qV(4.75)), color = "purple", label=expression(qV(R)), size = 4)+
-    geom_segment(x=1,y=0,xend=1,yend=V(1),size=1,linetype="dotted")+
-    geom_segment(x=0.5625,y=0,xend=0.5625,yend=qV(0.5625),size=1,linetype="dotted")+
-    scale_x_continuous(breaks=c(0.5625,1),
-                       labels=c(expression(hat(R)),expression(R^{"*"})),
-                     limits=c(0,5),
-                     expand=expand_scale(mult=c(0,0.1)))
-
-```
-]
-
-
----
-
-# Choosing Reliance
-
-.pull-left[
-.smallest[
-- What will the .blue[promisee] *actually* do?
-
-- Start with the possibility of recovering .hi[expectation damages] $D=V-P$
-
-$$
-\max_{R} q[V(R)-R-P]+(1-q)[D-R]
-$$
-- Substitute $D=V-P$ in to get
-
-$$
-\max_{R} V(R)-R-P
-$$
+- Actual courts: include only .hi[forseeable] reliance
+  - How much .red[promisor] could **reasonably expect** .blue[promisee] to rely
 ]
 ]
 
 .pull-right[
-```{r}
-plot+stat_function(fun=qV, geom="line", size=2, color = "purple")+
-    geom_label(aes(x=4.75,y=qV(4.75)), color = "purple", label=expression(qV(R)), size = 4)+
-    geom_segment(x=1,y=0,xend=1,yend=V(1),size=1,linetype="dotted")+
-    geom_segment(x=0.5625,y=0,xend=0.5625,yend=qV(0.5625),size=1,linetype="dotted")+
-    scale_x_continuous(breaks=c(0.5625,1),
-                       labels=c(expression(hat(R)),expression(R^{"*"})),
-                     limits=c(0,5),
-                     expand=expand_scale(mult=c(0,0.1)))
-
-```
+.center[
+![](../images/moneysignal.jpg)
+]
 ]
 
 ---
 
-# Choosing Reliance
-
-.pull-left[
-.smallest[
-- Optimum reliance for buyer is $R^\star$ (since $P$ is just a constant, derivative is 0)
-  - This (again) is the efficient amount of reliance *when performance is certain*
-  - .hi-purple[Expectation damages causes the buyer to overinvest in reliance]
-  - .hi[Moral hazard problem]: expectation damages fully insures buyer against risk of breach; behaves as if performance were certain!
-    - buyer has no incentive to take precautions against possibility of breach!
-]
-]
-
-.pull-right[
-```{r}
-plot+stat_function(fun=qV, geom="line", size=2, color = "purple")+
-    geom_label(aes(x=4.75,y=qV(4.75)), color = "purple", label=expression(qV(R)), size = 4)+
-    geom_segment(x=1,y=0,xend=1,yend=V(1),size=1,linetype="dotted")+
-    geom_segment(x=0.5625,y=0,xend=0.5625,yend=qV(0.5625),size=1,linetype="dotted")+
-    scale_x_continuous(breaks=c(0.5625,1),
-                       labels=c(expression(hat(R)),expression(R^{"*"})),
-                     limits=c(0,5),
-                     expand=expand_scale(mult=c(0,0.1)))
-
-```
-]
-
----
-# Overreliance
+# Forseeable Reliance: Hadley v. Baxendale
 
 .pull-left[
 
-- *Hadley v. Baxendale* (1854)
+- *Hadley v. Baxendale* (1854) EWHC J70
 
 - Hadley owned a flour mill, crankshaft broke
 
@@ -825,11 +1075,13 @@ plot+stat_function(fun=qV, geom="line", size=2, color = "purple")+
 
 - *Hadley v. Baxendale* (1854) EWHC J70
 
-- In other words, damages for breach will be .hi[limited] to a .hi[reasonable] level
+- In other words, expectation damages for breach will be .hi[limited] to a .hi[reasonable] level
   - What the parties could have .hi-purple[reasonably foreseen] at the time they made the contract
   - And liable for .hi-purple[no more] than that
 
 - Found the lost profits were not reasonably forseeable, thus not entitled to damages on those
+
+
 ]
 
 .pull-right[
@@ -840,33 +1092,438 @@ plot+stat_function(fun=qV, geom="line", size=2, color = "purple")+
 
 ---
 
-# The Hadley v. Baxendale Rule in Our Model
+# Hadley v. Baxendale
+
+.left-column[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+.right-column[
+
+.quitesmall[
+> “But it is obvious that, in the great multitude of cases of millers sending off broken shafts to third persons by a carrier under ordinary circumstances, [these particular] consequences would not, in all probability, have occurred, and these special circumstances were here never communicated by the plaintiffs to the defendants. It follows, therefore, that the loss of profits here cannot reasonably be considered such a consequence of the breach of contract as could have been fairly and reasonably contemplated by both the parties when they made this contract”
+
+]
+
+.source[[Opinion of the Court](http://www.bailii.org/ew/cases/EWHC/Exch/1854/J70.html)]
+
+]
+
+---
+
+# Reasonably Forseeable Reliance
+
+.center[
+![](../images/reasonablyforseenmeme.jpg)
+]
+
+---
+
+class: inverse, center, middle
+
+# Default Rules
+
+---
+
+# Forseeable Reliance
 
 .pull-left[
 
-- Expectation damages under the *Hadley* rule, set:
-$$D=V(\hat{R})-P$$
-- This is *not* the unlimited damages of $D=V-P$
+- Why didn’t Hadley and Baxendale just specify in the original contract what happens in the event of a delay?
 
-- Here, damages are limited to *efficient level of reliance* (“reasonably forseeable”), vs. the *actual* level of reliance
+- What rules should apply in circumstances that *aren’t* specified in a contract?
 ]
 
 .pull-right[
 .center[
 ![](../images/mill.png)
 ]
-```{r, eval = F}
-plot+geom_hline(yintercept = 3, size =2)+
-  stat_function(fun=qV, geom="line", size=2, color = "purple")+
-    geom_label(aes(x=4.75,y=qV(4.75)), color = "purple", label=expression(qV(R)), size = 4)+
-    geom_segment(x=1,y=0,xend=1,yend=V(1),size=1,linetype="dotted")+
-    geom_segment(x=0.5625,y=0,xend=0.5625,yend=qV(0.5625),size=1,linetype="dotted")+
-    scale_x_continuous(breaks=c(0.5625,1),
-                       labels=c(expression(hat(R)),expression(R^{"*"})),
-                     limits=c(0,5),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=c(2),
-                     labels = c("P"))
+]
 
-```
+---
+
+# Complete Contracts
+
+.pull-left[
+.center[
+![](../images/uncertainty.jpg)
+]
+]
+
+.pull-right[
+
+- In economics & contract theory, a .hi[complete contract] specifies all actions or transfers that parties must take under every possible contingency
+
+- In the real world of .hi-purple[uncertainty], complete contracts are impossible
+
+- Instead people maximize their *expected* utility given limited information at the time (.hi-purple[“bounded rationality”])
+
+]
+
+---
+
+# Consequences of Incomplete Contracts
+
+.pull-left[
+.center[
+![](../images/negotiation.jpg)
+]
+]
+
+.pull-right[
+
+- Agreements are always .hi[incomplete contracts], actions for many (unforeseen) contingencies are *unspecified*
+
+- Even for *specified* actions and contingences, outcomes are indeterminate due to .hi-purple[enforcement costs]
+  - argument about interpretation
+  - slow litigation process, legal fees
+
+- Gives rise to .hi-purple[post-contractual opportunism] (shirking, fraud, renegotiation, hold-up, etc)
+]
+
+---
+
+# I Am Altering The Deal...
+
+.center[
+
+<iframe width="980" height="550" src="https://www.youtube.com/embed/qd8hy032uLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+---
+
+# ...Pray I Don't Alter it Any Futher
+
+.center[
+<iframe width="980" height="550" src="https://www.youtube.com/embed/OXyH1XkQo44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
+
+# Asides: I/O & Theory of Firm
+
+.pull-left[
+.center[
+![](../images/io_hex.png)
+
+[ECON] 326 — Industrial Organization](https://ios20.classes.ryansafner.com)
+]
+]
+
+.pull-right[
+.smaller[
+- Research in industrial organization about how .hi-purple[firms solve these problems of transaction costs]
+  - vertical integration to prevent post-contractual opportunism
+  - contractual restraints (that look like they create market power but are actually efficient)
+
+- Note this line of research comes directly out of Coase (1937): firms are a solution to high transaction cost situations
+  - Coase (1960): the law is another
+]
+]
+
+---
+
+# Firm as Owner of Residual Control Rights
+
+.left-column[
+.center[
+![:scale 65%](../images/hart.jpg)
+.smallest[
+Oliver Hart
+
+1948-
+
+Economics Nobel 2016
+]
+]
+]
+
+.right-column[
+.smaller[
+> ".hi[We define the firm as being composed of the assets (e.g., machines, inventories) that it owns.] We present a theory of .hi[costly contracts] that emphasizes that .hi[contractual rights can be of two types: specific rights and residual rights.] When it is too costly for one party to specify a long list of the particular rights it desires over another party's assets, .hi[it may be optimal for that party to purchase all the rights except those specifically mentioned in the contract. Ownership is the purchase of these residual rights of control.]" (p.692).
+
+]
+]
+
+.source[Hart, Oliver and Sanford J Grossman, 1986, "The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration," *Journal of Political Economy* 94(4): 691-719]
+
+---
+
+# Default Rules
+
+.pull-left[
+
+- .hi-purple[Gaps] in contracts: risks or circumstances not explicitly addressed
+  - (In a world of no transaction costs, parties could specify all possible contingencies, nothing left unclear)
+  - Can be inadvertent or deliberate
+
+- .hi[Default rules]: the rules courts apply to fill in gaps
+]
+
+.pull-right[
+.center[
+![](../images/contractgap.jpg)
+]
+]
+---
+
+# How Much Should We Write Into a Contract?
+
+.pull-left[
+
+- Better to include a contingency in a contract or leave it a gap?
+  - Allocating a .hi-purple[risk] *ex ante* before it becomes a loss for someone
+  - Versus allocating a .hi-purple[loss] *ex post*
+    - Only have to deal with this if it actually occurs
+]
+
+.pull-right[
+.center[
+![](../images/contractgap.jpg)
+]
+]
+
+---
+
+# What Should the Default Rules Be?
+
+.pull-left[
+
+.smallest[
+- Cooter & Ulen: use the rule parties would have wanted .hi-purple[if they had chosen] to bargain over this issue
+  - this will be whatever rule is efficient
+
+- .hi-purple[Normative Coase Theorem] implies law should minimize transaction costs
+  - filling a gap requires some cost, so use the rule the parties *would have wanted* had they hashed it out
+  - that way, most contracts can just rely on the default rule rather than hash it out
+]
+]
+
+.pull-right[
+.center[
+![](../images/contractgap.jpg)
+]
+]
+
+---
+
+# What Should the Default Rules Be?
+
+.pull-left[
+
+- Don’t want ambiguity in law, so default rule can’t be different case by case
+
+- .hi-purple[Majoritarian default rule]: the terms that most parties would agree to
+  - In cases where rule is not efficient, parties can still agree to override it in their contract
+
+- Court: figure out .hi-purple[efficient allocation of risks] (what parties would have done)
+]
+
+.pull-right[
+.center[
+![](../images/contractgap.jpg)
+]
+]
+
+---
+
+# Default Rules: Example
+
+.pull-left[
+.smallest[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+- Suppose a family contracts with construction company to build house
+
+- Construction company knows: 50% chance of costs increasing by $2,000
+  - In expected value, costs will be $1,000 higher due to this risk
+
+- The company can hedge this risk (buy supplies in advance and keep in storage, etc.) at a cost of $400
+
+- Family doesn’t know anything about this possibility, and has no way to mitigate the risk
+]
+]
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/construction.jpg)
+]
+]
+
+---
+
+# Default Rules: Example
+
+.pull-left[
+
+- The company chooses not to hedge against the risk
+
+- It turns out, costs indeed went up $2,000
+  - Company raises the price on the family ($2,000), family refuses to pay, case goes to court
+
+- **How should the court address this?**
+  - Original contract says nothing about the risk of higher construction costs
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/construction.jpg)
+]
+]
+
+---
+
+# Default Rules: Example
+
+.pull-left[
+
+- Construction company here is the .hi-purple[efficient bearer] of the risk
+  - Cost to family was $1,000 in expected value, no way to mitigate
+  - Company could have mitigated it for $400
+
+- An efficient contract would have allocated the risk to the company
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/construction.jpg)
+]
+]
+
+---
+
+# Default Rules: Example
+
+.pull-left[
+.smallest[
+- Should court adjust prices to compensate?
+
+- Court might rule the spike in costs was reasonably forseeable
+  - If forseeable, safe to assume already incorporated in price (compensating company for bearing risk)
+
+- It might *not* have been reasonably forseeable
+  - Company might still be efficient bearer of risk, but not part of price (unforseen risk)
+  - Court might rule for the family, but have them pay a different price to compensate Company for the risk
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/construction.jpg)
+]
+]
+
+
+---
+
+# Default Rules: Penalty Default
+
+.pull-left[
+.smaller[
+- Sometimes better to make default rules something the parties .hi-purple[would not have wanted], a .hi[penalty default]
+  - Gives an incentive for parties to address the issue rather than leave a gap
+  - Incentive to disclose information
+
+- Ayres & Gertner argue sometimes gaps are result not of transaction costs, but strategic reasons
+  - holdout problems, asymmetric information
+]
+
+.source[Ayres, Ian and Robert Gertner, 1989, “Filling Gaps in Incomplete Contracts: An Economic Theory of Default Rules,” *Yale Law Journal* 99]
+]
+
+.pull-right[
+.center[
+![](../images/contractgap.jpg)
+]
+]
+
+---
+
+# Hadley v. Baxendale Rule: Penalty Default?
+
+.pull-left[
+
+- Baxendale (shipper) is only one who can affect when crankshaft is delivered — efficient bearer of risk
+  - It was his decision to ship via a slower method which hurt Hadley’s profits
+  - If Baxendale were liable, he would have internalized this external cost
+
+- If default rule held Baxendale liable, Hadley has no need to tell him the shipment is urgent!
+  - Which he didn’t, and so Baxendale inadvertently chose a less efficient shipping method
+
+- So Hadley might conceal this information, which is inefficient
+]
+
+.pull-right[
+.center[
+![](../images/mill.png)
+]
+]
+
+
+---
+
+# Hadley v. Baxendale Rule: Penalty Default?
+
+.pull-left[
+
+- Ayres and Gernet: Hadley vs. Baxendale ruling was correct, not because it was efficient, but **because it was inefficient!**
+
+- Ruling created incentive for disclosing information and forcing parties to prevent inefficient gaps in contracts
+]
+
+.pull-right[
+.center[
+![](../images/contractgap.jpg)
+]
+]
+
+---
+
+# Hadley v. Baxendale Rule: Penalty Default?
+
+.pull-left[
+.quitesmall[
+- To see their logic, suppose
+  - 80% of millers are **low damage** — suffer $100 loss in delay
+  - 20% of millers are **high damages** — suffer $200 loss in delay
+
+- If shipper is liable for .hi-turquoise[actual damages]
+  - Average miller would suffer $120 in losses
+  - Shipper makes efficient investment for average miller
+  - But not efficient for either type
+
+- If shipper is liable for .hi-turquoise[forseeable damages] (Hadley rule)
+  - Shipper makes efficient investment for low-damage millers
+  - High-damage millers have strong incentive to negotiate around default rule
+]
+]
+
+.pull-right[
+.center[
+![](../images/mill.png)
+]
+]
+
+---
+
+# When To Use Penalty Defaults
+
+.pull-left[
+
+- Look at why parties left a gap in a contract:
+
+- If due to high transaction costs $\rightarrow$ use efficient rule
+
+- If due to strategic reasons $\rightarrow$ penalty default may be more efficient
+]
+
+.pull-right[
+.center[
+![](../images/contractgap.jpg)
+]
 ]

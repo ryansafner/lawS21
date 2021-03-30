@@ -1,0 +1,504 @@
+---
+title: "3.3 — Invalidating Contracts"
+subtitle: "ECON 315 • Economics of the Law • Spring 2021"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: ocean #rainbow #monokai rainbow solarized-light #tomorrow-night -blue -eighties zenburn
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F,
+                      fig.retina=3,
+                      fig.align = "center")
+library("tidyverse")
+library("ggrepel")
+library("fontawesome")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_freezeframe()
+theme_slides <- theme_light() + 
+  theme(
+    text = element_text(family = "Fira Sans", size = 24)
+  )
+```
+
+class: inverse, center, middle
+
+# When Should a Contract Not be Enforced?
+
+---
+
+# When Should Voluntary Trade Be Prohibited?
+
+.pull-left[
+- Recalling in property law:
+  - Coase theorem: to get efficient outcomes, let people trade whenever they want to
+  - But also exceptions: unalienability rules, e.g. selling uranium to a terrorist
+
+- Similarly with contract law:
+  - To get efficient outcomes, generally enforce any contract both parties want enforced
+  - But also exceptions: contracts that should not be enforced
+]
+
+---
+
+# When Should Voluntary Trade Be Prohibited?
+
+.pull-left[
+.smallest[
+
+- Situations where promise will not be enforced and no compensation is due
+
+- Two categories of conditions:
+
+1. .hi[Formation defenses]
+  - claim that valid contract *does not exist*
+  - example: no consideration
+  
+2. .hi[Performance excuses]
+  - Yes, a valid contract exists
+  - but circumstances have changed and promisor should be allowed to breach without penalty
+
+]
+]
+.pull-right[
+.center[
+![](../images/breach.jpg)
+]
+]
+
+---
+
+# When Should Voluntary Trade Be Prohibited?
+
+.pull-left[
+.smallest[
+
+- Most legal doctrines for invalidating a contract have two economic bases:
+  1. individuals’ agreement was .hi-purple[not rational]
+  2. .hi-purple[high transaction costs] or a .hi-purple[market failure]
+]
+]
+.pull-right[
+.center[
+![](../images/breach.jpg)
+]
+]
+
+---
+# Ideal Contract Conditions & Ideal Market Conditions
+
+.pull-left[
+
+- Main goal of contract is facilitating gains from trade for efficiency
+
+- Economic theory teaches us that competitive markets maximize gains from trade (and efficiency) when:
+  1. Individuals are rational
+  2. No externalities
+  3. No market power/disproportionate bargaining power
+  4. Perfect information
+  5. Low transaction costs
+
+- Violations of these conditions often imply a .hi[market failure]
+  - analogously, *might* imply a contract is invalid due
+]
+
+.pull-right[
+.center[
+![](../images/marketcompetition.jpg)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Formation Defenses
+
+---
+
+# Incompetence
+
+.pull-left[
+
+- Courts will not enforce contracts with people with .hi-purple[mental incapacity] (lack of rationality) — incapable of understanding the implications of a contract
+  - Children
+  - Legally insane
+  - Intoxicated?
+
+- Doctrine of .hi[incompetence]: one party “not competent to enter into the agreement”
+  - Offer and acceptance not valid, no “meeting of the minds”
+
+]
+
+.pull-right[
+.center[
+![](../images/mind.png)
+]
+]
+
+---
+
+# Incompetence
+
+.pull-left[
+
+> “The kid bid about $113,000 on the aircraft at a fixed price...The kid’s dad notified the seller that his son had hit the buy now button and lacked the money in his piggy bank to cover the jet.”
+
+]
+
+.pull-right[
+.center[
+![](../images/ebayfighterjet.png)
+]
+
+.source[[Source](https://www.slashgear.com/7-year-old-boy-wins-ebay-auction-for-harrier-jet-dad-not-happy-10132489/)]
+]
+
+---
+
+# Incompetence
+
+.pull-left[
+
+- What about if you signed a contract while drunk?
+
+- Need to be really really really drunk to get out a contract
+
+> “Intoxicated to the extent of being unable to comprehend the nature and consequences of the instrument he executed.”
+
+]
+
+.pull-right[
+.center[
+![](../images/beerbottles.jpg)
+]
+]
+
+---
+
+# Incompetence: Lucy v. Zehmer
+
+.pull-left[
+.smallest[
+- *Lucy v. Zehmer* Virginia Sup Ct 1954
+
+- Zehmer owned a farm (“the Ferguson farm”), Lucy had been trying to buy it for some time
+
+- While out drinking, Lucy “already high as a Georgia pine” offers $50,000
+  - Zehmer responds: “You haven’t got $50,000 in cash”
+  - ...eventually, Lucy grabs a discarded guest check and writes:
+
+> “We hereby agree to sell W.O. Lucy the Ferguson Farm complete for $50,000.00, title satisfactory to buyer.”
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/lucyzehmer.png)
+]
+]
+
+---
+
+# Incompetence: Lucy v. Zehmer
+
+.pull-left[
+.smallest[
+- A day later, Lucy raises money to carry out the contract
+
+- Zehmer later claims he was drunk and joking: “a bunch of two doggoned drunks bluffing to see who could talk the biggest and say the most”
+
+- Lucy sues for .hi[specific performance]: court issuing an order for the contract to be performed as specified (i.e. Zehmer sell to Lucy for $50,000)
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/lucyzehmer.png)
+]
+]
+
+---
+# Incompetence: Lucy v. Zehmer
+
+.pull-left[
+.smallest[
+- *Lucy v. Zehmer* 196 Va. 493; 84 S.E.2d 516 (1954)
+
+- Court: Zehmer not so drunk as to be “unable to comprehend the nature and consequences” of what he was doing
+
+- Joke or not, Zehmer behaved exactly as if he actually wanted to sell, wrote what looked like a proper (if unorthodox) contract
+  - It's not Lucy’s duty to know Zehmer was joking!
+
+- Court held the contract was valid and Zehmer owed .hi[specific performance]
+
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+# Incompetence: Should Drunkenness Count?
+
+.pull-left[
+.smallest[
+- Might think Zehmer, being drunk, lacked necessary intent to enter into a contract
+
+- Makes more sense to not easily invalidate a contract just for drunkenness/joking
+  - Otherwise, rent-seeking & excessive litigation over *how drunk* someone was, more signing of contracts at bars, etc.
+
+- If you are *visibly* drunk and other party clearly knows, court might be more willing to invalidate (on some other grounds coming soon)
+
+- Moral of the story: .hi-turquoise[don’t get drunk with people who might ask you to sign a contract!]
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+# Similarly, the Borat Lawsuits
+
+.pull-left[
+
+.quitesmall[
+
+> “Two college fraternity buddies shown guzzling alcohol and making racist remarks in the “Borat” movie have lost their bid for a court order to cut the scene they claim has tarnished their reputations...The students sued the movie’s distributor and producers last month, saying filmmakers had duped them into appearing in “Borat” by getting them drunk and falsely promising the film would never be shown in the United States.”
+
+> “The scene at issue in the lawsuit depicts Borat getting drunk with three frat boys in a motor home while they watch a sex tape and make racist remarks about slavery and minorities in the United States.”
+
+]
+
+.source[Source: [Reuters (Jan 20, 2007)](https://www.reuters.com/article/us-borat-lawsuit/l-a-judge-sides-with-borat-against-frat-boys-idUSN1121340420061211)
+
+See also [this great legal analysis of this case](https://supreme.findlaw.com/legal-commentary/borat-sequel-legal-proceedings-against-not-kazakh-journalist-for-make-benefit-guileless-americans-in-film.html), has to do with the validity of “merger clauses” in contracts
+]
+]
+
+.pull-right[
+.center[
+![](../images/boratlawsuit.png)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Dire Constraints
+
+---
+
+# Dire Constraints
+
+.pull-left[
+
+- Court will not enforce contracts made under .hi-purple[dire constraints], e.g.:
+
+- .hi[Necessity]
+  - .hi-green[Example]: I'm about to starve, someone offers me a sandwich for $10,000; my boat is about to sink, someone offers to save me for $1 million
+  - Contracts would be held invalid, I signed out of necessity (my BATNA is death)
+
+]
+
+.pull-right[
+.center[
+![](../images/dyingofthirst.png)
+]
+]
+
+---
+
+# Dire Constraints
+
+.pull-left[
+
+- Court will not enforce contracts made under .hi-purple[dire constraints], e.g.:
+
+- .hi[Duress]
+  - The other party is responsible for the situation I am in
+  - “I made him an offer he couldn’t refuse”
+  - Contract signed at gunpoint would not be enforced by courts
+
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/godfather.jpg)
+]
+]
+
+---
+
+# Duress
+
+.pull-left[
+
+.quitesmall[
+“A man who held a Kansas couple hostage in their home while fleeing from authorities is suing them, claiming they broke an oral contract made when he promised them money in exchange for hiding him from police. The couple has asked a judge to dismiss the suit...Jesse Dimmick of suburban Denver is serving an 11-year sentence after bursting into Jared and Lindsay Rowley's Topeka-area home in September 2009...Dimmick filed a breach of contract suit in Shawnee County District Court.”
+
+> “‘I, the defendant, asked the Rowleys to hide me because I feared for my life. I offered the Rowleys an unspecified amount of money which they agreed upon, therefore forging a legally binding oral contract,’ Dimmick said in his hand-written court documents. He wants $235,000, in part to pay for the hospital bills that resulted from him being shot by police when they arrested him.”
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/mansueshostages.png)
+]
+
+.source[Source: [Yahoo Finance (Nov 29, 2011)](https://au.finance.yahoo.com/news/man-sues-former-hostages-says-they-broke-promise-12191680.html)]
+]
+
+---
+
+# Friedman on Duress and Rent-Seeking
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+.smaller[
+> “A mugger catches you alone in a dark alley and offers you a choice: Give him a hundred dollars or he kills you. You reply that your life is well worth the price, but unfortunately you are not carrying that much cash. He offers to take a check. When you get home, should you be free to stop payment? Should a contract made under duress be enforceable?” (p.152)
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+
+---
+
+# Friedman on Duress and Rent-Seeking
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+.smaller[
+> “The argument in favor of enforceability is that if the contract is not enforceable, the mugger will refuse your check—or accept it and then make sure you can’t stop payment by killing you and cashing the check before news of your death reaches the bank. Seen from that perspective, it looks as though even a contract made under duress produces benefits for both parties and so should be enforceable. You prefer paying a hundred dollars to being killed, he prefers receiving a hundred dollars to killing you. Where’s the problem?
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+---
+
+# Friedman on Duress and Rent-Seeking
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+.smaller[
+> “The problem is that making the contract enforceable makes offering people the choice between their money and their life a much more profitable business—most of us have more in our checking accounts than in our wallets. The gain from enforceability is a better chance, if you are mugged, to buy yourself free. It must be balanced against the higher probability of being mugged. It seems likely that the current legal rule, holding contracts made under duress unenforceable, is the efficient one.”
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+---
+
+# Duress and Rent-Seeking
+
+.pull-left[
+.smallest[
+- Recall .hi-purple[Efficiency requires enforcing a contract if both parties wanted it to be enforceable]
+  - Mugger did – he wants your $100
+  - You did – you’d rather pay $100 than be killed
+
+- So why not enforce it?
+  - Makes muggings more profitable, leads to more muggings
+  
+- .hi-turquoise[Tradeoff: refuse to enforce a Pareto-improving trade in order to avoid incentive for bad behavior]
+]
+]
+
+.pull-right[
+.center[
+![](../images/extortion.jpg)
+]
+]
+
+---
+
+# Peace Treaties?
+
+.pull-left[
+
+- Tradeoff means not *always* optimal to rule out enforceability under duress!
+
+- .hi-green[Example]: what about peace treaties between nations at war?
+  - Contract signed under duress: losing side facing threat of continuing to battle a superior force
+
+- Most people agree peace treaties being enforceable is a good thing
+  - *Ex post*, make war less costly, end it quicker
+  - But might this encourage more wars?
+
+- Likely efficient for peace treaties to be enforceable but promises made a mugger to not be!
+]
+
+.pull-right[
+.center[
+![](../images/interkorean.jpg)
+]
+]
