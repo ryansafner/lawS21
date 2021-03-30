@@ -25,6 +25,12 @@ TBD
 - <i class="fas fa-book"></i> Ch. 8 in Cooter and Ulen, 2012, *Law & Economics*
 - [<i class="fas fa-file-pdf"></i> Ayres and Gertner, 1989, "Filling in Gaps in Incomplete Contracts: An Economic Theory of Default Rules"](/readings/Ayres-Gertner-1989.pdf)
 
+## Cases Discussed
+- Hadley v. Baxendale (1954) [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Hadley_v_Baxendale)  [<i class="fas fa-external-link-square-alt"></i> Opinion](http://www.bailii.org/ew/cases/EWHC/Exch/1854/J70.html)
+- Alaska Packers' Association v. Domenico (1902) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www2.newpaltz.edu/~zuckerpr/cases/alaska2.htm)
+- Goebel v. Linn (1902) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www2.newpaltz.edu/~zuckerpr/cases/alaska2.htm)
+
+
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
 [![](/slides/3.2-slides.png)](/slides/3.2-slides.html)

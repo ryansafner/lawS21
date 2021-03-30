@@ -23,10 +23,12 @@ TBD
 
 ## Optional but Useful Reading
 - <i class="fas fa-book"></i> Ch. 8 in Cooter and Ulen, 2012, *Law & Economics*
-- [<i class="fab fa-wikipedia-w"></i> Lucy v. Zehmer](https://en.wikipedia.org/wiki/Lucy_v._Zehmer)
-- [<i class="fas fa-external-link-square-alt"></i> Lucy v. Zehmer (Court Opinion)](https://law.justia.com/cases/virginia/supreme-court/1954/4272-1.html)
 
+## Cases Discussed
 
+- *Lucy v. Zehmer* (1954) [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Lucy_v._Zehmer) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/virginia/supreme-court/1954/4272-1.html)
+- *Alaska Packers Association v. Domenico* (1902) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://sites.oxy.edu/whitney/xaccess/ec357/cases/contract/alaskapackers_v_domenico.htm)
+- *Goebel v. Linn* (1882) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://cite.case.law/mich/47/489/)
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 

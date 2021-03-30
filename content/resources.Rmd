@@ -44,7 +44,13 @@ This course does rely on essential microeconomic concepts and models that you ar
 | *Mugler v. Kansas* | 1922 | [2.7 class](https://laws21.classes.ryansafner.com/content/2.7-content/) | Property (Takings) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Mugler_v._Kansas) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.oyez.org/cases/1850-1900/123us623) |
 | *Pennsylvania Coal v. Mahon* | 1922 | [2.7 class](https://laws21.classes.ryansafner.com/content/2.7-content/) | Property (Takings) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Pennsylvania_Coal_Co._v._Mahon) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.oyez.org/cases/1900-1940/260us393) |
 | *Hamer v. Sidway* | 1891 | [3.1 class](https://laws21.classes.ryansafner.com/content/3.1-content/) | Contract (Bargain theory) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Hamer_v._Sidway) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.nycourts.gov/reporter/archives/hamer_sidway.htm) |
-| *Hadley v. Baxendale* | 1854 | [3.2 class](https://laws21.classes.ryansafner.com/content/3.2-content/) | Contract (reliance) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Hadley_v_Baxendale) |
+| *Hadley v. Baxendale* | 1854 | [3.2 class](https://laws21.classes.ryansafner.com/content/3.2-content/) | Contract (reliance) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Hadley_v_Baxendale) [<i class="fas fa-external-link-square-alt"></i> Opinion](http://www.bailii.org/ew/cases/EWHC/Exch/1854/J70.html) |
+| *Lucy v. Zehmer* | 1954 | [3.3 class](https://laws21.classes.ryansafner.com/content/3.3-content/) | Contract (invalidation) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Lucy_v._Zehmer) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/virginia/supreme-court/1954/4272-1.html) |
+| *Alaska Packers Association v. Domenico* | 1902 | [3.3 class](https://laws21.classes.ryansafner.com/content/3.3-content/) | Contract (invalidation) | [<i class="fas fa-external-link-square-alt"></i> Opinion](https://sites.oxy.edu/whitney/xaccess/ec357/cases/contract/alaskapackers_v_domenico.htm) |
+| *Goebel v. Linn* | 1882 | [3.3 class](https://laws21.classes.ryansafner.com/content/3.3-content/) | Contract (invalidation) | [<i class="fas fa-external-link-square-alt"></i> Opinion](https://cite.case.law/mich/47/489/) |
+
+
+
 
 
 
