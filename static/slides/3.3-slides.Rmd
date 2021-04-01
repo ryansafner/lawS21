@@ -52,6 +52,7 @@ class: inverse, center, middle
 # When Should Voluntary Trade Be Prohibited?
 
 .pull-left[
+.smallest[
 - Recalling in property law:
   - Coase theorem: to get efficient outcomes, let people trade whenever they want to
   - But also exceptions: unalienability rules, e.g. selling uranium to a terrorist
@@ -59,6 +60,12 @@ class: inverse, center, middle
 - Similarly with contract law:
   - To get efficient outcomes, generally enforce any contract both parties want enforced
   - But also exceptions: contracts that should not be enforced
+]
+]
+.pull-right[
+.center[
+![](../images/Settlement-handshake.jpg)
+]
 ]
 
 ---
@@ -98,6 +105,7 @@ class: inverse, center, middle
 - Most legal doctrines for invalidating a contract have two economic bases:
   1. individuals’ agreement was .hi-purple[not rational]
   2. .hi-purple[high transaction costs] or a .hi-purple[market failure]
+      - information, externalities, monopoly, etc.
 ]
 ]
 .pull-right[
@@ -107,10 +115,11 @@ class: inverse, center, middle
 ]
 
 ---
+
 # Ideal Contract Conditions & Ideal Market Conditions
 
 .pull-left[
-
+.smallest[
 - Main goal of contract is facilitating gains from trade for efficiency
 
 - Economic theory teaches us that competitive markets maximize gains from trade (and efficiency) when:
@@ -121,7 +130,8 @@ class: inverse, center, middle
   5. Low transaction costs
 
 - Violations of these conditions often imply a .hi[market failure]
-  - analogously, *might* imply a contract is invalid due
+  - analogously, *might* imply a contract should be invalid
+]
 ]
 
 .pull-right[
@@ -132,9 +142,33 @@ class: inverse, center, middle
 
 ---
 
+# Obvious Cases: Contracts that Break the Law
+
+.pull-left[
+.smallest[    
+- Contract that violates the law is unenforceable
+  - .hi-green[Examples]: buying a kilo of cocaine for $25,000; murder-for-hire
+
+- Less obvious: contracts that .hi[derogate public policy] are also unenforceable
+  - .hi-green[Examples]: victim of a crime rewarding police for catching criminal; contracts in restraint of trade (antitrust law)
+
+- Recall inalienability rules; enforcing these contracts creates negative externalities
+
+- Party that reasonably knew performance was illegal should be liable
+]
+]
+
+.pull-left[
+.center[
+![](../images/secret.jpg)
+]
+]
+
+---
+
 class: inverse, center, middle
 
-# Formation Defenses
+# Incompetence
 
 ---
 
@@ -318,7 +352,7 @@ See also [this great legal analysis of this case](https://supreme.findlaw.com/le
 
 class: inverse, center, middle
 
-# Dire Constraints
+# Duress
 
 ---
 
@@ -506,3 +540,420 @@ David D. Friedman
 ---
 
 # Real Duress vs. Fake Duress
+
+.pull-left[
+- Courts won’t enforce contracts made under threat of harm
+  - “Give me $100 or I'll shoot you”
+
+- But many negotiations contain threats
+  - “Give me a raise or I'll quit”
+  - “$3,000 is my final offer, take it or I'll walk”
+  - This is fine, often necessary to tease out both parties’ BATNAs and determine whether it’s efficient to cooperate
+
+]
+
+.pull-right[
+.center[
+![](../images/threat.jpg)
+]
+]
+
+---
+
+# Real Duress vs. Fake Duress
+
+.pull-left[
+
+- What’s the difference? Consider what happens in each case **when bargaining fails**
+  - First case: threat to **destroy** value
+  - Second case: failure to **create** value
+
+]
+
+.pull-right[
+.center[
+![](../images/threat.jpg)
+]
+]
+
+---
+# Real Duress vs. Fake Duress
+
+.pull-left[
+.quitesmall[
+- More subtle in cases involving .hi-turquoise[contract modification]: changes to contract made between formation & performance
+
+- .hi[“Preexisting duty” rule]: law only recognizes changes to contract supported by **new consideration**
+  - Ordinarily, self-enforcing rule
+  - .hi-green[Example]: hardware store requests more snow shovels from supplier during unexpectedly harsh winter; supplier will provide them for more payment; (essentially a new contract where both benefit)
+
+- .hi-turquoise[What if events cause a party to agree to a modification that she later regrets?] Coerced?
+]
+]
+
+.pull-right[
+.center[
+![](../images/contract1.jpg)
+]
+]
+---
+
+# Real vs. Fake Duress: Alaska Packers
+
+.pull-left[
+.smaller[
+- *Alaska Packers’ Association v Domenico* (117 F. 99, 9th Cir. 1902)
+
+- APA hired sailors to go fishing for salmon off coast of Alaska
+  - Crew agreed to wage before setting sail
+
+- Once at sea, sailors refused to work unless their wage was increased
+  - Ship captain, in no position to refuse, complied with their demands
+  - later refused to pay, sailors sued the company
+]
+]
+
+.pull-right[
+![](../images/oldship.jpg)
+]
+
+---
+
+# Real vs. Fake Duress: Alaska Packers
+
+.pull-left[
+.smallest[
+- *Alaska Packers’ Association v Domenico* (117 F. 99, 9th Cir. 1902)
+
+- Court voided the new contract on grounds that there was no additional consideration to support the promised wage increase
+  - All the crew offered in return was to complete the job they were initially hired for at wage they agreed to
+
+- Want to avoid monopoly power and one-sided bargaining power
+  - exploiting other side’s poor BATNA because *you put them in that position*
+]
+]
+.pull-right[
+![](../images/oldship.jpg)
+]
+
+---
+
+# Real vs. Fake Duress: Goebel v. Linn
+
+.pull-left[
+.smallest[
+- *Goebel v. Linn* (47 Mich. 489, 11 N.W. 284, 1882)
+
+- Brewery contracted with ice company to supply ice during the summer
+
+- Unusually warm winter caused ice shortage
+  - Ice company requested a price increase, brewery (having already brewed beer that would spoil) agreed
+
+- Brewery later reneged on paying the higher price
+  - Claimed it was unenforceable because ice company had offered no new consideration (merely performed original promise)
+]
+]
+
+.pull-right[
+![](../images/beer_ice.jpg)
+]
+
+---
+
+# Real vs. Fake Duress: Goebel v. Linn
+
+.pull-left[
+
+- *Goebel v. Linn* (47 Mich. 489, 11 N.W. 284, 1882)
+
+- Seems like straightforward application of preexisting duty rule (?)
+
+- Court enforced the modification in this case!
+  - Reasoned the price increase was necessary to sustain the ice company in the face of .hi-turquoise[genuine economic changes]
+]
+
+.pull-right[
+![](../images/beer_ice.jpg)
+]
+
+---
+
+# Real vs. Fake Duress: Monopoly Power
+
+.pull-left[
+.smaller[
+- These cases show “economic duress” is really about preventing monopoly power
+
+- *Alaska Packers* case was pure opportunism, no genuine economic changes
+
+- *Goebel* case was a genuine economic change (supply curve shifted upward)
+  - Enforcing the contract resulting from true cost increases enhances the value of the contract
+  - promotes beneficial trades that would have been lost otherwise (DWL)
+]
+]
+.pull-right[
+![](../images/marketpower.jpg)
+]
+
+---
+
+# Real vs. Fake Duress: Monopoly Power
+
+.pull-left[
+
+- Recall: under bargain theory, courts will enforce any legitimate *bargain*, not inquire whether the terms are *fair*
+  - Historically, weak protection in common law against monopoly
+
+- Primarily rely on .hi-purple[statutes] to reduce monopoly power
+  - Antitrust laws, regulation of business
+
+]
+
+.pull-right[
+![](../images/marketpower.jpg)
+]
+
+---
+
+# Unconscionability
+
+.pull-left[
+
+- But there is a growing body of precedent in common law banning contracts that are .hi[unconscionable]
+  - terms appear to be grossly unfair to one of the parties
+  - terms which would “shock the conscience of the court”
+
+- Logic: party would not have voluntarily accepted such terms, must have been either incompetent, under duress, or defrauded
+  - but there is no evidence of any of these (to constitute reasons to invalidate contract)
+
+- Court shifts burden to defendant to prove that contract *was* fair when it was agreed to
+]
+
+.pull-right[
+![](../images/marketpower.jpg)
+]
+
+---
+# Unconscionability
+
+.pull-left[
+
+.smallest[
+- *Williams v. Walker-Thomas Furniture Co.* (350 F.2d 445, D.C. Cir. 1965)
+
+- WT Co. extended credit to Williams to buy several pieces of furniture over 1957-1962
+  - Contract contained “add-on” clause where none of the furniture could be considered paid off until *all* pieces were paid off
+  - If Williams defaulted on any item, company could repossess *all* furniture items, including those apparently paid off
+
+- Court ruled the clause unconscionable, grossly unfair to low-income buyers (form of economic duress)
+]
+]
+
+.pull-right[
+![](../images/reposession.jpg)
+]
+
+---
+
+# Unconscionability
+
+.left-column[
+.center[
+![](../images/court1.jpg)
+]
+]
+
+.right-column[
+
+> “[W]e hold that where the element of unconscionability is present at the time a contract is made, the contract should not be enforced....Unconscionability has generally been recognized to include an absence of meaningful choice on the part of one of the parties together with contract terms which are unreasonably favorable to the other party....In many cases the meaningfulness of the choice is negated by a gross inequality of bargaining power.”
+
+.source[*Williams v. Walker-Thomas Furniture Co.* (350 F.2d 445, D.C. Cir. 1965)]
+]
+
+---
+
+# Unconscionability
+
+.pull-left[
+
+.smallest[
+- But is this efficient?
+  - Was the add-on clause the *cause*, or the *response* to a market failure?
+
+- A tradeoff:
+  - Firms often not willing to lend to low-income buyers without collateral (the paid-off furniture) to secure the loans
+  - If contracts like this are invalid, low-income buyers might not be able to buy at all
+]
+]
+
+.pull-right[
+![](../images/marketpower.jpg)
+]
+
+---
+
+# Unconscionability
+
+.pull-left[
+
+- Of course consumers can be taken advantage of by complex contracts
+
+- Ideally, evidence of incompetence, duress, or fraud should be external to the contract itself
+]
+
+
+.pull-right[
+![](../images/marketpower.jpg)
+]
+
+---
+# Unconscionability
+
+.pull-left[
+.smallest[
+- Unconscionability tends not to be invoked in usual circumstances of monopoly, but in “situational monopoly”
+  - particular circumstances that limit one’s choice of trading partners
+
+- Recall *Ploof v. Putnam* (boat in storm) from property law
+  - Putnam was the only person who could give Ploof safe harbor during the storm
+  - Putnam became monopolist in this situation, where he normally would not have been
+]
+]
+
+.pull-right[
+![](../images/boatinstorm.jpg)
+]
+
+---
+
+class: inverse, center, middle
+
+# Mistake and Information
+
+---
+
+# Faulty Information
+
+.pull-left[
+
+- What if the parties made a contract based on a .hi[mistake]
+
+- Four major legal doctrines for invalidating a contract based on faulty information
+  1. fraud
+  2. failure to disclose (sometimes)
+  3. frustration of purpose
+  4. mutual mistake
+]
+
+.pull-right[
+.center[
+![](../images/mistakeregret.jpg)
+]
+]
+
+---
+
+# Fraud
+
+.pull-left[
+
+- .hi[Fraud]: one party deliberately tricked the other
+
+- Economic rationale for not enforcing contracts with fraud is obvious
+  - Not a Pareto-improving exchange
+
+- Also carries .hi-purple[criminal sanctions] — the State (as a third party) has an interest in deterring and punishing fraud
+]
+
+.pull-right[
+.center[
+![](../images/fraud.png)
+]
+]
+
+---
+
+# Fraud
+
+.pull-left[
+.center[
+![:scale 70%](../images/fakeipad.png)
+
+![:scale 70%](../images/fakeipad2.png)
+
+.source[Source: [CNET (Aug 30, 2011)](https://www.cnet.com/news/woman-pays-180-for-wooden-ipad-its-fake/)]
+]
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/fraudcoppertrade.png)
+
+.source[Source: [BBC (Mar 10, 2021)](https://www.bbc.com/news/business-56330378)]
+]
+]
+
+---
+
+# Witholding Information
+
+.pull-left[
+.smallest[
+- What if you trick someone by **witholding** information?
+
+- In civil law systems, a .hi-purple[duty to disclose]
+  - If you fail to provide info you should have, contract voided under **failure to disclose**
+
+- In common law, less so
+  - Seller obligated to share info about hidden **dangers**
+  - but generally **not** info that makes product less valuable
+  - Except **new** products come with an “implied warranty of fitness” for their stated purpose
+]
+]
+.pull-right[
+.center[
+![](../images/secrets.jpg)
+]
+]
+
+---
+
+# Withholding Information, Exceptions
+
+.pull-left[
+
+- *Obde v. Schlemeyer* (Sup. Ct. WA 1960)
+
+- Seller knew building was infested with termites, did not tell buyer
+  - Termites should have been exterminated immediately to prevent further damage
+  - Buyer sued seller for damages
+
+- Court imposed duty to disclose onto the contract, i.e. awarded damages to buyer
+
+]
+
+.pull-right[
+.center[
+![](../images/termite-damaged-wood.png)
+]
+]
+
+---
+
+# Withholding Information, Exceptions
+
+.pull-left[
+
+- Many States require:
+  - used car dealers to reveal major repairs done
+  - sellers of homes to reveal certain defects
+  - lenders to disclose APRs on all loans
+  - Improve information exchange, lower transaction costs
+]
+
+.pull-right[
+.center[
+![](../images/carfax.jpg)
+]
+]
+
