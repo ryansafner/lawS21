@@ -27,8 +27,11 @@ TBD
 ## Cases Discussed
 
 - *Lucy v. Zehmer* (1954) [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Lucy_v._Zehmer) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/virginia/supreme-court/1954/4272-1.html)
-- *Alaska Packers Association v. Domenico* (1902) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://sites.oxy.edu/whitney/xaccess/ec357/cases/contract/alaskapackers_v_domenico.htm)
+- *Alaska Packers Association v. Domenico* (1902) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://cite.case.law/f/117/99/)
 - *Goebel v. Linn* (1882) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://cite.case.law/mich/47/489/)
+- *Williams v. Walker-Thomas Furniture Co.* (1965) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/federal/appellate-courts/F2/350/445/74531/)
+- *Obde v. Schlemeyer* (1960) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://casetext.com/case/obde-v-schlemeyer)
+- *Laidlaw v. Organ* (1817) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://supreme.justia.com/cases/federal/us/15/178/)
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 

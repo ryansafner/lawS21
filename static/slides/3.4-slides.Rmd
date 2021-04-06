@@ -1,0 +1,171 @@
+---
+title: "3.4 — Remedies"
+subtitle: "ECON 315 • Economics of the Law • Spring 2021"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: ocean #rainbow #monokai rainbow solarized-light #tomorrow-night -blue -eighties zenburn
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F,
+                      fig.retina=3,
+                      fig.align = "center")
+library("tidyverse")
+library("ggrepel")
+library("fontawesome")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_freezeframe()
+theme_slides <- theme_light() + 
+  theme(
+    text = element_text(family = "Fira Sans", size = 24)
+  )
+```
+
+class: inverse, center, middle
+
+# Remedies for Breach of Contract
+
+---
+
+# Remedies for Breach of Contract
+
+.pull-left[
+
+- Three broad types of remedies:
+
+1. Party-designed remedies
+  - Specified in the contract
+
+2. Court-imposed damages
+  - Court may decide promisee entitled to some level of damages
+  - Many ways to calculate these (expectation, reliance, etc.)
+
+3. Specific performance
+  - Forces breaching party to live up to contract
+
+]
+
+.pull-right[
+
+]
+
+---
+
+# Expectation Damages
+
+.pull-left[
+- .hi[Expectation damages]: amount .blue[Promisee] expected to benefit from performance
+  - $D=V-P$
+  - Civil law tradition calls these “positive damages”
+
+- Make .blue[Promisee] indifferent between performance and breach (i.e. **as if** the contract had been **performed**)
+  - .red[Promisor] internalizes all costs of breach, makes the efficient decision whether to breach or perform
+    - Perform if $V>C$, breach if $V<C$
+]
+
+.pull-right[
+
+]
+
+---
+
+# Reliance Damages
+
+.pull-left[
+- .hi[Reliance damages]: compensate .blue[Promisee] for cost of any .hi[reliance investments] made, but **not** for additional surplus she expected to gain
+  - $D=R$
+  - Civil law tradition calls these “negative damages” (undo the negative harm that occured)
+
+- Return .blue[Promisee] to level of well-being **before** she signed the contract
+  - .red[Promisor] internalizes all costs of breach, makes the efficient decision whether to breach or perform
+    - Perform if $V>C$, breach if $V<C$
+]
+
+.pull-right[
+
+]
+
+---
+
+# Opportunity Cost Damages
+
+.pull-left[
+
+- .hi[Opportunity cost damages]: give .blue[Promisee] benefit she would have gotten from her **next-best option**
+
+- Make .blue[Promisee] indifferent between breach of signed contract and performance of **next best contract**
+  - $D=V-C'$ (where $C'$ is the price of the next-best contract)
+
+]
+
+.pull-right[
+
+]
+
+---
+
+# Example
+
+.pull-left[
+
+- You agree to sell me ticket to football game for $50
+
+- .hi-purple[Expectation damages]: you owe me value of game minus $50
+  - Suppose if I had to pay scalper $150, then D=$100
+
+]
+
+---
+
+# Example
+
+.pull-left[
+
+- You agree to sell me ticket to football game for $50
+
+- .hi-purple[Reliance damages]: cost of whatever pre-game investments I made (and no more)
+  - maybe $0
+  - maybe I bought some foam fingers, etc.
+]
+
+---
+
+# Example
+
+.pull-left[
+
+- You agree to sell me ticket to football game for $50
+
+- Suppose lots of people were offering tickets on Craigslist for $70
+  - By time you breached, all tickets were gone, so I had to pay scalper $150 on site, I get payoff $V-150$
+  - If I had bought off Craigslist instead of you, I would have got value of $V-70$
+
+- .hi-purple[Opportunity cost damages]: $80
+  - Our contract would have made me I am $80 better 
+  
+]
+
+---
+

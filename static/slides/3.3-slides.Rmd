@@ -43,6 +43,18 @@ theme_slides <- theme_light() +
   )
 ```
 
+class: inverse
+
+# Outline
+
+### [When Should a Contract Not be Enforced?](#3)
+### [Incompetence](#9)
+### [Duress](#18)
+### [Performance Excuses: Impossibility](#42)
+### [Mistake and Information](#56)
+
+---
+
 class: inverse, center, middle
 
 # When Should a Contract Not be Enforced?
@@ -828,6 +840,336 @@ David D. Friedman
 
 class: inverse, center, middle
 
+# Performance Excuses: Impossibility
+
+---
+
+# Impossibility
+
+.pull-left[
+
+- Next, a .hi-purple[performance excuse], .hi[impossibility]: circumstances change to make performance of the contract impossible
+
+- Should the .red[promisor] be excused from performing (without penalty)?
+
+- A perfect contract would specify who bears each risk, or industry custom might be clear, but occasionally court must fill in gap
+]
+
+.pull-right[
+.center[
+![](../images/transactionscosts.JPG)
+]
+]
+
+---
+
+# Impossibility
+
+.pull-left[
+
+- In most situations, where contract & industry norm is silent, .red[promisor] usually held liable for breach (pay damages), even when it isn’t their fault
+  - Analogous to .hi[strict liability] in tort law
+  - .hi-green[Example]: construction company finishes a building later than promised due to unforseen complications — generally held liable
+
+]
+
+.pull-right[
+.center[
+![](../images/transactionscosts.JPG)
+]
+
+]
+
+---
+
+# Impossibility
+
+.pull-left[
+.smallest[
+- Sometimes excused by .hi-truquoise[*physical* impossibility]
+
+- .hi-green[Examples]:
+  - famous artist agrees to paint someone’s portrait, later dies
+  - manufacturer whose factory burns down
+  - civilian ships commandeered for military use
+
+- Common legal doctrine to excuse due to a change that .hi-turquoise[“destroyed a basic assumption on which the contract was made”]
+  - painter assumed he’d be alive; manufacturer assumed factory operational; shipper assumed peacetime
+]
+]
+
+.pull-right[
+.center[
+![](../images/impossible_cube.png)
+]
+]
+
+---
+
+# Impossibility
+
+.pull-left[
+.smallest[
+- What would be efficient? .hi-purple[Assign liability to the party who can bear the risk at the lowest cost]
+
+- In many cases, parties can invest in precautions to **minimize these risks of breach**
+  - painter can prioritize commissioned works; manufacturer can install sprinklers in factory
+
+- Similar to our findings about gaps, risk from gap should be borne by party that can minimize risk cheapest
+  - What the contract *would have* stipulated, had parties bothered to address it
+]
+]
+.pull-right[
+.center[
+![](../images/risk_management.png)
+]
+]
+
+---
+
+# Who Is the Efficient Bearer of Risk?
+
+.pull-left[
+
+- A few economic bases to answer this question:
+
+1. .hi-turquoise[Spreading losses] across many transactions
+
+2. .hi-turquoise[Moral hazard]: who is in a better position to **influence the outcome**?
+
+3. .hi-turquoise[Adverse selection]: who is more **aware** of the risk, even if they can’t do anything about it?
+]
+
+.pull-right[
+.center[
+![](../images/risk_management.png)
+]
+
+]
+
+---
+
+# Who Is the Efficient Bearer of Risk?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+
+- Spreading losses:
+
+.smallest[
+> “Suppose I am having a house built by a large firm that builds many houses each year. There is some risk that the house might burn down while it is being built. We could allocate that risk either to me, by specifying that I will have to pay for the additional construction costs in such a case, or to the builder. Since the builder is building many houses in different places, he can spread the risk; I cannot. From that standpoint at least, our contract should specify a fixed price, whether or not something goes wrong. If the contract does not specify who bears the risk, risk spreading provides an argument for assigning it to the builder” (p.161).
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+
+---
+
+# Who Is the Efficient Bearer of Risk?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+
+- Moral hazard & influencing the outcome:
+
+.smaller[
+> “In the case of a firm that builds houses the two arguments go in the same direction. The builder is not only in a better position than I am to spread the risk, he is also in a better position than I am to keep the house from burning down while he is building it” (p.161).
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+
+---
+
+# Who Is the Efficient Bearer of Risk?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+
+- Adverse selection & awareness of the risk:
+
+.smaller[
+> “I have agreed to deliver ten thousand customized widgets to you by January 10th. Early on the morning of January 1st a drunk driver smashes his car through the wall of my warehouse, crushing half the widgets. One result is that I will have to replace them, at a cost of a hundred thousand dollars. A second is that I will deliver them a month late, costing you another hundred thousand dollars in lost sales. The drunk driver is dead, and his estate bankrupt. Who pays for the losses?” (p.161).
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+
+---
+
+# Who Is the Efficient Bearer of Risk?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+
+- Adverse selection & awareness of the risk:
+
+.smallest[
+> “I did not know that that particular drunk driver was going to crash through that particular wall. But I probably do know a good deal more than you do about the chance that something — accident, strike, or bad planning — will prevent me from delivering the widgets to you on schedule.
+
+> “If our contract makes me liable for the resulting loss, you don’t have to worry about that risk in deciding whom to buy your widgets from. You know what price I am charging, and you know that I am insuring you against the risk of nondelivery. If the contract specified that you had to bear the risk, you would need to know the reliability of alternative sellers as well as their price in order to decide which one is offering the best deal,” (p.162).
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+
+---
+
+# Who Is the Efficient Bearer of Risk?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+
+.smaller[
+> “As this example suggests, moral hazard and adverse selection tend to cut in the same direction. As a general rule .hi[the party with control over some part of the production process is in a better position both to prevent losses and to predict them.] It follows that .hi[an efficient contract will usually assign the loss] associated with something going wrong .hi[to the party with control over that particular something],” (p.162).
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+
+---
+
+# Who Is the Efficient Bearer of Risk?
+
+.pull-left[
+.smallest[
+- That’s why *Hadley v. Baxendale* rule was so “surprising”
+  - Baxendale (shipper) could influence speed of delivery, Hadley (miller) could not 
+  - Baxendale was the efficient bearer of delay risk
+
+- But court ruled Baxendale was *not* liable for Hadley’s lost profits, forcing Hadley to bear most of the delay risk/loss
+  - This only makes sense as a penalty default (Ayres and Gertner)
+  - Creates incentive for Hadley/millers to reveal urgency of the shipment
+]
+]
+
+.pull-right[
+.center[
+![](../images/mill.png)
+]
+]
+
+---
+
+# Who Is the Efficient Bearer of Risk?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+
+.smaller[
+> “A professional photographer spends six months taking photographs in the Himalayas for National Geographic, at a cost of a hundred thousand dollars. When he gets home, he gives his film to the local Walgreen’s — which loses it. Do they owe him a hundred thousand dollars?
+
+> “From the standpoint of risk spreading the answer would be ‘yes.’ Walgreen’s handles a large number of rolls of films each year, so it can easily pool the risk. From the standpoint of moral hazard, incentives to keep the loss from happening, the answer is ‘no,’” (p.161).
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+
+---
+
+# Who Is the Efficient Bearer of Risk?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+
+.smaller[
+
+> “Walgreen’s has no way of knowing that there is anything special about these rolls of film. The only way they can prevent the loss is by increased precautions on all rolls. They have the choice of an inefficiently low level of care for ten rolls of film or an inefficiently high level for ten million. The photographer does know that these films are especially valuable and can avoid the problem by taking them to a specialist film lab and making sure the proprietor realizes what they are. The efficient rule from the standpoint of moral hazard is to make the photographer liable, because he is the one in the best position to prevent the loss. That, called the rule of *Hadley v. Baxendale* after an early case, is in fact the law.”
+” (p.162).
+
+]
+.source[Friedman, David D, 2000, *Law's Order: What Economics Has to do with Law and Why it Matters*]
+
+]
+
+---
+
+
+class: inverse, center, middle
+
 # Mistake and Information
 
 ---
@@ -957,3 +1299,297 @@ class: inverse, center, middle
 ]
 ]
 
+---
+
+# Mutual Mistake
+
+.pull-left[
+
+- Fraud & failure to disclose are situations where **one party** is misinformed
+
+- What if **both** parties are misinformed?
+
+- .hi[Frustration of purpose]: change in circumstances make performance of a promise pointless, court will often not enforce the contract
+ - Coronation cases (e.g. *Krell v. Henry*) in 1902 for King Edward VII’s coronation
+]
+
+.pull-right[
+.center[
+![](../images/edwardcoronation.jpg)
+
+.smallest[
+Coronation parade for King Edward VII, 1902
+]
+]
+]
+
+---
+
+# Mutual Mistake: Frustration of Purpose
+
+.pull-left[
+
+- When a contingency makes performance pointless, .hi-purple[assign liability to party who can bear risk at least cost]
+ - property owners could eliminate the losses by renting again during the rescheduled event
+
+- Similar to efficient rule above
+]
+
+.pull-right[
+.center[
+![](../images/edwardcoronation.jpg)
+
+.smallest[
+Coronation parade for King Edward VII, 1902
+]
+]
+]
+
+---
+
+# Mutual Mistake: About Facts
+
+.pull-left[
+.smaller[
+- .hi[Mutual mistake] about **facts**: circumstances changed without either party realizing
+
+- .hi-green[Examples]: 
+  - Logger buys land with timber on it, but unbeknownst to us, a forest fire wiped out all trees before contract signed
+  - I buy painting at auction, gallery and I later learn the painting was a forgery
+
+- Owner at time of event (fire) usually the low-cost avoider of the risk, allocate risk to them by invalidating contract
+]
+]
+
+.pull-right[
+.center[
+![](../images/mutualmistake.png)
+]
+]
+
+---
+
+# Mutual Mistake: About Identity
+
+- .hi[Mutual mistake] about **identity**: we disagree about what is being exchanged
+
+.smallest[
+> “One neighbor offers to sell a used car to another for $1000. The buyer gives the money to the seller, and the seller gives the car keys to the buyer. To her great surprise, the buyer discovers that the keys fit the rusting Chevrolet in the back yard, not the shiny Cadillac in the driveway. The seller is equally surprised to learn that the buyer expected the Cadillac. The buyer asks the court to order the seller to turn over the Cadillac.”
+
+]
+
+--
+- Court typically invalidates contract based on mutual mistake
+  - No true meeting of the minds
+
+---
+
+# Knowledge and Control
+
+.pull-left[
+.smaller[
+- Efficiency generally requires .hi-purple[uniting knowledge and control]
+
+- Contracts that **unite** knowledge & control are generally efficient, should be **enforced**
+
+- Contracts that **separate** knowledge from control may be inefficient, should more often be **invalidated**
+  
+]
+]
+.pull-right[
+.center[
+![](../images/information.png)
+]
+]
+
+---
+
+# Knowledge and Control
+
+.pull-left[
+.smaller[
+
+- .hi-green[Example]: recall Hadley v. Baxendale (miller & shipper)
+
+- Hadley *knew* shipment was urgent (but didn’t tell Baxendale)
+
+- But Baxendale was the decisionmaker over how fast crankshaft would be shipped
+
+- Party that had the **information** $\neq$ party that **makes the decision** 
+]
+]
+.pull-right[
+.center[
+![](../images/mill.png)
+]
+]
+
+---
+# Unilateral Mistake
+
+.pull-left[
+
+- What if *one* party does not have full information but the other does?
+
+- .hi-green[Example]: a boy buys a baseball card from a shop, realizes it is worth a lot of money, resells it for large profit
+  - Shop-owner sues, claiming the original contract was invalid based on mistake
+
+]
+
+.pull-right[
+.center[
+![:scale 70%](../images/baseballcard.png)
+]
+]
+
+---
+
+# Unilateral Mistake
+
+.pull-left[
+
+- Courts generally *enforce* (that is, they don’t invalidate) contracts where there is a .hi[unilateral mistake]
+
+- Beliefs by parties about value of good is subjective and not determinable
+  - Shop would argue both parties were mistaken
+  - Boy would argue the seller knew all along the card was worth a lot
+  - Court has no way to determine which is true
+]
+
+.pull-right[
+.center[
+![](../images/mutualmistake.png)
+]
+]
+
+---
+
+# Unilateral Mistake
+
+.pull-left[
+
+- Why is this efficient?
+
+- Contracts based on unilateral mistake generally unite knowledge & control
+
+- An enforcing them creates an incentive to gather information prior to agreement
+]
+
+.pull-right[
+.center[
+![](../images/mutualmistake.png)
+]
+
+]
+
+---
+
+# Unilateral Mistake: Laidlaw v. Organ
+
+.pull-left[
+.smallest[
+- *Laidlaw v. Organ*, 15 U.S. 178 (1817)
+
+- War of 1812, British blockaded New Orleans
+  - Price of tobacco fell, since can’t be exported
+
+- Organ (buyer) learned the war was over
+  - Immediately negotiated with Laidlaw to buy a bunch of tobacco at depressed wartime price
+
+- Next day, news broke that the war had ended, tobacco price went up
+  - Laidlaw refused to deliver, Organ sued for breach of contract
+]
+]
+
+.pull-right[
+.center[
+![](../images/1812blockade.jpg)
+]
+]
+
+---
+
+# Unilateral Mistake: Laidlaw v. Organ
+
+.left-column[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+.right-column[
+
+- Supreme Court: “The court is of opinion that [Organ] was not bound to communicate [this information]” to Laidlaw
+
+.smallest[
+> “It would be difficult to circumscribe the contrary doctrine within proper limits, where the means of intelligence are equally accessible to both parties. But at the same time, each party must take care not to say or do any thing tending to impose upon the other”
+
+]
+
+- Adopts the rule of .hi-purple[caveat emptor] in American law
+
+- Doctrine gets a bit fuzzy from here, not a rock-solid rule
+  - But *in general*, unilateral mistake is **not** a valid reason to void a contract
+]
+
+
+---
+
+# Uniting Knowledge and Control
+
+.pull-left[
+.smaller[
+- *Laidlaw* establishes that contracts based on **unilateral** mistake are generally **valid**
+  - Agrees with efficiency: these contracts typically **unite knowledge and control**
+
+- Organ didn’t invest time & resouces into seeking out this information for a productive purpose, happened upon it fortuitously
+
+- Contract merely accelerated the discovery of public information by one day, didn’t affect tobacco production
+]
+]
+.pull-right[
+.center[
+![](../images/information.png)
+]
+]
+
+
+---
+
+
+# Uniting Knowledge and Control
+
+.pull-left[
+.smaller[
+- What about Obde v. Schlemeyer (termites case)?
+  - Also based on unilateral mistake
+
+- Court upheld contract, but punished seller for hiding information
+  - In that case, contract **separated** knowledge from control
+]
+]
+.pull-right[
+.center[
+![](../images/information.png)
+]
+]
+
+---
+# Productive vs. Redistributive Information
+
+.pull-left[
+
+- .hi-turquoise[Productive information]: information that can be used to **produce more wealth**
+
+- .hi-turquoise[Redistributive information]: information that can be used to **redistribute wealth** from an uninformed party to an informed party
+
+- Cooter & Ulen: contracts based on one party’s knowledge of:
+  - **productive** information should be **enforced**, especially if result of active investment
+  - **redistributive** information, or “fortuitiously acquired” information, should **not** be enforced
+]
+
+.pull-right[
+.center[
+![](../images/information.png)
+]
+]
