@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>3.4 — Remedies</title>
+    <title>3.4 — Breach Remedies</title>
     <meta charset="utf-8" />
     <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/lawS21   lawS21.classes.ryansafner.com " />
     <script src="libs/header-attrs/header-attrs.js"></script>
@@ -19,7 +19,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# 3.4 — Remedies
+# 3.4 — Breach Remedies
 ## ECON 315 • Economics of the Law • Spring 2021
 ### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>
 
@@ -28,16 +28,22 @@ class: center, middle, inverse, title-slide
 
 
 
-class: inverse, center, middle
+class: inverse
 
-# Remedies for Breach of Contract
+# Outline
+
+### [Comparing Different Damages](#)
+### [Specific Performance](#)
+### [Comparing the Effect of Different Remedies](#)
+### [Repeated Interactions](#)
+### [Summing up Contract Law](#)
 
 ---
 
 # Remedies for Breach of Contract
 
 .pull-left[
-
+.smallest[
 - Three broad types of remedies:
 
 1. Party-designed remedies
@@ -47,20 +53,29 @@ class: inverse, center, middle
   - Court may decide promisee entitled to some level of damages
   - Many ways to calculate these (expectation, reliance, etc.)
 
-3. Specific performance
-  - Forces breaching party to live up to contract
-
+3. .hi[Specific performance]
+  - Forces breaching party to honor contract
+]
 ]
 
 .pull-right[
-
+.center[
+![](../images/remedy.jpg)
 ]
+]
+
+---
+
+class: inverse, center, middle
+
+# Comparing Different Damages
 
 ---
 
 # Expectation Damages
 
 .pull-left[
+.smallest[
 - .hi[Expectation damages]: amount .blue[Promisee] expected to benefit from performance
   - `\(D=V-P\)`
   - Civil law tradition calls these “positive damages”
@@ -69,9 +84,12 @@ class: inverse, center, middle
   - .red[Promisor] internalizes all costs of breach, makes the efficient decision whether to breach or perform
     - Perform if `\(V&gt;C\)`, breach if `\(V&lt;C\)`
 ]
+]
 
 .pull-right[
-
+.center[
+![](../images/idontknowwhatiexpectedmeme.gif)
+]
 ]
 
 ---
@@ -79,6 +97,7 @@ class: inverse, center, middle
 # Reliance Damages
 
 .pull-left[
+.smallest[
 - .hi[Reliance damages]: compensate .blue[Promisee] for cost of any .hi[reliance investments] made, but **not** for additional surplus she expected to gain
   - `\(D=R\)`
   - Civil law tradition calls these “negative damages” (undo the negative harm that occured)
@@ -87,9 +106,12 @@ class: inverse, center, middle
   - .red[Promisor] internalizes all costs of breach, makes the efficient decision whether to breach or perform
     - Perform if `\(V&gt;C\)`, breach if `\(V&lt;C\)`
 ]
+]
 
 .pull-right[
-
+.center[
+![](../images/harland-miller-you-can-rely-on-me-small.jpg)
+]
 ]
 
 ---
@@ -101,12 +123,36 @@ class: inverse, center, middle
 - .hi[Opportunity cost damages]: give .blue[Promisee] benefit she would have gotten from her **next-best option**
 
 - Make .blue[Promisee] indifferent between breach of signed contract and performance of **next best contract**
-  - `\(D=V-C'\)` (where `\(C'\)` is the price of the next-best contract)
+  - `\(D=V-P'\)` (where `\(P'\)` is the price of the next-best contract)
+
+- In highly competitive markets, `\(P \approx P'\)`, so expectation damages are nearly the same
+]
+
+.pull-right[
+.center[
+![](../images/disappear.jpg)
+]
+]
+
+---
+
+# Example
+
+.pull-left[
+
+- You agree to sell me ticket to football game for $50
+
+- .hi-purple[Expectation damages]: you owe me value of game minus $50 `\((D=V-P)\)`
+  - Hard to determine my subjective value, easy if there are useful market prices
+  - Suppose if I showed up (after you bailed), I had to pay a scalper $150
+  - Then damages should be `\(D=100\)`
 
 ]
 
 .pull-right[
-
+.center[
+![](../images/stadium.png)
+]
 ]
 
 ---
@@ -117,9 +163,15 @@ class: inverse, center, middle
 
 - You agree to sell me ticket to football game for $50
 
-- .hi-purple[Expectation damages]: you owe me value of game minus $50
-  - Suppose if I had to pay scalper $150, then D=$100
+- .hi-purple[Reliance damages]: cost of whatever pre-game investments I made (and nothing more), relying on your ticket for entry 
+  - Maybe $0...maybe I bought some foam fingers, beer coolers, etc.
+  - Doen’t compensate me for the expected benefit I lost `\((V-P)\)`
+]
 
+.pull-right[
+.center[
+![](../images/stadium.png)
+]
 ]
 
 ---
@@ -128,32 +180,422 @@ class: inverse, center, middle
 
 .pull-left[
 
-- You agree to sell me ticket to football game for $50
+.smallest[
 
-- .hi-purple[Reliance damages]: cost of whatever pre-game investments I made (and no more)
-  - maybe $0
-  - maybe I bought some foam fingers, etc.
-]
+- Suppose lots of people were offering tickets on Craigslist for $60
+  - Our contract would have made me $100 better off `\(V-P\)` (again, using the scalped $150 ticket to guess the value)
+  - The Craigslist ticket would have made me $90 better off
 
----
-
-# Example
-
-.pull-left[
-
-- You agree to sell me ticket to football game for $50
-
-- Suppose lots of people were offering tickets on Craigslist for $70
-  - By time you breached, all tickets were gone, so I had to pay scalper $150 on site, I get payoff `\(V-150\)`
-  - If I had bought off Craigslist instead of you, I would have got value of `\(V-70\)`
-
-- .hi-purple[Opportunity cost damages]: $80
-  - Our contract would have made me I am $80 better 
+- .hi-purple[Opportunity cost damages]: $D=$90$, value lost from my next best option
   
 ]
+]
+.pull-right[
+.center[
+![](../images/stadium.png)
+]
+]
 
 ---
 
+# Ranking Damages
+
+| Contract Signed | `\(\geq\)` | Best Alternative | `\(\geq\)` | Do Nothing |
+|--------:|----|---:|----|---:|
+| Breach + Expectation damages | `\(\geq\)` | Breach + opportunity cost damages | `\(\geq\)` | Breach + reliance damages |
+| $100 | `\(\geq\)` | $90 | `\(\geq\)` | $15 |
+
+.smaller[
+- In general, expectation damages `\(\geq\)` opportunity cost damanges `\(\geq\)` reliance damages
+
+- If I am rational, will sign a contract at least as good as next best alternative, and doing nothing is an alternative (usually least valuable)
+  - Expectation damages restore me to value of performance of *this* contract
+  - Opportunity cost damages restore me to value of performance of next best contract
+  - Reliance damages restore to me the value of having done nothing
+]
+
+---
+
+# Example
+
+.pull-left[
+.smaller[
+- In this example, a pretty thick market for tickets
+  - Expectation damages ($100) `\(\approx\)` opportunity cost damages ($90)
+  - Again, using the market price of scalped tickets at game time as a good proxy for `\(V\)` (replacement ticket)
+
+- Much more difficult when goods are unique, very thin markets
+  - What if promisee subjectively values performance differently from market?
+]
+]
+
+.pull-right[
+.center[
+![](../images/stadium.png)
+]
+]
+
+---
+
+# Problem of Subjective Value: The Hairy Hand Case
+
+.pull-left[
+
+.smallest[
+- *Hawkins v. McGee*, 84 N.H. 114, 146 A. 641 (N.H. 1929)
+
+- Hawkins’ hand was scarred from an electrical accident as a child
+
+- Dr. McGee approached Hawkins and guaranteed an operation that would result in a “one hundred percent good hand”
+  - McGee was unfamiliar with skin grafting and botched the procedure, resulting in a hand full of thick hair 
+
+- Hawkins sued for breach of contract
+
+- .hi-turquoise[What is the appropriate amount of damages?]
+]
+]
+
+.pull-right[
+.center[
+![:scale 80%](../images/hairyhand.jpg)
+]
+]
+
+---
+
+# Problem of Subjective Value: The Hairy Hand Case
+
+.center[
+![](../images/hawkinsmcgeegraph.png)
+]
+
+---
+
+# Other Court-Ordered Remedies
+
+.pull-left[
+
+- Other types of court-ordered remedies
+
+- Types of damages (not interesting but worth knowing)
+  - .hi[Restitution]: return money already received
+  - .hi[Disgorgement]: give up wrongfully-gained profits
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Specific Performance
+
+---
+
+# Other Court-Ordered Remedies
+
+.pull-left[
+
+.smallest[
+- .hi[Specific performance]: court mandates .red[Promisor] to honor promise
+  - Civil law: often ordered instead of money damages
+  - Common law: money damages more common
+  - Sometimes used when seller breaches contract to sell a unique good (when money is not a good substitute for performance)
+
+- Like injunctive relief in property law
+  - .red[Promisor] is forbidden from getting out of their promise unless .blue[Promisee] chooses to release them
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+# When is Specific Performance Efficient?
+
+.pull-left[
+.smallest[
+- Can specific performance be efficient?
+  - Concern about excessive performance that is inefficient
+  
+- We’ve generally seen that expectation damages will always result in efficient breach
+
+- However, there is a case that demonstrates this can sometimes go wrong
+  - Expectation damages sometimes calculated incorrectly
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/court1.jpg)
+]
+]
+
+---
+
+# Peevyhouse v. Garland Coal
+
+.pull-left[
+
+- *Peevyhouse v Garland Coal and Mining Co*, 382 P.2d 109 (Okla. 1962)
+
+- Garland contracted to strip-mine coal on Peevyhouses’ farm
+
+- Contract specified Garland would restore property to original condition
+  - Once Garland mined the coal, they made no attempt to restore the property
+
+- Peevyhouses sued for breach of contract
+]
+
+.pull-right[
+.center[
+![](../images/peevyhouses.jpg)
+]
+]
+
+---
+
+# Peevyhouse v. Garland Coal
+
+.pull-left[
+
+.quitesmall[
+- *Peevyhouse v Garland Coal and Mining Co*, 382 P.2d 109 (Okla. 1962)
+
+- Full restoration estimated to cost $29,000
+  - Peevyhouse sued for approximately this value
+
+- Both parties agreed everything else in the contract was successfully performed
+
+- Garland introduced evidence that despite the $29,000 cost to restore, the “diminution of value” of farm from mining was only $300
+
+- Original jury awarded $5,000 in damages to Peevyhouse
+  - Both parties unhappy, both parties appealed
+
+- OK Supreme Court reduced damages to $300
+]
+]
+
+.pull-right[
+.center[
+![](../images/peevyhouses.jpg)
+]
+]
+
+---
+
+# Peevyhouse v. Garland Coal
+
+.pull-left[
+
+- *Peevyhouse v Garland Coal and Mining Co*, 382 P.2d 109 (Okla. 1962)
+
+- At first glance, seems like perfect example of efficient breach
+  - .red[Promisor’s] performance cost `\(C\)`: $29,000
+  - .blue[Promisee’s] net benefit, `\(V-P\)`: $300
+  - Since `\(V&lt;C\)`, efficient to breach and pay expectation damages (what happened)
+]
+
+.pull-right[
+.center[
+![](../images/peevyhouses.jpg)
+]
+]
+
+---
+
+# Peevyhouse v. Garland Coal
+
+.left-column[
+.center[
+![](../images/court1.jpg)
+]
+]
+
+.right-column[
+
+.quitesmall[
+&gt; “We therefore hold that where, in a coal mining lease, lessee agrees to perform certain remedial work on the premises concerned at the end of the lease period, and thereafter the contract is fully performed by both parties except that the remedial work is not done, the measure of damages in an action by lessor against lessee for damages for breach of contact is ordinarily the reasonable cost of performance of the work; however, where the contract provision breached was merely incidental to the main purpose in view, and where the economic benefit which would result to lessor by full performance of the work is grossly disproportionate to the cost of performance, the damages which lessor may recover are limited to the diminution in value resulting to the premises because of the non-performance.
+
+&gt; “Under the most liberal view of the evidence herein, the diminution in value resulting to the premises because of non-performance of the remedial work was $300.00… It thus appears that the judgment was clearly excessive, and that the amount for which judgment should have been rendered is definitely and satisfactorily shown by the record.”
+
+]
+]
+
+---
+
+# Peevyhouse v. Garland Coal
+
+.pull-left[
+
+.quitesmall[
+- But the dissent argued the coal company was well aware of what they were getting into when they signed the contract
+
+- Most mining contracts at the time contained a standard per-acre diminution payment to cover damage (instead of working to achieve full restoration)
+  - Peevyhouses specifically rejected this clause during negotiations, refused to sign unless contract specifically promised full restorative work
+  - Apparently cared more about property condition than its market value
+
+- Dissent argued Peevyhouses therefore entitled to specific performance of the contract, the $29,000 worth of restoration
+  - Even though objectively, the damage as measured in market value was only $300, Peevyhouses’ subjective value appears to have suffered much more
+
+- Expectation damages meant to make promisee as well off as if contract had been performed
+  - Here, this was not the case!
+]
+]
+
+.pull-right[
+.center[
+![](../images/peevyhouses.jpg)
+]
+]
+
+---
+
+# Peevyhouse v. Garland Coal
+
+.left-column[
+.center[
+![](../images/court1.jpg)
+]
+]
+
+.right-column[
+
+.quitesmall[
+ “Defendant admitted in the trial of the action, that plaintiffs insisted the [remedial work provisions] be included in the contract and that they would not agree to the coal mining lease unless [those] provisions were included.
+
+“The cost for performing the contract in question could have been reasonably approximated when the contract was negotiated and executed, and there are no conditions now existing which could not have been reasonably anticipated by the parties. Therefore, defendant had knowledge, when it prevailed upon the plaintiffs to execute the lease, that the cost of performance might be disproportionate to the value or benefits received by plaintiff for the performance...
+
+“[D]efendant has made no attempt to even substantially perform. The contract in question is not immoral, is not tainted with fraud, and was not entered into through mistake or accident and is not contrary to public policy. It is clear and unambiguous and the parties understood the terms thereof...The defendant could have performed the contract if it desired. It has accepted and reaped the benefits of its contract...Therefore, in my opinion, the plaintiffs were entitled to specific performance of the contract and since defendant has failed to perform, the proper measure of damages should be the cost of performance.”
+
+]
+]
+
+---
+
+# Peevyhouse v. Garland Coal
+
+.pull-left[
+.smaller[
+- Appears the ruling attempted to turn an efficient **default** rule (expectation damages) into a **mandatory** rule, which would be enforced even when it was not what the parties intended in their contract
+
+- Think about it in terms of penalty defaults (Ayres and Gertner): contract promised restoration work, but did not specify the remedy if it was performed
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/peevyhouses.jpg)
+]
+]
+
+---
+
+# Peevyhouse v. Garland Coal
+
+.pull-left[
+- Garland regularly signed contracts with standard diminution fees, had no reason to bring up restoration work
+  - If default rule is specific performance, Garland has a reason to bring up the fact it will cost too much, forces parties to address the issue in original contract
+]
+
+
+.pull-right[
+.center[
+![](../images/peevyhouses.jpg)
+]
+]
+
+---
+
+# Party-Designed Remedies
+
+.pull-left[
+
+.smaller[
+- Remedy for breach could be written directly into contract
+  - Might stipulate an amount of money party has to pay to “buy out” of the contract to breach
+  - Alternatively, a “performance bond” paid to third party, given to Promisee in event of breach
+  - Or specify different process for resolving disputes, such as binding arbitration
+
+]
+
+.pull-right[
+.center[
+![](../images/contract1.jpg)
+]
+
+]
+
+---
+
+# Party-Designed Remedies
+
+.pull-left[
+
+.smaller[
+- For some reason, courts often hesitant to enforce remedy terms in contracts
+  - Sometimes they set aside remedy clauses and impose their own remedies
+
+- Courts often refuse to enforce .hi-purple[penalty damages]: damages greater than actual harm that occurred (i.e. higher than expectation damages)
+  - Courts will enforce .hi-purple[liquidated damages]: party-specified damages that are a reasonable estimate of the harm done by breach
+]
+]
+
+.pull-right[
+.center[
+![](../images/contract1.jpg)
+]
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Comparing the Effects of Different Remedies
+
+---
+
+# Comparing the Effects of Different Remedies
+
+.pull-left[
+
+.smallest[
+- Effects of different remedies on:
+  - decision to perform or breach
+  - decision to sign or not sign
+  - investment in performance
+  - investment in reliance
+
+- Once all the decisions are made, and decision is in front of a jury, remedy is purely a question of redistribution
+
+- So to think about effect of chosen remedy on efficiency, think of the incentives created by the rule for similar situations
+]
+]
+
+.pull-right[
+.center[
+![](../images/contract1.jpg)
+]
+]
+
+---
+
+# Comparing the Effects of Remedies
+
+.pull-left[
+
+.smallest[
+.bg-washed-green.b--dark-gree
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

@@ -29,9 +29,9 @@ TBD
 - *Lucy v. Zehmer* (1954) [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Lucy_v._Zehmer) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/virginia/supreme-court/1954/4272-1.html)
 - *Alaska Packers Association v. Domenico* (1902) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://cite.case.law/f/117/99/)
 - *Goebel v. Linn* (1882) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://cite.case.law/mich/47/489/)
-- *Williams v. Walker-Thomas Furniture Co.* (1965) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/federal/appellate-courts/F2/350/445/74531/)
+- *Williams v. Walker-Thomas Furniture Co.* (1965) [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Williams_v._Walker-Thomas_Furniture_Co.) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/federal/appellate-courts/F2/350/445/74531/)
 - *Obde v. Schlemeyer* (1960) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://casetext.com/case/obde-v-schlemeyer)
-- *Laidlaw v. Organ* (1817) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://supreme.justia.com/cases/federal/us/15/178/)
+- *Laidlaw v. Organ* (1817) [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Laidlaw_v._Organ) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://supreme.justia.com/cases/federal/us/15/178/)
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 

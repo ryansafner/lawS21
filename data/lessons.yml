@@ -67,9 +67,13 @@ lessons:
     content: "3.3-content"
     slides: "3.3-slides"
     
-  - title: "3.4 Specific Performance & Repeated Games"
-  
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2**'
+  - title: "3.4 Breach Remedies"
+    content: "3.4-content"
+    slides: "3.4-slides"
+    
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2** due Sun Apr 11'
+    assignment: "02-problem-set"
+    
   - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam**'
 
   - title: '<span class="fake-header-table">IV. Torts</span>'

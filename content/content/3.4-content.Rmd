@@ -1,0 +1,45 @@
+---
+title: "3.4 — Breach Remedies — Class Content"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+*Thursday, March April 8, 2021*
+
+# <i class="fas fa-info-circle fa-lg"></i> Overview
+
+TBD
+
+# <i class="fas fa-book-reader fa-lg"></i> Readings
+
+## Required Reading
+
+## Optional but Useful Reading
+- <i class="fas fa-book"></i> Ch. 8 in Cooter and Ulen, 2012, *Law & Economics*
+
+## Cases Discussed
+
+TBD
+
+# <i class="fas fa-chalkboard-teacher"></i> Slides
+
+[![](/slides/3.4-slides.png)](/slides/3.4-slides.html)
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/3.4-slides.pdf)
+
+# <i class="fas fa-laptop-code"></i> Assignments
+
+## Homework 2 Due Sunday April 11
+
+[Homework 2](/assignment/02-problem-set) is due by PDF upload to Blackboard Assignments by 11:59 PM Sunday April 11. You can find more information on that page.
+
+## Midterm Exam
+
+The midterm exam will be posted next week. I will discuss it more during our Review Day on Tuesday April 13. We will not have class on Thursday Aoril 15.
