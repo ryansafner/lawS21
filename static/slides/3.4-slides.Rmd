@@ -540,7 +540,7 @@ class: inverse, center, middle
   - Might stipulate an amount of money party has to pay to “buy out” of the contract to breach
   - Alternatively, a “performance bond” paid to third party, given to Promisee in event of breach
   - Or specify different process for resolving disputes, such as binding arbitration
-
+]
 ]
 
 .pull-right[
@@ -556,7 +556,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-.smaller[
+.smallest[
 - For some reason, courts often hesitant to enforce remedy terms in contracts
   - Sometimes they set aside remedy clauses and impose their own remedies
 
