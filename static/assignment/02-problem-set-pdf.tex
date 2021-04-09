@@ -1,0 +1,384 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  11pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{Fira Sans Condensed}
+  \setmonofont[]{Fira Code}
+  \setmathfont[]{Fira Sans}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Homework 2},
+  pdfauthor={ECON 315 Spring 2021},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{amsmath}
+\usepackage{multirow, multicol, booktabs}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{Homework 2}
+\author{ECON 315 Spring 2021}
+\date{Due by 11:59 PM Tuesday, April 13, 2021 by PDF upload in
+Blackboard Assignments}
+
+\begin{document}
+\maketitle
+
+Please \textbf{type} your answers to the following questions in a
+document and \textbf{save as a PDF}\footnote{In MS Word, or Pages, or
+  most word processing software, File -\textgreater{} Save As
+  -\textgreater{} PDF, or File -\textgreater{} Export -\textgreater{}
+  PDF.} to \textbf{upload on Blackboard} under Assignments. You may
+handwrite answers if you will be able to scan/photograph \& convert them
+\textbf{to a single PDF}, if they are easily readable, but this is
+\emph{not preferred}. See my
+\href{/resources/\#how-to-make-a-pdf-for-submitting-assignments}{guide
+to making a PDF} - an essential skill in the modern world. If you are
+handwriting answers, you may print the \texttt{pdf} above and write on
+it, or just write on a piece of paper (we only need your answers).
+
+For any questions that ask you to draw a \textbf{graph}, \emph{try} to
+do so \emph{on your computer} (use MS Paint, the drawing tools in MS
+Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps,
+etc.), and save it as an image to include on your homework document.
+Again, they need not be perfect or to scale, just show that you
+understand the broad idea. Being able to understand and sketch the
+graphs is still a very important and useful skill! If all else fails, I
+will be lenient in grading graph questions if you are unable to
+technologically include a graph.
+
+You may work together (and I highly encourage that) but you must turn in
+your own answers. I will grade homeworks 70\% for completion, and for
+the remaining 30\%, and one question will be graded for accuracy - so it
+is best that you try every problem, even if you are unsure how to
+complete it accurately.
+
+\clearpage
+
+\hypertarget{concepts-and-critical-thinking}{%
+\section{Concepts and Critical
+Thinking}\label{concepts-and-critical-thinking}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Explain the ``bargain theory'' of contracts, and what types of
+  contracts courts will enforce or not enforce, under this approach.
+\end{enumerate}
+
+\vspace{3in}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  List, and explain at least five ways that contract law (at least
+  ideally), promotes efficient behavior.
+\end{enumerate}
+
+\clearpage
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Explain the purpose of default rules. Why might parties leave gaps in
+  their contract? What types of default rules promote efficiency? Also
+  explain the idea of penalty defaults.
+\end{enumerate}
+
+\vspace{3in}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Explain several legal doctrines that courts use to invalidate
+  contracts. What are the economic rationales behind each of these
+  doctrines?
+\end{enumerate}
+
+\clearpage
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Explain the difference between the following remedies:
+\end{enumerate}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\roman{enumi})}
+  \tightlist
+  \item
+    expectation damages
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\roman{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    reliance damages
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\roman{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    opportunity cost damages
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\roman{enumi})}
+  \setcounter{enumi}{3}
+  \tightlist
+  \item
+    and specific performance.
+  \end{enumerate}
+\end{itemize}
+
+What is the court's goal (in terms of compensating the Plaintiff) with
+each amount of damages? How is specific performance similar to an
+injunction in property law?
+
+\clearpage
+
+\hypertarget{problems}{%
+\section{Problems}\label{problems}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Suppose I run a retail shop that hires extra cashiers during the
+  holiday rush. Each year, we typically sign 6-week contracts with
+  short-term employees, where we train them for 2 weeks before
+  Thanksgiving and then employ them as cashiers for all of December at a
+  pre-agreed wage.
+\end{enumerate}
+
+Suppose you agree to such a contract. Consider the following scenarios:
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\roman{enumi})}
+  \tightlist
+  \item
+    The day after Thanksgiving, I have already invested time and money
+    in training you, and do not have time to train a replacement. You
+    suddenly realize you are in a strong bargaining position and
+    threaten to quit unless I raise your salary. With little choice, I
+    rewrite the contract to pay you more.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\roman{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    Watching you interact with customers and other employees during
+    training, I realize you are better suited to be a store
+    \emph{manager} than a cashier. There is more work involved and you
+    would not agree to do it for the same wage -- but your additional
+    value to me as a manager is much greater than the additional cost
+    (effort) to you. We rewrite the contract to make you a manager and
+    pay you more.
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Give an economic argument why the renegotiated contract should be
+  enforced in the second scenario, while the original contract should be
+  enforced in the first.
+\item
+  Would either renegotiated contract be enforced under the Bargain
+  Theory of contracts?
+\end{enumerate}
+
+\clearpage
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  Amy inherits an 1963 Aston Martin DB5 from her eccentric rich uncle.
+  Having little interest in antique cars, she agrees to sell it to Ben
+  for \$30,000, who would have paid up to \$40,000 for it.
+\end{enumerate}
+
+A day before Amy and Ben meet to exchange a check and the keys, Cary
+hears about Amy trying to sell her car, and offers Amy \$50,000 for it.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Who is the efficient owner of the car?
+\item
+  Suppose Amy decides to break her promise to Ben, and sell the car
+  instead to Cary. Ben sues Amy for breach of contract. How much would
+  \emph{expectation damages} be? Under expectation damages, who will end
+  up owning the car?
+\item
+  Not wanting his new car to get snowed on, Ben pays a nonrefundable
+  \$1,000 fee to rent an indoor parking space near his home. Both
+  parties live in Denver, where both know it is likely to snow often.
+  With the car and the parking space, Ben expects to get a benefit of
+  \$40,000. If Ben wins \emph{reliance damages} in his lawsuit, how much
+  will this be?
+\item
+  Suppose instead, the contract is protected by \emph{specific
+  performance}. Cary doesn't like Ben and will not buy the car from him,
+  and Amy and Ben are unable to renegotiate their contract. Who will end
+  up with the car? What will Amy and Ben's payoffs be?
+\item
+  Under specific performance, what would be the gains from cooperation
+  if Amy and Ben agreed to void their original contract so that Amy
+  could sell the car to Cary? What would be each party's BATNA? If the
+  gains were split evenly, how much would Amy have to pay Ben to buy her
+  way out of their contract?
+\item
+  Which remedy, specific performance or expectation or damages, results
+  in more efficient outcomes when transaction costs (to renegotiate the
+  contract) are low? What about when transaction costs are high?
+\end{enumerate}
+
+\clearpage
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  Suppose a buyer contracts with a construction company to build a new
+  building. The buyer values the building at \$100,000 and will pay the
+  company \$75,000. Expecting a new building, the buyer had already
+  purchased \$5,000 worth of nonrefundable custom art to decorate the
+  building.
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Calculate the amount of expectation damages for this case.
+\item
+  Suppose the construction company's costs, \(C\), are uncertain at the
+  time the contract is signed. Over what range of \(C\) would it
+  socially \emph{efficient} for the company to breach?
+\item
+  Over what range of \(C\) will the company \emph{actually} breach if
+  the contract were protected by:
+\end{enumerate}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\roman{enumi}.}
+  \tightlist
+  \item
+    no damages
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\roman{enumi}.}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    reliance damages
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\roman{enumi}.}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    expectation damages
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Suppose the costs turn out to be \$125,000. Under expectation damages,
+  will the company perform or breach?
+\item
+  With the \$125,000 costs, suppose the contract is protected by
+  specific performance. If transaction costs are low, and the parties
+  can (re)negotiate, what will happen? Assume that if a bargain occurs,
+  any surplus is split evenly.
+\end{enumerate}
+
+\clearpage
+
+\hypertarget{the-case-of-kerr-s.-s.-co.-v.-radio-corp.-of-america-245-n.y.-284-157-n.e.-140-1927-concerned-a-radio-message-sent-by-the-plaintiff-to-its-affiliate-in-the-philipp

@@ -1,0 +1,125 @@
+---
+title: "Homework 2"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(pander)
+#source(file.path(here::here(), "lib", "graphics.R"))
+```
+
+*Due by 11:59 PM Tuesday, April 13, 2021 by PDF upload in Blackboard Assignments*
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/assignment/02-problem-set-pdf.pdf)
+
+Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph & convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](/resources/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers).
+
+For any questions that ask you to draw a **graph**, *try* to do so *on your computer* (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph. 
+
+You may work together (and I highly encourage that) but you must turn in your own answers. I will grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.
+
+# Concepts and Critical Thinking
+
+## Question 1
+
+Explain the “bargain theory” of contracts, and what types of contracts courts will enforce or not enforce, under this approach.
+
+## Question 2
+
+List, and explain at least five ways that contract law (at least ideally), promotes efficient behavior. 
+
+## Question 3
+
+Explain the purpose of default rules. Why might parties leave gaps in their contract? What types of default rules promote efficiency? Also explain the idea of penalty defaults.
+
+## Question 4
+
+Explain several legal doctrines that courts use to invalidate contracts. What are the economic rationales behind each of these doctrines?
+
+## Question 5
+
+Explain the difference between the following remedies:
+
+- (i) expectation damages
+- (ii) reliance damages
+- (iii) opportunity cost damages
+- (iv) and specific performance.
+
+What is the court's goal (in terms of compensating the Plaintiff) with each amount of damages? How is specific performance similar to an injunction in property law?
+
+# Problems
+
+## Question 6
+
+Suppose I run a retail shop that hires extra cashiers during the holiday rush. Each year, we typically sign 6-week contracts with short-term employees, where we train them for 2 weeks before Thanksgiving and then employ them as cashiers for all of December at a pre-agreed wage.
+
+Suppose you agree to such a contract. Consider the following scenarios:
+
+- (i) The day after Thanksgiving, I have already invested time and money in training you, and do not have time to train a replacement. You suddenly realize you are in a strong bargaining position and threaten to quit unless I raise your salary. With little choice, I rewrite the contract to pay you more.
+
+- (ii) Watching you interact with customers and other employees during training, I realize you are better suited to be a store *manager* than a cashier. There is more work involved and you would not agree to do it for the same wage – but your additional value to me as a manager is much greater than the additional cost (effort) to you. We rewrite the contract to make you a manager and pay you more.
+
+### Part A
+
+Give an economic argument why the renegotiated contract should be enforced in the second scenario, while the original contract should be enforced in the first.
+
+### Part B
+
+Would either renegotiated contract be enforced under the Bargain Theory of contracts?
+
+## Question 7
+
+Amy inherits an 1963 Aston Martin DB5 from her eccentric rich uncle. Having little interest in antique cars, she agrees to sell it to Ben for $30,000, who would have paid up to $40,000 for it. A day before Amy and Ben meet to exchange a check and the keys, Cary hears about Amy trying to sell her car, and offers Amy $50,000 for it.
+
+### Part A
+
+Who is the efficient owner of the car?
+
+### Part B
+
+Suppose Amy decides to break her promise to Ben, and sell the car instead to Cary. Ben sues Amy for breach of contract. How much would *expectation damages* be? Under expectation damages, who will end up owning the car?
+
+### Part C
+
+Not wanting his new car to get snowed on, Ben pays a nonrefundable $1,000 fee to rent an indoor parking space near his home. Both parties live in Denver, where both know it is likely to snow often. With the car and the parking space, Ben expects to get a benefit of $40,000. If Ben wins *reliance damages* in his lawsuit, how much will this be?
+
+### Part D
+
+Suppose instead, the contract is protected by *specific performance*. Cary doesn’t like Ben and will not buy the car from him, and Amy and Ben are unable to renegotiate their contract. Who will end up with the car? What will Amy and Ben's payoffs be?
+
+### Part E
+
+Under specific performance, what would be the gains from cooperation if Amy and Ben agreed to void their original contract so that Amy could sell the car to Cary? What would be each party's BATNA? If the gains were split evenly, how much would Amy have to pay Ben to buy her way out of their contract?
+
+### Part F
+
+Which remedy, specific performance or expectation or damages, results in more efficient outcomes when transaction costs (to renegotiate the contract) are low? What about when transaction costs are high?
+
+## Question 8
+
+Suppose a buyer contracts with a construction company to build a new building. The buyer values the building at $100,000 and will pay the company $75,000. Expecting a new building, the buyer had already purchased $5,000 worth of nonrefundable custom art to decorate the building.
+
+### Part A
+Calculate the amount of expectation damages for this case.
+
+### Part B
+Suppose the construction company's costs, $C$, are uncertain at the time the contract is signed. Over what range of $C$ would it socially *efficient* for the company to breach?
+
+### Part C
+Over what range of $C$ will the company *actually* breach if the contract were protected by:
+
+- i. no damages
+- ii. reliance damages
+- iii. expectation damages
+
+### Part D
+Suppose the costs turn out to be $125,000. Under expectation damages, will the company perform or breach?
+
+### Part E 
+With the $125,000 costs, suppose the contract is protected by specific performance. If transaction costs are low, and the parties can (re)negotiate, what will happen? Assume that if a bargain occurs, any surplus is split evenly.
+
+## Question 9
+
+The case of *Kerr S. S. Co. v. Radio Corp. of America* (245 N.Y. 284, 157 N.E. 140, 1927) concerned a radio message sent by the plaintiff to its affiliate in the Philippines regarding the loading of a ship with cargo. The message was sent in code to prevent its competitors from reading it. The defendant, however, negligently failed to send the message, costing the plaintiff nearly $7,000, which it sought in damages. The defendant countered that it should be liable for only $27, the cost of sending the message. Under what conditions, if any, should the plaintiff recover the $7,000? What should the court invoke as precedent in making its decision?
