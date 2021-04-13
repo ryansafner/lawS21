@@ -20,6 +20,7 @@ TBD
 # <i class="fas fa-book-reader fa-lg"></i> Readings
 
 - <i class="fas fa-book"></i> Chs. 8-9 in Cooter and Ulen, 2012, *Law & Economics*
+- [<i class="fas fa-file-pdf"></i> Brining, Margaret, 1990, "Rings and Promises"](/readings/Brining-1990.pdf)
 
 ## Cases Discussed
 
@@ -34,10 +35,10 @@ TBD
 
 # <i class="fas fa-laptop-code"></i> Assignments
 
-## Homework 2 Due Sunday April 11
+## Homework 2 Due Tuesday April 13
 
-[Homework 2](/assignment/02-problem-set) is due by PDF upload to Blackboard Assignments by 11:59 PM Sunday April 11. You can find more information on that page.
+[Homework 2](/assignment/02-problem-set) is due by PDF upload to Blackboard Assignments by 11:59 PM Tuesday April 13. You can find more information on that page.
 
 ## Midterm Exam
 
-The midterm exam will be posted next week. I will discuss it more during our Review Day on Tuesday April 13. We will not have class on Thursday Aoril 15.
+The midterm exam will be posted next week. I will discuss it more during our Review Day on Tuesday April 13. We will not have class on Thursday April 15.

@@ -256,8 +256,8 @@ The railroad must install arresters if it hopes to keep operating, so it will sp
 
 |    |    |
 |-----------------|---:|
-| Railroad payoff | 0 |
-| Farmers payoff | -300 |
+| Railroad payoff | -300 |
+| Farmers payoff | 0 |
 | **Joint payoff** | **-300** |
 
 This is the efficient outcome. 
