@@ -1,0 +1,89 @@
+---
+title: "Exam 1"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(pander)
+#source(file.path(here::here(), "lib", "graphics.R"))
+```
+
+*Due by 11:59 PM Tuesday, April 13, 2021 by PDF upload in Blackboard Assignments*
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/assignment/02-problem-set-pdf.pdf)
+
+Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph & convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](/resources/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers).
+
+For any questions that ask you to draw a **graph**, *try* to do so *on your computer* (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph. 
+
+You may work together (and I highly encourage that) but you must turn in your own answers. I will grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.
+
+# Concepts and Critical Thinking
+
+## Question 1
+
+Critics of Coase's (1960) "The Problem of Social Cost" often charge that so-called the Coase Theorem, interpreted to mean “if transaction costs are low, it does not matter who property rights go to, parties will bargain to the efficient result” is unrealistic and useless, since in the real world, transaction costs are high. Respond to this claim, clarifying the meaning and insights of Coase's paper.
+
+## Question 2
+
+Pick any example of fugitive property, and explain the tradeoff between a rule assigning ownership via first possession versus a rule of tied ownership. (We have looked at examples of fugitive property including whales, foxes, baseballs, natural gas, land, or you can create your own example.)
+
+## Question 3
+
+In the State of Virginia, the rule in common law has long been that if your neighbor’s tree encroaches on your yard, you are allowed to cut branches off the tree if they hang over the property line, but any damage your neighbor’s tree does to your property is your problem, your neighbor is not liable. Your neighbor can sue you if your cutting of the encroaching branches harms or kills the tree.
+
+Recently, the Virginia Supreme Court overruled this age-old precedent, instead assigning a duty to your neighbor to trim or cut down the tree if it is a “nuisance” to you.
+
+Which rule is more efficient, the new one or the old? When would it matter?
+
+## Question 4
+
+In *Hinman v. Pacific Air Transport* (1936), Pacific Air Transport (PAT) flew their airplanes along an air mail route across the country at an altitude of less than 100 feet, part of which was over a farm owned by Hinman. Hinman sued PAT, seeking an injunction against any further flights over his land, in addition to damages that PAT's flights had caused.
+
+It has been a famous maxim of the law since Ancient Rome that *cuius est solum, eius est usque ad coelum et ad inferios*, “whoever owns the land, it is theirs all the way to the heavens and down to hell.”
+
+The Court unanimously ruled against Hinman, rejecting his request for an injunction, exclaiming “we reject [the ad coelum] doctrine. We think it is not the law, and that it never was the law.”
+
+### Part A 
+Do you think this was an efficient ruling? Why or why not?
+
+### Part B 
+The *ad coelum* rule was the law for centuries, and was rejected in the 1900s. How does this fit with Demsetz's argument about when to extend property rights? How does this fit with Posner's conjecture that common law tends to become more efficient?
+
+## Question 5
+
+Al is a very unlucky farmer who just bought a new plot of land in January to grow soybeans. In February, signs a contract with Whole Foods to provide 3,000 bushels of soybeans to be delivered in September for $10 per bushel. In March, Whole Foods pays $1,000 to expand its storage area to store the soybeans when they are delivered. The store plans to sell soybeans for $13 per bushel.
+
+In April, politicians in the state legislature decide that soybean plants are unsightly, and pass a regulation that prohibits the growing of soybeans within sight of a public road. Unfortunately, all of Al's newly purchased land is along a road. 
+
+Under the new regulation, Al is unable to deliver the soybeans, and Whole Foods sues Al for breach of contract.
+
+### Part A
+
+Calculate the amount of expectation damages.
+
+### Part B
+
+Calculate the amount of reliance damages.
+
+### Part C
+
+What legal doctrine can Al claim in order to convince the court to invalidate the contract?
+
+### Part D
+
+Al had paid $10,000 for the land, expecting it to be worth about that much as a soybean farm. He now believes the land is worthless, and sues the State, claiming he was harmed by the new regulation. Explain the idea of a “regulatory taking.” If the farm can not be used by a soybean farmer, but can be used by a wheat farmer (not covered under the State's new regulation), do you think this action should be considered a regulatory taking?
+
+### Part E
+
+Suppose the regulation had been passed a week *before* Al had bought the new land from the previous owner. If both Al and the previous landowner could show a court they knew nothing about the regulation at the time of their sale, what might the court do?
+
+### Part F
+
+Al moves to another State in January, grows soybeans, and reaches a new contract to sell soybeans to Trader Joes in February, to be delivered in September. In May, a fire breaks out on Al's new farm, destroying the soybean crop. Trader Joes sues Al. What legal doctrine can Al claim to invalidate this contract?
+
+### Part G
+
+Who do you think is the efficient bearer of the risk of fire to the crops, Al or Trader Joes? Based on your answer, whom should compensate who in the event of this risk? 
