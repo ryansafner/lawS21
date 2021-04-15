@@ -18,10 +18,6 @@ You may discuss the questions, but you must write your own responses and turn in
 
 This assignment is due to me by email by 8:00 PM EST Tuesday, April 20 by email as a PDF.
 
-If appropriate, you must be able to talk with some familiarity about arguments put forth in our readings, when relevant (informally, as in “According to Coase...”). You do not need formal citations, but it should be clear when you are referencing the readings vs. your own thinking. (This is not relevant for all questions.)
-
-# Concepts and Critical Thinking
-
 ## Question 1 (10 points)
 
 Critics of Coase’s (1960) paper “The Problem of Social Cost” often charge the so-called the Coase Theorem — interpreted to mean “if transaction costs are low, it does not matter who property rights go to, parties will bargain to the efficient result” — is unrealistic and useless, since in the real world, transaction costs are high. Respond to this claim by clarifying the full purpose and insights of Coase’s paper, and how it relates to law & economics.
