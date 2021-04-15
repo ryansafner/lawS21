@@ -55,7 +55,95 @@ This course does rely on essential microeconomic concepts and models that you ar
 | *Peevyhouse v Garland Coal and Mining Co.* | 1929 | [3.4 class](https://laws21.classes.ryansafner.com/content/3.4-content/) | Contract (remedies) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Peevyhouse_v._Garland_Coal_%26_Mining_Co.) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://casetext.com/case/peevyhouse-v-garland-coal-mining-company-1) |
 
 
+# Outline of Unit I-III
 
+- 1.3 Efficiency
+  - Pareto efficiency
+  - Kaldor Hicks efficiency
+  - Transaction costs
+  - Public goods
+  - Externalities, Pigouvian approach
+  - Tragedy of the Commons
+- 1.4
+  - Argument that law should be efficient
+
+Property
+
+- 2.1 Game Theory
+  - Prisoners' Dilemma
+  - Nash Equilibrium
+  - Hobbesian Dilemma
+  - Rationales for property
+  - Rent-seeking
+- 2.2 Coase Theorem
+  - Coase Theorem
+  - Transaction costs
+  - Lodowick v. Post ("fox case")
+- 2.3 Bargaining
+  - BATNA, "threat points" "outside option"
+  - Cooperative surplus
+  - Demsetz: property rights will expand when MB > MC of internalizing externality
+  - Types of transaction costs
+  - Normative Coase & Normative Hobbes theorems for low vs. high transaction cost situations
+- 2.4 Remedies
+  - Property rule vs. liability rule vs. unalienability rule
+  - Injunctions vs. damages for low vs. high transaction cost situations
+- 2.5 Acquisition
+  - Maximum liberty principle
+  - Private vs. public nuisance
+  - Compensatory damages, temporary vs. permanent damages
+  - Boomer v. Atlantic Cement Co. (when damages more efficient than injunction)
+  - First possession vs. tied ownership (for creating new property rights)
+  - Adverse possession
+- 2.6 IP
+  - Sequential games
+  - Backward induction
+  - Subgame perfection
+  - Credibility of threats/promises
+  - Public goods problem of ideas/information
+  - Arguments for and against IP
+  - Patents
+  - Copyrights
+  - Trademarks
+  - Trade secrets
+- 2.7 Takings
+  - Eminent domain, public use, just compensation, holdout problem
+  - Kelo v. City of New London
+  - Regulatory Taking
+  - PA Coal v. Mahon, diminution of value
+
+Contracts
+
+- 3.1 Bargain Theory
+  - Bargain theory
+  - Making promises credible, credible commitment
+  - Expectation damages
+3.2 Efficient Breach
+  - Breach of contract
+  - When is breach *socially efficient*?
+  - When will promisor *want* to breach?
+  - Expectation damages
+  - Reliance
+  - Reliance damages
+  - Hadley v. Baxendale rule
+  - Contract gaps
+  - Default rules
+  - Penalty default
+- 3.3 Invalidating Contracts
+  - Formation defenses vs. performance excuses
+  - Derogation of public policy
+  - Incompetence
+  - Duress (real vs fake, e.g. Alaska Packers case)
+  - Unconscionability
+  - Impossibility of performance
+  - Efficient assignment of risk
+  - Unilateral mistake vs. mutual mistake
+  - Frustration of purpose
+- 3.4 Breach Remedies
+  - Opportunity cost damages
+  - Specific performance
+  - Peevyhouse v. Garland Coal 
+  - Repeated Games
 
 # How to Make a PDF (For Submitting Assignments)
 

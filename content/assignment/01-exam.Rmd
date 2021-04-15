@@ -14,31 +14,33 @@ library(pander)
 
 - [<i class="fas fa-file-pdf"></i> Download as PDF](/assignment/02-problem-set-pdf.pdf)
 
-Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph & convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](/resources/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers).
+Answer *all* questions. Questions draw from course lectures, discussions, and readings. Your answers, given the time and resources at your disposal, should be complete yet concise (and with no filler).
 
-For any questions that ask you to draw a **graph**, *try* to do so *on your computer* (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph. 
+You may discuss the questions, but you must write your own responses and turn in your own work. Answers that are substantially identical will be interpreted as cheating and punished accordingly. I will not answer any questions about course content during while the exam is outstanding.
 
-You may work together (and I highly encourage that) but you must turn in your own answers. I will grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.
+This assignment is due to me by email by 8:00 PM Tuesday, April 20 by email as a PDF.
+
+If appropriate, you must be able to talk with some familiarity about arguments put forth in our readings, when relevant (informally, as in “According to Coase...”). You do not need formal citations, but it should be clear when you are referencing the readings vs. your own thinking. (This is not relevant for all questions.)
 
 # Concepts and Critical Thinking
 
-## Question 1
+## Question 1 (10 points)
 
-Critics of Coase's (1960) "The Problem of Social Cost" often charge that so-called the Coase Theorem, interpreted to mean “if transaction costs are low, it does not matter who property rights go to, parties will bargain to the efficient result” is unrealistic and useless, since in the real world, transaction costs are high. Respond to this claim, clarifying the meaning and insights of Coase's paper.
+Critics of Coase’s (1960) paper “The Problem of Social Cost” often charge the so-called the Coase Theorem — interpreted to mean “if transaction costs are low, it does not matter who property rights go to, parties will bargain to the efficient result” — is unrealistic and useless, since in the real world, transaction costs are high. Respond to this claim by clarifying the full purpose and insights of Coase’s paper, and how it relates to law & economics.
 
-## Question 2
+## Question 2 (10 points)
 
 Pick any example of fugitive property, and explain the tradeoff between a rule assigning ownership via first possession versus a rule of tied ownership. (We have looked at examples of fugitive property including whales, foxes, baseballs, natural gas, land, or you can create your own example.)
 
-## Question 3
+## Question 3 (10 points)
 
 In the State of Virginia, the rule in common law has long been that if your neighbor’s tree encroaches on your yard, you are allowed to cut branches off the tree if they hang over the property line, but any damage your neighbor’s tree does to your property is your problem, your neighbor is not liable. Your neighbor can sue you if your cutting of the encroaching branches harms or kills the tree.
 
 Recently, the Virginia Supreme Court overruled this age-old precedent, instead assigning a duty to your neighbor to trim or cut down the tree if it is a “nuisance” to you.
 
-Which rule is more efficient, the new one or the old? When would it matter?
+Which rule is more efficient, the new one or the old? When would it matter (or not matter)?
 
-## Question 4
+## Question 4 (20 points)
 
 In *Hinman v. Pacific Air Transport* (1936), Pacific Air Transport (PAT) flew their airplanes along an air mail route across the country at an altitude of less than 100 feet, part of which was over a farm owned by Hinman. Hinman sued PAT, seeking an injunction against any further flights over his land, in addition to damages that PAT's flights had caused.
 
@@ -46,44 +48,54 @@ It has been a famous maxim of the law since Ancient Rome that *cuius est solum, 
 
 The Court unanimously ruled against Hinman, rejecting his request for an injunction, exclaiming “we reject [the ad coelum] doctrine. We think it is not the law, and that it never was the law.”
 
-### Part A 
+### Part A (10 points)
 Do you think this was an efficient ruling? Why or why not?
 
-### Part B 
+### Part B (10 points)
 The *ad coelum* rule was the law for centuries, and was rejected in the 1900s. How does this fit with Demsetz's argument about when to extend property rights? How does this fit with Posner's conjecture that common law tends to become more efficient?
 
-## Question 5
+## Question 5 (20 points)
 
-Al is a very unlucky farmer who just bought a new plot of land in January to grow soybeans. In February, signs a contract with Whole Foods to provide 3,000 bushels of soybeans to be delivered in September for $10 per bushel. In March, Whole Foods pays $1,000 to expand its storage area to store the soybeans when they are delivered. The store plans to sell soybeans for $13 per bushel.
+In *Sturges v. Bridgman* (1879), a candy-maker used heavy machinery inside his shop. When a physician added an additional room to his office next door, he complained about the noise and vibrations caused by the machinery. The physician sued the candy-maker, asking the court for an injunction to shut down the candy-maker's operation.
+
+Suppose it would cost the candy-maker $150 to relocate his machinery so as to not disturb the physician, and it would cost the physician $200 to relocate his office.
+
+### Part A (10 points)
+How should the court rule if the physician and candy-maker cannot bargain, due to high transaction costs?
+
+### Part B (10 points)
+How would your answer to part (A) change (if at all) if the parties could bargain costlessly? Explain.
+
+## Question 6 (30 points)
+
+Al is a very unlucky farmer who just bought a new plot of land in January to grow soybeans. In February, Al signs a contract with Whole Foods to provide 3,000 bushels of soybeans to be delivered in September for $10 per bushel. In March, Whole Foods pays $1,000 to expand its storage area to store the soybeans when they are delivered. The store plans to sell soybeans for $13 per bushel.
 
 In April, politicians in the state legislature decide that soybean plants are unsightly, and pass a regulation that prohibits the growing of soybeans within sight of a public road. Unfortunately, all of Al's newly purchased land is along a road. 
 
 Under the new regulation, Al is unable to deliver the soybeans, and Whole Foods sues Al for breach of contract.
 
-### Part A
+### Part A (5 points)
 
-Calculate the amount of expectation damages.
+Calculate the amount of expectation damages and the amount of reliance damages the court might assess.
 
-### Part B
-
-Calculate the amount of reliance damages.
-
-### Part C
+### Part B (5 points)
 
 What legal doctrine can Al claim in order to convince the court to invalidate the contract?
 
-### Part D
+### Part C (5 points)
 
-Al had paid $10,000 for the land, expecting it to be worth about that much as a soybean farm. He now believes the land is worthless, and sues the State, claiming he was harmed by the new regulation. Explain the idea of a “regulatory taking.” If the farm can not be used by a soybean farmer, but can be used by a wheat farmer (not covered under the State's new regulation), do you think this action should be considered a regulatory taking?
+Al had paid $10,000 for the land, expecting it to be worth about that much as a soybean farm. He now believes the land is worthless, and sues the State, claiming he was harmed by the new regulation. 
 
-### Part E
+Explain the idea of a “regulatory taking.” Even though Al cannot use the land to grow soybeans, do you think this action should be considered a regulatory taking?
+
+### Part D (5 points)
 
 Suppose the regulation had been passed a week *before* Al had bought the new land from the previous owner. If both Al and the previous landowner could show a court they knew nothing about the regulation at the time of their sale, what might the court do?
 
-### Part F
+### Part E (5 points)
 
 Al moves to another State in January, grows soybeans, and reaches a new contract to sell soybeans to Trader Joes in February, to be delivered in September. In May, a fire breaks out on Al's new farm, destroying the soybean crop. Trader Joes sues Al. What legal doctrine can Al claim to invalidate this contract?
 
-### Part G
+### Part F (5 points)
 
 Who do you think is the efficient bearer of the risk of fire to the crops, Al or Trader Joes? Based on your answer, whom should compensate who in the event of this risk? 
