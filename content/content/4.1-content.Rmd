@@ -1,0 +1,38 @@
+---
+title: "4.1 — The Legal Theory of Tort Liability — Class Content"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+*Tuesday, March April 20, 2021*
+
+# <i class="fas fa-info-circle fa-lg"></i> Overview
+
+TBD
+
+# <i class="fas fa-book-reader fa-lg"></i> Readings
+
+- <i class="fas fa-book"></i> Chs. 6 in Cooter and Ulen, 2012, *Law & Economics*
+
+## Cases Discussed
+
+- *Palsgraf v. Long Island Railroad Co.* (1928) [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Palsgraf_v._Long_Island_Railroad_Co.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](http://www.courts.state.ny.us/reporter/archives/palsgraf_lirr.htm)]
+
+# <i class="fas fa-chalkboard-teacher"></i> Slides
+
+[![](/slides/4.1-slides.png)](/slides/4.1-slides.html)
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/4.1-slides.pdf)
+
+# <i class="fas fa-laptop-code"></i> Assignments
+
+## Midterm Exam Due!
+
+The [midterm exam](/assignment/01-exam) is due *today*, Tuesday April 20 by email.

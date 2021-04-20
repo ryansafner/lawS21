@@ -80,9 +80,11 @@ lessons:
   - title: '<span class="fake-header-table">IV. Torts</span>'
     header: True
 
-  - title: "4.1 Elements of Tort Claim"
+  - title: "4.1 The Legal Theory of Tort Liability"
+    content: "4.1-content"
+    slides: "4.1-slides"
 
-  - title: "4.2 An Economic Model of Care"
+  - title: "4.2 An Economic Model of Precaution"
 
   - title: "4.3 Liability Rules and Negligence I"
 
@@ -97,6 +99,8 @@ lessons:
   - title: "4.8 Class Action, Contingency Fees"
   
   - title: "4.9 The Rise of the Regulatory State"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3**'
 
   - title: '<span class="fake-header-table">V. Criminal Law</span>'
     header: True
