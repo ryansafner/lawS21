@@ -1065,7 +1065,3 @@ class: inverse, center, middle
 ![](../images/car-bike-crash.jpg)
 ]
 ]
-
----
-
-# Model of Unilateral Harm
