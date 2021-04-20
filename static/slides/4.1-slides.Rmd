@@ -424,7 +424,7 @@ Suppose the law holds me liable for:
 # Designing Efficient Tort Law
 
 .pull-left[
-
+.smallest[
 - How do we structure tort law to get people to behave in a way that results in efficient outcomes?
 
 - Unlike property law, no injunctive relief possible
@@ -435,6 +435,7 @@ Suppose the law holds me liable for:
 
 > “the attempt to make injurers internalize the externalities they cause, in situations where transaction costs are too high to do this through property or contract rights”
 
+]
 ]
 
 .pull-right[
@@ -517,11 +518,12 @@ class: inverse, center, middle
 
 .pull-left[
 
+.smallest[
 - Consider some preference relationship between money and health
 
 - Accident has caused injured party (.blue[Plaintiff]) to suffer harm
   - Model as fall to lower indifference curve
-
+]
 ]
 
 .pull-right[
@@ -576,7 +578,7 @@ ic+annotate("segment", x = 3.75, xend = 3.25, y = 800, yend = 500, colour = "pur
 # Harm: Perfect Compensation
 
 .pull-left[
-
+.smallest[
 - Consider some preference relationship between money and health
 
 - Accident has caused injured party (.blue[Plaintiff]) to suffer harm
@@ -587,7 +589,7 @@ ic+annotate("segment", x = 3.75, xend = 3.25, y = 800, yend = 500, colour = "pur
   - Again, often via money damages
   - Sometimes, can't restore health, must find some equivalent amount of of money to compsensate
 ]
-
+]
 .pull-right[
 ```{r}
 ic+geom_point(data = subset(apts2, letter %in% c("C", "D")),
@@ -636,9 +638,24 @@ ic+geom_point(data = subset(apts2, letter %in% c("C", "D")),
   - Historically, courts were less willing to compensate for intangible harms (hard to measure)
   - Over time, U.S. courts have been compensating more for intangible harms
 
-- Pros: the closer liability is to the full harm done, the better the incentive to avoid these harms (internalize the full externality)
+]
 
-- Cons: hard to measure, subjective value, high variance in award sizes, incentive to rent-seek?
+.pull-right[
+.center[
+![](../images/emotionalpain.jpg)
+]
+]
+
+---
+
+# Harm: Perfect Compensation
+
+.pull-left[
+- Should we compensate for intangible harms?
+
+- **Pros**: the closer liability is to the full harm done, the better the incentive to avoid these harms (internalize the full externality)
+
+- **Cons**: hard to measure, subjective value, high variance in award sizes, incentive to rent-seek?
 
 ]
 
@@ -656,10 +673,18 @@ class: inverse, center, middle
 
 ---
 
-# Causation
+# Causation: Cause-in-fact
 
-.pull-left
+.pull-left[
+.smallest[
+- To be liable for a tort, the .blue[Plaintiff] must show that the .red[Defendant] .hi-purple[caused] them harm
 
+- .hi-purple[Cause-in-fact] test
+  - .hi-purple[“But for] the .red[Defendant's] actions, would the harm have occurred?”
+  - $A \rightarrow B$
+  - Ambiguity (recall Coase’s insight that it takes *two* parties to create harm!)
+]
+]
 .pull-right[
 .center[
 ![](../images/causality.jpg)
@@ -695,18 +720,13 @@ David D. Friedman
 
 ---
 
-# Causation
+# Causation: Cause-in-fact
 
 .pull-left[
 
 - What about setting in motion a long chain of events that leads to harm?
   - $A \rightarrow c \rightarrow d \rightarrow e \rightarrow B$
   - Event A satisfies the “but-for” test!
-
-- .hi-purple[Cause-in-fact] test
-  - .hi-purple[“But for] the .red[Defendant's] actions, would the harm have occurred?”
-  - $A \rightarrow B$
-  - Ambiguity (recall Coase’s insight that it takes *two* parties to create harm!)
 
 ]
 
@@ -717,7 +737,7 @@ David D. Friedman
 ]
 ---
 
-# Causation
+# Causation: *Palsgraf v. LIRR*
 
 .pull-left[
 
@@ -737,7 +757,7 @@ David D. Friedman
 
 ---
 
-# Causation: Proximate Cause
+# Causation: *Palsgraf v. LIRR*
 
 .left-column[
 .center[
@@ -761,7 +781,7 @@ a newspaper. In fact it contained fireworks, but there was nothing in its appear
 
 ---
 
-# Causation: Proximate Cause
+# Causation: *Palsgraf v. LIRR*
 .left-column[
 .center[
 ![:scale 70%](../images/cardozo.jpg)
