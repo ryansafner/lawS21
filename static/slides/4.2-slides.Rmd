@@ -935,7 +935,7 @@ class: inverse, center, middle
 
 ---
 
-# Family of Negligence Rules
+# Injurer & Victim Negligence
 
 .pull-left[
 
@@ -1064,11 +1064,12 @@ contrneg
 
 ---
 
-# Family of Negligence Rules
+# Comparative Negligence
 
 .pull-left[
 
 - **Comparative Negligence**: if both parties are negligent, they share the cost of the accident (possibly proportionately)
+  - e.g. if accident cause was 70% .red[injurer]’s fault, 30% .blue[victim]’s fault, .red[injurer] pays for 70% of damages
 
 ]
 
@@ -1102,7 +1103,7 @@ compneg
 
 ---
 
-# Family of Negligence Rules
+# Strict liability with Contributory Negligence
 
 .pull-left[
 
@@ -1129,7 +1130,8 @@ sl<-ggplot(tibble(x=c(0,10)), aes(x=x))+
                      limits=c(0,10),
                      expand=expand_scale(mult=c(0,0)))+
   labs(x = "Injurer Precaution (x)",
-       y = "Victim Precaution (y)")+
+       y = "Victim Precaution (y)",
+       title = "Strict Liability with Contributory Negligence")+
   theme_classic(base_family = "Fira Sans Condensed", base_size = 16)
 sl
 ```
