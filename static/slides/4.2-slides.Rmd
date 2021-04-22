@@ -45,13 +45,20 @@ class: inverse
 
 # Outline
 
-### [A Recap of Our Approach So Far](#3)
-### [Harm](#)
-### [Causation](#)
-### [Breach of Duty](#)
+### [Precaution: An Economic Model](#3)
+### [No Liability](#)
+### [Strict Liability](#)
+### [Negligence](#)
+### [A Family of Negligence Rules](#)
+### [Comparing Negligence Rules, A Discrete Example of Bilateral Caution](#)
 
 ---
 
+class: inverse, center, middle
+
+# Precaution: An Economic Model
+
+---
 # Precaution
 
 .pull-left[
@@ -402,6 +409,12 @@ model+geom_segment(x = min, xend = min, y = 0, yend = tc(min), linetype = "dashe
 
 ---
 
+class: inverse, center, middle
+
+# No Liability
+
+---
+
 # No Liability
 
 .pull-left[
@@ -529,7 +542,7 @@ geom_function(fun = tc, geom = "line", size = 3, color = "blue")+  scale_x_conti
 
 .pull-left[
 
-- With. hi[no liability], you bear the full cost of an accident
+- With .i[no liability], you bear the full cost of an accident
   - More activity by victim (bicycling) leads to more accidents
   - You weigh cost of accidents when deciding **how carefully** to ride, and **how much** to ride
   - Your private cost equals the social cost
@@ -865,6 +878,12 @@ model+geom_segment(x = min, xend = min, y = 0, yend = tc(min), size = 1, linetyp
 | Negligence<sup>.magenta[†]</sup> | .green[Efficient] | .green[Efficient] | | |
 
 .footnote[<sup>.magenta[†]</sup> Assuming standard of care is set at the efficient level `\\((x^l=x^*)\\)`]
+
+---
+
+class: inverse, center, middle
+
+# A Family of Negligence Rules
 
 ---
 
