@@ -85,7 +85,9 @@ lessons:
     slides: "4.1-slides"
 
   - title: "4.2 An Economic Model of Precaution & Negligence"
-
+    content: "4.2-content"
+    slides: "4.2-slides"
+    
   - title: "4.3 The Hand Rule"
 
   - title: "4.4 Products Liability"
