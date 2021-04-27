@@ -332,7 +332,7 @@ ggplot(tibble(x=c(0,10)), aes(x=x))+
   - Courts have tended to only count risk to *others* when calculating benefit of precaution $(PL)$
 
 ]
-
+]
 .pull-right[
 .center[
 ![](../images/caution.jpg)
