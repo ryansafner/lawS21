@@ -88,7 +88,7 @@ lessons:
     content: "4.2-content"
     slides: "4.2-slides"
     
-  - title: "4.3 The Hand Rule"
+  - title: "4.3 The Standard of Care"
 
   - title: "4.4 Products Liability"
 
@@ -119,4 +119,6 @@ lessons:
 
   - title: "5.3 Antitrust Law"
 
+  - title: '<i class="fas fa-star"></i> **Short Paper** due May 14'
+    assignment: "paper"
   - title: '<i class="fas fa-star"></i> **Final Exam**'

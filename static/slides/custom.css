@@ -406,15 +406,15 @@ blockquote {
 .remark-slide table {
   margin: auto;
   color: #000;
-  background-color: #eee;
+  /* background-color: #eee; */
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
   font-size: 26px;
 }
 
-.remark-slide table thead th { border-bottom: 2px solid #666; }
+.remark-slide table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
-.remark-slide thead, .remark-slide tfoot { background: #afafaf } /*  .remark-slide tr:nth-child(even) */
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
 
 
 /* Class of tables with no stripe - for regression outputs*/
