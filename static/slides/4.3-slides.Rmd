@@ -45,12 +45,8 @@ class: inverse
 
 # Outline
 
-### [Precaution: An Economic Model](#3)
-### [No Liability](#)
-### [Strict Liability](#)
-### [Negligence](#)
-### [A Family of Negligence Rules](#)
-### [Comparing Negligence Rules, A Discrete Example of Bilateral Caution](#)
+### [Standard of Care](#3)
+### [The Effect of Court Errors](#)
 
 ---
 
@@ -301,34 +297,6 @@ ggplot(tibble(x=c(0,10)), aes(x=x))+
        y = "$")+
   theme_classic(base_family = "Fira Sans Condensed", base_size = 16)  
 ```
-]
-
----
-
-# The Hand Rule
-
-.pull-left[
-
-.smallest[
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-- .hi-green[Example]: Suppose a barge owner is considering whether to post an attendant on their barge:
-
-Under the Hand rule, when would the barge owner be found negligent?
-
-]
-
-| Choice | Cost | Probability of Accident | Damages |
-|--------|------|-------------------------|---------|
-| No attendant | $0 | 0.25 | $400 |
-| Attendant for 24 hours | $95 | 0.00 | $400 |
-| Attendant for 12 hours | $50 | 0.10 | $400 |
-
-]
-
-.pull-right[
-.center[
-![](../images/barges.png)
-]
 ]
 
 ---
