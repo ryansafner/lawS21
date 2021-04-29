@@ -46,8 +46,8 @@ class: inverse
 # Outline
 
 ### [A Brief History of Products Liability Law](#3)
-### [The Effect of Court Errors](#)
-
+### [A Simple Economic Model of a Risky Product](#)
+### [Risky Products: Precaution Incentives](#)
 ---
 
 # Products Liability
@@ -762,11 +762,6 @@ $$\color{red}{p=c+spD}$$
   - $c$: marginal cost ignoring risk
   - $spD$: premium for seller’s expected liability
 
-- If $s=0$, no change in .red[supply], producer behaves as if product was perfectly safe
-  - Fully insured against any risk (caveat emptor, consumer incurs full cost)
-
-- If $s=1$, raise asking price exactly by expected damages per unit
-  - Seller fully bears the risk of accident
 ]
 ]
 .pull-right[
@@ -991,8 +986,8 @@ risk+
 # A Simple Economic Model of a Risky Product
 
 .pull-left[
-
-- The main question is, **who is the better insurer**?
+.smallest[
+- The main question is, .hi-turquoise[who is the better insurer?]
   - Self-insurance at price $p_{NL}$
   - Manufacturer bundles good and insurance at price $p_{SL}$
 
@@ -1001,7 +996,7 @@ risk+
   - Same issue with (small) firms, usually also purchase insurance in market to cover expected tort liability under SL
   
 ]
-
+]
 .pull-right[
 ```{r}
 risk+
@@ -1013,10 +1008,17 @@ risk+
 ]
 
 ---
+
+class: inverse, center, middle
+
+# Risky Products: Precaution Incentives
+
+---
+
 # Risky Products: Precaution Incentives
 
 .pull-left[
-
+.smallest[
 - Will the .hi-purple[level of precaution] be optimal regardless of the liability rule? (like output $q^{\star \star})$?
   - Coase Theorem implies yes
 
@@ -1024,7 +1026,7 @@ risk+
   - In model of accidents between strangers (lesson 3.2), we saw .blue[victims] take efficient care $y=y^{\star}$ and .red[injurers] take no care $x=0$
   - In today's model, suppose .red[manufacturer] & .blue[consumer] bargain: .red[manufacturer] agrees to produce safe product in return for higher price $p_{SL}$
   - .red[Manufacturer] will invest in efficient safety level: where MB of reduction in accidents = MC
-
+]
 ]
 
 .pull-right[
@@ -1036,7 +1038,7 @@ risk+
 # Risky Products: Precaution Incentives
 
 .pull-left[
-
+.smallest[
 - Will the .hi-purple[level of precaution] be optimal regardless of the liability rule? (like output $q^{\star \star})$?
   - Coase Theorem implies yes
 
@@ -1047,6 +1049,7 @@ risk+
 
 - Both lead to safer products, **assuming low transaction costs**
 ]
+]
 
 .pull-right[
 .center[
@@ -1058,6 +1061,7 @@ risk+
 # Risky Products: Precaution Incentives
 
 .pull-left[
+.smallest[
 
 - How likely are these to work in practice?
 
@@ -1069,6 +1073,7 @@ risk+
   - .red[Manufacturer] can't monitor .blue[consumer]'s behavior, hence, unwilling to make this bargain
 
 ]
+]
 
 .pull-right[
 .center[
@@ -1080,7 +1085,7 @@ risk+
 # Risky Products: Precaution Incentives
 
 .pull-left[
-
+.smallest[
 - Coase theorem fails with these high transaction costs
   - liability rule $s$ now very relevant
   - back to a world of strangers in accidents with other strangers
@@ -1091,7 +1096,7 @@ risk+
   - Empirical evidence that people overestimate low probability risks and underestimate high probabiliy risks
   - Product accidents primarily are the first case
 ]
-
+]
 .pull-right[
 .center[
 ![](../images/caution.jpg)
@@ -1377,10 +1382,10 @@ ggplot(tibble(x=c(0,10)), aes(x=x))+
 # Conclusions
 
 .pull-left[
-
+.smallest[
 - Contract law is not an adequate remedy for most product related accidents between .red[Producer] and .blue[Consumer]
 
-- In theory, .hi-purple[Coase Theorem] suggests the parties could bargain to fully internalize the accident risk
+- In theory, .hi-purple[Coase Theorem] suggests the parties could bargain to fully internalize the accident risk (between $p_{SL}$ and $p_{NL})$
 
 - But high transaction costs prevent this:
   - .blue[Consumer] misperceptions of product risk
@@ -1388,4 +1393,11 @@ ggplot(tibble(x=c(0,10)), aes(x=x))+
 
 - High cost of contracting in the presence of these remote risks disproportionate to the benefits of a negotiated level of safety
   - Cheaper to use the .hi[default rule] of having tort law assign safety
+]
+]
+
+.pull-right[
+.center[
+![](../images/productwarnings.png)
+]
 ]
