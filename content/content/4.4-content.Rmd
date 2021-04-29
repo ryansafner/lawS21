@@ -23,7 +23,9 @@ TBD
 
 ## Cases Discussed
 
-- *Palsgraf v. Long Island Railroad Co.* (1928) [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Palsgraf_v._Long_Island_Railroad_Co.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](http://www.courts.state.ny.us/reporter/archives/palsgraf_lirr.htm)]
+- *MacPherson v. Buick* (1916) [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/MacPherson_v._Buick_Motor_Co.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](http://www.courts.state.ny.us/reporter/archives/macpherson_buick.htm)]
+- *Escola v. Coca-Cola Bottling Co.* (1944) [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Escola_v._Coca-Cola_Bottling_Co.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/california/supreme-court/2d/24/453.html)]
+- *Henningsen v. Bloomfield Motors, Inc.* (1960) [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Henningsen_v._Bloomfield_Motors,_Inc.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/new-jersey/supreme-court/1960/32-n-j-358-0.html)]
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
