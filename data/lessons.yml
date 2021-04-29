@@ -89,11 +89,14 @@ lessons:
     slides: "4.2-slides"
     
   - title: "4.3 The Standard of Care"
+    content: "4.3-content"
     slides: "4.3-slides"
     
   - title: "4.4 Products Liability"
-
-  - title: "4.5 Risk and Insurance"
+    content: "4.4-content"
+    slides: "4.4-slides"
+    
+  - title: "4.5 More Realistic Assumptions"
 
   - title: "4.6 Behavioral Law and Juries"
 
