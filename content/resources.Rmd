@@ -32,6 +32,14 @@ This course does rely on essential microeconomic concepts and models that you ar
 
 # List of Cases Discussed
 
+<style type="text/css">
+.table {
+
+    width: 100%;
+
+}
+</style>
+
 | Case | Year | Class | Topic | Resources |
 |------|------|-------|-------|-----------|
 | *Ghen v Rich* | 1881 | [1.1 class](https://laws21.classes.ryansafner.com/content/1.1-content/) | Property (Whaling) | |
@@ -54,13 +62,10 @@ This course does rely on essential microeconomic concepts and models that you ar
 | *Hawkins v. McGee* | 1929 | [3.4 class](https://laws21.classes.ryansafner.com/content/3.4-content/) | Contract (remedies) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Hawkins_v._McGee) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://casetext.com/case/hawkins-v-mcgee) |
 | *Peevyhouse v Garland Coal and Mining Co.* | 1929 | [3.4 class](https://laws21.classes.ryansafner.com/content/3.4-content/) | Contract (remedies) | [<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Peevyhouse_v._Garland_Coal_%26_Mining_Co.) [<i class="fas fa-external-link-square-alt"></i> Opinion](https://casetext.com/case/peevyhouse-v-garland-coal-mining-company-1) |
 | *Butterfield v. Forrester* | 1809 | [4.2 class](https://laws21.classes.ryansafner.com/content/4.2-content/) | Torts (negligence) | [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Butterfield_v_Forrester)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](https://sites.oxy.edu/whitney/xaccess/ec357/cases/tort/butterfield_v_forrester.htm)] |
-| *U.S. v. Caroll Towing Co.* | 1947 | [4.3 class](https://laws21.classes.ryansafner.com/content/4.3-content/) | Torts (standard of care) | [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/United_States_v._Carroll_Towing_Co.] [[<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/federal/appellate-courts/F2/159/169/1565896/)] |
+| *U.S. v. Caroll Towing Co.* | 1947 | [4.3 class](https://laws21.classes.ryansafner.com/content/4.3-content/) | Torts (standard of care) | [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/United_States_v._Carroll_Towing_Co.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/federal/appellate-courts/F2/159/169/1565896/)] |
 | *MacPherson v. Buick* | 1916 | [4.4 class](https://laws21.classes.ryansafner.com/content/4.4-content/) | Torts (products liability) | [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/MacPherson_v._Buick_Motor_Co.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](http://www.courts.state.ny.us/reporter/archives/macpherson_buick.htm)] |
 | *Escola v. Coca-Cola Bottling Co.* | 1944 | [4.4 class](https://laws21.classes.ryansafner.com/content/4.4-content/) | Torts (products liability) | [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Escola_v._Coca-Cola_Bottling_Co.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/california/supreme-court/2d/24/453.html)] |
 | *Henningsen v. Bloomfield Motors, Inc.* | 1960 | [4.4 class](https://laws21.classes.ryansafner.com/content/4.4-content/) | Torts (products liability) | [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Henningsen_v._Bloomfield_Motors,_Inc.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](https://law.justia.com/cases/new-jersey/supreme-court/1960/32-n-j-358-0.html)] |
-
-
-
 
 # Outline of Unit I-III
 
