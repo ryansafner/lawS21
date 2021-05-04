@@ -96,13 +96,7 @@ lessons:
     content: "4.4-content"
     slides: "4.4-slides"
     
-  - title: "4.5 More Realistic Assumptions"
-
-  - title: "4.6 Behavioral Law and Juries"
-
-  - title: "4.7 Class Action, Contingency Fees"
-  
-  - title: "4.8 The Rise of the Regulatory State"
+  - title: "4.5 Criticisms & Alternatives to Tort Liability"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3**'
 
@@ -112,16 +106,6 @@ lessons:
   - title: "4.1 Criminal Law vs. Tort Law"
 
   - title: "4.2 Deterrence"
-
-  - title: "4.3 Ordeals"
-
-  - title: '<span class="fake-header-table">VI. Miscellany</span>'
-
-  - title: "5.1 The Legal Process"
-
-  - title: "5.2 Common Law vs. Civil Law Systems"
-
-  - title: "5.3 Antitrust Law"
 
   - title: '<i class="fas fa-star"></i> **Short Paper** due May 14'
     assignment: "paper"
