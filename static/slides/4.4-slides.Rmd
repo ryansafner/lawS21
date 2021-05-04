@@ -45,9 +45,11 @@ class: inverse
 
 # Outline
 
-### [A Brief History of Products Liability Law](#3)
-### [A Simple Economic Model of a Risky Product](#)
-### [Risky Products: Precaution Incentives](#)
+### [A Brief History of Products Liability Law](#6)
+### [A Simple Economic Model of a Risky Product](#24)
+### [Risky Products: Precaution Incentives](#39)
+### [Workplace Accidents](#61)
+
 ---
 
 # Products Liability
@@ -1018,7 +1020,7 @@ class: inverse, center, middle
 # Risky Products: Precaution Incentives
 
 .pull-left[
-.smallest[
+.quitesmall[
 - Will the .hi-purple[level of precaution] be optimal regardless of the liability rule? (like output $q^{\star \star})$?
   - Coase Theorem implies yes
 
@@ -1038,7 +1040,7 @@ class: inverse, center, middle
 # Risky Products: Precaution Incentives
 
 .pull-left[
-.smallest[
+.quitesmall[
 - Will the .hi-purple[level of precaution] be optimal regardless of the liability rule? (like output $q^{\star \star})$?
   - Coase Theorem implies yes
 
@@ -1233,7 +1235,7 @@ $$\color{blue}{a-b(q)-\alpha pD}=\color{red}{c}$$
 
 - If $\alpha>1$, consumers overestimate risk, demand too little output
 
-- If $\alpha>1$, consumers overestimate risk, demand too little output
+- If $\alpha<1$, consumers underestimate risk, demand too much output
 
 ]
 
@@ -1852,7 +1854,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-- From Wikipedia:
+- From [Wikipedia](https://en.wikipedia.org/wiki/Asbestos_and_the_law_(United_States)):
 
 .quitesmall[
 > Asbestos litigation is the longest, most expensive mass tort in U.S. history, involving more than 8,000 defendants and 700,000 claimants. By the early 1990s, "more than half of the 25 largest asbestos manufacturers in the US, including Amatex, Carey-Canada, Celotex, Eagle-Picher, Forty-Eight Insulations, Manville Corporation, National Gypsum, Standard Insulation, Unarco, and UNR Industries had declared bankruptcy. Analysts have estimated that the total costs of asbestos litigation in the U.S. alone will eventually reach $200 to $275 billion." The amounts and method of allocating compensation have been the source of many court cases, and government attempts at resolution of existing and future cases.

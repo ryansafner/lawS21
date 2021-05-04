@@ -98,7 +98,8 @@ lessons:
     
   - title: "4.5 Criticisms & Alternatives to Tort Liability"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3** due Sun May 9'
+    assignment: "03-problem-set"
 
   - title: '<span class="fake-header-table">V. Criminal Law</span>'
     header: True
