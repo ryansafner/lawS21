@@ -434,7 +434,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-.smallest[
+.quitesmall[
 - Under strict liability, we saw .red[Injurers] fully internalize the cost of accident, leading to them choosing efficient precaution $(x^\star)$
   - But this assumes cost of being sued = damage done
   - If courts are unpredictable, and litigation costly, private cost of being sued could $>$ or $<$ cost of accident
@@ -461,32 +461,6 @@ class: inverse, center, middle
 - Costly litigation brings about the potential of a .hi-purple[“nuisance suit”]
   - Lawsuit with no legal merit, solely intended to extract an out-of-court settlement
 
-]
-
-.pull-right[
-.center[
-![](../images/litigationfees.jpg)
-]
-]
-
----
-
-# Litigation Costs
-
-.pull-left[
-.quitesmall[
-- .hi-green[Example]: Suppose trial costs .blue[Plaintiff $10,000] and .red[Defendent $50,000]
-  - If case goes to trial, .blue[Plaintiff] will lose, gets nothing
-  - Total gains from cooperation $60,000 (avoiding litigation fees)
-  - If cooperative surplus split evenly:
-
-| Party | BATNA | Settlement |
-|-------|-------|------|
-| .blue[Plaintiff] | .blue[-10,000] | .blue[20,000] |
-| .red[Defendant] | .blue[-50,000] | .red[-30,000] |
-
-- Defendant pays $20,000 to settle, even though case has no merit!
-]
 ]
 
 .pull-right[
@@ -666,7 +640,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-.smallest[
+.quitesmall[
 - Another odd feature of compensatory damages
 
 - Most people would rather be horribly injured than killed
@@ -784,17 +758,11 @@ $$p u(death)+(1-p)u(w+M)=w(w)$$
 
 .pull-left[
 
-.smallest[
 - Lots of **day to day choices** increase/decrease risk of death
   - Choice between Volvo or sports car with fiberglass body
   - Take a job washing skyscraper windows vs. office job
   - But smoke detectors and fire extinguishers, or don't
 
-- Reinterpret the Hand rule: precaution is cost-justified if cost of precaution < reduction in accidents $\times$ cost of accident
-  - Suppose side airbags reduce risk of fatal car accident by 1/1000
-  - If someone pays $1,000 extra for these airbags, must mean that $1,000 < 1/1000 $\times$ value of life
-  - or implicityl, they value their life more than $1,000,000
-]
 ]
 
 .pull-right[
@@ -805,6 +773,26 @@ $$p u(death)+(1-p)u(w+M)=w(w)$$
 
 ---
 
+# What's a Life Worth?
+
+.pull-left[
+
+.smallest[
+
+- Reinterpret the Hand rule: precaution is cost-justified if cost of precaution < reduction in accidents $\times$ cost of accident
+  - Suppose side airbags reduce risk of fatal car accident by 1/1000
+  - If someone pays $1,000 extra for these airbags, must mean that $1,000 < 1/1000 $\times$ value of life
+  - or implicitly, they value their life more than $1,000,000
+]
+]
+
+.pull-right[
+.center[
+![](../images/valueoflife.jpeg)
+]
+]
+
+---
 # What's a Life Worth?
 
 .pull-left[
@@ -1180,7 +1168,7 @@ class: inverse, center, middle
   - Or to decrease inefficiencies due to unrealized Kaldor-Hicks improvements
 
 - .hi[Tort law]
-  - Goal: minimize total social costs of accidents (ost of accidents + cost of precaution)
+  - Goal: minimize total social costs of accidents (cost of accidents + cost of precaution)
 ]
 ]
 
@@ -1195,7 +1183,7 @@ class: inverse, center, middle
 # Hidden Assumptions
 
 .pull-left[
-.smallest[
+.quitesmall[
 - Implicity, we’ve asssumed two things the whole time:
 
 1. The legal system works flawlessly
