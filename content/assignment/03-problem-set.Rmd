@@ -1,0 +1,114 @@
+---
+title: "Homework 3"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(pander)
+#source(file.path(here::here(), "lib", "graphics.R"))
+```
+
+*Due by 11:59 PM Sunday, May 9, 2021 by PDF upload in Blackboard Assignments*
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/assignment/02-problem-set-pdf.pdf)
+<!-- [<i class="far fa-life-ring"></i> Answer Key](/assignment/02-problem-set-answers.html)-->
+
+Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph & convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](/resources/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers).
+
+For any questions that ask you to draw a **graph**, *try* to do so *on your computer* (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph. 
+
+You may work together (and I highly encourage that) but you must turn in your own answers. I will grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.
+
+# Concepts and Critical Thinking
+
+## Question 1
+
+Explain the elements of a tort that a Plaintiff must demonstrate in court in order to collect damages under (i) a strict liability rule, and (2) a negligence rule.
+
+## Question 2
+
+Under each of the following liability rules, what amount of precaution will the Injurer (Defendant) and Victim (Plaintiff) choose to take in advance?
+
+(i) No liability
+(ii) Strict liability
+(iii) Negligence (assuming the legal standard is set to the efficient level)
+
+You may wish to make a table, but you must briefly explain the reasoning behind each cell.
+
+## Question 3
+
+Explain the following types of negligence rules (when would Defendant win a case, and when would Plaintiff win a case):
+
+> (i) Negligence
+> (ii) Strict liability with a defense of contributory negligence
+> (iii) Negligence with a defense of contributory negligence
+> (iv) Comparative negligence
+
+## Question 4
+
+Briefly give some economic reasons why strict liability may make the most sense as a rule for products liability.
+
+# Problems
+
+## Question 5
+
+Consider a barge owner who is deciding whether to post an attendant on his barge to make sure that it remains properly moored to the pier. The following table gives the total cost of hiring the attendant, the probability of an accident, and the fixed cost of an accident:
+
+| Choice | Cost of Caution | Accident Probability | Damages |
+|--------|-----------------|----------------------|---------|
+| No attendant | $0 | 0.25 | $400 |
+| Attendant posted for 24 hours | $95 | 0.00 | $400 |
+
+### Part A
+
+Calculate the marginal cost and marginal benefit^[Hint: interpret the *change* in expected cost of an accident.] of posting the attendant for 24 hours. According to the Hand rule (interpreted on the margin as marginal cost and marginal benefit), would the barge owner be found negligent for failing to post an attendant?
+
+### Part B
+Now suppose that the barge owner’s options instead are to not post an attendant, or to post the attendant only during the day (12 hours). 
+
+| Choice | Cost of Caution | Accident Probability | Damages |
+|--------|-----------------|----------------------|---------|
+| No attendant | $0 | 0.25 | $400 |
+| Attendant posted for 12 hours | $50 | 0.10 | $400 |
+
+According to the Hand rule, would the barge owner be found negligent for failing to post an attendant during the day?
+
+### Part C
+
+Suppose prior to the accident, the barge owner had posted an attendant during the day. Suppose the victim claims that the owner was negligent for not having posted the attendant for 24 hours. Use the Hand rule (on the margin) to evaluate the merits of this claim.
+
+### Part D
+
+For each of the three options: (i) no attendant (ii) attendant during the day (iii) attendant for 24 hours, calculate *total* expected costs (costs of precaution plus expected damages). Which option minimizes total costs? Reconcile the result with your answers to parts A-C.
+
+## Question 6
+
+The (inverse) demand curve for a product is
+
+$$p=100-q$$
+
+Suppose the marginal cost of producing the product is $5.
+
+### Part A
+
+Find the equilibrium output and price for the product.
+
+For the remaining parts of this question, suppose there is a 5% chance that the product will cause $1,000 worth of damages in an accident.
+
+### Part C
+
+What is the equilibrium output and price for the product under a rule of no liability $(s=0)$?
+
+### Part D
+
+What is the equilibrium output and price for the product under a rule of strict liability $(s=1)$?
+
+### Part E
+
+Suppose the liability rule is no liability, and consumers *underestimate* the riskiness of the product, believing the probability of the accident is 2.5% ($\alpha = 0.5)$. Derive the equilibrium output and price for the product.
+
+### Part F
+
+Suppose instead consumers *overestimate* the riskiness of the product, believing the probability of the accident is 7.5% ($\alpha = 1.50)$. Derive the equilibrium output and price for the product.
