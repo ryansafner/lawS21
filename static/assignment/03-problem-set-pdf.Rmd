@@ -1,0 +1,87 @@
+---
+title: "Homework 3"
+author: "ECON 315 Spring 2021"
+date: "Due by 11:59 PM Sunday, May 9, 2021 by PDF upload in Blackboard Assignments"
+output:
+  pdf_document:
+    dev: cairo_pdf
+    latex_engine: xelatex
+header-includes:
+- \usepackage{amsmath}
+- \usepackage{multirow, multicol, booktabs}
+
+mainfont: "Fira Sans Condensed"
+monofont: "Fira Code"
+mathfont: "Fira Sans"
+fontsize: 11pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+# Concepts and Critical Thinking
+
+1. Explain the elements of a tort that a Plaintiff must demonstrate in court in order to collect damages under (i) a strict liability rule, and (2) a negligence rule.
+
+\vspace{3in}
+
+2. Under each of the following liability rules, what amount of precaution will the Injurer (Defendant) and Victim (Plaintiff) choose to take in advance?
+
+- (i) No liability
+- (ii) Strict liability
+- (iii) Negligence (assuming the legal standard is set to the efficient level)
+
+You may wish to make a table, but you must briefly explain the reasoning behind each cell.
+
+\clearpage
+
+3. Explain the following types of negligence rules (when would Defendant win a case, and when would Plaintiff win a case):
+
+- (i) Negligence
+- (ii) Strict liability with a defense of contributory negligence
+- (iii) Negligence with a defense of contributory negligence
+- (iv) Comparative negligence
+
+\vspace{3in}
+
+4. Briefly give some economic reasons why strict liability may make the most sense as a rule for products liability.
+
+\clearpage
+
+# Problems
+
+5. Consider a barge owner who is deciding whether to post an attendant on his barge to make sure that it remains properly moored to the pier. The following table gives the total cost of hiring the attendant, the probability of an accident, and the fixed cost of an accident:
+
+| Choice | Cost of Caution | Accident Probability | Damages |
+|--------|-----------------|----------------------|---------|
+| No attendant | $0 | 0.25 | $400 |
+| Attendant posted for 24 hours | $95 | 0.00 | $400 |
+
+a. Give an economic argument why the renegotiated contract should be enforced in the second scenario, while the original contract should be enforced in the first.
+b. Now suppose that the barge owner’s options instead are to not post an attendant, or to post the attendant only during the day (12 hours). 
+
+| Choice | Cost of Caution | Accident Probability | Damages |
+|--------|-----------------|----------------------|---------|
+| No attendant | $0 | 0.25 | $400 |
+| Attendant posted for 12 hours | $50 | 0.10 | $400 |
+
+c. Suppose prior to the accident, the barge owner had posted an attendant during the day. Suppose the victim claims that the owner was negligent for not having posted the attendant for 24 hours. Use the Hand rule (on the margin) to evaluate the merits of this claim.
+d. For each of the three options: (i) no attendant (ii) attendant during the day (iii) attendant for 24 hours, calculate *total* expected costs (costs of precaution plus expected damages). Which option minimizes total costs? Reconcile the result with your answers to parts A-C.
+
+\clearpage
+
+6. The (inverse) demand curve for a product is
+
+$$p=100-q$$
+
+Suppose the marginal cost of producing the product is $5.
+
+a. Find the equilibrium output and price for the product.
+
+For the remaining parts of this question, suppose there is a 5% chance that the product will cause $1,000 worth of damages in an accident.
+
+b. What is the equilibrium output and price for the product under a rule of no liability $(s=0)$?
+c. What is the equilibrium output and price for the product under a rule of strict liability $(s=1)$?
+d. Suppose the liability rule is no liability, and consumers *underestimate* the riskiness of the product, believing the probability of the accident is 2.5% ($\alpha = 0.5)$. Derive the equilibrium output and price for the product.
+e. Suppose instead consumers *overestimate* the riskiness of the product, believing the probability of the accident is 7.5% ($\alpha = 1.50)$. Derive the equilibrium output and price for the product.

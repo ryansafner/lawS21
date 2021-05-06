@@ -97,18 +97,18 @@ Find the equilibrium output and price for the product.
 
 For the remaining parts of this question, suppose there is a 5% chance that the product will cause $1,000 worth of damages in an accident.
 
-### Part C
+### Part B
 
 What is the equilibrium output and price for the product under a rule of no liability $(s=0)$?
 
-### Part D
+### Part C
 
 What is the equilibrium output and price for the product under a rule of strict liability $(s=1)$?
 
-### Part E
+### Part D
 
 Suppose the liability rule is no liability, and consumers *underestimate* the riskiness of the product, believing the probability of the accident is 2.5% ($\alpha = 0.5)$. Derive the equilibrium output and price for the product.
 
-### Part F
+### Part E
 
 Suppose instead consumers *overestimate* the riskiness of the product, believing the probability of the accident is 7.5% ($\alpha = 1.50)$. Derive the equilibrium output and price for the product.
