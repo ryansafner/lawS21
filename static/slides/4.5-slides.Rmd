@@ -1611,8 +1611,7 @@ Economics Nobel 1982
 
 # Liability System is Also Corruptible!
 
-.pull-left[
-
+.smaller[
 - Suppose there is some cost $X$ to subvert any legal institution
   - Cost of bribing judges, intimidating witnesses, electing favorable legislators, etc.
 
@@ -1626,6 +1625,7 @@ Economics Nobel 1982
 
 - But, regulation relies on smaller fines, tort liability relies on large but low-probability damage awards
 ]
+
 
 ---
 
