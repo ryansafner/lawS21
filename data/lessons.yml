@@ -97,7 +97,9 @@ lessons:
     slides: "4.4-slides"
     
   - title: "4.5 Criticisms & Alternatives to Tort Liability"
-
+    content: "4.5-content"
+    slides: "4.5-slides"
+    
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3** due Sun May 9'
     assignment: "03-problem-set"
 
