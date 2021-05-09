@@ -106,11 +106,11 @@ lessons:
   - title: '<span class="fake-header-table">V. Criminal Law</span>'
     header: True
 
-  - title: "4.1 Criminal Law vs. Tort Law"
-    content: "4.1-content"
+  - title: "5.1 Criminal Law vs. Tort Law, & Deterrence"
+    content: "5.1-content"
 
-  - title: "4.2 Is the Law Efficient?, Redux"
-    content: "4.2-content"
+  - title: "5.2 Is the Law Efficient?, Redux"
+    content: "5.2-content"
     
   - title: '<i class="fas fa-star"></i> **Short Paper** due May 14'
     assignment: "paper"
