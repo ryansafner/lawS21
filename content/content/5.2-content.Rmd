@@ -1,0 +1,40 @@
+---
+title: "5.2 — Is the Law Efficient? Redux — Class Content"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+*Thursday, May 6, 2021*
+
+# <i class="fas fa-info-circle fa-lg"></i> Overview
+
+TBD
+
+# <i class="fas fa-book-reader fa-lg"></i> Readings
+
+- <i class="fas fa-book"></i> Ch. 12 in Cooter and Ulen, 2012, *Law & Economics*
+- [<i class="fas fa-file-pdf"></i> Leeson, 2011, "Trial By Battle"](/readings/Leeson-2011.pdf)
+- [<i class="fas fa-file-pdf"></i> Leeson, 2012, "Ordeals"](/readings/Leeson-2012.pdf)
+- [<i class="fas fa-file-pdf"></i> Priest, 1977, "The Common Law Process and the Selection of Efficient Rules"](/readings/Priest-1977.pdf)
+
+
+## Cases Discussed
+
+- *MacPherson v. Buick* (1916) [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/MacPherson_v._Buick_Motor_Co.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](http://www.courts.state.ny.us/reporter/archives/macpherson_buick.htm)]
+
+# <i class="fas fa-chalkboard-teacher"></i> Slides
+
+[![](/slides/4.5-slides.png)](/slides/4.5-slides.html)
+
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/4.5-slides.pdf)
+
+# <i class="fas fa-laptop-code"></i> Assignments
+
+[Problem Set 3](/assignment/03-problem-set) is due by PDF upload to Blackboard Assignments by 11:59 PM EST Sunday May 9th.
