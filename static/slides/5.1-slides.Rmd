@@ -390,7 +390,7 @@ class: inverse, center, middle
 # Economic Model of Crime and Punishment
 
 .pull-left[
-
+.smallest[
 - Key assumption: .hi[rational criminals]
   - Potential criminals, on the margin, weigh private cost (chance of getting caught $\times$ severity of punishment) against benefit
 
@@ -398,9 +398,9 @@ class: inverse, center, middle
   - Well, if our goal is deterrence, we are implicitly assuming criminals are rational, at least on the margin!
   - Otherwise, what’s the point?!
 
-- But for a good counter, see Tabarrok “What Was Gary Becker’s Greatest Mistake?”
+- But for a good critical discussion, see Tabarrok, 2015, “What Was Gary Becker’s Greatest Mistake?”
 ]
-
+]
 .pull-right[
 .center[
 ![](../images/pettytheft.jpg)
@@ -528,7 +528,6 @@ David D. Friedman
 ]
 
 ---
-
 
 # Economic Model of Crime and Punishment
 
