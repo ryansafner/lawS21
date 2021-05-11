@@ -30,7 +30,11 @@ The economic model of a risky product comes from Thomas Miceli’s textbook. Unf
 
 ## Cases Discussed
 
-- *MacPherson v. Buick* (1916) [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/MacPherson_v._Buick_Motor_Co.)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](http://www.courts.state.ny.us/reporter/archives/macpherson_buick.htm)]
+- *Liebeck v. McDonald's Restaurants* (1994) [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/Liebeck_v._McDonald%27s_Restaurants)]
+
+- *BMW of North America, Inc. v. Gore* (1996) [[<i class="fab fa-wikipedia-w"></i> Wikipedia](https://en.wikipedia.org/wiki/BMW_of_North_America,_Inc._v._Gore)] [[<i class="fas fa-external-link-square-alt"></i> Opinion](https://www.oyez.org/cases/1995/94-896)]
+
+- *Mathias v. Accor Economy Lodging, Inc.* (2003) [[<i class="fas fa-external-link-square-alt"></i> Opinion](https://casetext.com/case/mathias-v-accor-economy-lodging-inc)]
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 

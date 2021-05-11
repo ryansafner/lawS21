@@ -106,8 +106,9 @@ lessons:
   - title: '<span class="fake-header-table">V. Criminal Law</span>'
     header: True
 
-  - title: "5.1 Criminal Law vs. Tort Law, & Deterrence"
+  - title: "5.1 Crimes vs. Torts"
     content: "5.1-content"
+    slides: "5.1-slides"
 
   - title: "5.2 Is the Law Efficient?, Redux"
     content: "5.2-content"
