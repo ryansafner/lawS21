@@ -27,6 +27,9 @@ TBD
 ## Primary Sources Mentioned
 - [<i class="fas fa-file-pdf"></i> Becker, 1968, "Crime and Punishment: An Economic Approach"](/readings/Becker-1968.pdf)
 - [<i class="fas fa-file-pdf"></i> Becker and Stigler, 1974, "Law Enforcement, Malfeasance, and the Compensation of Enforcers"](/readings/Becker-Stigler-1974.pdf)
+- [<i class="fas fa-file-pdf"></i> Friedman, 1979, "Private Creation and Enforcement of Law: A Historical Case"](/readings/Friedman-1979.pdf)
+- [<i class="fas fa-file-pdf"></i> Koyama, 2014, "The law & economics of private prosecutions in industrial revolution England"](/readings/Koyama-2014.pdf)
+- [<i class="fas fa-file-pdf"></i> Friedman, 1999, "Why Not Hang them All? The Virtues of Inefficient Punishment"](/readings/Friedman-1999.pdf)
 
 # <i class="fas fa-chalkboard-teacher"></i> Slides
 
