@@ -47,6 +47,8 @@ class: inverse
 
 ### [Crimes vs. Torts, Or, Why Do We Need Criminal Law?](#3)
 ### [Economic Model of Crime and Punishment](#)
+### [Enforcement Costs and Policing the Police](#)
+
 ---
 
 # The Civil Law vs. Criminal Law Distinction
@@ -653,6 +655,7 @@ $$\color{red}{S(p,f,t)}$$
 
 .pull-left[
 
+.smallest[
 $$\color{red}{S(p,f,t)}$$
 
 - Raising $p$ (catching a higher fraction of offenders) is costly
@@ -665,7 +668,7 @@ $$\color{red}{S(p,f,t)}$$
   - But these are costly to society — cost of prisons, guards, etc.
   - Execution also costly to society — loss of a life
 ]
-
+]
 .pull-right[
 .center[
 ![](../images/prison2.jpg)
@@ -691,10 +694,33 @@ David D. Friedman
 ]
 
 .right-column[
-.quitesmall[
+.smallest[
 
 > “In controlling crime, we can get a given amount of deterrence in many different ways. We might catch half the criminals and fine them each $500, we might catch one criminal in twenty and put him in jail for a year, or we might catch one in five hundred and hang him. Suppose that all of these alternatives are equivalent from the standpoint of the criminal and thus have the same deterrent effect, just as a $100 fine was equivalent, in the earlier example, to one chance in ten of a $1000 fine. Generalizing our earlier term, we may say that all of these alternative combinations of probability and punishment represent the same expected punishment.
 
+
+]
+.source[Friedman, David D, 1995, “Rational Criminals and Profit-Maximizing Police: Gary Becker's Contribution to the Economic Analysis of Law and Law Enforcement”]
+]
+
+---
+
+# Economic Model of Crime and Punishment
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+.smallest[
 > .hi[In choosing among them, we are trading off one kind of cost against another.] It takes fewer policemen to catch five criminals out of a hundred than fifty and fewer judges to try them, so lowering the number we catch while raising their punishment saves on apprehension costs. But, since there is a limit to how large a fine a convicted criminal can pay, raising the punishment typically means shifting from fines to imprisonment or execution-which increases punishment cost. .hi[An efficient law enforcement system would produce any given level of deterrence with whatever combination of probability and punishment minimized the sum of the two sorts of cost.]”
 
 ]
@@ -736,7 +762,7 @@ g &> 4,000 \\ \end{align*}$$
 # Economic Model of Crime and Punishment
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.hi-green[Example]: Suppose a crime has a 20% chance of being apprehended and a punishment equal to $20,000 (either fines, lost wages from imprisonment, etc.)
+.hi-green[Example]: Suppose a crime has a 20% chance of being apprehended and a punishment equal to $20,000 (assume it is a fine for convenience, etc.)
 
 ]
 
@@ -748,7 +774,13 @@ g &> 4,000 \\ \end{align*}$$
 
 ---
 
-# Enforcement Costs...Back to Tort Law?
+class: inverse, center, middle
+
+# Enforcement Costs and Policing the Police
+
+---
+
+# Enforcement Costs and Policing the Police
 
 .left-column[
 .center[
@@ -763,18 +795,18 @@ David D. Friedman
 ]
 
 .right-column[
-.quitesmall[
+
 
 > “The assumption of rationality applies not only to criminals but to everyone included in the analysis. Judges, policemen, legislators and potential victims are all, like criminals, rational individuals pursuing their own ends as best they can. Economic theory gives us no reason to assume that criminals are less rational than judges, or judges less self-interested than criminals.”
 
-]
+
 .source[Friedman, David D, 1995, “Rational Criminals and Profit-Maximizing Police: Gary Becker's Contribution to the Economic Analysis of Law and Law Enforcement”]
 ]
 
 
 ---
 
-# Enforcement Costs...Back to Tort Law?
+# Enforcement Costs and Policing the Police
 
 .left-column[
 .center[
@@ -795,6 +827,28 @@ David D. Friedman
 
 > Seen from the standpoint of Dragnet, the rest is obvious. I deliver both you and the evidence to the D.A., and the story is over. Seen from the standpoint of an economically rational police officer, it is equally obvious. I sell you the evidence for something between ten and fifty thousand dollars, and we both go home.”
 
+]
+.source[Friedman, David D, 1995, “Rational Criminals and Profit-Maximizing Police: Gary Becker's Contribution to the Economic Analysis of Law and Law Enforcement”]
+]
+
+---
+
+# Enforcement Costs and Policing the Police
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+.smallest[
 > Of course, this is not the whole story-if it were, criminals would almost never be convicted. Real world legal systems spend considerable time and effort trying to prevent such transactions and punishing those who engage in them. But the need to do so is a substantial cost-it means that police officers must spend part of their time watching each other instead of watching criminals. And sometimes, when one police officer eludes the vigilance of his fellows or when a whole department succeeds in conspiring together in their own interest and against the interest of the taxpayers who employ them, the economics text is a better description of the real world than the television program.
 
 ]
@@ -852,6 +906,30 @@ David D. Friedman
 
 > What we call bribery in the criminal context is called an out of court settlement in civil law-and is how most civil claims are collected. Since the payment is made to the person who would have collected the fine (called a "damage payment" in the civil system), an out of court settlement achieves the same result as a trial and at lower cost.
 
+]
+
+.source[Friedman, David D, 1995, “Rational Criminals and Profit-Maximizing Police: Gary Becker's Contribution to the Economic Analysis of Law and Law Enforcement”]
+]
+---
+
+
+
+# Enforcement Costs...Back to Tort Law?
+
+.left-column[
+.center[
+![:scale 80%](../images/davidfriedman5.jpg)
+
+.smallest[
+David D. Friedman
+
+(1945—)
+]
+]
+]
+
+.right-column[
+.quitesmall[
 > This suggests an interesting question: Should we abolish the criminal law? Would we be better off if we turned all crimes into torts, replacing enforcement by the state with enforcement by private police selected by the victims? To put the question differently, is there any logic to our present system, where if someone assaults me I call the police but if he reneges on a contract I call my lawyer?
 ]
 
