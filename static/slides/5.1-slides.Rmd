@@ -1,5 +1,5 @@
 ---
-title: "4.5 — Crimes vs. Torts"
+title: "5.1 — Crimes vs. Torts"
 subtitle: "ECON 315 • Economics of the Law • Spring 2021"
 author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/lawS21"><i class="fa fa-github fa-fw"></i>ryansafner/lawS21</a><br> <a href="https://lawS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>lawS21.classes.ryansafner.com</a><br>'
 #date:
