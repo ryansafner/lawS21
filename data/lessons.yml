@@ -110,8 +110,9 @@ lessons:
     content: "5.1-content"
     slides: "5.1-slides"
 
-  - title: "5.2 Is the Law Efficient?, Redux"
+  - title: "5.2 Wrapping Up the Semester"
     content: "5.2-content"
+    slides: "5.2-slides"
     
   - title: '<i class="fas fa-star"></i> **Short Paper** due May 14'
     assignment: "paper"

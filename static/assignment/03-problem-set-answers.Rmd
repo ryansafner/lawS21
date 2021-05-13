@@ -275,7 +275,7 @@ a-b(q)-(1-s)\alpha pD&=c+spD \\
 75-q &= 5 \\
 q_{under} &= 70 \\ \end{align*}$$
 
-Price remains $c=5$.
+Price remains $c=5$. Because consumers *under*estimate the riskiness of the product, the demand *more* than the efficient quantity $(q^{\star \star} of 45).
 
 ### Part F
 
@@ -288,7 +288,7 @@ a-b(q)-(1-s)\alpha pD&=c+spD \\
 25-q &= 5 \\
 q_{over} &= 20 \\ \end{align*}$$
 
-Price remains $c=5$.
+Price remains $c=5$. Because consumers *over*estimate the riskiness of the product, the demand *less* than the efficient quantity $(q^{\star \star} of 45).
 
 ```{r}
 demand_under<-function(x){75-x}
@@ -307,8 +307,8 @@ ggplot(data = tibble(x = c(0,10)), aes(x = x))+
   
   geom_function(fun = demand_under, geom = "line", size = 2, color = "darkblue")+
   geom_function(fun = demand_over, geom = "line", size = 2, color = "darkblue")+
-  geom_label(x = 12.5, y = demand_under(12.5), label = "D (over)", color = "darkblue")+
-  geom_label(x = 12.5, y = demand_over(12.5), label = "D (under)", color = "darkblue")+
+  geom_label(x = 12.5, y = demand_under(12.5), label = "D (under)", color = "darkblue")+
+  geom_label(x = 12.5, y = demand_over(12.5), label = "D (over)", color = "darkblue")+
   #geom_function(fun = demand, geom = "line", size = 2, color = "blue")+
   geom_function(fun = supply, geom = "line", size = 2, color = "red")+
   geom_segment(x = 70, xend = 70, y = 0, yend = 5, size = 0.5, linetype = "dashed")+
