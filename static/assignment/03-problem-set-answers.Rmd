@@ -176,7 +176,9 @@ Suppose the marginal cost of producing the product is $5.
 
 ### Part A
 
-Find the equilibrium output and price for the product.
+#### Find the equilibrium output and price for the product.
+
+This simply is setting demand equal to supply:
 
 $$\begin{align*}
 a-b(q)&=c\\
@@ -184,16 +186,20 @@ a-b(q)&=c\\
 q^\star &=95\\
 \\ \end{align*}$$
 
+Plug quantity into either demand or supply to get the price. Since supply is a constant marginal cost (i.e. a horizontal line), the price will always be the seller’s marginal cost:
+
 $$\begin{align*}
 p^*&=c\\
 p^*&=5\\
 \\ \end{align*}$$
 
-For the remaining parts of this question, suppose there is a 5% chance that the product will cause $1,000 worth of damages in an accident.
+#### For the remaining parts of this question, suppose there is a 5% chance that the product will cause $1,000 worth of damages in an accident.
 
-### Part C
+### Part B
 
-What is the equilibrium output and price for the product under a rule of no liability $(s=0)$?
+#### What is the equilibrium output and price for the product under a rule of no liability $(s=0)$?
+
+Now add the risk of an accident $(pD)$ to both the demand and supply, allocated by $s$. If consumers bear any risk $(s=0)$, which they do here, this will decrease demand since they are willing to pay less for the riskier product.
 
 $$\begin{align*}
 a-b(q)-(1-s)pD&=c+spD \\
@@ -207,9 +213,11 @@ p_{NL} &= c \\
 p_{NL} &= 5 \\ 
 \\ \end{align*}$$
 
-### Part D
+### Part C
 
-What is the equilibrium output and price for the product under a rule of strict liability $(s=1)$?
+#### What is the equilibrium output and price for the product under a rule of strict liability $(s=1)$?
+
+Now add the risk of an accident $(pD)$ to both the demand and supply, allocated by $s$. If producers bear any risk $(s=1)$, which they do here, this will decrease supply since they must ask for a higher price to sell the riskier product (for which they are liable).
 
 $$\begin{align*}
 a-b(q)-(1-s)pD&=c+spD \\
@@ -264,9 +272,13 @@ ggplot(data = tibble(x = c(0,10)), aes(x = x))+
   theme_classic(base_family = "Fira Sans Condensed", base_size = 16)
 ```
 
-### Part E
+### Part D
 
-Suppose the liability rule is no liability, and consumers *underestimate* the riskiness of the product, believing the probability of the accident is 2.5% ($\alpha = 0.5)$. Derive the equilibrium output and price for the product.
+#### Suppose the liability rule is no liability, and consumers *underestimate* the riskiness of the product, believing the probability of the accident is 2.5% ($\alpha = 0.5)$. Derive the equilibrium output and price for the product.
+
+I apologize for perhaps making the probability unclear by also giving you $\alpha$. What I intended was that you could *either* use the multiplier $\alpha$ times the *original* probability of $0.05$, or you could simply use the *new* probability I gave you in the question $(0.025)$ for $p$ (and not include an $\alpha)$. This is because $\underbrace{0.025}_{new \;p} = \underbrace{(0.05)}_{\alpha} \times \underbrace{0.05}_{old \;p}$
+
+Regardless, now we are simply altering the probability in the risk term on the demand side. I will use $\alpha$ and the original probability: 
 
 $$\begin{align*}
 a-b(q)-(1-s)\alpha pD&=c+spD \\
@@ -275,11 +287,13 @@ a-b(q)-(1-s)\alpha pD&=c+spD \\
 75-q &= 5 \\
 q_{under} &= 70 \\ \end{align*}$$
 
-Price remains $c=5$. Because consumers *under*estimate the riskiness of the product, the demand *more* than the efficient quantity $(q^{\star \star} of 45).
+Price remains $c=5$. Because consumers *under*estimate the riskiness of the product, they demand *more* than the efficient quantity $(q^{\star \star}$ of 45).
 
-### Part F
+### Part E
 
-Suppose instead consumers *overestimate* the riskiness of the product, believing the probability of the accident is 7.5% ($\alpha = 1.50)$. Derive the equilibrium output and price for the product.
+#### Suppose instead consumers *overestimate* the riskiness of the product, believing the probability of the accident is 7.5% ($\alpha = 1.50)$. Derive the equilibrium output and price for the product.
+
+Same as for the previous question, I will use $\alpha$ and the original probability to adjust the risk on the demand side:
 
 $$\begin{align*}
 a-b(q)-(1-s)\alpha pD&=c+spD \\
@@ -288,7 +302,7 @@ a-b(q)-(1-s)\alpha pD&=c+spD \\
 25-q &= 5 \\
 q_{over} &= 20 \\ \end{align*}$$
 
-Price remains $c=5$. Because consumers *over*estimate the riskiness of the product, the demand *less* than the efficient quantity $(q^{\star \star} of 45).
+Price remains $c=5$. Because consumers *over*estimate the riskiness of the product, they demand *less* than the efficient quantity $(q^{\star \star}$ of 45).
 
 ```{r}
 demand_under<-function(x){75-x}
@@ -307,8 +321,8 @@ ggplot(data = tibble(x = c(0,10)), aes(x = x))+
   
   geom_function(fun = demand_under, geom = "line", size = 2, color = "darkblue")+
   geom_function(fun = demand_over, geom = "line", size = 2, color = "darkblue")+
-  geom_label(x = 12.5, y = demand_under(12.5), label = "D (under)", color = "darkblue")+
-  geom_label(x = 12.5, y = demand_over(12.5), label = "D (over)", color = "darkblue")+
+  geom_label(x = 12.5, y = demand_under(12.5), label = "D (underestimate risk)", color = "darkblue")+
+  geom_label(x = 12.5, y = demand_over(12.5), label = "D (overestimate risk)", color = "darkblue")+
   #geom_function(fun = demand, geom = "line", size = 2, color = "blue")+
   geom_function(fun = supply, geom = "line", size = 2, color = "red")+
   geom_segment(x = 70, xend = 70, y = 0, yend = 5, size = 0.5, linetype = "dashed")+
