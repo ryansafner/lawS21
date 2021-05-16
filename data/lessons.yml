@@ -116,4 +116,5 @@ lessons:
     
   - title: '<i class="fas fa-star"></i> **Short Paper** due May 14'
     assignment: "paper"
-  - title: '<i class="fas fa-star"></i> **Final Exam**'
+  - title: '<i class="fas fa-star"></i> **Final Exam** due May 21'
+    assignment: "02-exam"

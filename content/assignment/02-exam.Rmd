@@ -1,0 +1,47 @@
+---
+title: "Exam 1"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(pander)
+#source(file.path(here::here(), "lib", "graphics.R"))
+```
+
+*Due by 11:59 PM EST Friday, May 21, 2021 by email*
+
+**Chose any 5 (five) questions** to answer, **each question is worth 20 points**. Questions draw from course lectures, discussions, and readings. Your answers, given the time and resources at your disposal, should be complete yet concise (and with no filler).
+
+You may discuss the questions, but you must write your own responses and turn in your own work. Answers that are substantially identical will be interpreted as cheating and punished accordingly. I will not answer any questions about course content during while the exam is outstanding.
+
+**This assignment is due to me via email by 11:59 PM EST Friday, May 21.**
+
+## Question 1
+
+Tort law creates incentives for potential injurers to act efficiently by internalizing the harms they might impose on others, and allows victims to sue injurers for compensation of any harms caused. Why then do (and/or should) we have criminal law, where the State punishes injurers?
+
+## Question 2
+
+Explain how belief in superstition can, under the right institutions, accurately determine a person’s innocence or guilt.
+
+## Question 3
+
+In tort law, what is the purpose of punitive damages? When, and how, should they be used efficiently?
+
+## Question 4
+
+Explain the benefits and costs of using the Workers Compensation system as an alternative to employees suing employers for workplace injuries.
+
+## Question 5
+
+Explain the difference in *administrative costs* of the tort liability system between a rule of strict liability and a negligence rule.
+
+## Question 6
+
+Read [this brief news article](http://www.thenewspaper.com/news/20/2068.asp). Explain what impact incentives like those described in the story have in the social efficiency of our criminal law system.
+
+## Question 7
+
+Which topic  or concept this semester was your favorite, or you found most surprising, or interesting, and why? Which was the most confusing?
